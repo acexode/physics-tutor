@@ -1,0 +1,1869 @@
+[
+  {
+    "id": "1983-001",
+    "year": 1983,
+    "examLabel": "JAMB Physics 1983",
+    "topicIds": [
+      "propagation-of-sound"
+    ],
+    "stem": "In a resonance tube experiment, a tube of fixed length is closed at one end and several tuning forks of increasing frequency are used to obtain resonance at the open end. If the tuning fork with the lowest frequency which gave resonance had a frequency $f_1$ and the next tuning fork to give resonance had a frequency $f_2$, find the ratio $f_2/f_1$.",
+    "options": {
+      "A": "8",
+      "B": "3",
+      "C": "2",
+      "D": "½",
+      "E": "1/3"
+    },
+    "diagramKey": "resonance-tube-1983-001"
+  },
+  {
+    "id": "1983-002",
+    "year": 1983,
+    "examLabel": "JAMB Physics 1983",
+    "topicIds": [
+      "scalars-and-vectors"
+    ],
+    "stem": "Which of the following is NOT a vector quantity?",
+    "options": {
+      "A": "Force",
+      "B": "Altitude",
+      "C": "Weight",
+      "D": "Displacement",
+      "E": "Acceleration"
+    }
+  },
+  {
+    "id": "1983-003",
+    "year": 1983,
+    "examLabel": "JAMB Physics 1983",
+    "topicIds": [
+      "equilibrium-of-forces"
+    ],
+    "stem": "Consider three forces acting at a point O in equilibrium as shown in a diagram (Fig. 1 in the original paper). Which of the following equation(s) is/are CORRECT? I. $P_1\\cos\\theta_1 = P_2\\cos\\theta_2$ II. $P_3 = P_1\\cos\\theta_1 + P_2\\cos\\theta_2$ III. $P_1\\sin\\theta_1 = P_2\\sin\\theta_2$",
+    "options": {
+      "A": "I only",
+      "B": "II only",
+      "C": "III only",
+      "D": "II and III only",
+      "E": "I and III only"
+    },
+    "diagramKey": "forces-equilibrium-1983-003"
+  },
+  {
+    "id": "1983-004",
+    "year": 1983,
+    "examLabel": "JAMB Physics 1983",
+    "topicIds": [
+      "friction"
+    ],
+    "stem": "Which of the following statements about friction is NOT correct?",
+    "options": {
+      "A": "The force of kinetic friction is less than the force of static friction.",
+      "B": "The force of kinetic friction between two surfaces is independent of the areas in contact provided the normal reaction is unchanged.",
+      "C": "The force of rolling friction between two surfaces is less than the force of sliding friction.",
+      "D": "The angle of friction is the angle between the normal reaction and the force of friction.",
+      "E": "Friction may be reduced by lubrication."
+    }
+  },
+  {
+    "id": "1983-005",
+    "year": 1983,
+    "examLabel": "JAMB Physics 1983",
+    "topicIds": [
+      "friction"
+    ],
+    "stem": "A brick at rest on a horizontal table is pulled by a horizontal cord, as shown in a diagram (Fig. 2). The force of friction on the brick",
+    "options": {
+      "A": "Increases if the pull increases but the brick does not move.",
+      "B": "Is directly horizontal to the right",
+      "C": "Decreases if an identical brick is placed on the first.",
+      "D": "Is zero if the brick is pulled hard enough to make it slide.",
+      "E": "Changes if the brick is turned on its side."
+    },
+    "diagramKey": "brick-pull-1983-005"
+  },
+  {
+    "id": "1983-006",
+    "year": 1983,
+    "examLabel": "JAMB Physics 1983",
+    "topicIds": [
+      "gravitational-field"
+    ],
+    "stem": "The force with which an object is attracted to the earth is called its",
+    "options": {
+      "A": "Acceleration",
+      "B": "Mass",
+      "C": "Gravity",
+      "D": "Impulse",
+      "E": "Weight"
+    }
+  },
+  {
+    "id": "1983-007",
+    "year": 1983,
+    "examLabel": "JAMB Physics 1983",
+    "topicIds": [
+      "refraction-of-light"
+    ],
+    "stem": "The refractive index of a liquid is 1.5. If the velocity of light in vacuum is $3.0 \\times 10^8\\ \\mathrm{m\\,s^{-1}}$, the velocity of light in the liquid is",
+    "options": {
+      "A": "$1.5 \\times 10^3\\ \\mathrm{m\\,s^{-1}}$",
+      "B": "$2.0 \\times 10^8\\ \\mathrm{m\\,s^{-1}}$",
+      "C": "$3.0 \\times 10^3\\ \\mathrm{m\\,s^{-1}}$",
+      "D": "$4.5 \\times 10^3\\ \\mathrm{m\\,s^{-1}}$",
+      "E": "$9.0 \\times 10^3\\ \\mathrm{m\\,s^{-1}}$"
+    }
+  },
+  {
+    "id": "1983-008",
+    "year": 1983,
+    "examLabel": "JAMB Physics 1983",
+    "topicIds": [
+      "liquids-at-rest"
+    ],
+    "stem": "If the relative density of a metal is 19, what will be the mass of $20\\ \\mathrm{cm^3}$ of the metal when immersed in water?",
+    "options": {
+      "A": "380 g",
+      "B": "400 g",
+      "C": "360 g",
+      "D": "39 g",
+      "E": "180 g"
+    }
+  },
+  {
+    "id": "1983-009",
+    "year": 1983,
+    "examLabel": "JAMB Physics 1983",
+    "topicIds": [
+      "pressure"
+    ],
+    "stem": "Which of the following statements about liquid pressure is NOT correct? The pressure",
+    "options": {
+      "A": "At a point in a liquid is proportional to the depth.",
+      "B": "At any point in a liquid is the same at the same level.",
+      "C": "Is exerted equally in all directions at any point.",
+      "D": "Of a liquid at any point on the wall of its container acts in a direction perpendicular to the wall.",
+      "E": "At a particular depth depends on the shape of the vessel."
+    }
+  },
+  {
+    "id": "1983-010",
+    "year": 1983,
+    "examLabel": "JAMB Physics 1983",
+    "topicIds": [
+      "propagation-of-sound"
+    ],
+    "stem": "A ship traveling towards a cliff receives the echo of its whistle after 3.5 seconds. A short while later, it receives the echo after 2.5 seconds. If the speed of sound in air under the prevailing conditions is $250\\ \\mathrm{m\\,s^{-1}}$, how much closer is the ship to the cliff?",
+    "options": {
+      "A": "10 m",
+      "B": "125 m",
+      "C": "175 m",
+      "D": "350 m",
+      "E": "1,000 m"
+    }
+  },
+  {
+    "id": "1983-011",
+    "year": 1983,
+    "examLabel": "JAMB Physics 1983",
+    "topicIds": [
+      "characteristics-of-sound"
+    ],
+    "stem": "Which of the following is NOT correct? I. The pitch of a sound note depends on the frequency of vibrations. II. The intensity of a sound note is proportional to the amplitude of vibrations. III. Beats are produced by two sources of sound because one wave is travelling faster than the other. IV. When two sources of sound of frequencies 500 Hz and 502 Hz are sounded together, a beat frequency of 2 Hz is observed. V. The first harmonic of a note has double the frequency of the fundamental note.",
+    "options": {
+      "A": "I and II",
+      "B": "II and III",
+      "C": "I and II",
+      "D": "III and IV",
+      "E": "IV and V"
+    }
+  },
+  {
+    "id": "1983-012",
+    "year": 1983,
+    "examLabel": "JAMB Physics 1983",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "Which of the following statements about defects of vision is/are CORRECT? I. For a long sighted person, close objects appear blurred. II. For a short sighted person, distant objects appear blurred. III. Short sight is corrected by using a pair of converging lenses.",
+    "options": {
+      "A": "I only",
+      "B": "II only",
+      "C": "I and II only",
+      "D": "II and III only",
+      "E": "I, II and III"
+    }
+  },
+  {
+    "id": "pdf-00001",
+    "year": 1983,
+    "examLabel": "JAMB Physics 1983",
+    "topicIds": [
+      "waves",
+      "scalars-and-vectors",
+      "friction"
+    ],
+    "stem": "In a resonance tube experiment, a tube of fixed length in closed at one end and several turning forks of increasing frequency used to obtain resonance at the open end. If the turning fork with the lowest frequency which gave resonance had a frequency ƒ1 and the next turning fork to give resonance had a frequency ƒ2, find the ratio ƒ2/ ƒ1.",
+    "options": {
+      "A": "8",
+      "B": "3",
+      "C": "2",
+      "D": "½",
+      "E": "1/3"
+    }
+  },
+  {
+    "id": "pdf-00003",
+    "year": 1983,
+    "examLabel": "JAMB Physics 1983",
+    "topicIds": [
+      "equilibrium-of-forces"
+    ],
+    "stem": "Consider the three forces acting at O and in equilibrium as shown in Fig. 1. Which of the following equation is/are CORRECT? I. P1 cos 01 = P1 cos O2 II. P3 = P1 cos O1 + P2 cos O2 III. P1 sin O1 = P2 sin O2",
+    "options": {
+      "A": "I only",
+      "B": "II only",
+      "C": "III only",
+      "D": "II and III only",
+      "E": "I and III only"
+    },
+    "diagramKey": "pdf-p1-fig1"
+  },
+  {
+    "id": "pdf-00005",
+    "year": 1983,
+    "examLabel": "JAMB Physics 1983",
+    "topicIds": [
+      "work-energy-power"
+    ],
+    "stem": "A brick at rest on a horizontal table is pulled by a horizontal cord, as shown in Fig. 2. The force of friction on the brick",
+    "options": {
+      "A": "Increase if the pull increases but the brick does not move.",
+      "B": "Is directly horizontal to the right",
+      "C": "Decreases if an identical brick is placed on the first.",
+      "D": "Is zero if the brick is pulled hard enough to make it slide.",
+      "E": "Change if the brick is turned on its side."
+    },
+    "diagramKey": "pdf-p2-fig1"
+  },
+  {
+    "id": "pdf-00002",
+    "year": 1984,
+    "examLabel": "JAMB Physics 1984",
+    "topicIds": [
+      "liquids-at-rest",
+      "pressure",
+      "gas-laws"
+    ],
+    "stem": "If the normal atmospheric pressure in a laboratory supports a column of mercury 0.76m high and the relative density of mercury is 13.8, then the height of water column which atmospheric pressure will support in the same laboratory at the same time is",
+    "options": {
+      "A": "0 m",
+      "B": "10 m",
+      "C": "13 m",
+      "D": "14 m",
+      "E": "18 m"
+    }
+  },
+  {
+    "id": "pdf-00004",
+    "year": 1984,
+    "examLabel": "JAMB Physics 1984",
+    "topicIds": [
+      "current-electricity",
+      "electrical-energy-and-power",
+      "gas-laws"
+    ],
+    "stem": "An electric current of 3A flowing through an electric heating element of resistance 20 embedded in 1,000g of an oil raises the temperature of the oil by 100C in 10 seconds, then the specific heat capacity of the oil is",
+    "options": {
+      "A": "1.8 J/g",
+      "B": "0.6 J/g",
+      "C": "0.18 J/g 0C",
+      "D": "1.8 J/g 0C",
+      "E": "0.06 J/g 0C"
+    }
+  },
+  {
+    "id": "pdf-1",
+    "year": 1987,
+    "examLabel": "JAMB Physics 1987",
+    "topicIds": [
+      "light-energy",
+      "refraction-of-light"
+    ],
+    "stem": "In Fig. 6, a ray of light in air strikes a glass plate at an angle of incidence of 600C. The reflected ray is observed to be perpendicular to the refracted ray. What is the refractive index of the glass?",
+    "options": {
+      "A": "1.73",
+      "B": "1.50",
+      "C": "0.87",
+      "D": "0.57"
+    }
+  },
+  {
+    "id": "pdf-2",
+    "year": 1987,
+    "examLabel": "JAMB Physics 1987",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "A lens of focal length 12.0cm forms an upright image three times the size of a real object. The distance between the object and the image is",
+    "options": {
+      "A": "8.0 cm",
+      "B": "16.0 cm",
+      "C": "24.0 cm",
+      "D": "32.0 cm"
+    }
+  },
+  {
+    "id": "pdf-3",
+    "year": 1987,
+    "examLabel": "JAMB Physics 1987",
+    "topicIds": [
+      "waves",
+      "characteristics-of-sound"
+    ],
+    "stem": "In which of the following arrangements is the wavelength in an increasing order?",
+    "options": {
+      "A": "Gamma rays, infra-red rays, X-rays, radiowaves.",
+      "B": "Gamma rays, X-rays, infra-red rays, radiowaves.",
+      "C": "Radiowaves, X-rays, gamma rays, infra-red rays.",
+      "D": "Infra-red rays, radiowaves, X-rays, gamma rays."
+    }
+  },
+  {
+    "id": "pdf-4",
+    "year": 1987,
+    "examLabel": "JAMB Physics 1987",
+    "topicIds": [
+      "light-energy",
+      "refraction-of-light"
+    ],
+    "stem": "If the refractive index of glass is 1.5, what is the critical angle at the air-glass interface?",
+    "options": {
+      "A": "sin-1 ½",
+      "B": "Sin-1 2/3",
+      "C": "Sin-1 ¾",
+      "D": "Sin-1 8/9"
+    }
+  },
+  {
+    "id": "pdf-5",
+    "year": 1987,
+    "examLabel": "JAMB Physics 1987",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "A dentist obtains a linear magnification of 4 of a hole in a tooth by placing a concave mirror at a distance of 2.0cm from the tooth. The radius of curvature of the mirror is",
+    "options": {
+      "A": "5.3 cm",
+      "B": "3.2 cm",
+      "C": "2.7 cm",
+      "D": "1.6 cm"
+    }
+  },
+  {
+    "id": "pdf-6",
+    "year": 1987,
+    "examLabel": "JAMB Physics 1987",
+    "topicIds": [
+      "waves",
+      "characteristics-of-sound"
+    ],
+    "stem": "What is the effect of the increase in the size of the hole of a pin-hole camera on the image? It",
+    "options": {
+      "A": "Gives a blurred image.",
+      "B": "Corrects for chromatic aberration",
+      "C": "Magnifies the image",
+      "D": "Brings the image into the sharper focus."
+    }
+  },
+  {
+    "id": "pdf-7",
+    "year": 1987,
+    "examLabel": "JAMB Physics 1987",
+    "topicIds": [
+      "waves",
+      "propagation-of-sound"
+    ],
+    "stem": "A wave of frequency 10 HZ forms a stationary wave pattern in a medium where the velocity is 20cm s-1. the distance between adjacent nodes is",
+    "options": {
+      "A": "1.0 cm",
+      "B": "1.5 cm",
+      "C": "2.0 cm",
+      "D": "5.0 cm"
+    }
+  },
+  {
+    "id": "pdf-8",
+    "year": 1987,
+    "examLabel": "JAMB Physics 1987",
+    "topicIds": [
+      "waves",
+      "characteristics-of-sound"
+    ],
+    "stem": "Which of the following is true of the loudness of sound? It",
+    "options": {
+      "A": "Depends on the square of the amplitude of the vibrating body.",
+      "B": "Is proportional to the distance of the observer from the source of the sound.",
+      "C": "Is greatest in vacuum",
+      "D": "Is independent of frequency."
+    }
+  },
+  {
+    "id": "pdf-9",
+    "year": 1987,
+    "examLabel": "JAMB Physics 1987",
+    "topicIds": [
+      "waves",
+      "propagation-of-sound"
+    ],
+    "stem": "A man clapping his hands at regular intervals observes that the echo of a clap coincides with the next clap. If the reflecting cliff is 160m away and the speed of sound is 320m s-1, what is the frequency of the clapping?",
+    "options": {
+      "A": "I Hz",
+      "B": "2 Hz",
+      "C": "4 Hz",
+      "D": "8 Hz"
+    }
+  },
+  {
+    "id": "pdf-10",
+    "year": 1987,
+    "examLabel": "JAMB Physics 1987",
+    "topicIds": [
+      "electric-cells",
+      "current-electricity"
+    ],
+    "stem": "In Fig. 9, the value of R is",
+    "options": {
+      "A": "3 Ohms",
+      "B": "4 Ohms",
+      "C": "5 Ohms",
+      "D": "6 Ohms"
+    }
+  },
+  {
+    "id": "pdf-11",
+    "year": 1987,
+    "examLabel": "JAMB Physics 1987",
+    "topicIds": [
+      "electric-cells",
+      "current-electricity"
+    ],
+    "stem": "Which of the following is NOT a part of the a.d.c. electric motor?",
+    "options": {
+      "A": "Field-magnet",
+      "B": "Armature",
+      "C": "Commutator",
+      "D": "Transformer."
+    }
+  },
+  {
+    "id": "pdf-12",
+    "year": 1987,
+    "examLabel": "JAMB Physics 1987",
+    "topicIds": [
+      "electric-cells",
+      "current-electricity"
+    ],
+    "stem": "Which of the following is stored by a dry Leclanche cell?",
+    "options": {
+      "A": "Electrical power",
+      "B": "Kinetic energy",
+      "C": "Electric current",
+      "D": "Chemical energy."
+    }
+  },
+  {
+    "id": "pdf-13",
+    "year": 1987,
+    "examLabel": "JAMB Physics 1987",
+    "topicIds": [
+      "electric-cells",
+      "current-electricity"
+    ],
+    "stem": "Which of the following arrangements will produce an equivalent resistance of 1.5Ù from three 1Ù resistors?",
+    "options": {
+      "A": "In series",
+      "B": "In parallel",
+      "C": "Mixed arrangement",
+      "D": "None of the above"
+    }
+  },
+  {
+    "id": "pdf-14",
+    "year": 1987,
+    "examLabel": "JAMB Physics 1987",
+    "topicIds": [
+      "magnets-and-magnetic-fields"
+    ],
+    "stem": "Which of the following is true of magnetism?",
+    "options": {
+      "A": "Iron fillings cling mainly round the ends of a bar magnet.",
+      "B": "The freely suspended bar magnet comes to rest in the geographic north-south direction.",
+      "C": "Like poles attract.",
+      "D": "Lodestone is a non-magnetic oxide."
+    }
+  },
+  {
+    "id": "pdf-15",
+    "year": 1987,
+    "examLabel": "JAMB Physics 1987",
+    "topicIds": [
+      "magnets-and-magnetic-fields"
+    ],
+    "stem": "The angle between the magnetic meridian and the geographic meridian at a locality on the earth is the",
+    "options": {
+      "A": "Longitude of the locality.",
+      "B": "Angle of inclination at the locality",
+      "C": "Latitude of the locality",
+      "D": "Angle of declination of the locality."
+    }
+  },
+  {
+    "id": "pdf-16",
+    "year": 1987,
+    "examLabel": "JAMB Physics 1987",
+    "topicIds": [
+      "electrostatics"
+    ],
+    "stem": "The sign of the charge on a charged glass rod may be determined with",
+    "options": {
+      "A": "A charged electroscope",
+      "B": "An uncharged electroscope",
+      "C": "A galvanometer",
+      "D": "An electrometer."
+    }
+  },
+  {
+    "id": "pdf-17",
+    "year": 1987,
+    "examLabel": "JAMB Physics 1987",
+    "topicIds": [
+      "electromagnetic-induction"
+    ],
+    "stem": "The diagrams below depict the current induced in a coil as a result of the relative motion between it and a bar magnet. Which of the diagrams illustrates the direction of the induced current?",
+    "options": {
+      "A": "Diagram 1",
+      "B": "Diagram 2",
+      "C": "Diagram 3",
+      "D": "Diagram 4"
+    }
+  },
+  {
+    "id": "pdf-18",
+    "year": 1987,
+    "examLabel": "JAMB Physics 1987",
+    "topicIds": [
+      "magnets-and-magnetic-fields"
+    ],
+    "stem": "If the inclination at Ibadan is 700S, this means that",
+    "options": {
+      "A": "The angle between the geographic meridian and the magnetic meridian at Ibadan is 70",
+      "B": "The earth’s resultant magnetic intensity at Ibadan makes angle 70 with the horizontal direction",
+      "C": "A magnetic needle will be inclined at 70 to the vertical at Ibadan.",
+      "D": "The north pole of a magnetic needle dips downwards at Ibadan."
+    }
+  },
+  {
+    "id": "pdf-19",
+    "year": 1987,
+    "examLabel": "JAMB Physics 1987",
+    "topicIds": [
+      "waves"
+    ],
+    "stem": "The wavelength of ultraviolet radiation is 400nm. If the speed of light in air is 3 x 10^8m s-1, then the frequency of the ultraviolet radiation is",
+    "options": {
+      "A": "1.3 x 10^-15 Hz",
+      "B": "7.5 x 10^5 Hz",
+      "C": "1.2 x 10^11 Hz",
+      "D": "7.5 x 10^14 Hz."
+    }
+  },
+  {
+    "id": "pdf-20",
+    "year": 1987,
+    "examLabel": "JAMB Physics 1987",
+    "topicIds": [
+      "magnets-and-magnetic-fields"
+    ],
+    "stem": "Which of the following is most strongly deflected by a magnetic field?",
+    "options": {
+      "A": "Gamma rays",
+      "B": "Alpha particles",
+      "C": "Beta particles",
+      "D": "X-rays."
+    }
+  },
+  {
+    "id": "pdf-00006",
+    "year": 1988,
+    "examLabel": "JAMB Physics 1988",
+    "topicIds": [
+      "work-energy-power"
+    ],
+    "stem": "Hot water is added to three times its mass of water at 100C and the resulting temperature is 200C. What is the initial temperature of the hot water?",
+    "options": {
+      "A": "1000C",
+      "B": "800C",
+      "C": "500C",
+      "D": "400C"
+    }
+  },
+  {
+    "id": "pdf-00007",
+    "year": 1988,
+    "examLabel": "JAMB Physics 1988",
+    "topicIds": [
+      "quantity-of-heat"
+    ],
+    "stem": "22,000J of heat is required to raise the temperature of 1.5kg of paraffin from 200C. Calculate the specific heat capacity of paraffin.",
+    "options": {
+      "A": "1466J kg-1 0C-1",
+      "B": "2933J kg-1 0C-1",
+      "C": "4400J kg-1 0C-1",
+      "D": "5866J kg-1 0C-1"
+    }
+  },
+  {
+    "id": "pdf-00008",
+    "year": 1988,
+    "examLabel": "JAMB Physics 1988",
+    "topicIds": [
+      "heat-transfer"
+    ],
+    "stem": "Calculate the amount of heat required to convert 2kg of ice at –20C to water at 0 0C. (Specific heat capacity of ice = 2090J kg-1 0C-1, specific latent heat of fusion = 333kJ kg-1).",
+    "options": {
+      "A": "666J",
+      "B": "8 360J",
+      "C": "666 000J",
+      "D": "674 360J"
+    }
+  },
+  {
+    "id": "pdf-00009",
+    "year": 1988,
+    "examLabel": "JAMB Physics 1988",
+    "topicIds": [
+      "thermal-expansion"
+    ],
+    "stem": "In which of the following are the substances arranged in descending order of their thermal conductivities?",
+    "options": {
+      "A": "Copper, steel, glass",
+      "B": "Steel, copper, glass",
+      "C": "Steel, glass, copper",
+      "D": "Copper, glass, steel"
+    }
+  },
+  {
+    "id": "pdf-00010",
+    "year": 1988,
+    "examLabel": "JAMB Physics 1988",
+    "topicIds": [
+      "heat-transfer"
+    ],
+    "stem": "The vacuum in the Thermos flask helps to reduce heat transfer by",
+    "options": {
+      "A": "Convection and radiation",
+      "B": "Convection and conduction",
+      "C": "Conduction and radiation",
+      "D": "Radiation only"
+    }
+  },
+  {
+    "id": "pdf-00011",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "structure-of-matter-kinetic-theory"
+    ],
+    "stem": "From the kinetic theory of gases, temperature is a",
+    "options": {
+      "A": "Form of energy and is proportional to the total kinetic energy of the molecules.",
+      "B": "Form of energy and is proportional to the average kinetic energy of the molecules.",
+      "C": "Physical property and is proportional to the total kinetic energy of the molecules.",
+      "D": "Physical property and is proportional to the average energy of the molecules."
+    }
+  },
+  {
+    "id": "pdf-00012",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "waves"
+    ],
+    "stem": "A vibrator of frequency 60 Hz is used in generating transverse stationary waves in a long thin wire. If the average distance between successive nodes on the wire is 45cm, find the speed of the transverse waves in the wire.",
+    "options": {
+      "A": "27ms-1",
+      "B": "54ms-1",
+      "C": "90ms-1",
+      "D": "108ms-1"
+    }
+  },
+  {
+    "id": "pdf-00013",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "waves"
+    ],
+    "stem": "The air column as shown in the figure above is set into vibration by the turning fork. In this state of resonance, the waves in the air column will be",
+    "options": {
+      "A": "Stationary and transverse",
+      "B": "Stationary and longitudinal",
+      "C": "Progressive and transverse",
+      "D": "Progressive and longitudinal."
+    }
+  },
+  {
+    "id": "pdf-00014",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "waves"
+    ],
+    "stem": "When the tension in a sonometer wire is doubled, the waves in the air column will be",
+    "options": {
+      "A": "1/ 2",
+      "B": "½",
+      "C": "2",
+      "D": "2"
+    }
+  },
+  {
+    "id": "pdf-00015",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "waves"
+    ],
+    "stem": "In a sound wave in air, the adjacent rarefactions and compressions are separated by a distance of 17cm. If the velocity of the sound wave is 340ms-1, determine the frequency.",
+    "options": {
+      "A": "10 Hz",
+      "B": "20 Hz",
+      "C": "1 000 Hz",
+      "D": "5 780 Hz"
+    }
+  },
+  {
+    "id": "pdf-00016",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "light-energy"
+    ],
+    "stem": "Light of wavelength 5000 x 10-8cm travels in free space with a velocity of 3 x 108m s-1. What is its wavelength in glass of refractive index 1.5?",
+    "options": {
+      "A": "3 333 x 10-8cm",
+      "B": "5 000 x 10-8cm",
+      "C": "6 666 x 10-8cm",
+      "D": "7 500 x 10-8cm"
+    }
+  },
+  {
+    "id": "pdf-00017",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "An object is placed 5.6 x 10-4m in front of a converging lens of focal length 1.0 x 10-8m. The image formed is",
+    "options": {
+      "A": "Real, erect and magnified",
+      "B": "Virtual, erect and magnified",
+      "C": "Real, inverted and magnified",
+      "D": "Virtual, erect and diminished."
+    }
+  },
+  {
+    "id": "pdf-00018",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "The magnification of the image of an object placed in front of a convex mirror is 1/3. If the radius of curvature of the mirror is 24cm, what is the distance between the object and its image?",
+    "options": {
+      "A": "8 cm",
+      "B": "16 cm",
+      "C": "24 cm",
+      "D": "32 cm"
+    }
+  },
+  {
+    "id": "pdf-00019",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "The plane mirrors in a kaleidoscope are usually placed",
+    "options": {
+      "A": "At an angle of 600",
+      "B": "Parallel to one another",
+      "C": "Perpendicular to one another",
+      "D": "At an angle of 450"
+    }
+  },
+  {
+    "id": "pdf-00020",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "A far sighted person cannot see objects that are less than 100cm away. If this person wants to read a book at 25cm, what type and focal length of lens does he need?",
+    "options": {
+      "A": "Convex, 20cm",
+      "B": "Concave, 20cm",
+      "C": "Convex, 33cm",
+      "D": "Concave, 33cm."
+    }
+  },
+  {
+    "id": "pdf-00021",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "light-energy"
+    ],
+    "stem": "When a yellow card is observed through a blue glass, the card would appear",
+    "options": {
+      "A": "Black",
+      "B": "Green",
+      "C": "Red",
+      "D": "White"
+    }
+  },
+  {
+    "id": "pdf-00022",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "dispersion-and-electromagnetic-spectrum"
+    ],
+    "stem": "Dispersion of light by a glass prism is due to the",
+    "options": {
+      "A": "Different hidden colours of the glass",
+      "B": "Different speeds of the various colours in glass",
+      "C": "Defects in the glass",
+      "D": "High density of glass."
+    }
+  },
+  {
+    "id": "pdf-00023",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "electrostatics"
+    ],
+    "stem": "Which of the following pairs is NOT part of the electromagnetic spectrum? I Radio waves II Beta rays III Gamma rays IV Alpha rays",
+    "options": {
+      "A": "I and II",
+      "B": "III and IV",
+      "C": "I and III",
+      "D": "II and IV."
+    }
+  },
+  {
+    "id": "pdf-00024",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "electrostatics"
+    ],
+    "stem": "Two insulated charged spheres of different sizes and carrying opposite charges are connected together by a metallic conductor. Current will flow from one sphere to the other until both spheres",
+    "options": {
+      "A": "Carry the same magnitude and sign of charge.",
+      "B": "Are at the same potential.",
+      "C": "Are at the same temperature.",
+      "D": "Are of the same size."
+    }
+  },
+  {
+    "id": "pdf-00025",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "magnets-and-magnetic-fields"
+    ],
+    "stem": "When a number of identical small magnets are arranged in a line, the strength of the resultant magnet",
+    "options": {
+      "A": "Is largest when they are arranged end to end",
+      "B": "Is greatest when they are arranged parallel with like poles adjacent to each other.",
+      "C": "Depends only on the number of magnets provided they are parallel.",
+      "D": "Is greater when the magnets are arranged on a wooden surface than on a metal surface."
+    }
+  },
+  {
+    "id": "pdf-00026",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "magnets-and-magnetic-fields"
+    ],
+    "stem": "A bar magnet is most effectively demagnetized by",
+    "options": {
+      "A": "Placing it in a N – 5 position and hitting it with a hammer.",
+      "B": "Subjecting it to an electric current from a battery",
+      "C": "Bringing its north pole in contact with the north pole of a very strong magnet",
+      "D": "Heating the magnet."
+    }
+  },
+  {
+    "id": "pdf-00027",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "current-electricity"
+    ],
+    "stem": "The resistance of a 5m uniform wire of cross-sectional area 0.2 x 10-6m2 is 0.425. What is the resistivity of the material of the wire?",
+    "options": {
+      "A": "1.10 x 10-6 Ohms m",
+      "B": "4.25 x 10-6 Ohms m",
+      "C": "2.40 x 10-7 Ohms m",
+      "D": "1.70 x 10-8 Ohms m"
+    }
+  },
+  {
+    "id": "pdf-00028",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "current-electricity"
+    ],
+    "stem": "Three resistors, with substances 250Ohms, 500Ohms and 1 kOhms are connected in series. A 6V battery is connected to either end of the combination. Calculate the potential difference between the ends of the 250Ohms resistor.",
+    "options": {
+      "A": "0.20V",
+      "B": "0.86V",
+      "C": "1.71V",
+      "D": "3.43V."
+    }
+  },
+  {
+    "id": "pdf-00029",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "current-electricity"
+    ],
+    "stem": "A calibrated potentiometer is used to measure the e.m.f. of a cell because the",
+    "options": {
+      "A": "Internal resistance of a cell is small compared with that of the potentiometer.",
+      "B": "Potentiometer has a linear scale.",
+      "C": "Potentiometer takes no current from the cell",
+      "D": "Resistance of the potentiometer is less than that of a voltmeter."
+    }
+  },
+  {
+    "id": "pdf-00030",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "simple-ac-circuits"
+    ],
+    "stem": "In the above circuit diagrams, A is the ammeter and V the voltmeter. Which of the circuits is correct for finding the value of the resistance R?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV."
+    }
+  },
+  {
+    "id": "pdf-00031",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "capacitors"
+    ],
+    "stem": "Three 2 – u F capacitors are arranged as shown in the above circuit. The effective capacitance between E and F is",
+    "options": {
+      "A": "0.75 uF",
+      "B": "1.33 uF",
+      "C": "3.00 uF",
+      "D": "6.00 uF"
+    }
+  },
+  {
+    "id": "pdf-00032",
+    "year": 1989,
+    "examLabel": "JAMB Physics 1989",
+    "topicIds": [
+      "current-electricity"
+    ],
+    "stem": "The function of a 5-A fuse included in a circuit supplying a household refrigerator with power is to keep the",
+    "options": {
+      "A": "Temperature of the refrigerator low and constant.",
+      "B": "Current supplied to the refrigerator below 5A.",
+      "C": "Voltage supply constant",
+      "D": "Current supplies to the refrigerator constant and above 5A."
+    }
+  },
+  {
+    "id": "pdf-0001",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "current-electricity",
+      "electromagnetic-induction",
+      "thermal-expansion"
+    ],
+    "stem": "The total power drawn from the cell in the circuit diagram above is",
+    "options": {
+      "A": "12W",
+      "B": "24W",
+      "C": "32W",
+      "D": "40W"
+    }
+  },
+  {
+    "id": "pdf-0002",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "current-electricity",
+      "electrostatics",
+      "thermal-expansion"
+    ],
+    "stem": "An ammeter of resistance 0.1 ohms has a full-scale deflection of 50 mA. Determine the resultant full-scale deflection of the meter when a shunt of 0.0111 Ohms is connected across its terminals.",
+    "options": {
+      "A": "400 mA",
+      "B": "450 mA",
+      "C": "500 mA",
+      "D": "550 mA"
+    }
+  },
+  {
+    "id": "pdf-0003",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "electromagnetic-induction",
+      "waves",
+      "characteristics-of-sound"
+    ],
+    "stem": "The electrochemical equivalent of silver is 0.0012g/C. If 36.0g of silver is to be deposited by electrolysis on a surface by passing a steady current for 5.0 minutes, the current must be",
+    "options": {
+      "A": "6 000 A",
+      "B": "100 A",
+      "C": "10 A",
+      "D": "1 A"
+    }
+  },
+  {
+    "id": "pdf-0004",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "electromagnetic-induction",
+      "waves",
+      "characteristics-of-sound"
+    ],
+    "stem": "When a radiation strikes a metal surface, electrons may be ejected from the metal. The maximum kinetic energy which may be acquired by an ejected electron depends on the",
+    "options": {
+      "A": "Intensity of the radiation",
+      "B": "Source of the radiation",
+      "C": "Wavelength of the radiation",
+      "D": "Detection device for the electron."
+    }
+  },
+  {
+    "id": "pdf-0005",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "electromagnetic-induction",
+      "waves",
+      "characteristics-of-sound"
+    ],
+    "stem": "Which of the following is TRUE of the particles emitted in radioactive disintegration?",
+    "options": {
+      "A": "The alpha particle is the helium nucleus",
+      "B": "The alpha particle is lighter than the beta particle",
+      "C": "The alpha particle is deflected more than the beta particle in a magnetic field",
+      "D": "The beta particle is deflected more than alpha particle in a magnetic field."
+    }
+  },
+  {
+    "id": "pdf-0007",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "measurements-and-units",
+      "scalars-and-vectors",
+      "motion"
+    ],
+    "stem": "What is the reading of the vernier scale above?",
+    "options": {
+      "A": "1.88 cm",
+      "B": "1.80 cm",
+      "C": "1.28 cm",
+      "D": "1.97 mm"
+    }
+  },
+  {
+    "id": "pdf-0008",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "measurements-and-units",
+      "scalars-and-vectors",
+      "motion"
+    ],
+    "stem": "Which of the following is a fundamental unit?",
+    "options": {
+      "A": "Newton",
+      "B": "Watt",
+      "C": "Joule",
+      "D": "Second"
+    }
+  },
+  {
+    "id": "pdf-0009",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "equilibrium-of-forces",
+      "motion",
+      "work-energy-power"
+    ],
+    "stem": "Two horizontal forces, 10N and 8N and another force F, inclined at 30° to the vertical acting as shown in the diagram above, keep the body P in equilibrium. The weight of the body is",
+    "options": {
+      "A": "2√3 N",
+      "B": "3 N",
+      "C": "4√3 N",
+      "D": "2√4 N"
+    }
+  },
+  {
+    "id": "pdf-0010",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "motion",
+      "work-energy-power",
+      "friction"
+    ],
+    "stem": "A car moving with a speed of 90km/h was brought uniformly to rest by the application of the brakes in 10s. How far did the car travel after the brakes were applied?",
+    "options": {
+      "A": "125 m",
+      "B": "150 m",
+      "C": "250 m",
+      "D": "15 km"
+    }
+  },
+  {
+    "id": "pdf-0011",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "motion",
+      "work-energy-power",
+      "friction"
+    ],
+    "stem": "A particle of mass M which is at rest splits up into two. If the mass and velocity of one of the particles are m and v respectively, calculate the velocity of the second particle.",
+    "options": {
+      "A": "mv/(M)",
+      "B": "Mv/(M - m)",
+      "C": "Mv/(M + m)",
+      "D": "mv/(M - m)"
+    }
+  },
+  {
+    "id": "pdf-0012",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "motion",
+      "work-energy-power",
+      "friction"
+    ],
+    "stem": "What is the average velocity of the sprinter whose velocity-time graph is shown in the figure above?",
+    "options": {
+      "A": "85.0 m/s",
+      "B": "17.0 m/s",
+      "C": "8.5 m/s",
+      "D": "1.7 m/s"
+    }
+  },
+  {
+    "id": "pdf-0013",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "equilibrium-of-forces",
+      "work-energy-power",
+      "friction"
+    ],
+    "stem": "Which of the following statements are correct about an object in equilibrium under parallel forces?",
+    "options": {
+      "A": "I and II only",
+      "B": "I and III only",
+      "C": "II and III only",
+      "D": "I, II and III."
+    }
+  },
+  {
+    "id": "pdf-0014",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "equilibrium-of-forces",
+      "work-energy-power",
+      "friction"
+    ],
+    "stem": "A force of 5N acts at a point Y on a rod XYZ as shown in the diagram above. If XY is 2m, what is the moment of the force about point X?",
+    "options": {
+      "A": "0 Nm",
+      "B": "3 Nm",
+      "C": "7 Nm",
+      "D": "10 Nm"
+    }
+  },
+  {
+    "id": "pdf-0015",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "work-energy-power",
+      "motion",
+      "friction"
+    ],
+    "stem": "To keep a vehicle moving at a constant speed v, requires power P, from the engine. The force provided by the engine is",
+    "options": {
+      "A": "P",
+      "B": "1/2v",
+      "C": "pv",
+      "D": "p/v²"
+    }
+  },
+  {
+    "id": "pdf-0016",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "work-energy-power",
+      "motion",
+      "friction"
+    ],
+    "stem": "A stone of mass m kg is held h meters above the floor for 50s. The work done in joules over the period is",
+    "options": {
+      "A": "mh",
+      "B": "mgh",
+      "C": "mgh/50",
+      "D": "0"
+    }
+  },
+  {
+    "id": "pdf-0017",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "friction",
+      "motion",
+      "work-energy-power"
+    ],
+    "stem": "A body of mass 10kg rests on a rough inclined plane whose angle of tilt θ is variable. θ is gradually increased until the body starts to slide down the plane at 30°. The coefficient of limiting friction between the body and the plane is",
+    "options": {
+      "A": "0.30",
+      "B": "0.50",
+      "C": "0.58",
+      "D": "0.87"
+    }
+  },
+  {
+    "id": "pdf-0018",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "work-energy-power",
+      "motion",
+      "friction"
+    ],
+    "stem": "An inclined plane which makes an angle of 30° with the horizontal has a velocity ratio of",
+    "options": {
+      "A": "2",
+      "B": "1",
+      "C": "0.866",
+      "D": "0.50"
+    }
+  },
+  {
+    "id": "pdf-0019",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "pressure",
+      "liquids-at-rest",
+      "measurements-and-units"
+    ],
+    "stem": "What is the length of the liquid column in a barometer tube that would support an atmospheric pressure of 102000 Nm-2 if the density of the liquid is 2600 kgm-3? [g = 10 ms-2].",
+    "options": {
+      "A": "0.75m",
+      "B": "0.76m",
+      "C": "3.92m",
+      "D": "39.23m"
+    }
+  },
+  {
+    "id": "pdf-0020",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "pressure",
+      "liquids-at-rest",
+      "measurements-and-units"
+    ],
+    "stem": "40cm3 of liquid is mixed with 60m3 of another liquid Q. If the density of P and Q are 1.00kg m3 and 1.6kg m3 respectively, what is the density of the mixture?",
+    "options": {
+      "A": "0.05 kg m-3",
+      "B": "1.25 kg m-3",
+      "C": "1.30 kg m-3",
+      "D": "1.36 kg m-3"
+    }
+  },
+  {
+    "id": "pdf-0021",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "temperature-and-measurement",
+      "thermal-expansion",
+      "gas-laws"
+    ],
+    "stem": "The resistances of a platinum wire at the ice and steam points are 0.75 ohm and 1.05 ohm respectively. Determine the temperature at which the resistance of the wire is 0.90 ohm.",
+    "options": {
+      "A": "43.00°C",
+      "B": "50.00°C",
+      "C": "69.90°C",
+      "D": "87.00°C"
+    }
+  },
+  {
+    "id": "pdf-0022",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "thermal-expansion",
+      "temperature-and-measurement",
+      "gas-laws"
+    ],
+    "stem": "A bar of initial length l0 is heated through a temperature change Δt to a new length l. The linear expansivity, α, of the bar is",
+    "options": {
+      "A": "l – l0 / (l Δt)",
+      "B": "l – l0 / (l0 Δt)",
+      "C": "l0 (1 + Δt)",
+      "D": "l – l0 / (l (1 + Δt))"
+    }
+  },
+  {
+    "id": "pdf-0023",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "gas-laws",
+      "temperature-and-measurement",
+      "thermal-expansion"
+    ],
+    "stem": "The pressure of a gas when cooled at constant volume will decrease because the molecules",
+    "options": {
+      "A": "Collide less frequently with the walls of the container.",
+      "B": "Have the same average kinetic energy",
+      "C": "Break up into smaller molecules",
+      "D": "Decrease in number."
+    }
+  },
+  {
+    "id": "pdf-0024",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "thermal-expansion",
+      "gas-laws",
+      "quantity-of-heat"
+    ],
+    "stem": "1kg of copper is transferred quickly from boiling water to a block of ice. Calculate the mass of ice melted, neglecting heat loss.",
+    "options": {
+      "A": "60g",
+      "B": "67g",
+      "C": "120g",
+      "D": "133g"
+    }
+  },
+  {
+    "id": "pdf-0025",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "gas-laws",
+      "thermal-expansion",
+      "quantity-of-heat"
+    ],
+    "stem": "Which of the following conditions will make water boil at a temperature of 100°C when the atmospheric pressure is 750mm Hg?",
+    "options": {
+      "A": "Increase the external pressure",
+      "B": "Reduce the external pressure",
+      "C": "Heat more rapidly at the same pressure.",
+      "D": "Reduce the external pressure by a quarter."
+    }
+  },
+  {
+    "id": "pdf-0026",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "thermal-expansion",
+      "gas-laws",
+      "quantity-of-heat"
+    ],
+    "stem": "Which of the following statements are correct?",
+    "options": {
+      "A": "I Land and sea breezes are natural convection currents.",
+      "B": "II Convection may occur in liquids or gases but not in solids.",
+      "C": "III The vacuum in thermos flask prevents heat loss due to convection only.",
+      "D": "I, II and III."
+    }
+  },
+  {
+    "id": "pdf-0027",
+    "year": 1990,
+    "examLabel": "JAMB Physics 1990",
+    "topicIds": [
+      "light-energy",
+      "waves",
+      "propagation-of-sound"
+    ],
+    "stem": "A light wave of frequency 5 x 10^14 Hz moves through water which has a refractive index of 4/3. Calculate the wavelength in water if the velocity of light in air is 3 x 10^8 ms^-1.",
+    "options": {
+      "A": "4.5 x 10^-7 m",
+      "B": "6.0 x 10^-7 m",
+      "C": "1.7 x 10^-6 m",
+      "D": "2.2 x 10^-6 m"
+    }
+  },
+  {
+    "id": "pdf-0006",
+    "year": 1991,
+    "examLabel": "JAMB Physics 1991",
+    "topicIds": [
+      "current-electricity",
+      "electrical-energy-and-power"
+    ],
+    "stem": "Which of the following is an essential physical property of the wires used for making fuses?",
+    "options": {
+      "A": "Low density",
+      "B": "High thermal conductivity",
+      "C": "Low electrical resistivity",
+      "D": "Low melting point."
+    }
+  },
+  {
+    "id": "pdf-00020-q26",
+    "year": 1999,
+    "examLabel": "JAMB Physics 1999",
+    "topicIds": [
+      "waves",
+      "characteristics-of-sound"
+    ],
+    "stem": "In a closed organ pipe producing a musical note, an antinode will always be produced at",
+    "options": {
+      "A": "The closed end",
+      "B": "The open end",
+      "C": "The middle",
+      "D": "All the parts of the pipe."
+    }
+  },
+  {
+    "id": "pdf-00020-q27",
+    "year": 1999,
+    "examLabel": "JAMB Physics 1999",
+    "topicIds": [
+      "waves"
+    ],
+    "stem": "A steel wire of length 0.50m is stretched between two fixed points and its fundamental frequency is 200Hz. The speed of the wave in the wire is",
+    "options": {
+      "A": "100 ms-1",
+      "B": "120 ms-1",
+      "C": "200 ms-1",
+      "D": "250 ms-1"
+    }
+  },
+  {
+    "id": "pdf-00020-q28",
+    "year": 1999,
+    "examLabel": "JAMB Physics 1999",
+    "topicIds": [
+      "waves"
+    ],
+    "stem": "In a resonance tube experiment, if the fundamental frequency of the vibrating air column is 280Hz, the frequency of the third overtones is",
+    "options": {
+      "A": "70Hz",
+      "B": "840Hz",
+      "C": "1 120Hz",
+      "D": "1 960Hz"
+    }
+  },
+  {
+    "id": "pdf-00020-q29",
+    "year": 1999,
+    "examLabel": "JAMB Physics 1999",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "An object O lies at a distance m in front of a concave mirror of the focal length f. If m<f, then the final image obtained will be",
+    "options": {
+      "A": "Virtual and diminished",
+      "B": "Magnified and erect",
+      "C": "Real and inverted",
+      "D": "Diminished and erect."
+    }
+  },
+  {
+    "id": "pdf-00020-q30",
+    "year": 1999,
+    "examLabel": "JAMB Physics 1999",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "An object is placed in front of two plane mirrors inclined at an angle è0. If the total number of images formed is 7, find the value of è?",
+    "options": {
+      "A": "300",
+      "B": "450",
+      "C": "510",
+      "D": "900"
+    }
+  },
+  {
+    "id": "pdf-00020-q31",
+    "year": 1999,
+    "examLabel": "JAMB Physics 1999",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "The most suitable type of mirror used for the construction of a searchlight is the",
+    "options": {
+      "A": "Concave mirror",
+      "B": "Convex mirror",
+      "C": "Spherical mirror",
+      "D": "Parabolic mirror."
+    }
+  },
+  {
+    "id": "pdf-00020-q32",
+    "year": 1999,
+    "examLabel": "JAMB Physics 1999",
+    "topicIds": [
+      "refraction-of-light"
+    ],
+    "stem": "The displacement d produced in a glass block of thickness t and refractive index n when an object is viewed through it is",
+    "options": {
+      "A": "t – n",
+      "B": "t(1 + 1/n)",
+      "C": "t(1 – 1/n)",
+      "D": "t(1/n – 1)"
+    }
+  },
+  {
+    "id": "pdf-00020-q33",
+    "year": 1999,
+    "examLabel": "JAMB Physics 1999",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "The correct shape of the graph of uv against (u + v) for an object distance u and image distance v in an experiment to find the focal length of a convex lens is given as",
+    "options": {
+      "A": "Linear",
+      "B": "Parabolic",
+      "C": "Hyperbolic",
+      "D": "Exponential"
+    }
+  },
+  {
+    "id": "pdf-00020-q34",
+    "year": 1999,
+    "examLabel": "JAMB Physics 1999",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "A man wears convex lens glasses of focal length 30cm in order to correct his eye defect. Instead of the optimum 25cm, his least distance of distinct vision is",
+    "options": {
+      "A": "14cm",
+      "B": "28cm",
+      "C": "75cm",
+      "D": "150cm"
+    }
+  },
+  {
+    "id": "pdf-00020-q35",
+    "year": 1999,
+    "examLabel": "JAMB Physics 1999",
+    "topicIds": [
+      "waves"
+    ],
+    "stem": "Which of the following are true about infra-red radiation? I It is invisible II It is called heat ray III Its frequency is higher than that of blue light IV It travels as a transverse wave.",
+    "options": {
+      "A": "I, II, III and IV.",
+      "B": "I, II and IV only",
+      "C": "I, III and IV only.",
+      "D": "II, III and IV only."
+    }
+  },
+  {
+    "id": "pdf-00020-q36",
+    "year": 1999,
+    "examLabel": "JAMB Physics 1999",
+    "topicIds": [
+      "electrostatics"
+    ],
+    "stem": "The force of repulsion between two point positive charges 5uC and 8uC separated at a distance of 0.02m apart is",
+    "options": {
+      "A": "1.8 x 10-10N",
+      "B": "9.0 x 10-8N",
+      "C": "9.0 x 102N",
+      "D": "4.5 x 103N"
+    }
+  },
+  {
+    "id": "pdf-00020-q37",
+    "year": 1999,
+    "examLabel": "JAMB Physics 1999",
+    "topicIds": [
+      "electrostatics"
+    ],
+    "stem": "An ebonite rod rubbed with fur attracts a glass rod rubbed with silk because",
+    "options": {
+      "A": "Ebonite has a negative charge while glass has a positive charge",
+      "B": "Ebonite has a positive charge while glass has a negative charge",
+      "C": "Both have negative charges",
+      "D": "Both have positive charges."
+    }
+  },
+  {
+    "id": "pdf-00020-q39",
+    "year": 1999,
+    "examLabel": "JAMB Physics 1999",
+    "topicIds": [
+      "current-electricity"
+    ],
+    "stem": "Which of the following can be used to reduce local action in a Leclanche cell?",
+    "options": {
+      "A": "A carbon rod as the positive pole.",
+      "B": "Pure zinc as the negative pole.",
+      "C": "Potassium permanganate solution in contact with the positive pole.",
+      "D": "Common salt solution."
+    }
+  },
+  {
+    "id": "pdf-00020-q41",
+    "year": 1999,
+    "examLabel": "JAMB Physics 1999",
+    "topicIds": [
+      "current-electricity"
+    ],
+    "stem": "Find the work done in moving a 2C charges between two points X and Y in an electric field if the potential difference is 100 volts.",
+    "options": {
+      "A": "50J",
+      "B": "100J",
+      "C": "200J",
+      "D": "400J"
+    }
+  },
+  {
+    "id": "pdf-00020-q42",
+    "year": 1999,
+    "examLabel": "JAMB Physics 1999",
+    "topicIds": [
+      "capacitors"
+    ],
+    "stem": "A parallel capacitor has a common plate area of 5 x 10-8m-2 and plate separation of 2 x 10-3m. Assuming free space, what is the capacitance?",
+    "options": {
+      "A": "2.25 x 10-17F",
+      "B": "4.50 x 10-17F",
+      "C": "2.25 x 10-16F",
+      "D": "4.50 x 10-16F"
+    }
+  },
+  {
+    "id": "pdf-00020-q43",
+    "year": 1999,
+    "examLabel": "JAMB Physics 1999",
+    "topicIds": [
+      "electromagnetic-induction"
+    ],
+    "stem": "The iron core of an induction coil is made from bundles of wires so as to",
+    "options": {
+      "A": "Minimize eddy-currents",
+      "B": "Generate eddy-currents",
+      "C": "Prevent sparking at the contact breaker",
+      "D": "Get the greatest possible secondary voltage."
+    }
+  },
+  {
+    "id": "pdf-00020-q44",
+    "year": 1999,
+    "examLabel": "JAMB Physics 1999",
+    "topicIds": [
+      "current-electricity"
+    ],
+    "stem": "Electricity is supplied to a school along a cable of total resistance 0.5 Ù with the maximum current drawn from the mains as 100A. the maximum energy dissipated as heat for 1hr is",
+    "options": {
+      "A": "3.6 x 103J",
+      "B": "5.0 x 103J",
+      "C": "3.0 x 105J",
+      "D": "1.8 x 107J"
+    }
+  },
+  {
+    "id": "pdf-00025-1",
+    "year": 2003,
+    "examLabel": "JAMB Physics 2003",
+    "topicIds": [
+      "friction",
+      "motion",
+      "work-energy-power"
+    ],
+    "stem": "If an object just begins to slide on a surface inclined at 30° to the horizontal, the coefficient of friction is",
+    "options": {
+      "A": "1/3",
+      "B": "1/3",
+      "C": "3",
+      "D": "3"
+    }
+  },
+  {
+    "id": "pdf-00025-2",
+    "year": 2003,
+    "examLabel": "JAMB Physics 2003",
+    "topicIds": [
+      "gravitational-field",
+      "motion",
+      "work-energy-power"
+    ],
+    "stem": "A satellite is in a parking orbit if its period is",
+    "options": {
+      "A": "More than the period of the earth",
+      "B": "Equal to the period of the earth",
+      "C": "The square of the period of the earth",
+      "D": "Less than the period of the earth"
+    }
+  },
+  {
+    "id": "pdf-00025-3",
+    "year": 2003,
+    "examLabel": "JAMB Physics 2003",
+    "topicIds": [
+      "liquids-at-rest",
+      "pressure",
+      "temperature-and-measurement"
+    ],
+    "stem": "What does not drop through an open umbrella of silk material unless the inside of the umbrella is touched?",
+    "options": {
+      "A": "Osmotic pressure",
+      "B": "Capillarity",
+      "C": "Surface tension",
+      "D": "Viscosity"
+    }
+  },
+  {
+    "id": "pdf-00025-4",
+    "year": 2003,
+    "examLabel": "JAMB Physics 2003",
+    "topicIds": [
+      "work-energy-power",
+      "friction",
+      "motion"
+    ],
+    "stem": "A bead traveling on a straight wire is brought to rest at 0.2m by friction. If the mass of the bead is 0.01kg and the coefficient of friction between the bead and the wire is 0.1, determine the work done by the friction.",
+    "options": {
+      "A": "2 x 10^-3 J",
+      "B": "2 x 10^2 J",
+      "C": "2 x 10^-4 J",
+      "D": "2 x 10^1 J"
+    }
+  },
+  {
+    "id": "pdf-00025-5",
+    "year": 2003,
+    "examLabel": "JAMB Physics 2003",
+    "topicIds": [
+      "pressure",
+      "liquids-at-rest",
+      "work-energy-power"
+    ],
+    "stem": "The stylus of a phonograph record exerts a force of 77 x 10^-2 N on a groove of radius 10^-5 m. Compute the pressure exerted by the stylus on the groove.",
+    "options": {
+      "A": "2.42 x 10^9 Nm^-2",
+      "B": "4.90 x 10^8 Nm^-2",
+      "C": "2.45 x 10^8 Nm^-2",
+      "D": "3.45 x 10^8 Nm^-2"
+    }
+  },
+  {
+    "id": "pdf-00025-6",
+    "year": 2003,
+    "examLabel": "JAMB Physics 2003",
+    "topicIds": [
+      "motion",
+      "work-energy-power",
+      "gravitational-field"
+    ],
+    "stem": "A piece of stone attached to one end of a string is whirled round in a horizontal circle and the string suddenly cuts. The stone will fly off in a direction.",
+    "options": {
+      "A": "Tangential to the circular path",
+      "B": "Perpendicular to the circular path",
+      "C": "Towards the centre of the circle",
+      "D": "Parallel to the circular path."
+    }
+  },
+  {
+    "id": "pdf-00025-7",
+    "year": 2003,
+    "examLabel": "JAMB Physics 2003",
+    "topicIds": [
+      "measurements-and-units",
+      "temperature-and-measurement",
+      "thermal-expansion"
+    ],
+    "stem": "The length of a piece of glass block was measured of a vernier caliper as shown above. The length of the glass block is",
+    "options": {
+      "A": "1.65 cm",
+      "B": "1.64 cm",
+      "C": "1.66 cm",
+      "D": "1.63 cm"
+    },
+    "diagramKey": "pdf-p90-fig1"
+  },
+  {
+    "id": "pdf-00025-8",
+    "year": 2003,
+    "examLabel": "JAMB Physics 2003",
+    "topicIds": [
+      "liquids-at-rest",
+      "pressure",
+      "work-energy-power"
+    ],
+    "stem": "A test tube of radius 1.0cm is loaded to 8.8g. If it is placed upright in water, find the depth to which it would sink.",
+    "options": {
+      "A": "25.2 cm",
+      "B": "2.8 cm",
+      "C": "28.0 cm",
+      "D": "5.2 cm"
+    }
+  },
+  {
+    "id": "pdf-00025-9",
+    "year": 2003,
+    "examLabel": "JAMB Physics 2003",
+    "topicIds": [
+      "equilibrium-of-forces",
+      "work-energy-power",
+      "motion"
+    ],
+    "stem": "A 90cm uniform lever has a load of 30N suspended at 15cm from one of its ends. If the fulcrum is at the centre of gravity, the force that must be applied at its other end to keep it in horizontal equilibrium is",
+    "options": {
+      "A": "20 N",
+      "B": "30 N",
+      "C": "60 N",
+      "D": "15 N"
+    }
+  }
+]

@@ -1,0 +1,1298 @@
+[
+  {
+    "id": "1983-001",
+    "correctOption": "B",
+    "whyCorrect": "For a tube closed at one end, successive resonance lengths differ by half a wavelength, so resonant frequencies are odd harmonics of the fundamental. The next resonance after the lowest corresponds to the third harmonic, giving $f_2/f_1 = 3$.",
+    "whyOthersWrong": {
+      "A": "8 would not match the usual harmonic progression for this setup.",
+      "C": "2 would correspond to a full-octave ratio typical of open–open pipes, not this closed-tube pattern.",
+      "D": "½ would imply the second frequency is lower than the first, contrary to “increasing frequency”.",
+      "E": "1/3 is the reciprocal of the correct ratio."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "1983-002",
+    "correctOption": "B",
+    "whyCorrect": "Altitude (height above a reference) is a scalar: it has magnitude only. Force, weight, displacement, and acceleration are vectors.",
+    "whyOthersWrong": {
+      "A": "Force has magnitude and direction.",
+      "C": "Weight is the gravitational force; it is a vector.",
+      "D": "Displacement is a vector.",
+      "E": "Acceleration is a vector."
+    }
+  },
+  {
+    "id": "1983-003",
+    "correctOption": "D",
+    "whyCorrect": "For three forces in equilibrium, resolving perpendicular components gives vertical balance including $P_3$ balanced by vertical components of $P_1$ and $P_2$ (statement II in standard forms), and horizontal balance $P_1\\sin\\theta_1 = P_2\\sin\\theta_2$ (statement III). Statement I is generally not written that way for arbitrary angles.",
+    "whyOthersWrong": {
+      "A": "I alone is not generally the correct pair of equations.",
+      "B": "II alone ignores the usual horizontal equilibrium relation.",
+      "C": "III alone ignores vertical equilibrium involving $P_3$.",
+      "E": "I and III together wrongly treats I as correct."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "1983-004",
+    "correctOption": "D",
+    "whyCorrect": "The angle of friction (angle of repose) is defined between the **resultant** contact force and the normal reaction, not between the normal and the friction force alone.",
+    "whyOthersWrong": {
+      "A": "Kinetic friction is typically less than limiting static friction — correct statement.",
+      "B": "Kinetic friction independent of contact area (given constant normal reaction) is correct for the usual model.",
+      "C": "Rolling friction is generally less than sliding friction — correct.",
+      "E": "Lubrication reduces friction — correct."
+    }
+  },
+  {
+    "id": "1983-005",
+    "correctOption": "A",
+    "whyCorrect": "When the brick remains at rest, static friction exactly balances the applied horizontal pull; if the pull increases without motion, static friction increases up to its limiting value.",
+    "whyOthersWrong": {
+      "B": "Friction on the brick from the table acts opposite to impending motion — not “to the right” as a blanket statement.",
+      "C": "Adding mass increases normal reaction and usually **increases** maximum static friction, not decreases it.",
+      "D": "While sliding, kinetic friction is not necessarily zero.",
+      "E": "Turning the brick can change effective contact and friction in some models, but the key idea tested here is static equilibrium with increasing pull."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "1983-006",
+    "correctOption": "E",
+    "whyCorrect": "The gravitational pull of the Earth on a body is its weight $W=mg$ (near the surface).",
+    "whyOthersWrong": {
+      "A": "Acceleration is not a force.",
+      "B": "Mass is inertia; it is not the force of attraction.",
+      "C": "“Gravity” is vague; weight is the specific gravitational force on the body.",
+      "D": "Impulse is force × time, not static attraction."
+    }
+  },
+  {
+    "id": "1983-007",
+    "correctOption": "B",
+    "whyCorrect": "$n = c/v$ gives $v = c/n = (3.0\\times10^8)/1.5 = 2.0\\times10^8\\ \\mathrm{m\\,s^{-1}}$.",
+    "whyOthersWrong": {
+      "A": "$1.5\\times10^3$ is far too small and does not follow $c/n$.",
+      "C": "Wrong order of magnitude.",
+      "D": "This would exceed $c$ in vacuum for $n>1$, which is impossible.",
+      "E": "Also inconsistent with $v=c/n$."
+    }
+  },
+  {
+    "id": "1983-008",
+    "correctOption": "A",
+    "whyCorrect": "Relative density 19 means density $\\approx 19\\ \\mathrm{g\\,cm^{-3}}$ relative to water. Mass $m=\\rho V = 19\\times 20 = 380\\ \\mathrm{g}$ (the metal’s mass; immersion does not change mass).",
+    "whyOthersWrong": {
+      "B": "400 g would correspond to density 20 if volume is 20 cm³ — inconsistent with RD 19.",
+      "C": "360 g does not match $\\rho V$.",
+      "D": "39 g is far too small.",
+      "E": "180 g does not follow from RD 19 and 20 cm³."
+    }
+  },
+  {
+    "id": "1983-009",
+    "correctOption": "E",
+    "whyCorrect": "Hydrostatic pressure at a depth depends on fluid density and depth, not on the shape of the container.",
+    "whyOthersWrong": {
+      "A": "Pressure increasing with depth is correct.",
+      "B": "Same level same pressure in a static liquid is correct.",
+      "C": "Isotropic pressure at a point is correct.",
+      "D": "Force on wall perpendicular to wall is correct."
+    }
+  },
+  {
+    "id": "1983-010",
+    "correctOption": "B",
+    "whyCorrect": "Echo time is $2d/v$. Change in distance $\\Delta d = v\\,\\Delta t/2 = 250\\times(3.5-2.5)/2 = 125\\ \\mathrm{m}$.",
+    "whyOthersWrong": {
+      "A": "10 m is too small for the given time difference and speed.",
+      "C": "175 m does not match $v\\Delta t/2$.",
+      "D": "350 m corresponds to forgetting the factor of 2 for echo path.",
+      "E": "1000 m is inconsistent with the data."
+    }
+  },
+  {
+    "id": "1983-011",
+    "correctOption": "D",
+    "whyCorrect": "Statement III is incorrect: beats arise from **interference** of two waves of slightly different frequencies, not because one wave travels faster than the other in the same medium. Past keys often pair III with another incorrect clause; verify IV/V wording against your source if unsure.",
+    "whyOthersWrong": {
+      "A": "I and II are individually correct statements.",
+      "B": "II is correct; III is wrong but II is not wrong.",
+      "C": "Duplicate in original options; I and II are both correct, not “NOT correct”.",
+      "E": "IV is a correct beat-frequency example for many interpretations."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "1983-012",
+    "correctOption": "C",
+    "whyCorrect": "Long sight (hyperopia) blurs near objects; short sight (myopia) blurs distant objects. Short sight is corrected with **diverging** lenses, not converging — so III is incorrect.",
+    "whyOthersWrong": {
+      "A": "II is also correct, so not I only.",
+      "B": "I is also correct, so not II only.",
+      "D": "Includes III, which is false.",
+      "E": "Includes III, which is false."
+    }
+  },
+  {
+    "id": "pdf-00001",
+    "correctOption": "C",
+    "whyCorrect": "The ratio of frequencies in a resonance tube is typically a simple fraction based on the harmonic series.",
+    "whyOthersWrong": {
+      "A": "This ratio does not correspond to the harmonic relationship in a resonance tube.",
+      "B": "This ratio does not correspond to the harmonic relationship in a resonance tube.",
+      "D": "This ratio does not correspond to the harmonic relationship in a resonance tube.",
+      "E": "This ratio does not correspond to the harmonic relationship in a resonance tube."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00003",
+    "correctOption": "D",
+    "whyCorrect": "In equilibrium, the sum of the horizontal and vertical components of the forces must be zero, making II and III correct.",
+    "whyOthersWrong": {
+      "A": "I is not correct as it does not represent the equilibrium condition.",
+      "B": "II is correct, but III is also correct, so this option is incomplete.",
+      "C": "III is correct, but II is also correct, so this option is incomplete.",
+      "E": "I is not correct, making this option incorrect."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-00005",
+    "correctOption": "A",
+    "whyCorrect": "The force of static friction increases to match the applied force until it reaches its maximum value, beyond which the brick will slide.",
+    "whyOthersWrong": {
+      "B": "The direction of friction is opposite to the direction of the applied force, not to the right.",
+      "C": "Adding another brick does not decrease the friction on the first brick.",
+      "D": "Friction is zero only when the brick is sliding, not when pulled.",
+      "E": "Turning the brick does not inherently change the friction unless the normal force changes."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-00002",
+    "correctOption": "D",
+    "whyCorrect": "Using the formula for pressure, P = h * ρ * g, we can find the height of the water column supported by the same pressure.",
+    "whyOthersWrong": {
+      "A": "0 m is incorrect as pressure will support a height.",
+      "B": "10 m is too low for the given density.",
+      "C": "13 m is not the correct calculation.",
+      "E": "18 m is too high for the given density."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00004",
+    "correctOption": "D",
+    "whyCorrect": "Using the formula Q = mcΔT, we can calculate the specific heat capacity.",
+    "whyOthersWrong": {
+      "A": "1.8 J/g is not the correct calculation.",
+      "B": "0.6 J/g is too low.",
+      "C": "0.18 J/g 0C is incorrect.",
+      "E": "0.06 J/g 0C is too low."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-1",
+    "correctOption": "B",
+    "whyCorrect": "The refractive index can be calculated using Snell's law, where the angle of incidence and the angle of refraction are related. Since the reflected ray is perpendicular to the refracted ray, the refractive index is 1.5.",
+    "whyOthersWrong": {
+      "A": "This value does not satisfy Snell's law for the given angles.",
+      "C": "This value is too low for the refractive index of glass.",
+      "D": "This value is not consistent with the angles given."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-2",
+    "correctOption": "B",
+    "whyCorrect": "Using the lens formula and magnification, the distance can be calculated as 16.0 cm.",
+    "whyOthersWrong": {
+      "A": "This distance does not satisfy the lens equation for the given magnification.",
+      "C": "This distance is too large for the given focal length and magnification.",
+      "D": "This distance exceeds the limits set by the lens formula."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-3",
+    "correctOption": "D",
+    "whyCorrect": "The order of wavelengths from shortest to longest is gamma rays, X-rays, infra-red rays, and then radiowaves.",
+    "whyOthersWrong": {
+      "A": "This order incorrectly places gamma rays before infra-red rays.",
+      "B": "This order incorrectly places gamma rays before infra-red rays.",
+      "C": "This order incorrectly places gamma rays before radiowaves."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-4",
+    "correctOption": "A",
+    "whyCorrect": "The critical angle can be calculated using the formula $sin^{-1}(1/n)$ where n is the refractive index.",
+    "whyOthersWrong": {
+      "B": "This value does not correspond to the critical angle for the given refractive index.",
+      "C": "This value does not correspond to the critical angle for the given refractive index.",
+      "D": "This value does not correspond to the critical angle for the given refractive index."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-5",
+    "correctOption": "A",
+    "whyCorrect": "The radius of curvature can be calculated using the mirror formula and the magnification.",
+    "whyOthersWrong": {
+      "B": "This value does not satisfy the mirror equation for the given magnification.",
+      "C": "This value does not satisfy the mirror equation for the given magnification.",
+      "D": "This value does not satisfy the mirror equation for the given magnification."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-6",
+    "correctOption": "A",
+    "whyCorrect": "Increasing the size of the hole leads to diffraction, causing a blurred image.",
+    "whyOthersWrong": {
+      "B": "This statement is incorrect as increasing the hole does not correct chromatic aberration.",
+      "C": "This statement is incorrect as it does not magnify the image.",
+      "D": "This statement is incorrect as it does not bring the image into sharper focus."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-7",
+    "correctOption": "C",
+    "whyCorrect": "The distance between adjacent nodes is half the wavelength, which can be calculated from the wave speed and frequency.",
+    "whyOthersWrong": {
+      "A": "This value is too small for the given frequency and velocity.",
+      "B": "This value is incorrect based on the wave properties.",
+      "D": "This value is too large for the given frequency and velocity."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-8",
+    "correctOption": "A",
+    "whyCorrect": "Loudness is proportional to the square of the amplitude of the sound wave.",
+    "whyOthersWrong": {
+      "B": "This statement is incorrect as loudness decreases with distance.",
+      "C": "This statement is incorrect as sound cannot travel in a vacuum.",
+      "D": "This statement is incorrect as loudness is affected by frequency."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-9",
+    "correctOption": "B",
+    "whyCorrect": "The time taken for the echo to return is 1 second, leading to a frequency of 2 Hz.",
+    "whyOthersWrong": {
+      "A": "This frequency is too low for the given distance and speed of sound.",
+      "C": "This frequency is too high for the given distance and speed of sound.",
+      "D": "This frequency is too high for the given distance and speed of sound."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-10",
+    "correctOption": "B",
+    "whyCorrect": "The value of R can be calculated based on the circuit configuration shown in the figure.",
+    "whyOthersWrong": {
+      "A": "This value does not satisfy the circuit conditions.",
+      "C": "This value does not satisfy the circuit conditions.",
+      "D": "This value does not satisfy the circuit conditions."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-11",
+    "correctOption": "D",
+    "whyCorrect": "A transformer is not a component of a direct current electric motor.",
+    "whyOthersWrong": {
+      "A": "Field-magnet is a necessary component of an electric motor.",
+      "B": "Armature is a necessary component of an electric motor.",
+      "C": "Commutator is a necessary component of an electric motor."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-12",
+    "correctOption": "D",
+    "whyCorrect": "A dry Leclanche cell stores chemical energy which is converted to electrical energy.",
+    "whyOthersWrong": {
+      "A": "Electrical power is not stored; it is generated.",
+      "B": "Kinetic energy is not relevant to a dry cell.",
+      "C": "Electric current is not stored; it is the result of chemical reactions."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-13",
+    "correctOption": "B",
+    "whyCorrect": "Three 1Ù resistors in parallel will yield an equivalent resistance of 1.5Ù.",
+    "whyOthersWrong": {
+      "A": "In series, the resistance would be 3Ù.",
+      "C": "A mixed arrangement cannot yield 1.5Ù with three 1Ù resistors.",
+      "D": "This option is incorrect as option B is valid."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-14",
+    "correctOption": "B",
+    "whyCorrect": "A freely suspended bar magnet aligns itself with the Earth's magnetic field, pointing north-south.",
+    "whyOthersWrong": {
+      "A": "Iron fillings do not cling mainly to the ends; they show the magnetic field lines.",
+      "C": "Like poles repel each other, not attract.",
+      "D": "Lodestone is a naturally occurring magnet, not a non-magnetic oxide."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-15",
+    "correctOption": "D",
+    "whyCorrect": "The angle of declination is the angle between the magnetic and geographic meridians.",
+    "whyOthersWrong": {
+      "A": "Longitude is a geographic coordinate, not an angle.",
+      "B": "Angle of inclination refers to the angle of dip, not declination.",
+      "C": "Latitude is a geographic coordinate, not an angle."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-16",
+    "correctOption": "A",
+    "whyCorrect": "A charged electroscope can indicate the sign of charge based on the repulsion or attraction of the leaves.",
+    "whyOthersWrong": {
+      "B": "An uncharged electroscope cannot determine the sign of charge.",
+      "C": "A galvanometer measures current, not charge.",
+      "D": "An electrometer measures voltage, not charge sign."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-17",
+    "correctOption": "A",
+    "whyCorrect": "The direction of induced current follows Lenz's law, which can be determined from the diagrams.",
+    "whyOthersWrong": {
+      "B": "This diagram does not follow Lenz's law.",
+      "C": "This diagram does not follow Lenz's law.",
+      "D": "This diagram does not follow Lenz's law."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-18",
+    "correctOption": "B",
+    "whyCorrect": "The inclination indicates the angle of dip of the magnetic field at that location.",
+    "whyOthersWrong": {
+      "A": "This statement is incorrect as it confuses inclination with declination.",
+      "C": "This statement is incorrect as it misinterprets the inclination.",
+      "D": "This statement is incorrect as it misinterprets the inclination."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-19",
+    "correctOption": "D",
+    "whyCorrect": "The frequency can be calculated using the formula $f = \\frac{c}{\\lambda}$, where $c$ is the speed of light and $\\lambda$ is the wavelength.",
+    "whyOthersWrong": {
+      "A": "This frequency is too low for the given wavelength.",
+      "B": "This frequency is too low for the given wavelength.",
+      "C": "This frequency is too low for the given wavelength."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-20",
+    "correctOption": "C",
+    "whyCorrect": "Beta particles are charged and are deflected by magnetic fields, while gamma rays and X-rays are not.",
+    "whyOthersWrong": {
+      "A": "Gamma rays are neutral and not deflected.",
+      "B": "Alpha particles are less deflected than beta particles.",
+      "D": "X-rays are neutral and not deflected."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00006",
+    "correctOption": "B",
+    "whyCorrect": "Using the principle of conservation of energy, the initial temperature of the hot water can be calculated to be 80°C.",
+    "whyOthersWrong": {
+      "A": "Overestimates the temperature.",
+      "C": "Underestimates the temperature.",
+      "D": "Underestimates the temperature."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00007",
+    "correctOption": "B",
+    "whyCorrect": "Specific heat capacity is calculated using the formula Q = mcΔT, leading to 2933 J/kg°C.",
+    "whyOthersWrong": {
+      "A": "Underestimates the specific heat capacity.",
+      "C": "Overestimates the specific heat capacity.",
+      "D": "Overestimates the specific heat capacity."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00008",
+    "correctOption": "C",
+    "whyCorrect": "The total heat required includes heating the ice to 0°C and then melting it, totaling 666,000 J.",
+    "whyOthersWrong": {
+      "A": "Underestimates the heat required.",
+      "B": "Underestimates the heat required.",
+      "D": "Overestimates the heat required."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00009",
+    "correctOption": "A",
+    "whyCorrect": "Copper has the highest thermal conductivity, followed by steel, then glass.",
+    "whyOthersWrong": {
+      "B": "Incorrect order of thermal conductivities.",
+      "C": "Incorrect order of thermal conductivities.",
+      "D": "Incorrect order of thermal conductivities."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00010",
+    "correctOption": "A",
+    "whyCorrect": "The vacuum prevents heat transfer by conduction and convection, while radiation is minimized.",
+    "whyOthersWrong": {
+      "B": "Incorrectly includes conduction.",
+      "C": "Incorrectly includes conduction.",
+      "D": "Overestimates the effectiveness."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00011",
+    "correctOption": "B",
+    "whyCorrect": "Temperature is defined as a measure of the average kinetic energy of the molecules in a gas.",
+    "whyOthersWrong": {
+      "A": "Temperature is not proportional to total kinetic energy.",
+      "C": "Temperature is not a physical property in this context.",
+      "D": "Temperature is not a physical property in this context."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00012",
+    "correctOption": "C",
+    "whyCorrect": "The speed of the wave can be calculated using the formula $v = f \\lambda$, where $\\lambda = 2 \\times 0.45m = 0.9m$, giving $v = 60Hz \\times 0.9m = 54ms^{-1}$.",
+    "whyOthersWrong": {
+      "A": "Incorrect calculation of wave speed.",
+      "B": "Incorrect calculation of wave speed.",
+      "D": "Incorrect calculation of wave speed."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00013",
+    "correctOption": "B",
+    "whyCorrect": "In resonance, the waves in the air column are stationary and longitudinal due to the nature of sound waves.",
+    "whyOthersWrong": {
+      "A": "Sound waves are longitudinal, not transverse.",
+      "C": "Sound waves are longitudinal, not progressive in this context.",
+      "D": "Sound waves are longitudinal, not progressive in this context."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00014",
+    "correctOption": "C",
+    "whyCorrect": "Doubling the tension in the wire increases the speed of the waves, which increases the frequency.",
+    "whyOthersWrong": {
+      "A": "Incorrect relationship between tension and wave speed.",
+      "B": "Incorrect relationship between tension and wave speed.",
+      "D": "Incorrect relationship between tension and wave speed."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00015",
+    "correctOption": "C",
+    "whyCorrect": "Using the formula $f = \\frac{v}{\\lambda}$, where $\\lambda = 34cm$, we find the frequency to be 1000Hz.",
+    "whyOthersWrong": {
+      "A": "Incorrect calculation of frequency.",
+      "B": "Incorrect calculation of frequency.",
+      "D": "Incorrect calculation of frequency."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00016",
+    "correctOption": "A",
+    "whyCorrect": "Using the formula $\\lambda_{glass} = \\frac{\\lambda_{vacuum}}{n}$, we find the wavelength in glass to be 3333 x 10-8cm.",
+    "whyOthersWrong": {
+      "B": "Incorrect calculation of wavelength in glass.",
+      "C": "Incorrect calculation of wavelength in glass.",
+      "D": "Incorrect calculation of wavelength in glass."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00017",
+    "correctOption": "C",
+    "whyCorrect": "The object is within the focal length, thus the image formed is virtual, erect, and magnified.",
+    "whyOthersWrong": {
+      "A": "Incorrect description of the image.",
+      "B": "Incorrect description of the image.",
+      "D": "Incorrect description of the image."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00018",
+    "correctOption": "B",
+    "whyCorrect": "Using the mirror formula and magnification, we can find the distance between the object and its image to be 16cm.",
+    "whyOthersWrong": {
+      "A": "Incorrect calculation of distance.",
+      "C": "Incorrect calculation of distance.",
+      "D": "Incorrect calculation of distance."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00019",
+    "correctOption": "A",
+    "whyCorrect": "In a kaleidoscope, mirrors are typically arranged at an angle of 60 degrees to create multiple reflections.",
+    "whyOthersWrong": {
+      "B": "Mirrors are not parallel in a kaleidoscope.",
+      "C": "Mirrors are not perpendicular in a kaleidoscope.",
+      "D": "Mirrors are not at an angle of 45 degrees."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00020",
+    "correctOption": "C",
+    "whyCorrect": "A convex lens with a focal length of 33cm is needed to focus on objects closer than 100cm.",
+    "whyOthersWrong": {
+      "A": "Incorrect type of lens.",
+      "B": "Incorrect type of lens.",
+      "D": "Incorrect type of lens."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00021",
+    "correctOption": "A",
+    "whyCorrect": "The blue glass absorbs yellow light, making the card appear black.",
+    "whyOthersWrong": {
+      "B": "Incorrect color appearance.",
+      "C": "Incorrect color appearance.",
+      "D": "Incorrect color appearance."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00022",
+    "correctOption": "B",
+    "whyCorrect": "Dispersion occurs because different colors of light travel at different speeds in glass.",
+    "whyOthersWrong": {
+      "A": "Incorrect explanation of dispersion.",
+      "C": "Incorrect explanation of dispersion.",
+      "D": "Incorrect explanation of dispersion."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00023",
+    "correctOption": "D",
+    "whyCorrect": "Alpha rays are not part of the electromagnetic spectrum; they are particles, not waves.",
+    "whyOthersWrong": {
+      "A": "Both radio waves and beta rays are part of the spectrum.",
+      "B": "Both gamma rays and alpha rays are not part of the spectrum.",
+      "C": "Both radio waves and gamma rays are part of the spectrum."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00024",
+    "correctOption": "B",
+    "whyCorrect": "Current flows until both spheres reach the same electric potential, not charge.",
+    "whyOthersWrong": {
+      "A": "They will not carry the same charge, just the same potential.",
+      "C": "Temperature is not relevant in this context.",
+      "D": "Size does not affect the charge distribution."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00025",
+    "correctOption": "A",
+    "whyCorrect": "Arranging magnets end to end maximizes the magnetic field strength.",
+    "whyOthersWrong": {
+      "B": "Arranging with like poles adjacent does not maximize strength.",
+      "C": "Strength depends on arrangement, not just number.",
+      "D": "Surface material does not affect magnetic strength."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00026",
+    "correctOption": "A",
+    "whyCorrect": "Hitting a magnet while in a specific position disrupts its magnetic domains effectively.",
+    "whyOthersWrong": {
+      "B": "Electric current does not demagnetize effectively.",
+      "C": "Contact with a strong magnet does not demagnetize.",
+      "D": "Heating can demagnetize, but not as effectively as striking."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00027",
+    "correctOption": "A",
+    "whyCorrect": "Using the formula for resistivity, $\\rho = R \\frac{A}{L}$, we find the resistivity to be 1.10 x 10-6 Ohms m.",
+    "whyOthersWrong": {
+      "B": "Incorrect calculation of resistivity.",
+      "C": "Incorrect calculation of resistivity.",
+      "D": "Incorrect calculation of resistivity."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00028",
+    "correctOption": "B",
+    "whyCorrect": "Using the voltage divider rule, we find the potential difference across the 250Ohm resistor to be 0.86V.",
+    "whyOthersWrong": {
+      "A": "Incorrect calculation of potential difference.",
+      "C": "Incorrect calculation of potential difference.",
+      "D": "Incorrect calculation of potential difference."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00029",
+    "correctOption": "C",
+    "whyCorrect": "A potentiometer measures e.m.f. without drawing current from the cell, providing an accurate measurement.",
+    "whyOthersWrong": {
+      "A": "Internal resistance is not the main reason for using a potentiometer.",
+      "B": "Linear scale is not the primary reason.",
+      "D": "Resistance comparison is not relevant."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00030",
+    "correctOption": "A",
+    "whyCorrect": "The correct circuit for measuring resistance is one where the voltmeter is across the resistor and the ammeter is in series.",
+    "whyOthersWrong": {
+      "B": "Incorrect configuration for measuring resistance.",
+      "C": "Incorrect configuration for measuring resistance.",
+      "D": "Incorrect configuration for measuring resistance."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00031",
+    "correctOption": "B",
+    "whyCorrect": "Using the formula for capacitors in series, we find the effective capacitance to be 1.33 uF.",
+    "whyOthersWrong": {
+      "A": "Incorrect calculation of effective capacitance.",
+      "C": "Incorrect calculation of effective capacitance.",
+      "D": "Incorrect calculation of effective capacitance."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00032",
+    "correctOption": "B",
+    "whyCorrect": "A fuse protects the circuit by breaking the connection if the current exceeds its rating, in this case, 5A.",
+    "whyOthersWrong": {
+      "A": "The fuse does not control temperature.",
+      "C": "The fuse does not regulate voltage.",
+      "D": "Incorrect description of fuse function."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-0001",
+    "correctOption": "A",
+    "whyCorrect": "The total power is calculated using P = VI, where V is the voltage and I is the current.",
+    "whyOthersWrong": {
+      "B": "This value does not match the calculated power.",
+      "C": "This value does not match the calculated power.",
+      "D": "This value does not match the calculated power."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0002",
+    "correctOption": "A",
+    "whyCorrect": "Using the formula for shunt resistors, the total current can be calculated.",
+    "whyOthersWrong": {
+      "B": "This value does not match the calculated total current.",
+      "C": "This value does not match the calculated total current.",
+      "D": "This value does not match the calculated total current."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0003",
+    "correctOption": "A",
+    "whyCorrect": "Using the formula I = m/(z*t), where m is mass, z is electrochemical equivalent, and t is time in seconds.",
+    "whyOthersWrong": {
+      "B": "This value does not match the calculated current.",
+      "C": "This value does not match the calculated current.",
+      "D": "This value does not match the calculated current."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0004",
+    "correctOption": "C",
+    "whyCorrect": "The maximum kinetic energy of ejected electrons is directly related to the wavelength of the incident radiation.",
+    "whyOthersWrong": {
+      "A": "Intensity affects the number of ejected electrons, not their energy.",
+      "B": "The source does not determine the energy of ejected electrons.",
+      "D": "The detection device does not affect the energy of ejected electrons."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0005",
+    "correctOption": "A",
+    "whyCorrect": "The alpha particle is indeed the helium nucleus, consisting of 2 protons and 2 neutrons.",
+    "whyOthersWrong": {
+      "B": "The beta particle is lighter than the alpha particle.",
+      "C": "Alpha particles are less deflected due to their greater mass.",
+      "D": "Beta particles are deflected more due to their smaller mass."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0007",
+    "correctOption": "A",
+    "whyCorrect": "The vernier scale reading is determined by aligning the main scale and the vernier scale.",
+    "whyOthersWrong": {
+      "B": "This reading does not match the vernier scale.",
+      "C": "This reading does not match the vernier scale.",
+      "D": "This reading does not match the vernier scale."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0008",
+    "correctOption": "D",
+    "whyCorrect": "The second is a base unit in the International System of Units (SI).",
+    "whyOthersWrong": {
+      "A": "Newton is a derived unit (kg·m/s²).",
+      "B": "Watt is a derived unit (J/s).",
+      "C": "Joule is a derived unit (kg·m²/s²)."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0009",
+    "correctOption": "A",
+    "whyCorrect": "The equilibrium condition requires that the sum of vertical forces equals the weight.",
+    "whyOthersWrong": {
+      "B": "This value does not satisfy the equilibrium condition.",
+      "C": "This value does not satisfy the equilibrium condition.",
+      "D": "This value does not satisfy the equilibrium condition."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0010",
+    "correctOption": "A",
+    "whyCorrect": "Using the formula d = vt - 0.5at, where v is initial speed and a is the deceleration.",
+    "whyOthersWrong": {
+      "B": "This value does not match the calculated distance.",
+      "C": "This value does not match the calculated distance.",
+      "D": "This value does not match the calculated distance."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0011",
+    "correctOption": "C",
+    "whyCorrect": "Using conservation of momentum, the velocity of the second particle can be derived.",
+    "whyOthersWrong": {
+      "A": "This does not satisfy conservation of momentum.",
+      "B": "This does not satisfy conservation of momentum.",
+      "D": "This does not satisfy conservation of momentum."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0012",
+    "correctOption": "B",
+    "whyCorrect": "Average velocity is calculated as total distance divided by total time.",
+    "whyOthersWrong": {
+      "A": "This value does not match the calculated average velocity.",
+      "C": "This value does not match the calculated average velocity.",
+      "D": "This value does not match the calculated average velocity."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0013",
+    "correctOption": "D",
+    "whyCorrect": "All statements are true for an object in equilibrium.",
+    "whyOthersWrong": {
+      "A": "This option omits a correct statement.",
+      "B": "This option omits a correct statement.",
+      "C": "This option omits a correct statement."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0014",
+    "correctOption": "C",
+    "whyCorrect": "Moment is calculated as force times distance from the pivot point.",
+    "whyOthersWrong": {
+      "A": "This value does not match the calculated moment.",
+      "B": "This value does not match the calculated moment.",
+      "D": "This value does not match the calculated moment."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0015",
+    "correctOption": "C",
+    "whyCorrect": "Power is defined as the product of force and velocity.",
+    "whyOthersWrong": {
+      "A": "This does not represent the relationship between power and force.",
+      "B": "This does not represent the relationship between power and force.",
+      "D": "This does not represent the relationship between power and force."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0016",
+    "correctOption": "B",
+    "whyCorrect": "Work done is calculated as the product of mass, gravitational acceleration, and height.",
+    "whyOthersWrong": {
+      "A": "This does not account for gravitational force.",
+      "C": "This does not represent the total work done.",
+      "D": "No work is done if the stone is held stationary."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0017",
+    "correctOption": "C",
+    "whyCorrect": "The coefficient of friction can be calculated using tan(θ) for the angle at which the body starts to slide.",
+    "whyOthersWrong": {
+      "A": "This value does not match the calculated coefficient.",
+      "B": "This value does not match the calculated coefficient.",
+      "D": "This value does not match the calculated coefficient."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0018",
+    "correctOption": "C",
+    "whyCorrect": "The velocity ratio can be calculated using the sine of the angle of inclination.",
+    "whyOthersWrong": {
+      "A": "This value does not match the calculated velocity ratio.",
+      "B": "This value does not match the calculated velocity ratio.",
+      "D": "This value does not match the calculated velocity ratio."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0019",
+    "correctOption": "A",
+    "whyCorrect": "Using the formula P = ρgh, the height of the liquid column can be calculated.",
+    "whyOthersWrong": {
+      "B": "This value does not match the calculated height.",
+      "C": "This value does not match the calculated height.",
+      "D": "This value does not match the calculated height."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0020",
+    "correctOption": "B",
+    "whyCorrect": "The density of the mixture can be calculated using the formula for combined densities.",
+    "whyOthersWrong": {
+      "A": "This value does not match the calculated density.",
+      "C": "This value does not match the calculated density.",
+      "D": "This value does not match the calculated density."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0021",
+    "correctOption": "B",
+    "whyCorrect": "Using the linear relationship between resistance and temperature, the temperature can be calculated.",
+    "whyOthersWrong": {
+      "A": "This value does not match the calculated temperature.",
+      "C": "This value does not match the calculated temperature.",
+      "D": "This value does not match the calculated temperature."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0022",
+    "correctOption": "B",
+    "whyCorrect": "Linear expansivity is defined as the change in length per unit length per degree change in temperature.",
+    "whyOthersWrong": {
+      "A": "This does not represent the correct formula for linear expansivity.",
+      "C": "This does not represent the correct formula for linear expansivity.",
+      "D": "This does not represent the correct formula for linear expansivity."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0023",
+    "correctOption": "A",
+    "whyCorrect": "As temperature decreases, the kinetic energy of the molecules decreases, leading to fewer collisions.",
+    "whyOthersWrong": {
+      "B": "The average kinetic energy decreases with temperature.",
+      "C": "Molecules do not break up due to cooling.",
+      "D": "The number of molecules does not decrease."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0024",
+    "correctOption": "B",
+    "whyCorrect": "Using the specific heat capacity of copper and the latent heat of fusion of ice, the mass of ice melted can be calculated.",
+    "whyOthersWrong": {
+      "A": "This value does not match the calculated mass of ice melted.",
+      "C": "This value does not match the calculated mass of ice melted.",
+      "D": "This value does not match the calculated mass of ice melted."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0025",
+    "correctOption": "B",
+    "whyCorrect": "Reducing the external pressure lowers the boiling point of water.",
+    "whyOthersWrong": {
+      "A": "Increasing pressure raises the boiling point.",
+      "C": "Heating rapidly does not affect the boiling point under constant pressure.",
+      "D": "Reducing pressure by a quarter may not achieve boiling at 100°C."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0026",
+    "correctOption": "D",
+    "whyCorrect": "All statements are true regarding convection and heat transfer.",
+    "whyOthersWrong": {
+      "A": "This option omits a correct statement.",
+      "B": "This option omits a correct statement.",
+      "C": "This option omits a correct statement."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0027",
+    "correctOption": "B",
+    "whyCorrect": "Wavelength in a medium is calculated using the formula λ = v/f, where v is the speed of light in the medium.",
+    "whyOthersWrong": {
+      "A": "This value does not match the calculated wavelength.",
+      "C": "This value does not match the calculated wavelength.",
+      "D": "This value does not match the calculated wavelength."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-0006",
+    "correctOption": "D",
+    "whyCorrect": "Fuses are designed to melt and break the circuit when excessive current flows, hence they need a low melting point.",
+    "whyOthersWrong": {
+      "A": "Low density is not a critical property for fuse wires.",
+      "B": "High thermal conductivity is not essential for fuse operation.",
+      "C": "Low electrical resistivity is not desirable as it would not allow the fuse to melt easily."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00020-q26",
+    "correctOption": "B",
+    "whyCorrect": "In a closed organ pipe, the open end is where the antinode is located.",
+    "whyOthersWrong": {
+      "A": "The closed end has a node, not an antinode.",
+      "C": "The middle does not correspond to an antinode in a closed pipe.",
+      "D": "Antinodes are not present at all parts of the pipe."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00020-q27",
+    "correctOption": "A",
+    "whyCorrect": "The speed of a wave in a stretched wire is given by the formula $v = f \\lambda$. For the fundamental frequency, $\\lambda = 2L$, thus $v = 200 \\times 0.5 = 100$ ms-1.",
+    "whyOthersWrong": {
+      "B": "The calculation for speed is incorrect.",
+      "C": "This speed corresponds to a different frequency or length.",
+      "D": "This speed is too high for the given frequency and length."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00020-q28",
+    "correctOption": "B",
+    "whyCorrect": "The frequency of the third overtone is 3 times the fundamental frequency, thus $3 \\times 280 = 840$ Hz.",
+    "whyOthersWrong": {
+      "A": "This is too low for the third overtone.",
+      "C": "This is too high for the third overtone.",
+      "D": "This is also too high for the third overtone."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00020-q29",
+    "correctOption": "B",
+    "whyCorrect": "When the object is placed between the focal point and the mirror, the image formed is virtual and magnified.",
+    "whyOthersWrong": {
+      "A": "The image is not diminished.",
+      "C": "The image is not real.",
+      "D": "The image is not diminished."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00020-q30",
+    "correctOption": "B",
+    "whyCorrect": "The formula for the number of images formed is $\\frac{360}{\\theta} - 1$. For 7 images, $\\theta = 360/8 = 45^\\circ$.",
+    "whyOthersWrong": {
+      "A": "This angle does not yield 7 images.",
+      "C": "This angle does not yield 7 images.",
+      "D": "This angle does not yield 7 images."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00020-q31",
+    "correctOption": "A",
+    "whyCorrect": "Concave mirrors focus light to a point, making them ideal for searchlights.",
+    "whyOthersWrong": {
+      "B": "Convex mirrors spread light out.",
+      "C": "Spherical mirrors do not focus light effectively.",
+      "D": "Parabolic mirrors are also good but not as common as concave for searchlights."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00020-q32",
+    "correctOption": "C",
+    "whyCorrect": "The displacement is calculated using the formula $d = t(1 - \\frac{1}{n})$.",
+    "whyOthersWrong": {
+      "A": "This formula is incorrect.",
+      "B": "This formula is incorrect.",
+      "D": "This formula is incorrect."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00020-q33",
+    "correctOption": "B",
+    "whyCorrect": "The relationship between uv and (u + v) is quadratic, resulting in a parabolic graph.",
+    "whyOthersWrong": {
+      "A": "This is not a linear relationship.",
+      "C": "This does not describe the relationship accurately.",
+      "D": "This does not describe the relationship accurately."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-00020-q34",
+    "correctOption": "B",
+    "whyCorrect": "The least distance of distinct vision is further away due to the focal length of the lens being longer than the optimum.",
+    "whyOthersWrong": {
+      "A": "This is too short for the least distance.",
+      "C": "This is too far for the least distance.",
+      "D": "This is too far for the least distance."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00020-q35",
+    "correctOption": "A",
+    "whyCorrect": "All statements about infra-red radiation are true.",
+    "whyOthersWrong": {
+      "B": "This option omits a true statement.",
+      "C": "This option omits a true statement.",
+      "D": "This option omits a true statement."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00020-q36",
+    "correctOption": "B",
+    "whyCorrect": "Using Coulomb's law, the force can be calculated as $F = k \\frac{q_1 q_2}{r^2}$, yielding approximately $9.0 \\times 10^{-8} N$.",
+    "whyOthersWrong": {
+      "A": "This is too low for the force calculated.",
+      "C": "This is too high for the force calculated.",
+      "D": "This is too high for the force calculated."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00020-q37",
+    "correctOption": "A",
+    "whyCorrect": "Ebonite becomes negatively charged and glass becomes positively charged when rubbed.",
+    "whyOthersWrong": {
+      "B": "This is incorrect; ebonite is negatively charged.",
+      "C": "This is incorrect; they do not both have negative charges.",
+      "D": "This is incorrect; they do not both have positive charges."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00020-q39",
+    "correctOption": "A",
+    "whyCorrect": "Using a carbon rod as the positive pole helps to reduce local action.",
+    "whyOthersWrong": {
+      "B": "Pure zinc does not reduce local action effectively.",
+      "C": "This does not directly reduce local action.",
+      "D": "Common salt solution does not effectively reduce local action."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00020-q41",
+    "correctOption": "C",
+    "whyCorrect": "Work done is calculated as $W = QV = 2C \\times 100V = 200J$.",
+    "whyOthersWrong": {
+      "A": "This is too low for the work done.",
+      "B": "This is too low for the work done.",
+      "D": "This is too high for the work done."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00020-q42",
+    "correctOption": "B",
+    "whyCorrect": "Capacitance is calculated using the formula $C = \\frac{\\epsilon_0 A}{d}$, yielding $4.50 \\times 10^{-17} F$.",
+    "whyOthersWrong": {
+      "A": "This is too low for the capacitance calculated.",
+      "C": "This is too high for the capacitance calculated.",
+      "D": "This is too high for the capacitance calculated."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00020-q43",
+    "correctOption": "A",
+    "whyCorrect": "Bundling wires minimizes eddy currents, improving efficiency.",
+    "whyOthersWrong": {
+      "B": "This is incorrect; we want to minimize, not generate.",
+      "C": "This is not the primary purpose of bundling.",
+      "D": "This is not the primary purpose of bundling."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00020-q44",
+    "correctOption": "D",
+    "whyCorrect": "Energy dissipated is calculated using $E = I^2Rt$, yielding $1.8 \\times 10^7 J$.",
+    "whyOthersWrong": {
+      "A": "This is too low for the energy calculated.",
+      "B": "This is too low for the energy calculated.",
+      "C": "This is too low for the energy calculated."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00025-1",
+    "correctOption": "A",
+    "whyCorrect": "At the angle of inclination where sliding begins, the coefficient of friction equals the tangent of the angle, which is 1/3 for 30°.",
+    "whyOthersWrong": {
+      "B": "This option is incorrect as it is the same as option A.",
+      "C": "This option is incorrect as it exceeds the maximum possible coefficient of friction.",
+      "D": "This option is incorrect as it exceeds the maximum possible coefficient of friction."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00025-2",
+    "correctOption": "B",
+    "whyCorrect": "A satellite in a parking orbit has the same orbital period as the Earth, allowing it to remain stationary relative to the Earth's surface.",
+    "whyOthersWrong": {
+      "A": "This option is incorrect as it suggests a higher orbit, which is not a parking orbit.",
+      "C": "This option is incorrect as it misrepresents the relationship between period and orbit.",
+      "D": "This option is incorrect as it suggests a lower orbit, which would not be stable."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00025-3",
+    "correctOption": "C",
+    "whyCorrect": "Surface tension prevents water droplets from falling through the umbrella until disturbed.",
+    "whyOthersWrong": {
+      "A": "Osmotic pressure is not relevant to this context.",
+      "B": "Capillarity involves the rise of liquid in narrow spaces, not relevant here.",
+      "D": "Viscosity relates to the flow of liquids, not to the behavior of droplets on a surface."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00025-4",
+    "correctOption": "A",
+    "whyCorrect": "The work done by friction is calculated using the formula W = f * d, where f = μ * m * g.",
+    "whyOthersWrong": {
+      "B": "This option is incorrect as it greatly overestimates the work done.",
+      "C": "This option is incorrect as it underestimates the work done.",
+      "D": "This option is incorrect as it overestimates the work done."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00025-5",
+    "correctOption": "A",
+    "whyCorrect": "Pressure is calculated as P = F/A, where A = πr².",
+    "whyOthersWrong": {
+      "B": "This option is incorrect as it underestimates the pressure.",
+      "C": "This option is incorrect as it underestimates the pressure.",
+      "D": "This option is incorrect as it underestimates the pressure."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00025-6",
+    "correctOption": "A",
+    "whyCorrect": "When the string cuts, the stone will move in a straight line tangential to the circular path due to inertia.",
+    "whyOthersWrong": {
+      "B": "This option is incorrect as it suggests a direction that is not consistent with Newton's first law.",
+      "C": "This option is incorrect as it suggests a centripetal direction which is not applicable once the string is cut.",
+      "D": "This option is incorrect as it suggests a direction that is not consistent with the motion of the stone."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00025-7",
+    "correctOption": "A",
+    "whyCorrect": "The measurement taken with the vernier caliper indicates a length of 1.65 cm.",
+    "whyOthersWrong": {
+      "B": "This option is incorrect as it does not match the measurement.",
+      "C": "This option is incorrect as it does not match the measurement.",
+      "D": "This option is incorrect as it does not match the measurement."
+    },
+    "needsHumanReview": true
+  },
+  {
+    "id": "pdf-00025-8",
+    "correctOption": "A",
+    "whyCorrect": "The depth is calculated based on the buoyant force equating to the weight of the test tube.",
+    "whyOthersWrong": {
+      "B": "This option is incorrect as it underestimates the depth.",
+      "C": "This option is incorrect as it overestimates the depth.",
+      "D": "This option is incorrect as it underestimates the depth."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "pdf-00025-9",
+    "correctOption": "A",
+    "whyCorrect": "The lever principle states that the moments about the fulcrum must balance, leading to a required force of 20 N.",
+    "whyOthersWrong": {
+      "B": "This option is incorrect as it does not satisfy the equilibrium condition.",
+      "C": "This option is incorrect as it overestimates the required force.",
+      "D": "This option is incorrect as it underestimates the required force."
+    },
+    "needsHumanReview": false
+  }
+]
