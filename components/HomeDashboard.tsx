@@ -46,6 +46,15 @@ export function HomeDashboard() {
         <h2 className="mb-4 text-lg font-semibold text-zinc-900 dark:text-zinc-50">
           Syllabus topics
         </h2>
+        <p className="mb-4 max-w-2xl text-xs text-zinc-500 dark:text-zinc-400">
+          To add AI-written practice items (default 10 per topic, merged into the question bank),
+          run locally:{" "}
+          <code className="rounded bg-zinc-200 px-1 py-0.5 font-mono text-[11px] dark:bg-zinc-800">
+            pnpm generate-topic-questions
+          </code>{" "}
+          (requires <code className="font-mono text-[11px]">OPENAI_API_KEY</code> in{" "}
+          <code className="font-mono text-[11px]">.env.local</code>).
+        </p>
         <div className="grid gap-4 sm:grid-cols-2">
           {SYLLABUS_TOPICS.map((topic) => {
             const { mastered, total } = topicProgress(topic.id, topic.objectives.length);

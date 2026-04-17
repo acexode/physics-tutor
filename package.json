@@ -10,7 +10,8 @@
     "generate-answers": "tsx scripts/generate-answers.ts",
     "pdf-to-chunks": "tsx scripts/pdf-to-text-chunks.ts",
     "bulk-from-chunks": "tsx scripts/bulk-generate-from-chunks.ts",
-    "bulk-vision-page": "tsx scripts/bulk-vision-page.ts"
+    "bulk-vision-page": "tsx scripts/bulk-vision-page.ts",
+    "generate-topic-questions": "tsx scripts/generate-per-topic-questions.ts"
   },
   "dependencies": {
     "katex": "^0.16.22",
