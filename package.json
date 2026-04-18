@@ -14,6 +14,8 @@
     "generate-topic-questions": "tsx scripts/generate-per-topic-questions.ts"
   },
   "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "framer-motion": "^12.38.0",
     "katex": "^0.16.22",
     "next": "16.2.4",
     "react": "19.2.4",
@@ -22,6 +24,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/canvas-confetti": "^1.9.0",
     "@types/node": "^20",
     "@types/pdf-parse": "^1.1.5",
     "@types/react": "^19",

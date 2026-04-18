@@ -1341,7 +1341,7 @@
   },
   {
     "id": "ai-topic-measurements-and-units-05",
-    "correctOption": "A",
+    "correctOption": "B",
     "whyCorrect": "Average speed is calculated using the formula $\\text{speed} = \\frac{\\text{distance}}{\\text{time}}$. Thus, $\\text{speed} = \\frac{100\\,\\text{m}}{5\\,\\text{s}} = 20\\,\\text{m/s}$.",
     "whyOthersWrong": {
       "B": "This is a miscalculation of average speed.",

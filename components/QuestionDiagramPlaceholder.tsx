@@ -5,14 +5,14 @@ export function QuestionDiagramPlaceholder({
 }) {
   if (!diagramKey) return null;
   return (
-    <figure className="my-4 rounded-lg border border-dashed border-zinc-300 bg-zinc-50 p-6 text-center dark:border-zinc-700 dark:bg-zinc-900/40">
-      <figcaption className="text-sm text-zinc-600 dark:text-zinc-400">
+    <figure className="my-4 rounded-xl border border-dashed border-pulse-border bg-pulse-surface-strong/50 p-6 text-center backdrop-blur-sm">
+      <figcaption className="text-sm text-pulse-muted">
         Diagram placeholder{" "}
-        <code className="rounded bg-zinc-200 px-1.5 py-0.5 font-mono text-xs dark:bg-zinc-800">
+        <code className="rounded border border-pulse-border bg-pulse-surface px-1.5 py-0.5 font-mono text-xs text-pulse-text">
           {diagramKey}
         </code>
       </figcaption>
-      <p className="mt-2 text-xs text-zinc-500">
+      <p className="mt-2 text-xs text-pulse-muted">
         Add an image at{" "}
         <code className="font-mono">public/diagrams/{diagramKey}.png</code> and swap this
         component for an <code className="font-mono">Image</code> when ready.

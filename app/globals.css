@@ -1,26 +1,84 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Physics Pulse — default dark “Edu-Gamification” shell */
+:root,
+[data-theme="dark"] {
+  --pulse-bg: #0a0e1a;
+  --pulse-bg-mid: #0f1629;
+  --pulse-surface: rgba(255, 255, 255, 0.06);
+  --pulse-surface-strong: rgba(255, 255, 255, 0.1);
+  --pulse-border: rgba(147, 197, 253, 0.18);
+  --pulse-text: #eef2ff;
+  --pulse-muted: #94a3b8;
+  --pulse-blue: #38bdf8;
+  --pulse-green: #4ade80;
+  --pulse-orange: #fb923c;
+  --pulse-red: #f87171;
+  --pulse-glow: rgba(56, 189, 248, 0.35);
+  --pulse-grid: rgba(99, 102, 241, 0.08);
+}
+
+[data-theme="light"] {
+  --pulse-bg: #f0f4ff;
+  --pulse-bg-mid: #e0e7ff;
+  --pulse-surface: rgba(255, 255, 255, 0.72);
+  --pulse-surface-strong: rgba(255, 255, 255, 0.92);
+  --pulse-border: rgba(79, 70, 229, 0.2);
+  --pulse-text: #0f172a;
+  --pulse-muted: #475569;
+  --pulse-blue: #0284c7;
+  --pulse-green: #16a34a;
+  --pulse-orange: #ea580c;
+  --pulse-red: #dc2626;
+  --pulse-glow: rgba(2, 132, 199, 0.25);
+  --pulse-grid: rgba(99, 102, 241, 0.06);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-pulse-bg: var(--pulse-bg);
+  --color-pulse-bg-mid: var(--pulse-bg-mid);
+  --color-pulse-surface: var(--pulse-surface);
+  --color-pulse-surface-strong: var(--pulse-surface-strong);
+  --color-pulse-border: var(--pulse-border);
+  --color-pulse-text: var(--pulse-text);
+  --color-pulse-muted: var(--pulse-muted);
+  --color-pulse-blue: var(--pulse-blue);
+  --color-pulse-green: var(--pulse-green);
+  --color-pulse-orange: var(--pulse-orange);
+  --color-pulse-red: var(--pulse-red);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  color-scheme: dark;
+}
+
+html[data-theme="light"] {
+  color-scheme: light;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100%;
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  background-color: var(--pulse-bg);
+  background-image:
+    radial-gradient(ellipse 120% 80% at 50% -20%, rgba(99, 102, 241, 0.22), transparent),
+    linear-gradient(180deg, var(--pulse-bg) 0%, var(--pulse-bg-mid) 55%, var(--pulse-bg) 100%),
+    linear-gradient(var(--pulse-grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--pulse-grid) 1px, transparent 1px);
+  background-size: auto, auto, 48px 48px, 48px 48px;
+  color: var(--pulse-text);
+}
+
+[data-theme="light"] body {
+  background-image:
+    radial-gradient(ellipse 100% 60% at 50% 0%, rgba(99, 102, 241, 0.12), transparent),
+    linear-gradient(180deg, var(--pulse-bg) 0%, #f8fafc 100%);
+  background-size: auto, auto;
+}
+
+/* KaTeX inherits text color on dark panels */
+.katex {
+  color: inherit;
 }

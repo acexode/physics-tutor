@@ -1,10 +1,15 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { motion } from "framer-motion";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Question } from "@/lib/jamb/types";
+import { pickRandomTaunt } from "@/lib/quiz-celebration";
 import { getTopicById } from "@/lib/jamb/syllabus-data";
+import type { RoundSummaryStats } from "@/lib/round-summary";
+import { shuffleArray } from "@/lib/shuffle";
 import { MathText } from "./MathText";
 import { QuestionDiagramPlaceholder } from "./QuestionDiagramPlaceholder";
+import { RoundSummaryModal } from "./RoundSummaryModal";
 
 const LETTERS = ["A", "B", "C", "D", "E"] as const;
 
@@ -12,56 +17,237 @@ function optionLetters(q: Question): (typeof LETTERS)[number][] {
   return LETTERS.filter((L) => q.options[L] != null && q.options[L] !== "");
 }
 
+async function fireConfettiBurst() {
+  const { default: confetti } = await import("canvas-confetti");
+  const burst = (particleCount: number, spread: number, scalar: number) => {
+    confetti({
+      particleCount,
+      spread,
+      startVelocity: 35,
+      scalar,
+      ticks: 220,
+      origin: { x: 0.5, y: 0.55 },
+      zIndex: 9999,
+      colors: ["#4ade80", "#38bdf8", "#a78bfa", "#fbbf24", "#f472b6"],
+    });
+  };
+  burst(90, 70, 1);
+  window.setTimeout(() => {
+    confetti({
+      particleCount: 40,
+      angle: 60,
+      spread: 55,
+      origin: { x: 0, y: 0.65 },
+      zIndex: 9999,
+      colors: ["#4ade80", "#22d3ee", "#818cf8"],
+    });
+  }, 120);
+  window.setTimeout(() => {
+    confetti({
+      particleCount: 40,
+      angle: 120,
+      spread: 55,
+      origin: { x: 1, y: 0.65 },
+      zIndex: 9999,
+      colors: ["#4ade80", "#22d3ee", "#818cf8"],
+    });
+  }, 220);
+}
+
 export function QuizModule({
   questions,
   syllabusHintTopicId,
+  initialQuestionId,
 }: {
   questions: Question[];
   syllabusHintTopicId?: string;
+  initialQuestionId?: string;
 }) {
+  const deckSignature = useMemo(
+    () => questions.map((x) => x.id).join("\0"),
+    [questions],
+  );
+
+  const [deck, setDeck] = useState<Question[]>([]);
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
   const [revealed, setRevealed] = useState(false);
+  const [wrongTaunt, setWrongTaunt] = useState<string | null>(null);
+  const [summaryOpen, setSummaryOpen] = useState(false);
+  const [summaryStats, setSummaryStats] = useState<RoundSummaryStats | null>(null);
+  const confettiKeyRef = useRef<string | null>(null);
+  /** Mirrors round counts for summary (avoids stale closure on “Finish round”). */
+  const roundCorrectRef = useRef(0);
+  const roundWrongRef = useRef(0);
 
-  const q = questions[index];
+  useEffect(() => {
+    queueMicrotask(() => {
+      if (questions.length === 0) {
+        setDeck([]);
+        return;
+      }
+      const shuffled = shuffleArray([...questions]);
+      let start = 0;
+      if (initialQuestionId) {
+        const p = shuffled.findIndex((x) => x.id === initialQuestionId);
+        if (p >= 0) start = p;
+      }
+      setDeck(shuffled);
+      setIndex(start);
+      setSelected(null);
+      setRevealed(false);
+      setWrongTaunt(null);
+      confettiKeyRef.current = null;
+      roundCorrectRef.current = 0;
+      roundWrongRef.current = 0;
+      setSummaryOpen(false);
+      setSummaryStats(null);
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- deckSignature fingerprints questions
+  }, [deckSignature, initialQuestionId]);
+
+  const finishRoundAndShuffle = useCallback(() => {
+    setSummaryOpen(false);
+    setSummaryStats(null);
+    setRevealed(false);
+    setSelected(null);
+    setWrongTaunt(null);
+    confettiKeyRef.current = null;
+    roundCorrectRef.current = 0;
+    roundWrongRef.current = 0;
+    if (questions.length === 0) {
+      setDeck([]);
+      setIndex(0);
+      return;
+    }
+    setDeck(shuffleArray([...questions]));
+    setIndex(0);
+  }, [questions]);
+
+  const dismissSummaryOnly = useCallback(() => {
+    setSummaryOpen(false);
+    setSummaryStats(null);
+  }, []);
+
+  const q = deck[index];
   const topic = useMemo(() => {
     const id = syllabusHintTopicId ?? q?.topicIds[0];
     return id ? getTopicById(id) : undefined;
   }, [syllabusHintTopicId, q]);
 
-  if (!q || questions.length === 0) {
+  if (questions.length === 0) {
     return (
-      <p className="rounded-lg border border-zinc-200 bg-zinc-50 p-4 text-sm text-zinc-600 dark:border-zinc-800 dark:bg-zinc-900/50 dark:text-zinc-300">
+      <p className="rounded-2xl border border-pulse-border bg-pulse-surface p-4 text-sm text-pulse-muted backdrop-blur-md">
         No questions in this set yet.
       </p>
     );
   }
 
-  const letters = optionLetters(q);
-  const correct = q.correctOption;
-  const isCorrect = selected === correct;
+  const loadingDeck = !q || deck.length === 0;
+  const letters = q ? optionLetters(q) : [];
+  const correct = q?.correctOption;
+  const isCorrect = Boolean(q && selected && selected === correct);
 
   function reveal() {
+    if (!q || !selected || !correct) return;
+    const gotIt = selected === correct;
+    if (gotIt) {
+      setWrongTaunt(null);
+      const key = `${index}-${q.id}-correct`;
+      if (confettiKeyRef.current !== key) {
+        confettiKeyRef.current = key;
+        queueMicrotask(() => {
+          void fireConfettiBurst();
+        });
+      }
+    } else {
+      setWrongTaunt(pickRandomTaunt());
+    }
+    roundCorrectRef.current += gotIt ? 1 : 0;
+    roundWrongRef.current += gotIt ? 0 : 1;
     setRevealed(true);
   }
 
   function next() {
-    setIndex((i) => (i + 1) % questions.length);
-    setSelected(null);
-    setRevealed(false);
+    confettiKeyRef.current = null;
+    if (index + 1 < deck.length) {
+      setWrongTaunt(null);
+      setSelected(null);
+      setRevealed(false);
+      setIndex((i) => i + 1);
+    } else {
+      // End of round: do NOT clear `selected` while `revealed` stays true — otherwise
+      // `isCorrect` becomes false and the UI flashes "Incorrect" before the summary opens.
+      const topicLabel = syllabusHintTopicId
+        ? getTopicById(syllabusHintTopicId)?.title
+        : undefined;
+      const stats: RoundSummaryStats = {
+        correct: roundCorrectRef.current,
+        wrong: roundWrongRef.current,
+        total: deck.length,
+        topicLabel,
+      };
+      window.requestAnimationFrame(() => {
+        window.requestAnimationFrame(() => {
+          setSummaryStats(stats);
+          setSummaryOpen(true);
+        });
+      });
+    }
   }
 
   const hintObjectives = topic?.objectives.slice(0, 3) ?? [];
+  const isLastInRound = deck.length > 0 && index === deck.length - 1;
 
   return (
-    <div className="rounded-xl border border-zinc-200 bg-white p-5 shadow-sm dark:border-zinc-800 dark:bg-zinc-950">
-      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-zinc-100 pb-3 dark:border-zinc-800">
-        <div className="text-sm text-zinc-500 dark:text-zinc-400">
-          Question {index + 1} of {questions.length}
-          {q.year ? <span className="ml-2 text-zinc-400">· {q.year}</span> : null}
+    <>
+    <RoundSummaryModal
+      open={summaryOpen}
+      stats={summaryStats}
+      onContinue={finishRoundAndShuffle}
+      onGoDashboard={dismissSummaryOnly}
+    />
+    {loadingDeck ? (
+      <p className="rounded-2xl border border-pulse-border bg-pulse-surface p-4 text-sm text-pulse-muted backdrop-blur-md">
+        Shuffling questions…
+      </p>
+    ) : (
+    <motion.div
+      className={[
+        "rounded-2xl border border-pulse-border bg-pulse-surface p-5 shadow-[0_0_24px_transparent] backdrop-blur-md",
+        summaryOpen ? "pointer-events-none" : "",
+      ].join(" ")}
+      animate={
+        revealed
+          ? isCorrect
+            ? {
+                scale: [1, 1.02, 1],
+                boxShadow: "0 0 36px rgba(74, 222, 128, 0.35)",
+              }
+            : {
+                x: [0, -10, 10, -10, 10, 0],
+                boxShadow: "0 0 32px rgba(251, 146, 60, 0.28)",
+              }
+          : { scale: 1, x: 0, boxShadow: "0 0 24px transparent" }
+      }
+      transition={
+        revealed && isCorrect
+          ? {
+              // Spring only supports two keyframes; multi-step scale must use tween.
+              duration: 0.45,
+              ease: "easeOut",
+            }
+          : { duration: 0.42, ease: "easeInOut" }
+      }
+    >
+      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-pulse-border/60 pb-3">
+        <div className="text-sm text-pulse-muted">
+          Question {index + 1} of {deck.length}
+          <span className="ml-2 text-pulse-muted/70">· shuffled</span>
+          {q.year ? <span className="ml-2 text-pulse-muted/80">· {q.year}</span> : null}
         </div>
         {q.needsHumanReview ? (
-          <span className="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-900 dark:bg-amber-900/40 dark:text-amber-100">
+          <span className="rounded-full border border-pulse-orange/40 bg-pulse-surface-strong px-2 py-0.5 text-xs font-medium text-pulse-orange">
             Needs human review
           </span>
         ) : null}
@@ -69,7 +255,7 @@ export function QuizModule({
 
       <QuestionDiagramPlaceholder diagramKey={q.diagramKey} />
 
-      <p className="mt-4 text-base leading-relaxed text-zinc-900 dark:text-zinc-50">
+      <p className="mt-4 text-base leading-relaxed text-pulse-text">
         <MathText text={q.stem} />
       </p>
 
@@ -86,17 +272,17 @@ export function QuizModule({
                 disabled={revealed}
                 onClick={() => setSelected(L)}
                 className={[
-                  "flex w-full items-start gap-3 rounded-lg border px-3 py-2 text-left text-sm transition",
+                  "flex w-full items-start gap-3 rounded-xl border px-3 py-2 text-left text-sm transition",
                   chosen && !revealed
-                    ? "border-emerald-500 bg-emerald-50 dark:border-emerald-500 dark:bg-emerald-950/40"
-                    : "border-zinc-200 bg-zinc-50 hover:border-zinc-300 dark:border-zinc-800 dark:bg-zinc-900/40 dark:hover:border-zinc-600",
-                  showCorrect ? "border-emerald-600 bg-emerald-50 dark:bg-emerald-900/30" : "",
-                  showWrong ? "border-red-400 bg-red-50 dark:border-red-700 dark:bg-red-950/30" : "",
-                  revealed ? "cursor-default opacity-90" : "",
+                    ? "border-pulse-green/60 bg-pulse-surface-strong shadow-[0_0_16px_rgba(74,222,128,0.12)]"
+                    : "border-pulse-border bg-pulse-surface-strong/50 hover:border-pulse-blue/35",
+                  showCorrect ? "border-pulse-green bg-pulse-surface-strong" : "",
+                  showWrong ? "border-pulse-red/70 bg-pulse-red/10" : "",
+                  revealed ? "cursor-default opacity-95" : "",
                 ].join(" ")}
               >
-                <span className="mt-0.5 font-mono text-xs font-bold text-zinc-500">{L}.</span>
-                <span className="text-zinc-800 dark:text-zinc-100">
+                <span className="mt-0.5 font-mono text-xs font-bold text-pulse-muted">{L}.</span>
+                <span className="text-pulse-text">
                   <MathText text={text} />
                 </span>
               </button>
@@ -111,45 +297,86 @@ export function QuizModule({
             type="button"
             disabled={!selected}
             onClick={reveal}
-            className="rounded-lg bg-emerald-600 px-4 py-2 text-sm font-medium text-white disabled:cursor-not-allowed disabled:opacity-40 dark:bg-emerald-500"
+            className="rounded-xl bg-pulse-green px-4 py-2 text-sm font-semibold text-pulse-bg disabled:cursor-not-allowed disabled:opacity-40"
           >
             Check answer
           </button>
         ) : (
           <button
             type="button"
-            onClick={next}
-            className="rounded-lg bg-zinc-900 px-4 py-2 text-sm font-medium text-white dark:bg-zinc-100 dark:text-zinc-900"
+            onClick={(e) => {
+              e.stopPropagation();
+              next();
+            }}
+            className="rounded-xl border border-pulse-border bg-pulse-surface-strong px-4 py-2 text-sm font-semibold text-pulse-text backdrop-blur-sm transition hover:border-pulse-blue/40"
           >
-            Next question
+            {isLastInRound ? "Finish round — see score" : "Next question"}
           </button>
         )}
       </div>
 
       {revealed ? (
-        <div className="mt-5 space-y-4 border-t border-zinc-100 pt-4 dark:border-zinc-800">
+        <div className="mt-5 space-y-4 border-t border-pulse-border/60 pt-4">
           <div
             className={[
-              "rounded-lg px-3 py-2 text-sm font-medium",
+              "rounded-xl px-3 py-2 text-sm font-medium",
               isCorrect
-                ? "bg-emerald-50 text-emerald-900 dark:bg-emerald-950/50 dark:text-emerald-100"
-                : "bg-red-50 text-red-900 dark:bg-red-950/40 dark:text-red-100",
+                ? "bg-pulse-green/15 text-pulse-green"
+                : "bg-pulse-orange/15 text-pulse-orange",
             ].join(" ")}
           >
             {isCorrect ? "Correct." : `Incorrect. The answer is ${correct}.`}
           </div>
+
+          {revealed && !isCorrect && wrongTaunt ? (
+            <motion.div
+              role="status"
+              aria-live="polite"
+              className="relative rounded-xl border border-pulse-orange/35 bg-linear-to-br from-pulse-orange/20 via-pulse-surface-strong to-pulse-red/10 px-4 py-3"
+              initial={{ opacity: 0, scale: 0.98, y: 4 }}
+              animate={{
+                opacity: 1,
+                scale: [1, 1.01, 1],
+                y: 0,
+              }}
+              transition={{ opacity: { duration: 0.2 }, scale: { duration: 0.5, ease: "easeOut" } }}
+            >
+              <div className="flex items-start gap-3">
+                <motion.span
+                  className="select-none text-4xl leading-none drop-shadow-[0_0_12px_rgba(251,146,60,0.45)]"
+                  animate={{ rotate: [-8, 8, -6, 6, 0], y: [0, -2, 0] }}
+                  transition={{
+                    duration: 1.1,
+                    repeat: Number.POSITIVE_INFINITY,
+                    repeatType: "reverse",
+                    ease: "easeInOut",
+                  }}
+                  aria-hidden
+                >
+                  🤨
+                </motion.span>
+                <div className="min-w-0 flex-1 pt-0.5">
+                  <p className="text-xs font-bold uppercase tracking-wider text-pulse-orange">
+                    Physics pulse says
+                  </p>
+                  <p className="mt-1 text-sm font-semibold italic leading-snug text-pulse-text">
+                    “{wrongTaunt}”
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+          ) : null}
+
           <div>
-            <h4 className="text-sm font-semibold text-zinc-900 dark:text-zinc-50">Explanation</h4>
-            <p className="mt-1 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
+            <h4 className="text-sm font-semibold text-pulse-text">Explanation</h4>
+            <p className="mt-1 text-sm leading-relaxed text-pulse-muted">
               <MathText text={q.whyCorrect} />
             </p>
           </div>
           {!isCorrect && selected ? (
             <div>
-              <h4 className="text-sm font-semibold text-zinc-900 dark:text-zinc-50">
-                Why option {selected} is wrong
-              </h4>
-              <p className="mt-1 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
+              <h4 className="text-sm font-semibold text-pulse-text">Why option {selected} is wrong</h4>
+              <p className="mt-1 text-sm leading-relaxed text-pulse-muted">
                 <MathText
                   text={
                     q.whyOthersWrong[selected as keyof typeof q.whyOthersWrong] ??
@@ -161,10 +388,8 @@ export function QuizModule({
           ) : null}
           {hintObjectives.length > 0 ? (
             <div>
-              <h4 className="text-sm font-semibold text-zinc-900 dark:text-zinc-50">
-                Syllabus objectives (hint)
-              </h4>
-              <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-zinc-700 dark:text-zinc-300">
+              <h4 className="text-sm font-semibold text-pulse-text">Syllabus objectives (hint)</h4>
+              <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-pulse-muted">
                 {hintObjectives.map((o, i) => (
                   <li key={i}>{o}</li>
                 ))}
@@ -173,6 +398,8 @@ export function QuizModule({
           ) : null}
         </div>
       ) : null}
-    </div>
+    </motion.div>
+    )}
+    </>
   );
 }
