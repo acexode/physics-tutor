@@ -1,11 +1,17 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import type { Question } from "@/lib/jamb/types";
 import { pickRandomTaunt } from "@/lib/quiz-celebration";
 import { getTopicById } from "@/lib/jamb/syllabus-data";
 import type { RoundSummaryStats } from "@/lib/round-summary";
+import {
+  formatCountdown,
+  paceTotalSeconds,
+  PACE_LABEL,
+  type QuizPace,
+} from "@/lib/quiz-pace";
 import { shuffleArray } from "@/lib/shuffle";
 import { MathText } from "./MathText";
 import { QuestionDiagramPlaceholder } from "./QuestionDiagramPlaceholder";
@@ -75,10 +81,28 @@ export function QuizModule({
   const [wrongTaunt, setWrongTaunt] = useState<string | null>(null);
   const [summaryOpen, setSummaryOpen] = useState(false);
   const [summaryStats, setSummaryStats] = useState<RoundSummaryStats | null>(null);
+  const [pace, setPace] = useState<QuizPace>("easy");
+  const [timerKey, setTimerKey] = useState(0);
+  const [timeLeftSec, setTimeLeftSec] = useState<number | null>(null);
+  const [timeExpired, setTimeExpired] = useState(false);
   const confettiKeyRef = useRef<string | null>(null);
   /** Mirrors round counts for summary (avoids stale closure on “Finish round”). */
   const roundCorrectRef = useRef(0);
   const roundWrongRef = useRef(0);
+  const indexRef = useRef(0);
+  const revealedRef = useRef(false);
+  const deckLenRef = useRef(0);
+  const summaryOpenRef = useRef(false);
+  const paceRef = useRef<QuizPace>("easy");
+  const expiredFiredRef = useRef(false);
+
+  useLayoutEffect(() => {
+    indexRef.current = index;
+    revealedRef.current = revealed;
+    deckLenRef.current = deck.length;
+    summaryOpenRef.current = summaryOpen;
+    paceRef.current = pace;
+  }, [index, revealed, deck.length, summaryOpen, pace]);
 
   useEffect(() => {
     queueMicrotask(() => {
@@ -102,9 +126,61 @@ export function QuizModule({
       roundWrongRef.current = 0;
       setSummaryOpen(false);
       setSummaryStats(null);
+      setTimeExpired(false);
+      expiredFiredRef.current = false;
+      setTimeLeftSec(null);
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps -- deckSignature fingerprints questions
   }, [deckSignature, initialQuestionId]);
+
+  useEffect(() => {
+    if (questions.length === 0 || summaryOpen || deck.length === 0) return;
+
+    expiredFiredRef.current = false;
+    queueMicrotask(() => setTimeExpired(false));
+
+    const deadline = Date.now() + paceTotalSeconds(deck.length, pace) * 1000;
+    let cancelled = false;
+
+    const tick = () => {
+      if (cancelled || summaryOpenRef.current) return;
+      const leftSec = Math.max(0, Math.ceil((deadline - Date.now()) / 1000));
+      setTimeLeftSec(leftSec);
+      if (leftSec <= 0 && !expiredFiredRef.current) {
+        expiredFiredRef.current = true;
+        setTimeExpired(true);
+        const idx = indexRef.current;
+        const rev = revealedRef.current;
+        const len = deckLenRef.current;
+        const answered = rev ? idx + 1 : idx;
+        const unanswered = Math.max(0, len - answered);
+        roundWrongRef.current += unanswered;
+        const topicLabel = syllabusHintTopicId
+          ? getTopicById(syllabusHintTopicId)?.title
+          : undefined;
+        setSummaryStats({
+          correct: roundCorrectRef.current,
+          wrong: roundWrongRef.current,
+          total: len,
+          topicLabel,
+          endedByTimeOut: true,
+          unansweredCount: unanswered,
+          paceLabel: PACE_LABEL[paceRef.current],
+        });
+        queueMicrotask(() => {
+          setSummaryOpen(true);
+          setTimeLeftSec(null);
+        });
+      }
+    };
+
+    tick();
+    const id = window.setInterval(tick, 250);
+    return () => {
+      cancelled = true;
+      window.clearInterval(id);
+    };
+  }, [questions.length, deck.length, deckSignature, pace, timerKey, summaryOpen, syllabusHintTopicId]);
 
   const finishRoundAndShuffle = useCallback(() => {
     setSummaryOpen(false);
@@ -115,6 +191,9 @@ export function QuizModule({
     confettiKeyRef.current = null;
     roundCorrectRef.current = 0;
     roundWrongRef.current = 0;
+    setTimeExpired(false);
+    expiredFiredRef.current = false;
+    setTimeLeftSec(null);
     if (questions.length === 0) {
       setDeck([]);
       setIndex(0);
@@ -149,6 +228,7 @@ export function QuizModule({
   const isCorrect = Boolean(q && selected && selected === correct);
 
   function reveal() {
+    if (timeExpired || summaryOpen || expiredFiredRef.current) return;
     if (!q || !selected || !correct) return;
     const gotIt = selected === correct;
     if (gotIt) {
@@ -169,6 +249,7 @@ export function QuizModule({
   }
 
   function next() {
+    if (timeExpired || summaryOpen || expiredFiredRef.current) return;
     confettiKeyRef.current = null;
     if (index + 1 < deck.length) {
       setWrongTaunt(null);
@@ -186,11 +267,13 @@ export function QuizModule({
         wrong: roundWrongRef.current,
         total: deck.length,
         topicLabel,
+        paceLabel: PACE_LABEL[paceRef.current],
       };
       window.requestAnimationFrame(() => {
         window.requestAnimationFrame(() => {
           setSummaryStats(stats);
           setSummaryOpen(true);
+          setTimeLeftSec(null);
         });
       });
     }
@@ -198,6 +281,14 @@ export function QuizModule({
 
   const hintObjectives = topic?.objectives.slice(0, 3) ?? [];
   const isLastInRound = deck.length > 0 && index === deck.length - 1;
+  const canChangePace = index === 0 && !revealed && !summaryOpen && !timeExpired;
+  const totalAllocatedSec = deck.length > 0 ? paceTotalSeconds(deck.length, pace) : 0;
+
+  function setPaceSafe(nextPace: QuizPace) {
+    if (!canChangePace) return;
+    setPace(nextPace);
+    setTimerKey((k) => k + 1);
+  }
 
   return (
     <>
@@ -212,6 +303,58 @@ export function QuizModule({
         Shuffling questions…
       </p>
     ) : (
+    <>
+      <div className="mb-4 flex flex-col gap-3 rounded-2xl border border-pulse-border bg-pulse-surface-strong/50 p-4 backdrop-blur-sm">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <span className="text-xs font-bold uppercase tracking-wider text-pulse-blue">Pace</span>
+          {timeLeftSec != null && totalAllocatedSec > 0 ? (
+            <span
+              className={[
+                "font-mono text-sm font-bold tabular-nums",
+                timeLeftSec <= 10 ? "text-pulse-red" : timeLeftSec <= 30 ? "text-pulse-orange" : "text-pulse-text",
+              ].join(" ")}
+            >
+              {formatCountdown(timeLeftSec)} / {formatCountdown(totalAllocatedSec)} allotted
+            </span>
+          ) : (
+            <span className="text-xs text-pulse-muted">Starting timer…</span>
+          )}
+        </div>
+        <div className="flex flex-wrap gap-2">
+          {(["easy", "medium", "hard"] as const).map((p) => (
+            <button
+              key={p}
+              type="button"
+              disabled={!canChangePace}
+              onClick={() => setPaceSafe(p)}
+              className={[
+                "rounded-lg px-3 py-1.5 text-xs font-semibold capitalize transition",
+                pace === p
+                  ? "bg-pulse-blue text-pulse-bg"
+                  : "border border-pulse-border bg-pulse-surface text-pulse-text hover:border-pulse-blue/40",
+                !canChangePace ? "cursor-not-allowed opacity-50" : "",
+              ].join(" ")}
+            >
+              {p === "easy" ? "Easy (60s/q)" : p === "medium" ? "Medium (45s/q)" : "Hard (30s/q)"}
+            </button>
+          ))}
+        </div>
+        {(index > 0 || revealed) && !summaryOpen ? (
+          <p className="text-[11px] text-pulse-muted">Pace locks after you answer the first question this round.</p>
+        ) : null}
+        <div className="h-1.5 overflow-hidden rounded-full bg-pulse-border/40">
+          <div
+            className="h-full rounded-full bg-pulse-blue transition-[width] duration-300 ease-linear"
+            style={{
+              width:
+                timeLeftSec != null && totalAllocatedSec > 0
+                  ? `${Math.min(100, (timeLeftSec / totalAllocatedSec) * 100)}%`
+                  : "100%",
+            }}
+          />
+        </div>
+      </div>
+
     <motion.div
       className={[
         "rounded-2xl border border-pulse-border bg-pulse-surface p-5 shadow-[0_0_24px_transparent] backdrop-blur-md",
@@ -269,7 +412,7 @@ export function QuizModule({
             <li key={L}>
               <button
                 type="button"
-                disabled={revealed}
+                disabled={revealed || timeExpired || summaryOpen}
                 onClick={() => setSelected(L)}
                 className={[
                   "flex w-full items-start gap-3 rounded-xl border px-3 py-2 text-left text-sm transition",
@@ -295,7 +438,7 @@ export function QuizModule({
         {!revealed ? (
           <button
             type="button"
-            disabled={!selected}
+            disabled={!selected || timeExpired || summaryOpen}
             onClick={reveal}
             className="rounded-xl bg-pulse-green px-4 py-2 text-sm font-semibold text-pulse-bg disabled:cursor-not-allowed disabled:opacity-40"
           >
@@ -304,11 +447,12 @@ export function QuizModule({
         ) : (
           <button
             type="button"
+            disabled={timeExpired || summaryOpen}
             onClick={(e) => {
               e.stopPropagation();
               next();
             }}
-            className="rounded-xl border border-pulse-border bg-pulse-surface-strong px-4 py-2 text-sm font-semibold text-pulse-text backdrop-blur-sm transition hover:border-pulse-blue/40"
+            className="rounded-xl border border-pulse-border bg-pulse-surface-strong px-4 py-2 text-sm font-semibold text-pulse-text backdrop-blur-sm transition hover:border-pulse-blue/40 disabled:cursor-not-allowed disabled:opacity-40"
           >
             {isLastInRound ? "Finish round — see score" : "Next question"}
           </button>
@@ -399,6 +543,7 @@ export function QuizModule({
         </div>
       ) : null}
     </motion.div>
+    </>
     )}
     </>
   );

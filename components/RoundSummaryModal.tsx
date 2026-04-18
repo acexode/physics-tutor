@@ -55,7 +55,7 @@ export function RoundSummaryModal({ open, stats, onContinue, onGoDashboard }: Pr
     }, OVERLAY_INTERACTIVE_MS);
 
     const pct = stats.total > 0 ? (stats.correct / stats.total) * 100 : 0;
-    if (pct >= 70) {
+    if (pct >= 70 && !stats.endedByTimeOut) {
       void import("canvas-confetti").then(({ default: confetti }) => {
         confetti({
           particleCount: 55,
@@ -119,9 +119,21 @@ export function RoundSummaryModal({ open, stats, onContinue, onGoDashboard }: Pr
           </div>
         </div>
 
+        {stats.paceLabel ? (
+          <p className="mt-3 rounded-lg border border-pulse-border/60 bg-pulse-surface-strong/50 px-3 py-2 text-xs text-pulse-muted">
+            Timer: <span className="font-semibold text-pulse-text">{stats.paceLabel}</span>
+          </p>
+        ) : null}
+
         {stats.topicLabel ? (
-          <p className="mt-4 rounded-lg border border-pulse-border/60 bg-pulse-surface-strong/50 px-3 py-2 text-xs text-pulse-muted">
+          <p className="mt-3 rounded-lg border border-pulse-border/60 bg-pulse-surface-strong/50 px-3 py-2 text-xs text-pulse-muted">
             Topic filter: <span className="font-semibold text-pulse-text">{stats.topicLabel}</span>
+          </p>
+        ) : null}
+
+        {stats.endedByTimeOut && (stats.unansweredCount ?? 0) > 0 ? (
+          <p className="mt-3 rounded-lg border border-pulse-orange/35 bg-pulse-orange/10 px-3 py-2 text-xs font-medium text-pulse-orange">
+            Unanswered (counted as missed): {stats.unansweredCount}
           </p>
         ) : null}
 

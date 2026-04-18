@@ -7222,5 +7222,4092 @@
       "C": "Temperature has no effect",
       "D": "Conductivity is constant at all temperatures"
     }
+  },
+  {
+    "id": "ai-topic-measurements-and-units-11",
+    "examLabel": "Physics Pulse · AI · Topic 1",
+    "topicIds": [
+      "measurements-and-units"
+    ],
+    "stem": "What is the area of a rectangle with a length of $5\\,\text{m}$ and a width of $3\\,\text{m}$?",
+    "options": {
+      "A": "8 m²",
+      "B": "15 m²",
+      "C": "18 m²",
+      "D": "20 m²"
+    }
+  },
+  {
+    "id": "ai-topic-measurements-and-units-12",
+    "examLabel": "Physics Pulse · AI · Topic 1",
+    "topicIds": [
+      "measurements-and-units"
+    ],
+    "stem": "A balance measures the mass of an object to be $200\\,\text{g}$. What is this mass in kilograms?",
+    "options": {
+      "A": "0.02 kg",
+      "B": "0.2 kg",
+      "C": "2 kg",
+      "D": "20 kg"
+    }
+  },
+  {
+    "id": "ai-topic-measurements-and-units-13",
+    "examLabel": "Physics Pulse · AI · Topic 1",
+    "topicIds": [
+      "measurements-and-units"
+    ],
+    "stem": "Which of the following is a derived unit?",
+    "options": {
+      "A": "Meter",
+      "B": "Kilogram",
+      "C": "Newton",
+      "D": "Second"
+    }
+  },
+  {
+    "id": "ai-topic-measurements-and-units-14",
+    "examLabel": "Physics Pulse · AI · Topic 1",
+    "topicIds": [
+      "measurements-and-units"
+    ],
+    "stem": "If the dimensions of a physical quantity are given as $[M^a L^b T^c]$, what does $a$ represent?",
+    "options": {
+      "A": "Length exponent",
+      "B": "Mass exponent",
+      "C": "Time exponent",
+      "D": "Dimensionless"
+    }
+  },
+  {
+    "id": "ai-topic-measurements-and-units-15",
+    "examLabel": "Physics Pulse · AI · Topic 1",
+    "topicIds": [
+      "measurements-and-units"
+    ],
+    "stem": "A student measures the length of a table using a ruler with a precision of $0.1\\,\text{cm}$. If the measured length is $150.5\\,\text{cm}$, what is the maximum possible error in the measurement?",
+    "options": {
+      "A": "0.1 cm",
+      "B": "0.5 cm",
+      "C": "1 cm",
+      "D": "2 cm"
+    }
+  },
+  {
+    "id": "ai-topic-measurements-and-units-16",
+    "examLabel": "Physics Pulse · AI · Topic 1",
+    "topicIds": [
+      "measurements-and-units"
+    ],
+    "stem": "Which instrument would be most appropriate for measuring the diameter of a thin wire?",
+    "options": {
+      "A": "Ruler",
+      "B": "Calipers",
+      "C": "Micrometer",
+      "D": "Tape Measure"
+    }
+  },
+  {
+    "id": "ai-topic-measurements-and-units-17",
+    "examLabel": "Physics Pulse · AI · Topic 1",
+    "topicIds": [
+      "measurements-and-units"
+    ],
+    "stem": "An object is moved $10\\,\text{m}$ to the east and then $5\\,\text{m}$ to the north. What is the resultant displacement of the object?",
+    "options": {
+      "A": "15 m",
+      "B": "$\\sqrt{125}$ m",
+      "C": "$\\sqrt{50}$ m",
+      "D": "$\\sqrt{20}$ m"
+    }
+  },
+  {
+    "id": "ai-topic-measurements-and-units-18",
+    "examLabel": "Physics Pulse · AI · Topic 1",
+    "topicIds": [
+      "measurements-and-units"
+    ],
+    "stem": "The volume of a cube with a side length of $4\\,\text{cm}$ is calculated as?",
+    "options": {
+      "A": "12 cm³",
+      "B": "16 cm³",
+      "C": "64 cm³",
+      "D": "80 cm³"
+    }
+  },
+  {
+    "id": "ai-topic-measurements-and-units-19",
+    "examLabel": "Physics Pulse · AI · Topic 1",
+    "topicIds": [
+      "measurements-and-units"
+    ],
+    "stem": "If a car travels a distance of $100\\,\text{km}$ in $2\\,\text{hours}$, what is its average speed?",
+    "options": {
+      "A": "50 km/h",
+      "B": "100 km/h",
+      "C": "25 km/h",
+      "D": "200 km/h"
+    }
+  },
+  {
+    "id": "ai-topic-measurements-and-units-20",
+    "examLabel": "Physics Pulse · AI · Topic 1",
+    "topicIds": [
+      "measurements-and-units"
+    ],
+    "stem": "Which of the following is NOT a fundamental quantity?",
+    "options": {
+      "A": "Length",
+      "B": "Mass",
+      "C": "Volume",
+      "D": "Time"
+    }
+  },
+  {
+    "id": "ai-topic-scalars-and-vectors-11",
+    "examLabel": "Physics Pulse · AI · Topic 2",
+    "topicIds": [
+      "scalars-and-vectors"
+    ],
+    "stem": "Which of the following is a vector quantity?",
+    "options": {
+      "A": "Mass",
+      "B": "Temperature",
+      "C": "Velocity",
+      "D": "Energy"
+    }
+  },
+  {
+    "id": "ai-topic-scalars-and-vectors-12",
+    "examLabel": "Physics Pulse · AI · Topic 2",
+    "topicIds": [
+      "scalars-and-vectors"
+    ],
+    "stem": "Two forces of 10 N and 15 N act on an object at an angle of 60° to each other. What is the magnitude of the resultant force?",
+    "options": {
+      "A": "20 N",
+      "B": "25 N",
+      "C": "22.5 N",
+      "D": "18.0 N"
+    }
+  },
+  {
+    "id": "ai-topic-scalars-and-vectors-13",
+    "examLabel": "Physics Pulse · AI · Topic 2",
+    "topicIds": [
+      "scalars-and-vectors"
+    ],
+    "stem": "Which of the following describes the process of resolving a vector into its components?",
+    "options": {
+      "A": "Adding two vectors together",
+      "B": "Finding the magnitude of a vector",
+      "C": "Breaking a vector into perpendicular parts",
+      "D": "Calculating the angle of a vector"
+    }
+  },
+  {
+    "id": "ai-topic-scalars-and-vectors-14",
+    "examLabel": "Physics Pulse · AI · Topic 2",
+    "topicIds": [
+      "scalars-and-vectors"
+    ],
+    "stem": "A car travels 60 km north and then 80 km east. What is the magnitude of the resultant displacement?",
+    "options": {
+      "A": "100 km",
+      "B": "140 km",
+      "C": "20 km",
+      "D": "86.0 km"
+    }
+  },
+  {
+    "id": "ai-topic-scalars-and-vectors-15",
+    "examLabel": "Physics Pulse · AI · Topic 2",
+    "topicIds": [
+      "scalars-and-vectors"
+    ],
+    "stem": "If two trains are moving towards each other at speeds of 50 km/h and 70 km/h, what is their relative velocity with respect to each other?",
+    "options": {
+      "A": "120 km/h",
+      "B": "20 km/h",
+      "C": "35 km/h",
+      "D": "100 km/h"
+    }
+  },
+  {
+    "id": "ai-topic-scalars-and-vectors-16",
+    "examLabel": "Physics Pulse · AI · Topic 2",
+    "topicIds": [
+      "scalars-and-vectors"
+    ],
+    "stem": "Which of the following statements correctly describes a scalar quantity?",
+    "options": {
+      "A": "It has both magnitude and direction",
+      "B": "It has only magnitude",
+      "C": "It can be represented graphically",
+      "D": "It requires a reference point"
+    }
+  },
+  {
+    "id": "ai-topic-scalars-and-vectors-17",
+    "examLabel": "Physics Pulse · AI · Topic 2",
+    "topicIds": [
+      "scalars-and-vectors"
+    ],
+    "stem": "A vector is represented graphically by an arrow. What do the length and direction of the arrow signify?",
+    "options": {
+      "A": "Length indicates time, direction indicates speed",
+      "B": "Length indicates magnitude, direction indicates direction",
+      "C": "Length indicates mass, direction indicates force",
+      "D": "Length indicates temperature, direction indicates volume"
+    }
+  },
+  {
+    "id": "ai-topic-scalars-and-vectors-18",
+    "examLabel": "Physics Pulse · AI · Topic 2",
+    "topicIds": [
+      "scalars-and-vectors"
+    ],
+    "stem": "If a vector is resolved into two components, one along the x-axis and the other along the y-axis, what is the relationship between these components and the original vector?",
+    "options": {
+      "A": "They are equal in magnitude",
+      "B": "They add up to give the original vector",
+      "C": "They have no relation to the original vector",
+      "D": "They can be any length"
+    }
+  },
+  {
+    "id": "ai-topic-scalars-and-vectors-19",
+    "examLabel": "Physics Pulse · AI · Topic 2",
+    "topicIds": [
+      "scalars-and-vectors"
+    ],
+    "stem": "Which of the following is an example of a vector quantity?",
+    "options": {
+      "A": "Distance",
+      "B": "Displacement",
+      "C": "Speed",
+      "D": "Time"
+    }
+  },
+  {
+    "id": "ai-topic-scalars-and-vectors-20",
+    "examLabel": "Physics Pulse · AI · Topic 2",
+    "topicIds": [
+      "scalars-and-vectors"
+    ],
+    "stem": "A person walks 30 m east and then 40 m north. What is the angle of the resultant displacement relative to east?",
+    "options": {
+      "A": "53.1°",
+      "B": "36.9°",
+      "C": "45°",
+      "D": "90°"
+    }
+  },
+  {
+    "id": "ai-topic-motion-11",
+    "examLabel": "Physics Pulse · AI · Topic 3",
+    "topicIds": [
+      "motion"
+    ],
+    "stem": "An object is moving in a straight line with a constant speed of $20\\,\\mathrm{m/s}$. How far will it travel in $5$ seconds?",
+    "options": {
+      "A": "$50\\,\\mathrm{m}$",
+      "B": "$100\\,\\mathrm{m}$",
+      "C": "$200\\,\\mathrm{m}$",
+      "D": "$400\\,\\mathrm{m}$"
+    }
+  },
+  {
+    "id": "ai-topic-motion-12",
+    "examLabel": "Physics Pulse · AI · Topic 3",
+    "topicIds": [
+      "motion"
+    ],
+    "stem": "A car accelerates uniformly from rest to a speed of $30\\,\\mathrm{m/s}$ in $10$ seconds. What is its acceleration?",
+    "options": {
+      "A": "$1\\,\\mathrm{m/s^2}$",
+      "B": "$2\\,\\mathrm{m/s^2}$",
+      "C": "$3\\,\\mathrm{m/s^2}$",
+      "D": "$4\\,\\mathrm{m/s^2}$"
+    }
+  },
+  {
+    "id": "ai-topic-motion-13",
+    "examLabel": "Physics Pulse · AI · Topic 3",
+    "topicIds": [
+      "motion"
+    ],
+    "stem": "A projectile is launched with an initial velocity of $40\\,\\mathrm{m/s}$ at an angle of $30^{\\circ}$. What is the maximum height it reaches? (Use $g = 10\\,\\mathrm{m/s^2}$)",
+    "options": {
+      "A": "$40\\,\\mathrm{m}$",
+      "B": "$60\\,\\mathrm{m}$",
+      "C": "$80\\,\\mathrm{m}$",
+      "D": "$100\\,\\mathrm{m}$"
+    }
+  },
+  {
+    "id": "ai-topic-motion-14",
+    "examLabel": "Physics Pulse · AI · Topic 3",
+    "topicIds": [
+      "motion"
+    ],
+    "stem": "An object moving in a circular path of radius $5\\,\\mathrm{m}$ has a speed of $10\\,\\mathrm{m/s}$. What is its centripetal acceleration?",
+    "options": {
+      "A": "$5\\,\\mathrm{m/s^2}$",
+      "B": "$10\\,\\mathrm{m/s^2}$",
+      "C": "$20\\,\\mathrm{m/s^2}$",
+      "D": "$25\\,\\mathrm{m/s^2}$"
+    }
+  },
+  {
+    "id": "ai-topic-motion-15",
+    "examLabel": "Physics Pulse · AI · Topic 3",
+    "topicIds": [
+      "motion"
+    ],
+    "stem": "A mass oscillates with a period of $2\\,\\mathrm{s}$. What is its frequency?",
+    "options": {
+      "A": "$0.25\\,\\mathrm{Hz}$",
+      "B": "$0.5\\,\\mathrm{Hz}$",
+      "C": "$1\\,\\mathrm{Hz}$",
+      "D": "$2\\,\\mathrm{Hz}$"
+    }
+  },
+  {
+    "id": "ai-topic-motion-16",
+    "examLabel": "Physics Pulse · AI · Topic 3",
+    "topicIds": [
+      "motion"
+    ],
+    "stem": "A block of mass $2\\,\\mathrm{kg}$ is pulled with a force of $10\\,\\mathrm{N}$. If the frictional force is $4\\,\\mathrm{N}$, what is the acceleration of the block?",
+    "options": {
+      "A": "$1\\,\\mathrm{m/s^2}$",
+      "B": "$2\\,\\mathrm{m/s^2}$",
+      "C": "$3\\,\\mathrm{m/s^2}$",
+      "D": "$4\\,\\mathrm{m/s^2}$"
+    }
+  },
+  {
+    "id": "ai-topic-motion-17",
+    "examLabel": "Physics Pulse · AI · Topic 3",
+    "topicIds": [
+      "motion"
+    ],
+    "stem": "A pendulum swings back and forth with a frequency of $0.5\\,\\mathrm{Hz}$. What is its period?",
+    "options": {
+      "A": "$0.5\\,\\mathrm{s}$",
+      "B": "$1\\,\\mathrm{s}$",
+      "C": "$2\\,\\mathrm{s}$",
+      "D": "$4\\,\\mathrm{s}$"
+    }
+  },
+  {
+    "id": "ai-topic-motion-18",
+    "examLabel": "Physics Pulse · AI · Topic 3",
+    "topicIds": [
+      "motion"
+    ],
+    "stem": "A body is in simple harmonic motion with an amplitude of $0.1\\,\\mathrm{m}$ and a frequency of $2\\,\\mathrm{Hz}$. What is the maximum speed of the body?",
+    "options": {
+      "A": "$0.2\\,\\mathrm{m/s}$",
+      "B": "$0.4\\,\\mathrm{m/s}$",
+      "C": "$0.6\\,\\mathrm{m/s}$",
+      "D": "$0.8\\,\\mathrm{m/s}$"
+    }
+  },
+  {
+    "id": "ai-topic-motion-19",
+    "examLabel": "Physics Pulse · AI · Topic 3",
+    "topicIds": [
+      "motion"
+    ],
+    "stem": "A cyclist travels with a velocity of $15\\,\\mathrm{m/s}$ for $10$ seconds. What is the total distance covered?",
+    "options": {
+      "A": "$100\\,\\mathrm{m}$",
+      "B": "$150\\,\\mathrm{m}$",
+      "C": "$200\\,\\mathrm{m}$",
+      "D": "$250\\,\\mathrm{m}$"
+    }
+  },
+  {
+    "id": "ai-topic-motion-20",
+    "examLabel": "Physics Pulse · AI · Topic 3",
+    "topicIds": [
+      "motion"
+    ],
+    "stem": "An object is thrown vertically upward with an initial speed of $20\\,\\mathrm{m/s}$. How long will it take to reach the maximum height? (Use $g = 10\\,\\mathrm{m/s^2}$)",
+    "options": {
+      "A": "$1\\,\\mathrm{s}$",
+      "B": "$2\\,\\mathrm{s}$",
+      "C": "$3\\,\\mathrm{s}$",
+      "D": "$4\\,\\mathrm{s}$"
+    }
+  },
+  {
+    "id": "ai-topic-gravitational-field-11",
+    "examLabel": "Physics Pulse · AI · Topic 4",
+    "topicIds": [
+      "gravitational-field"
+    ],
+    "stem": "What is the gravitational force between two objects of masses $m_1$ and $m_2$ separated by a distance $r$?",
+    "options": {
+      "A": "$G \\frac{m_1 m_2}{r^2}$",
+      "B": "$\\frac{m_1 m_2}{G r^2}$",
+      "C": "$G \\frac{r^2}{m_1 m_2}$",
+      "D": "$G \\frac{m_1 + m_2}{r}$"
+    }
+  },
+  {
+    "id": "ai-topic-gravitational-field-12",
+    "examLabel": "Physics Pulse · AI · Topic 4",
+    "topicIds": [
+      "gravitational-field"
+    ],
+    "stem": "Which of the following statements correctly describes the gravitational potential energy of an object at height $h$ above the Earth's surface?",
+    "options": {
+      "A": "$U = mgh$",
+      "B": "$U = \\frac{1}{2} mgh$",
+      "C": "$U = \\frac{G m M}{h}$",
+      "D": "$U = G m M$"
+    }
+  },
+  {
+    "id": "ai-topic-gravitational-field-13",
+    "examLabel": "Physics Pulse · AI · Topic 4",
+    "topicIds": [
+      "gravitational-field"
+    ],
+    "stem": "How does the acceleration due to gravity ($g$) vary with altitude above the Earth's surface?",
+    "options": {
+      "A": "$g$ increases with altitude",
+      "B": "$g$ decreases with altitude",
+      "C": "$g$ remains constant at all altitudes",
+      "D": "$g$ varies sinusoidally with altitude"
+    }
+  },
+  {
+    "id": "ai-topic-gravitational-field-14",
+    "examLabel": "Physics Pulse · AI · Topic 4",
+    "topicIds": [
+      "gravitational-field"
+    ],
+    "stem": "What is the escape velocity from the surface of the Earth?",
+    "options": {
+      "A": "$7.9 \\, \\mathrm{km/s}$",
+      "B": "$11.2 \\, \\mathrm{km/s}$",
+      "C": "$9.8 \\, \\mathrm{km/s}$",
+      "D": "$15.0 \\, \\mathrm{km/s}$"
+    }
+  },
+  {
+    "id": "ai-topic-gravitational-field-15",
+    "examLabel": "Physics Pulse · AI · Topic 4",
+    "topicIds": [
+      "gravitational-field"
+    ],
+    "stem": "Which of the following statements correctly distinguishes between mass and weight?",
+    "options": {
+      "A": "Mass is a force, while weight is a measure of inertia.",
+      "B": "Mass is constant, while weight varies with location.",
+      "C": "Weight is constant, while mass varies with location.",
+      "D": "Mass and weight are the same quantity."
+    }
+  },
+  {
+    "id": "ai-topic-gravitational-field-16",
+    "examLabel": "Physics Pulse · AI · Topic 4",
+    "topicIds": [
+      "gravitational-field"
+    ],
+    "stem": "In a gravitational field, which of the following best describes a conservative force?",
+    "options": {
+      "A": "It does not depend on the path taken.",
+      "B": "It can do work on an object only in one direction.",
+      "C": "It is always attractive in nature.",
+      "D": "It can only act on objects at rest."
+    }
+  },
+  {
+    "id": "ai-topic-gravitational-field-17",
+    "examLabel": "Physics Pulse · AI · Topic 4",
+    "topicIds": [
+      "gravitational-field"
+    ],
+    "stem": "What is the gravitational potential at a distance $r$ from a point mass $M$?",
+    "options": {
+      "A": "$-G \\frac{M}{r}$",
+      "B": "$G \\frac{M}{r}$",
+      "C": "$-G \\frac{M^2}{r}$",
+      "D": "$G \\frac{M^2}{r^2}$"
+    }
+  },
+  {
+    "id": "ai-topic-gravitational-field-18",
+    "examLabel": "Physics Pulse · AI · Topic 4",
+    "topicIds": [
+      "gravitational-field"
+    ],
+    "stem": "If an astronaut is in a spacecraft orbiting the Earth, what sensation does he experience due to weightlessness?",
+    "options": {
+      "A": "He feels heavier than normal.",
+      "B": "He feels no weight at all.",
+      "C": "He feels lighter than normal.",
+      "D": "He feels a constant force acting on him."
+    }
+  },
+  {
+    "id": "ai-topic-gravitational-field-19",
+    "examLabel": "Physics Pulse · AI · Topic 4",
+    "topicIds": [
+      "gravitational-field"
+    ],
+    "stem": "Which of the following best describes the relationship between mass and weight?",
+    "options": {
+      "A": "Weight is mass times the gravitational field strength.",
+      "B": "Mass is weight divided by gravitational field strength.",
+      "C": "Weight is independent of mass.",
+      "D": "Mass and weight are unrelated quantities."
+    }
+  },
+  {
+    "id": "ai-topic-gravitational-field-20",
+    "examLabel": "Physics Pulse · AI · Topic 4",
+    "topicIds": [
+      "gravitational-field"
+    ],
+    "stem": "Which of the following best explains why the gravitational field is considered a conservative field?",
+    "options": {
+      "A": "The work done in moving an object in a gravitational field is path-dependent.",
+      "B": "The work done in moving an object in a gravitational field is independent of the path taken.",
+      "C": "The gravitational field does not exert any force on objects.",
+      "D": "The gravitational field is only applicable to massive objects."
+    }
+  },
+  {
+    "id": "ai-topic-equilibrium-of-forces-11",
+    "examLabel": "Physics Pulse · AI · Topic 5",
+    "topicIds": [
+      "equilibrium-of-forces"
+    ],
+    "stem": "A force of $30\text{ N}$ acts at an angle of $60^\text{o}$ to the horizontal. What is the horizontal component of the force?",
+    "options": {
+      "A": "$15\text{ N}$",
+      "B": "$25\text{ N}$",
+      "C": "$30\text{ N}$",
+      "D": "$20\text{ N}$"
+    }
+  },
+  {
+    "id": "ai-topic-equilibrium-of-forces-12",
+    "examLabel": "Physics Pulse · AI · Topic 5",
+    "topicIds": [
+      "equilibrium-of-forces"
+    ],
+    "stem": "Three forces of $10\text{ N}$, $15\text{ N}$, and $20\text{ N}$ act at a point. If they are in equilibrium, what is the angle between the $10\text{ N}$ and $15\text{ N}$ forces?",
+    "options": {
+      "A": "$30^\text{o}$",
+      "B": "$60^\text{o}$",
+      "C": "$90^\text{o}$",
+      "D": "$120^\text{o}$"
+    }
+  },
+  {
+    "id": "ai-topic-equilibrium-of-forces-13",
+    "examLabel": "Physics Pulse · AI · Topic 5",
+    "topicIds": [
+      "equilibrium-of-forces"
+    ],
+    "stem": "A beam is in equilibrium under the action of two forces of $50\text{ N}$ and $70\text{ N}$. If the distance between the forces is $2\text{ m}$, what is the moment about the point of application of the $50\text{ N}$ force?",
+    "options": {
+      "A": "$100\text{ Nm}$",
+      "B": "$140\text{ Nm}$",
+      "C": "$70\text{ Nm}$",
+      "D": "$120\text{ Nm}$"
+    }
+  },
+  {
+    "id": "ai-topic-equilibrium-of-forces-14",
+    "examLabel": "Physics Pulse · AI · Topic 5",
+    "topicIds": [
+      "equilibrium-of-forces"
+    ],
+    "stem": "When a rigid body is in stable equilibrium, which of the following statements is true?",
+    "options": {
+      "A": "The center of gravity is at its lowest point.",
+      "B": "The center of gravity is at its highest point.",
+      "C": "The body will topple easily if disturbed.",
+      "D": "The body will remain in its original position regardless of disturbance."
+    }
+  },
+  {
+    "id": "ai-topic-equilibrium-of-forces-15",
+    "examLabel": "Physics Pulse · AI · Topic 5",
+    "topicIds": [
+      "equilibrium-of-forces"
+    ],
+    "stem": "A triangle has sides of lengths $3\text{ m}$, $4\text{ m}$, and $5\text{ m}$. What type of equilibrium does it represent when forces are applied at each vertex?",
+    "options": {
+      "A": "Stable equilibrium",
+      "B": "Unstable equilibrium",
+      "C": "Neutral equilibrium",
+      "D": "Dynamic equilibrium"
+    }
+  },
+  {
+    "id": "ai-topic-equilibrium-of-forces-16",
+    "examLabel": "Physics Pulse · AI · Topic 5",
+    "topicIds": [
+      "equilibrium-of-forces"
+    ],
+    "stem": "A force of $20\text{ N}$ acts at a distance of $3\text{ m}$ from a pivot. What is the moment about the pivot?",
+    "options": {
+      "A": "$60\text{ Nm}$",
+      "B": "$20\text{ Nm}$",
+      "C": "$80\text{ Nm}$",
+      "D": "$30\text{ Nm}$"
+    }
+  },
+  {
+    "id": "ai-topic-equilibrium-of-forces-17",
+    "examLabel": "Physics Pulse · AI · Topic 5",
+    "topicIds": [
+      "equilibrium-of-forces"
+    ],
+    "stem": "In a system of coplanar forces, if two forces of $10\text{ N}$ and $15\text{ N}$ act at an angle of $120^\text{o}$ to each other, what is the magnitude of the resultant force?",
+    "options": {
+      "A": "$25\text{ N}$",
+      "B": "$30\text{ N}$",
+      "C": "$35\text{ N}$",
+      "D": "$40\text{ N}$"
+    }
+  },
+  {
+    "id": "ai-topic-equilibrium-of-forces-18",
+    "examLabel": "Physics Pulse · AI · Topic 5",
+    "topicIds": [
+      "equilibrium-of-forces"
+    ],
+    "stem": "A uniform beam of length $4\text{ m}$ is supported at its center. If a $20\text{ N}$ weight is placed $1\text{ m}$ from one end, what is the reaction force at the support?",
+    "options": {
+      "A": "$10\text{ N}$",
+      "B": "$20\text{ N}$",
+      "C": "$30\text{ N}$",
+      "D": "$40\text{ N}$"
+    }
+  },
+  {
+    "id": "ai-topic-equilibrium-of-forces-19",
+    "examLabel": "Physics Pulse · AI · Topic 5",
+    "topicIds": [
+      "equilibrium-of-forces"
+    ],
+    "stem": "Which of the following statements about Lami's theorem is correct?",
+    "options": {
+      "A": "It applies only to non-coplanar forces.",
+      "B": "It can be used to find the angles between forces.",
+      "C": "It is applicable for any number of forces.",
+      "D": "It applies to three coplanar forces in equilibrium."
+    }
+  },
+  {
+    "id": "ai-topic-equilibrium-of-forces-20",
+    "examLabel": "Physics Pulse · AI · Topic 5",
+    "topicIds": [
+      "equilibrium-of-forces"
+    ],
+    "stem": "A block is resting on a horizontal surface. If the weight of the block is $50\text{ N}$, what is the normal force acting on the block?",
+    "options": {
+      "A": "$25\text{ N}$",
+      "B": "$50\text{ N}$",
+      "C": "$75\text{ N}$",
+      "D": "$100\text{ N}$"
+    }
+  },
+  {
+    "id": "ai-topic-friction-11",
+    "examLabel": "Physics Pulse · AI · Topic 7",
+    "topicIds": [
+      "friction"
+    ],
+    "stem": "A block of mass $5\\,\text{kg}$ is resting on a horizontal surface. If the coefficient of static friction between the block and the surface is $0.4$, what is the maximum force that can be applied horizontally before the block starts to move?",
+    "options": {
+      "A": "20 N",
+      "B": "15 N",
+      "C": "25 N",
+      "D": "10 N"
+    }
+  },
+  {
+    "id": "ai-topic-friction-12",
+    "examLabel": "Physics Pulse · AI · Topic 7",
+    "topicIds": [
+      "friction"
+    ],
+    "stem": "Which of the following statements is true regarding kinetic friction compared to static friction?",
+    "options": {
+      "A": "Kinetic friction is always greater than static friction.",
+      "B": "Kinetic friction is less than static friction.",
+      "C": "Kinetic friction is equal to static friction.",
+      "D": "Kinetic friction depends on the surface area of contact."
+    }
+  },
+  {
+    "id": "ai-topic-friction-13",
+    "examLabel": "Physics Pulse · AI · Topic 7",
+    "topicIds": [
+      "friction"
+    ],
+    "stem": "A car skids to a stop on a wet road. Which of the following reduces the frictional force acting on the tires?",
+    "options": {
+      "A": "Increasing tire pressure",
+      "B": "Using wider tires",
+      "C": "Driving at higher speeds",
+      "D": "Applying brakes gently"
+    }
+  },
+  {
+    "id": "ai-topic-friction-14",
+    "examLabel": "Physics Pulse · AI · Topic 7",
+    "topicIds": [
+      "friction"
+    ],
+    "stem": "In a fluid, what term describes the resistance to motion experienced by an object moving through it?",
+    "options": {
+      "A": "Viscosity",
+      "B": "Density",
+      "C": "Pressure",
+      "D": "Buoyancy"
+    }
+  },
+  {
+    "id": "ai-topic-friction-15",
+    "examLabel": "Physics Pulse · AI · Topic 7",
+    "topicIds": [
+      "friction"
+    ],
+    "stem": "A sphere falls through a viscous fluid. According to Stokes' law, which factor does NOT affect the terminal velocity of the sphere?",
+    "options": {
+      "A": "Radius of the sphere",
+      "B": "Viscosity of the fluid",
+      "C": "Mass of the sphere",
+      "D": "Acceleration due to gravity"
+    }
+  },
+  {
+    "id": "ai-topic-friction-16",
+    "examLabel": "Physics Pulse · AI · Topic 7",
+    "topicIds": [
+      "friction"
+    ],
+    "stem": "Which of the following methods can be used to reduce friction in a mechanical system?",
+    "options": {
+      "A": "Increasing surface roughness",
+      "B": "Lubrication",
+      "C": "Using heavier materials",
+      "D": "Increasing contact area"
+    }
+  },
+  {
+    "id": "ai-topic-friction-17",
+    "examLabel": "Physics Pulse · AI · Topic 7",
+    "topicIds": [
+      "friction"
+    ],
+    "stem": "What is the terminal velocity of a small ball with a radius of $0.1\\,\\text{m}$ falling through a fluid with a viscosity of $0.5\\,\\text{Ns/m}^2$?",
+    "options": {
+      "A": "0.1 m/s",
+      "B": "1 m/s",
+      "C": "0.5 m/s",
+      "D": "2 m/s"
+    }
+  },
+  {
+    "id": "ai-topic-friction-18",
+    "examLabel": "Physics Pulse · AI · Topic 7",
+    "topicIds": [
+      "friction"
+    ],
+    "stem": "When comparing static and kinetic friction, which of the following is an advantage of static friction?",
+    "options": {
+      "A": "It allows objects to start moving easily.",
+      "B": "It is generally lower than kinetic friction.",
+      "C": "It can support greater forces before motion occurs.",
+      "D": "It does not depend on the surface properties."
+    }
+  },
+  {
+    "id": "ai-topic-friction-19",
+    "examLabel": "Physics Pulse · AI · Topic 7",
+    "topicIds": [
+      "friction"
+    ],
+    "stem": "A block slides down a frictionless incline. If the angle of inclination is $30^{\text{o}}$, what is the acceleration of the block?",
+    "options": {
+      "A": "$5\\,\\text{m/s}^2$",
+      "B": "$10\\,\\text{m/s}^2$",
+      "C": "$15\\,\\text{m/s}^2$",
+      "D": "$0\\,\\text{m/s}^2$"
+    }
+  },
+  {
+    "id": "ai-topic-friction-20",
+    "examLabel": "Physics Pulse · AI · Topic 7",
+    "topicIds": [
+      "friction"
+    ],
+    "stem": "In the context of fluid mechanics, what happens to the terminal velocity of an object if the viscosity of the fluid increases?",
+    "options": {
+      "A": "Terminal velocity increases",
+      "B": "Terminal velocity decreases",
+      "C": "Terminal velocity remains constant",
+      "D": "Terminal velocity becomes zero"
+    }
+  },
+  {
+    "id": "ai-topic-elasticity-11",
+    "examLabel": "Physics Pulse · AI · Topic 9",
+    "topicIds": [
+      "elasticity"
+    ],
+    "stem": "A spring stretches by $0.2\\, \text{m}$ when a force of $40\\, \text{N}$ is applied. What is the spring constant of the spring?",
+    "options": {
+      "A": "200 N/m",
+      "B": "150 N/m",
+      "C": "250 N/m",
+      "D": "300 N/m"
+    }
+  },
+  {
+    "id": "ai-topic-elasticity-12",
+    "examLabel": "Physics Pulse · AI · Topic 9",
+    "topicIds": [
+      "elasticity"
+    ],
+    "stem": "A material has a Young's modulus of $200\\, \\text{GPa}$. If a tensile stress of $400\\, \\text{MPa}$ is applied, what is the strain produced?",
+    "options": {
+      "A": "0.002",
+      "B": "0.001",
+      "C": "0.005",
+      "D": "0.0025"
+    }
+  },
+  {
+    "id": "ai-topic-elasticity-13",
+    "examLabel": "Physics Pulse · AI · Topic 9",
+    "topicIds": [
+      "elasticity"
+    ],
+    "stem": "If a spring has a natural length of $1.0\\, \text{m}$ and stretches to $1.2\\, \text{m}$ under a load, what is the work done in stretching the spring?",
+    "options": {
+      "A": "10 J",
+      "B": "5 J",
+      "C": "2 J",
+      "D": "1 J"
+    }
+  },
+  {
+    "id": "ai-topic-elasticity-14",
+    "examLabel": "Physics Pulse · AI · Topic 9",
+    "topicIds": [
+      "elasticity"
+    ],
+    "stem": "A wire is stretched to its elastic limit with a force of $100\\, \\text{N}$. If the elastic limit is exceeded, what is likely to happen to the wire?",
+    "options": {
+      "A": "It will return to its original length",
+      "B": "It will break",
+      "C": "It will permanently deform",
+      "D": "It will remain unchanged"
+    }
+  },
+  {
+    "id": "ai-topic-elasticity-15",
+    "examLabel": "Physics Pulse · AI · Topic 9",
+    "topicIds": [
+      "elasticity"
+    ],
+    "stem": "What is the slope of the linear portion of a force-extension graph for a material that obeys Hooke's law?",
+    "options": {
+      "A": "Breaking point",
+      "B": "Yield point",
+      "C": "Young's modulus",
+      "D": "Elastic limit"
+    }
+  },
+  {
+    "id": "ai-topic-elasticity-16",
+    "examLabel": "Physics Pulse · AI · Topic 9",
+    "topicIds": [
+      "elasticity"
+    ],
+    "stem": "A spring scale reads $30\\, \text{N}$ when a mass is hung from it. If the mass is $3\\, \text{kg}$, what is the acceleration due to gravity assumed in this case?",
+    "options": {
+      "A": "10 m/s²",
+      "B": "5 m/s²",
+      "C": "15 m/s²",
+      "D": "20 m/s²"
+    }
+  },
+  {
+    "id": "ai-topic-elasticity-17",
+    "examLabel": "Physics Pulse · AI · Topic 9",
+    "topicIds": [
+      "elasticity"
+    ],
+    "stem": "If a material obeys Hooke's law, what happens to the extension if the applied force is doubled?",
+    "options": {
+      "A": "It is halved",
+      "B": "It remains the same",
+      "C": "It is doubled",
+      "D": "It is quadrupled"
+    }
+  },
+  {
+    "id": "ai-topic-elasticity-18",
+    "examLabel": "Physics Pulse · AI · Topic 9",
+    "topicIds": [
+      "elasticity"
+    ],
+    "stem": "A wire of length $2\\, \text{m}$ and cross-sectional area $0.5\\, \text{cm}^2$ is subjected to a tensile force of $2000\\, \text{N}$. What is the stress in the wire?",
+    "options": {
+      "A": "4 \\times 10^4 \\text{Pa}",
+      "B": "2 \\times 10^4 \\text{Pa}",
+      "C": "1 \\times 10^4 \\text{Pa}",
+      "D": "5 \\times 10^4 \\text{Pa}"
+    }
+  },
+  {
+    "id": "ai-topic-elasticity-19",
+    "examLabel": "Physics Pulse · AI · Topic 9",
+    "topicIds": [
+      "elasticity"
+    ],
+    "stem": "A material is stretched to its elastic limit and then released. What will happen to the material?",
+    "options": {
+      "A": "It will break",
+      "B": "It will return to its original length",
+      "C": "It will permanently deform",
+      "D": "It will become brittle"
+    }
+  },
+  {
+    "id": "ai-topic-elasticity-20",
+    "examLabel": "Physics Pulse · AI · Topic 9",
+    "topicIds": [
+      "elasticity"
+    ],
+    "stem": "What is the relationship between stress and strain in the elastic region of a material?",
+    "options": {
+      "A": "Inversely proportional",
+      "B": "Directly proportional",
+      "C": "No relationship",
+      "D": "Quadratic relationship"
+    }
+  },
+  {
+    "id": "ai-topic-liquids-at-rest-11",
+    "examLabel": "Physics Pulse · AI · Topic 11",
+    "topicIds": [
+      "liquids-at-rest"
+    ],
+    "stem": "A block of wood with a density of $0.6\text{g/cm}^3$ is floating on water. What is the relative density of the wood?",
+    "options": {
+      "A": "0.6",
+      "B": "1.0",
+      "C": "1.5",
+      "D": "0.4"
+    }
+  },
+  {
+    "id": "ai-topic-liquids-at-rest-12",
+    "examLabel": "Physics Pulse · AI · Topic 11",
+    "topicIds": [
+      "liquids-at-rest"
+    ],
+    "stem": "A cube of metal with a volume of $0.02\text{m}^3$ is submerged in water. If the density of the metal is $8000\text{kg/m}^3$, what is the upthrust acting on the cube?",
+    "options": {
+      "A": "160\text{N}",
+      "B": "200\text{N}",
+      "C": "80\text{N}",
+      "D": "100\text{N}"
+    }
+  },
+  {
+    "id": "ai-topic-liquids-at-rest-13",
+    "examLabel": "Physics Pulse · AI · Topic 11",
+    "topicIds": [
+      "liquids-at-rest"
+    ],
+    "stem": "If an object has a density of $2.5\text{g/cm}^3$ and is placed in a liquid with a density of $1.0\text{g/cm}^3$, what will happen to the object?",
+    "options": {
+      "A": "It will float",
+      "B": "It will sink",
+      "C": "It will remain suspended",
+      "D": "It will dissolve"
+    }
+  },
+  {
+    "id": "ai-topic-liquids-at-rest-14",
+    "examLabel": "Physics Pulse · AI · Topic 11",
+    "topicIds": [
+      "liquids-at-rest"
+    ],
+    "stem": "A ship floats on water due to the principle of floatation. Which of the following statements best describes this principle?",
+    "options": {
+      "A": "The weight of the ship equals the weight of the water displaced.",
+      "B": "The ship must be less dense than water to float.",
+      "C": "The upthrust is always equal to the weight of the ship.",
+      "D": "The ship will float regardless of its shape."
+    }
+  },
+  {
+    "id": "ai-topic-liquids-at-rest-15",
+    "examLabel": "Physics Pulse · AI · Topic 11",
+    "topicIds": [
+      "liquids-at-rest"
+    ],
+    "stem": "A solid sphere of radius $0.1\text{m}$ and density $500\text{kg/m}^3$ is submerged in a liquid of density $1000\text{kg/m}^3$. What is the upthrust on the sphere?",
+    "options": {
+      "A": "$4.19\text{N}$",
+      "B": "$10\text{N}$",
+      "C": "$5.24\text{N}$",
+      "D": "$20\text{N}"
+    }
+  },
+  {
+    "id": "ai-topic-liquids-at-rest-16",
+    "examLabel": "Physics Pulse · AI · Topic 11",
+    "topicIds": [
+      "liquids-at-rest"
+    ],
+    "stem": "What is the relative density of a substance that has a mass of $200\text{g}$ and occupies a volume of $100\text{cm}^3$?",
+    "options": {
+      "A": "2.0",
+      "B": "0.5",
+      "C": "1.0",
+      "D": "1.5"
+    }
+  },
+  {
+    "id": "ai-topic-liquids-at-rest-17",
+    "examLabel": "Physics Pulse · AI · Topic 11",
+    "topicIds": [
+      "liquids-at-rest"
+    ],
+    "stem": "A cylindrical object is floating in water. If the height of the submerged part is $0.2\text{m}$ and the radius is $0.1\text{m}$, what is the volume of the submerged part?",
+    "options": {
+      "A": "$0.00628\text{m}^3$",
+      "B": "$0.002\text{m}^3$",
+      "C": "$0.01\text{m}^3$",
+      "D": "$0.004\text{m}^3$"
+    }
+  },
+  {
+    "id": "ai-topic-liquids-at-rest-18",
+    "examLabel": "Physics Pulse · AI · Topic 11",
+    "topicIds": [
+      "liquids-at-rest"
+    ],
+    "stem": "A solid cube of side $0.1\text{m}$ and density $300\text{kg/m}^3$ is placed in a liquid of density $800\text{kg/m}^3$. What will happen to the cube?",
+    "options": {
+      "A": "It will float",
+      "B": "It will sink",
+      "C": "It will dissolve",
+      "D": "It will remain suspended"
+    }
+  },
+  {
+    "id": "ai-topic-liquids-at-rest-19",
+    "examLabel": "Physics Pulse · AI · Topic 11",
+    "topicIds": [
+      "liquids-at-rest"
+    ],
+    "stem": "A container holds $2\text{kg}$ of water. If the container is accelerated upwards at $5\text{m/s}^2$, what is the apparent weight of the water?",
+    "options": {
+      "A": "$20\text{N}$",
+      "B": "$30\text{N}$",
+      "C": "$10\text{N}$",
+      "D": "$15\text{N}$"
+    }
+  },
+  {
+    "id": "ai-topic-liquids-at-rest-20",
+    "examLabel": "Physics Pulse · AI · Topic 11",
+    "topicIds": [
+      "liquids-at-rest"
+    ],
+    "stem": "If a liquid has a density of $1.2\text{g/cm}^3$, what is its relative density compared to water?",
+    "options": {
+      "A": "1.2",
+      "B": "0.8",
+      "C": "2.0",
+      "D": "1.0"
+    }
+  },
+  {
+    "id": "ai-topic-thermal-expansion-11",
+    "examLabel": "Physics Pulse · AI · Topic 13",
+    "topicIds": [
+      "thermal-expansion"
+    ],
+    "stem": "A metal rod of length $L$ expands linearly by a length $\\Delta L$ when heated. If the linear expansivity of the metal is $\\alpha$, which of the following equations correctly relates these quantities?",
+    "options": {
+      "A": "\\Delta L = \\alpha L",
+      "B": "\\Delta L = \\alpha L^2",
+      "C": "\\Delta L = \\alpha L^3",
+      "D": "\\Delta L = \\alpha^2 L"
+    }
+  },
+  {
+    "id": "ai-topic-thermal-expansion-12",
+    "examLabel": "Physics Pulse · AI · Topic 13",
+    "topicIds": [
+      "thermal-expansion"
+    ],
+    "stem": "Which of the following statements about the anomalous expansion of water is true?",
+    "options": {
+      "A": "Water expands when it freezes.",
+      "B": "Water contracts as it heats up from 0°C to 4°C.",
+      "C": "Water has the highest density at 0°C.",
+      "D": "Water expands uniformly at all temperatures."
+    }
+  },
+  {
+    "id": "ai-topic-thermal-expansion-13",
+    "examLabel": "Physics Pulse · AI · Topic 13",
+    "topicIds": [
+      "thermal-expansion"
+    ],
+    "stem": "A liquid has a volume expansivity of $\\beta$. If its initial volume is $V_0$ and it is heated, what is the change in volume $\\Delta V$ if the temperature change is $\\Delta T$?",
+    "options": {
+      "A": "\\Delta V = \\beta V_0 \\Delta T",
+      "B": "\\Delta V = \\beta V_0^2 \\Delta T",
+      "C": "\\Delta V = \\beta^2 V_0 \\Delta T",
+      "D": "\\Delta V = \\beta V_0 \\Delta T^2"
+    }
+  },
+  {
+    "id": "ai-topic-thermal-expansion-14",
+    "examLabel": "Physics Pulse · AI · Topic 13",
+    "topicIds": [
+      "thermal-expansion"
+    ],
+    "stem": "Which of the following is a consequence of the anomalous expansion of water?",
+    "options": {
+      "A": "Ice floats on water.",
+      "B": "Water boils at a lower temperature.",
+      "C": "Water freezes at a higher temperature.",
+      "D": "Water expands uniformly."
+    }
+  },
+  {
+    "id": "ai-topic-thermal-expansion-15",
+    "examLabel": "Physics Pulse · AI · Topic 13",
+    "topicIds": [
+      "thermal-expansion"
+    ],
+    "stem": "If a solid rod of length $L$ has a linear expansivity of $\\alpha$, what will be its new length $L'$ after a temperature increase of $\\Delta T$?",
+    "options": {
+      "A": "L' = L + \\alpha L \\Delta T",
+      "B": "L' = L + \\alpha^2 L \\Delta T",
+      "C": "L' = L + \\alpha L^2 \\Delta T",
+      "D": "L' = L + \\alpha L \\Delta T^2"
+    }
+  },
+  {
+    "id": "ai-topic-thermal-expansion-16",
+    "examLabel": "Physics Pulse · AI · Topic 13",
+    "topicIds": [
+      "thermal-expansion"
+    ],
+    "stem": "Which of the following best describes the relationship between linear and volume expansivities?",
+    "options": {
+      "A": "Volume expansivity is three times the linear expansivity.",
+      "B": "Linear expansivity is three times the volume expansivity.",
+      "C": "Volume expansivity is the square of the linear expansivity.",
+      "D": "There is no relationship between them."
+    }
+  },
+  {
+    "id": "ai-topic-thermal-expansion-17",
+    "examLabel": "Physics Pulse · AI · Topic 13",
+    "topicIds": [
+      "thermal-expansion"
+    ],
+    "stem": "When water is cooled from 4°C to 0°C, what happens to its volume?",
+    "options": {
+      "A": "It increases.",
+      "B": "It decreases.",
+      "C": "It remains constant.",
+      "D": "It evaporates."
+    }
+  },
+  {
+    "id": "ai-topic-thermal-expansion-18",
+    "examLabel": "Physics Pulse · AI · Topic 13",
+    "topicIds": [
+      "thermal-expansion"
+    ],
+    "stem": "A liquid has a real expansivity of $\\beta_r$ and an apparent expansivity of $\\beta_a$. If the liquid is heated, which relationship holds true?",
+    "options": {
+      "A": "\\beta_a = \\beta_r + \\beta_v",
+      "B": "\\beta_a = \\beta_r - \\beta_v",
+      "C": "\\beta_a = \\beta_r",
+      "D": "\\beta_a = \\beta_r + \\beta_v/2"
+    }
+  },
+  {
+    "id": "ai-topic-thermal-expansion-19",
+    "examLabel": "Physics Pulse · AI · Topic 13",
+    "topicIds": [
+      "thermal-expansion"
+    ],
+    "stem": "What is the effect of temperature on the density of water as it approaches freezing?",
+    "options": {
+      "A": "Density increases as temperature decreases until 4°C, then decreases.",
+      "B": "Density decreases uniformly as temperature decreases.",
+      "C": "Density remains constant regardless of temperature changes.",
+      "D": "Density increases uniformly as temperature decreases."
+    }
+  },
+  {
+    "id": "ai-topic-thermal-expansion-20",
+    "examLabel": "Physics Pulse · AI · Topic 13",
+    "topicIds": [
+      "thermal-expansion"
+    ],
+    "stem": "If the linear expansivity of a material is $\\alpha$ and the temperature change is $\\Delta T$, what is the formula for the change in length $\\Delta L$?",
+    "options": {
+      "A": "\\Delta L = \\alpha \\Delta T",
+      "B": "\\Delta L = \\alpha L \\Delta T",
+      "C": "\\Delta L = \\alpha^2 \\Delta T",
+      "D": "\\Delta L = \\alpha L^2 \\Delta T"
+    }
+  },
+  {
+    "id": "ai-topic-gas-laws-11",
+    "examLabel": "Physics Pulse · AI · Topic 14",
+    "topicIds": [
+      "gas-laws"
+    ],
+    "stem": "A gas occupies a volume of $2.0\text{ m}^3$ at a pressure of $100\text{ kPa}$. If the volume is reduced to $1.0\text{ m}^3$ at constant temperature, what will be the new pressure?",
+    "options": {
+      "A": "200 kPa",
+      "B": "100 kPa",
+      "C": "50 kPa",
+      "D": "150 kPa"
+    }
+  },
+  {
+    "id": "ai-topic-gas-laws-12",
+    "examLabel": "Physics Pulse · AI · Topic 14",
+    "topicIds": [
+      "gas-laws"
+    ],
+    "stem": "A sample of gas expands from $0.5\text{ m}^3$ to $1.5\text{ m}^3$ at a constant pressure of $200\text{ kPa}$. Calculate the work done by the gas during the expansion.",
+    "options": {
+      "A": "200 kJ",
+      "B": "300 kJ",
+      "C": "400 kJ",
+      "D": "500 kJ"
+    }
+  },
+  {
+    "id": "ai-topic-gas-laws-13",
+    "examLabel": "Physics Pulse · AI · Topic 14",
+    "topicIds": [
+      "gas-laws"
+    ],
+    "stem": "What is the absolute zero temperature in Celsius?",
+    "options": {
+      "A": "0 °C",
+      "B": "-273.15 °C",
+      "C": "100 °C",
+      "D": "-100 °C"
+    }
+  },
+  {
+    "id": "ai-topic-gas-laws-14",
+    "examLabel": "Physics Pulse · AI · Topic 14",
+    "topicIds": [
+      "gas-laws"
+    ],
+    "stem": "A gas behaves ideally at high temperature and low pressure. Which of the following equations describes an ideal gas?",
+    "options": {
+      "A": "PV = nRT",
+      "B": "PV = nRT + a",
+      "C": "PV = nRT - b",
+      "D": "PV = nRT^2"
+    }
+  },
+  {
+    "id": "ai-topic-gas-laws-15",
+    "examLabel": "Physics Pulse · AI · Topic 14",
+    "topicIds": [
+      "gas-laws"
+    ],
+    "stem": "For a gas described by the Van der Waals equation, which of the following terms accounts for the volume occupied by gas molecules?",
+    "options": {
+      "A": "a",
+      "B": "b",
+      "C": "P",
+      "D": "T"
+    }
+  },
+  {
+    "id": "ai-topic-gas-laws-16",
+    "examLabel": "Physics Pulse · AI · Topic 14",
+    "topicIds": [
+      "gas-laws"
+    ],
+    "stem": "If a gas has a volume of $4.0\text{ L}$ at a pressure of $1.0\text{ atm}$, what will be the volume when the pressure is increased to $2.0\text{ atm}$ at constant temperature?",
+    "options": {
+      "A": "2.0 L",
+      "B": "4.0 L",
+      "C": "1.0 L",
+      "D": "3.0 L"
+    }
+  },
+  {
+    "id": "ai-topic-gas-laws-17",
+    "examLabel": "Physics Pulse · AI · Topic 14",
+    "topicIds": [
+      "gas-laws"
+    ],
+    "stem": "At what temperature does the volume of a gas double if it is heated at constant pressure, according to Charles' Law?",
+    "options": {
+      "A": "0 K",
+      "B": "273 K",
+      "C": "546 K",
+      "D": "546 °C"
+    }
+  },
+  {
+    "id": "ai-topic-gas-laws-18",
+    "examLabel": "Physics Pulse · AI · Topic 14",
+    "topicIds": [
+      "gas-laws"
+    ],
+    "stem": "A gas is compressed from $3.0\text{ L}$ to $1.0\text{ L}$ at constant temperature. If the initial pressure is $1.5\text{ atm}$, what is the final pressure of the gas?",
+    "options": {
+      "A": "4.5 atm",
+      "B": "1.5 atm",
+      "C": "2.0 atm",
+      "D": "3.0 atm"
+    }
+  },
+  {
+    "id": "ai-topic-gas-laws-19",
+    "examLabel": "Physics Pulse · AI · Topic 14",
+    "topicIds": [
+      "gas-laws"
+    ],
+    "stem": "If the pressure of a gas is increased while keeping the volume constant, what happens to the temperature according to Gay-Lussac's Law?",
+    "options": {
+      "A": "It decreases",
+      "B": "It remains constant",
+      "C": "It increases",
+      "D": "It becomes zero"
+    }
+  },
+  {
+    "id": "ai-topic-gas-laws-20",
+    "examLabel": "Physics Pulse · AI · Topic 14",
+    "topicIds": [
+      "gas-laws"
+    ],
+    "stem": "What is the relationship between the pressure and volume of a gas at constant temperature?",
+    "options": {
+      "A": "Directly proportional",
+      "B": "Inversely proportional",
+      "C": "No relationship",
+      "D": "Exponential relationship"
+    }
+  },
+  {
+    "id": "ai-topic-change-of-state-11",
+    "examLabel": "Physics Pulse · AI · Topic 16",
+    "topicIds": [
+      "change-of-state"
+    ],
+    "stem": "What is the specific latent heat of fusion if 500 J of energy is required to melt 100 g of ice?",
+    "options": {
+      "A": "5 J/g",
+      "B": "50 J/g",
+      "C": "100 J/g",
+      "D": "200 J/g"
+    }
+  },
+  {
+    "id": "ai-topic-change-of-state-12",
+    "examLabel": "Physics Pulse · AI · Topic 16",
+    "topicIds": [
+      "change-of-state"
+    ],
+    "stem": "Which of the following statements correctly differentiates between boiling and evaporation?",
+    "options": {
+      "A": "Boiling occurs at any temperature, while evaporation occurs at the boiling point.",
+      "B": "Evaporation occurs at any temperature, while boiling occurs at a specific temperature.",
+      "C": "Both occur at the same temperature.",
+      "D": "Boiling is a slow process, while evaporation is rapid."
+    }
+  },
+  {
+    "id": "ai-topic-change-of-state-13",
+    "examLabel": "Physics Pulse · AI · Topic 16",
+    "topicIds": [
+      "change-of-state"
+    ],
+    "stem": "What effect does increasing pressure have on the boiling point of a liquid?",
+    "options": {
+      "A": "It decreases the boiling point.",
+      "B": "It has no effect.",
+      "C": "It increases the boiling point.",
+      "D": "It causes the liquid to evaporate faster."
+    }
+  },
+  {
+    "id": "ai-topic-change-of-state-14",
+    "examLabel": "Physics Pulse · AI · Topic 16",
+    "topicIds": [
+      "change-of-state"
+    ],
+    "stem": "If 1 kg of water at 100 °C is converted to steam, how much heat is required if the specific latent heat of vaporization is 2260 J/g?",
+    "options": {
+      "A": "2260 kJ",
+      "B": "2260 J",
+      "C": "2260 MJ",
+      "D": "2260 kJ"
+    }
+  },
+  {
+    "id": "ai-topic-change-of-state-15",
+    "examLabel": "Physics Pulse · AI · Topic 16",
+    "topicIds": [
+      "change-of-state"
+    ],
+    "stem": "Which of the following effects does adding salt to water have on its boiling point?",
+    "options": {
+      "A": "It decreases the boiling point.",
+      "B": "It increases the boiling point.",
+      "C": "It has no effect.",
+      "D": "It causes the water to evaporate faster."
+    }
+  },
+  {
+    "id": "ai-topic-change-of-state-16",
+    "examLabel": "Physics Pulse · AI · Topic 16",
+    "topicIds": [
+      "change-of-state"
+    ],
+    "stem": "What is the main difference between latent heat and specific latent heat?",
+    "options": {
+      "A": "Latent heat is the heat required for a phase change, while specific latent heat is per unit mass.",
+      "B": "Latent heat is always higher than specific latent heat.",
+      "C": "Specific latent heat is irrelevant in phase changes.",
+      "D": "Latent heat is a fixed value, while specific latent heat varies."
+    }
+  },
+  {
+    "id": "ai-topic-change-of-state-17",
+    "examLabel": "Physics Pulse · AI · Topic 16",
+    "topicIds": [
+      "change-of-state"
+    ],
+    "stem": "During which process does a liquid change into gas without boiling?",
+    "options": {
+      "A": "Condensation",
+      "B": "Evaporation",
+      "C": "Sublimation",
+      "D": "Freezing"
+    }
+  },
+  {
+    "id": "ai-topic-change-of-state-18",
+    "examLabel": "Physics Pulse · AI · Topic 16",
+    "topicIds": [
+      "change-of-state"
+    ],
+    "stem": "What happens to the temperature of water during the boiling process?",
+    "options": {
+      "A": "It increases steadily.",
+      "B": "It decreases.",
+      "C": "It remains constant.",
+      "D": "It fluctuates wildly."
+    }
+  },
+  {
+    "id": "ai-topic-change-of-state-19",
+    "examLabel": "Physics Pulse · AI · Topic 16",
+    "topicIds": [
+      "change-of-state"
+    ],
+    "stem": "How does the presence of impurities in a solid affect its melting point?",
+    "options": {
+      "A": "It raises the melting point.",
+      "B": "It lowers the melting point.",
+      "C": "It has no effect.",
+      "D": "It causes the solid to evaporate."
+    }
+  },
+  {
+    "id": "ai-topic-change-of-state-20",
+    "examLabel": "Physics Pulse · AI · Topic 16",
+    "topicIds": [
+      "change-of-state"
+    ],
+    "stem": "What is the term for the heat required to change a substance from solid to liquid at constant temperature?",
+    "options": {
+      "A": "Specific heat",
+      "B": "Latent heat of fusion",
+      "C": "Latent heat of vaporization",
+      "D": "Thermal energy"
+    }
+  },
+  {
+    "id": "ai-topic-vapours-11",
+    "examLabel": "Physics Pulse · AI · Topic 17",
+    "topicIds": [
+      "vapours",
+      "change-of-state"
+    ],
+    "stem": "Which of the following statements correctly describes saturated vapour?",
+    "options": {
+      "A": "It can exist at any temperature.",
+      "B": "It is in equilibrium with its liquid phase at a given temperature.",
+      "C": "It is always at a higher temperature than the boiling point.",
+      "D": "It cannot condense into a liquid."
+    }
+  },
+  {
+    "id": "ai-topic-vapours-12",
+    "examLabel": "Physics Pulse · AI · Topic 17",
+    "topicIds": [
+      "vapours",
+      "heat-transfer"
+    ],
+    "stem": "What is the relationship between saturated vapour pressure (SVP) and boiling point?",
+    "options": {
+      "A": "SVP decreases as temperature increases.",
+      "B": "SVP is constant regardless of temperature.",
+      "C": "SVP increases as temperature increases.",
+      "D": "SVP is only relevant at absolute zero."
+    }
+  },
+  {
+    "id": "ai-topic-vapours-13",
+    "examLabel": "Physics Pulse · AI · Topic 17",
+    "topicIds": [
+      "vapours",
+      "structure-of-matter-kinetic-theory"
+    ],
+    "stem": "If the dew point of a certain air mass is 15°C, what can be inferred about the humidity?",
+    "options": {
+      "A": "The air is completely dry.",
+      "B": "The air is saturated with moisture at 15°C.",
+      "C": "The air can hold more moisture without condensation.",
+      "D": "The air is at its boiling point."
+    }
+  },
+  {
+    "id": "ai-topic-vapours-14",
+    "examLabel": "Physics Pulse · AI · Topic 17",
+    "topicIds": [
+      "vapours"
+    ],
+    "stem": "A wet-bulb thermometer reads 20°C and a dry-bulb thermometer reads 25°C. What is the relative humidity?",
+    "options": {
+      "A": "50%",
+      "B": "60%",
+      "C": "70%",
+      "D": "80%"
+    }
+  },
+  {
+    "id": "ai-topic-vapours-15",
+    "examLabel": "Physics Pulse · AI · Topic 17",
+    "topicIds": [
+      "vapours"
+    ],
+    "stem": "How can the humidity of the air be determined using a hygrometer?",
+    "options": {
+      "A": "By measuring the temperature of the air only.",
+      "B": "By comparing the readings of wet and dry bulb thermometers.",
+      "C": "By measuring the pressure of the air.",
+      "D": "By observing the color of the air."
+    }
+  },
+  {
+    "id": "ai-topic-vapours-16",
+    "examLabel": "Physics Pulse · AI · Topic 17",
+    "topicIds": [
+      "vapours",
+      "heat-transfer"
+    ],
+    "stem": "What happens to the saturated vapour pressure (SVP) of water as the temperature increases?",
+    "options": {
+      "A": "It remains constant.",
+      "B": "It decreases significantly.",
+      "C": "It increases exponentially.",
+      "D": "It becomes negative."
+    }
+  },
+  {
+    "id": "ai-topic-vapours-17",
+    "examLabel": "Physics Pulse · AI · Topic 17",
+    "topicIds": [
+      "vapours"
+    ],
+    "stem": "What is the main difference between saturated and unsaturated vapours?",
+    "options": {
+      "A": "Saturated vapours can exist at any temperature.",
+      "B": "Unsaturated vapours are in equilibrium with their liquid phase.",
+      "C": "Saturated vapours cannot condense into liquid.",
+      "D": "Unsaturated vapours can still evaporate."
+    }
+  },
+  {
+    "id": "ai-topic-vapours-18",
+    "examLabel": "Physics Pulse · AI · Topic 17",
+    "topicIds": [
+      "vapours",
+      "electrostatics"
+    ],
+    "stem": "If the relative humidity is 100%, what does this imply about the air?",
+    "options": {
+      "A": "The air is completely dry.",
+      "B": "The air cannot hold any more moisture.",
+      "C": "The air is at its boiling point.",
+      "D": "The air is saturated with dust."
+    }
+  },
+  {
+    "id": "ai-topic-vapours-19",
+    "examLabel": "Physics Pulse · AI · Topic 17",
+    "topicIds": [
+      "vapours",
+      "current-electricity"
+    ],
+    "stem": "What is the purpose of using a barometer tube to measure saturated vapour pressure (SVP)?",
+    "options": {
+      "A": "To measure the temperature of the vapour.",
+      "B": "To determine the density of the liquid.",
+      "C": "To measure the pressure exerted by the vapour at equilibrium.",
+      "D": "To find the boiling point of the liquid."
+    }
+  },
+  {
+    "id": "ai-topic-vapours-20",
+    "examLabel": "Physics Pulse · AI · Topic 17",
+    "topicIds": [
+      "vapours",
+      "light-energy"
+    ],
+    "stem": "Which of the following best describes humidity?",
+    "options": {
+      "A": "The amount of water vapour in the air compared to the amount it can hold at that temperature.",
+      "B": "The total amount of water in the atmosphere.",
+      "C": "The temperature at which dew forms.",
+      "D": "The pressure exerted by water vapour in the air."
+    }
+  },
+  {
+    "id": "ai-topic-structure-of-matter-kinetic-theory-11",
+    "examLabel": "Physics Pulse · AI · Topic 18",
+    "topicIds": [
+      "structure-of-matter-kinetic-theory"
+    ],
+    "stem": "Which of the following statements best describes the difference between atoms and molecules?",
+    "options": {
+      "A": "Atoms are made up of molecules, while molecules are made up of atoms.",
+      "B": "Atoms are the smallest units of an element, while molecules are combinations of two or more atoms.",
+      "C": "Molecules can exist independently, whereas atoms cannot.",
+      "D": "Atoms are larger than molecules in size."
+    }
+  },
+  {
+    "id": "ai-topic-structure-of-matter-kinetic-theory-12",
+    "examLabel": "Physics Pulse · AI · Topic 18",
+    "topicIds": [
+      "structure-of-matter-kinetic-theory"
+    ],
+    "stem": "What phenomenon explains the random movement of pollen grains in water?",
+    "options": {
+      "A": "Diffusion",
+      "B": "Brownian motion",
+      "C": "Capillarity",
+      "D": "Surface tension"
+    }
+  },
+  {
+    "id": "ai-topic-structure-of-matter-kinetic-theory-13",
+    "examLabel": "Physics Pulse · AI · Topic 18",
+    "topicIds": [
+      "structure-of-matter-kinetic-theory"
+    ],
+    "stem": "Which gas law states that the volume of a gas is inversely proportional to its pressure at constant temperature?",
+    "options": {
+      "A": "Charles' Law",
+      "B": "Avogadro's Law",
+      "C": "Boyle's Law",
+      "D": "Ideal Gas Law"
+    }
+  },
+  {
+    "id": "ai-topic-structure-of-matter-kinetic-theory-14",
+    "examLabel": "Physics Pulse · AI · Topic 18",
+    "topicIds": [
+      "structure-of-matter-kinetic-theory"
+    ],
+    "stem": "What is the primary reason for the phenomenon of surface tension in liquids?",
+    "options": {
+      "A": "The weight of the liquid",
+      "B": "The cohesive forces between molecules",
+      "C": "The adhesive forces with the container",
+      "D": "The temperature of the liquid"
+    }
+  },
+  {
+    "id": "ai-topic-structure-of-matter-kinetic-theory-15",
+    "examLabel": "Physics Pulse · AI · Topic 18",
+    "topicIds": [
+      "structure-of-matter-kinetic-theory"
+    ],
+    "stem": "In a closed container, if the temperature of a gas is increased, what happens to the pressure if the volume remains constant?",
+    "options": {
+      "A": "The pressure decreases",
+      "B": "The pressure remains constant",
+      "C": "The pressure increases",
+      "D": "The gas escapes from the container"
+    }
+  },
+  {
+    "id": "ai-topic-structure-of-matter-kinetic-theory-16",
+    "examLabel": "Physics Pulse · AI · Topic 18",
+    "topicIds": [
+      "structure-of-matter-kinetic-theory"
+    ],
+    "stem": "Which of the following best explains why a liquid can rise in a narrow tube?",
+    "options": {
+      "A": "Gravity pulls the liquid upward",
+      "B": "Cohesion between the liquid molecules",
+      "C": "Adhesion between the liquid and the tube walls",
+      "D": "The liquid is heated"
+    }
+  },
+  {
+    "id": "ai-topic-structure-of-matter-kinetic-theory-17",
+    "examLabel": "Physics Pulse · AI · Topic 18",
+    "topicIds": [
+      "structure-of-matter-kinetic-theory"
+    ],
+    "stem": "What happens to the kinetic energy of gas molecules as the temperature of the gas increases?",
+    "options": {
+      "A": "It decreases",
+      "B": "It remains constant",
+      "C": "It increases",
+      "D": "It becomes zero"
+    }
+  },
+  {
+    "id": "ai-topic-structure-of-matter-kinetic-theory-18",
+    "examLabel": "Physics Pulse · AI · Topic 18",
+    "topicIds": [
+      "structure-of-matter-kinetic-theory"
+    ],
+    "stem": "Which of the following best describes the process of diffusion?",
+    "options": {
+      "A": "The movement of particles from an area of lower concentration to an area of higher concentration.",
+      "B": "The random movement of particles in a fluid due to thermal energy.",
+      "C": "The movement of particles from an area of higher concentration to an area of lower concentration.",
+      "D": "The settling of particles in a liquid."
+    }
+  },
+  {
+    "id": "ai-topic-structure-of-matter-kinetic-theory-19",
+    "examLabel": "Physics Pulse · AI · Topic 18",
+    "topicIds": [
+      "structure-of-matter-kinetic-theory"
+    ],
+    "stem": "What is the effect of increasing the temperature on the rate of evaporation of a liquid?",
+    "options": {
+      "A": "It decreases the rate of evaporation",
+      "B": "It has no effect on the rate of evaporation",
+      "C": "It increases the rate of evaporation",
+      "D": "It causes the liquid to freeze"
+    }
+  },
+  {
+    "id": "ai-topic-structure-of-matter-kinetic-theory-20",
+    "examLabel": "Physics Pulse · AI · Topic 18",
+    "topicIds": [
+      "structure-of-matter-kinetic-theory"
+    ],
+    "stem": "In the context of kinetic theory, what happens to the pressure of a gas when its volume is halved at constant temperature?",
+    "options": {
+      "A": "The pressure decreases by half",
+      "B": "The pressure remains constant",
+      "C": "The pressure doubles",
+      "D": "The gas condenses into a liquid"
+    }
+  },
+  {
+    "id": "ai-topic-heat-transfer-11",
+    "examLabel": "Physics Pulse · AI · Topic 19",
+    "topicIds": [
+      "heat-transfer"
+    ],
+    "stem": "Which of the following is the primary mode of heat transfer in solids?",
+    "options": {
+      "A": "Convection",
+      "B": "Radiation",
+      "C": "Conduction",
+      "D": "Evaporation"
+    }
+  },
+  {
+    "id": "ai-topic-heat-transfer-12",
+    "examLabel": "Physics Pulse · AI · Topic 19",
+    "topicIds": [
+      "heat-transfer"
+    ],
+    "stem": "A metal rod has a thermal conductivity of $200\text{ W/m·K}$. If one end of the rod is maintained at $100\text{ °C}$ and the other end at $50\text{ °C}$, what is the heat flux through the rod?",
+    "options": {
+      "A": "$25\text{ W/m}^2$",
+      "B": "$50\text{ W/m}^2$",
+      "C": "$100\text{ W/m}^2$",
+      "D": "$200\text{ W/m}^2$"
+    }
+  },
+  {
+    "id": "ai-topic-heat-transfer-13",
+    "examLabel": "Physics Pulse · AI · Topic 19",
+    "topicIds": [
+      "heat-transfer"
+    ],
+    "stem": "Which surface is most effective at emitting thermal radiation?",
+    "options": {
+      "A": "A shiny metal surface",
+      "B": "A rough black surface",
+      "C": "A smooth glass surface",
+      "D": "A white painted surface"
+    }
+  },
+  {
+    "id": "ai-topic-heat-transfer-14",
+    "examLabel": "Physics Pulse · AI · Topic 19",
+    "topicIds": [
+      "heat-transfer"
+    ],
+    "stem": "What is the main reason for the formation of land breezes at night?",
+    "options": {
+      "A": "The land cools faster than the sea",
+      "B": "The sea cools faster than the land",
+      "C": "Wind direction changes",
+      "D": "Humidity increases over land"
+    }
+  },
+  {
+    "id": "ai-topic-heat-transfer-15",
+    "examLabel": "Physics Pulse · AI · Topic 19",
+    "topicIds": [
+      "heat-transfer"
+    ],
+    "stem": "Which part of a thermos flask minimizes heat transfer through conduction?",
+    "options": {
+      "A": "The inner glass wall",
+      "B": "The outer plastic wall",
+      "C": "The vacuum between the walls",
+      "D": "The cork stopper"
+    }
+  },
+  {
+    "id": "ai-topic-heat-transfer-16",
+    "examLabel": "Physics Pulse · AI · Topic 19",
+    "topicIds": [
+      "heat-transfer"
+    ],
+    "stem": "In a jet engine, the principle of thrust is primarily based on which of the following?",
+    "options": {
+      "A": "Conduction",
+      "B": "Convection",
+      "C": "Radiation",
+      "D": "The conservation of momentum"
+    }
+  },
+  {
+    "id": "ai-topic-heat-transfer-17",
+    "examLabel": "Physics Pulse · AI · Topic 19",
+    "topicIds": [
+      "heat-transfer"
+    ],
+    "stem": "Which of the following statements about thermal conductivity is correct?",
+    "options": {
+      "A": "All materials have the same thermal conductivity.",
+      "B": "Metals generally have higher thermal conductivity than insulators.",
+      "C": "Thermal conductivity is independent of temperature.",
+      "D": "Insulators are better conductors of heat than metals."
+    }
+  },
+  {
+    "id": "ai-topic-heat-transfer-18",
+    "examLabel": "Physics Pulse · AI · Topic 19",
+    "topicIds": [
+      "heat-transfer"
+    ],
+    "stem": "What is the primary reason for the sea breeze during the day?",
+    "options": {
+      "A": "The land heats up faster than the sea",
+      "B": "The sea heats up faster than the land",
+      "C": "Wind from the ocean cools the land",
+      "D": "Humidity is higher over the sea"
+    }
+  },
+  {
+    "id": "ai-topic-heat-transfer-19",
+    "examLabel": "Physics Pulse · AI · Topic 19",
+    "topicIds": [
+      "heat-transfer"
+    ],
+    "stem": "In which mode of heat transfer does the medium itself not move?",
+    "options": {
+      "A": "Convection",
+      "B": "Conduction",
+      "C": "Radiation",
+      "D": "Absorption"
+    }
+  },
+  {
+    "id": "ai-topic-heat-transfer-20",
+    "examLabel": "Physics Pulse · AI · Topic 19",
+    "topicIds": [
+      "heat-transfer"
+    ],
+    "stem": "Which of the following materials would be the best thermal insulator?",
+    "options": {
+      "A": "Copper",
+      "B": "Aluminum",
+      "C": "Wood",
+      "D": "Styrofoam"
+    }
+  },
+  {
+    "id": "ai-topic-waves-11",
+    "examLabel": "Physics Pulse · AI · Topic 20",
+    "topicIds": [
+      "waves",
+      "propagation-of-sound"
+    ],
+    "stem": "A sound wave travels at a speed of $340\\,\\mathrm{m/s}$ in air. If the frequency of the sound is $1700\\,\\mathrm{Hz}$, what is the wavelength of the sound wave?",
+    "options": {
+      "A": "0.2 m",
+      "B": "0.5 m",
+      "C": "2.0 m",
+      "D": "1.0 m"
+    }
+  },
+  {
+    "id": "ai-topic-waves-12",
+    "examLabel": "Physics Pulse · AI · Topic 20",
+    "topicIds": [
+      "waves",
+      "light-energy"
+    ],
+    "stem": "Which of the following best describes a transverse wave?",
+    "options": {
+      "A": "Particles move parallel to the direction of wave propagation.",
+      "B": "Particles move perpendicular to the direction of wave propagation.",
+      "C": "It requires a medium to travel through.",
+      "D": "It cannot be polarized."
+    }
+  },
+  {
+    "id": "ai-topic-waves-13",
+    "examLabel": "Physics Pulse · AI · Topic 20",
+    "topicIds": [
+      "waves",
+      "reflection-of-light"
+    ],
+    "stem": "When a wave strikes a barrier and bounces back, this phenomenon is known as:",
+    "options": {
+      "A": "Refraction",
+      "B": "Diffraction",
+      "C": "Reflection",
+      "D": "Interference"
+    }
+  },
+  {
+    "id": "ai-topic-waves-14",
+    "examLabel": "Physics Pulse · AI · Topic 20",
+    "topicIds": [
+      "waves",
+      "electromagnetic-induction"
+    ],
+    "stem": "Which of the following statements is true about the Doppler effect?",
+    "options": {
+      "A": "It only occurs in sound waves.",
+      "B": "It causes a change in frequency due to relative motion between the source and observer.",
+      "C": "It is the same as wave interference.",
+      "D": "It cannot be observed in light waves."
+    }
+  },
+  {
+    "id": "ai-topic-waves-15",
+    "examLabel": "Physics Pulse · AI · Topic 20",
+    "topicIds": [
+      "waves",
+      "characteristics-of-sound"
+    ],
+    "stem": "Two sound waves of frequencies $440\\,\\mathrm{Hz}$ and $450\\,\\mathrm{Hz}$ interfere. What is the beat frequency produced?",
+    "options": {
+      "A": "10 Hz",
+      "B": "5 Hz",
+      "C": "1 Hz",
+      "D": "0 Hz"
+    }
+  },
+  {
+    "id": "ai-topic-waves-16",
+    "examLabel": "Physics Pulse · AI · Topic 20",
+    "topicIds": [
+      "waves",
+      "heat-transfer"
+    ],
+    "stem": "If a wave travels from a medium with a lower density to one with a higher density, what happens to its speed?",
+    "options": {
+      "A": "The speed increases.",
+      "B": "The speed decreases.",
+      "C": "The speed remains the same.",
+      "D": "The wave is completely reflected."
+    }
+  },
+  {
+    "id": "ai-topic-waves-17",
+    "examLabel": "Physics Pulse · AI · Topic 20",
+    "topicIds": [
+      "waves",
+      "reflection-of-light"
+    ],
+    "stem": "A wave traveling in a medium hits a boundary and reflects back. If the angle of incidence is $30^{\\circ}$, what is the angle of reflection?",
+    "options": {
+      "A": "30^{\\circ}",
+      "B": "60^{\\circ}",
+      "C": "45^{\\circ}",
+      "D": "90^{\\circ}"
+    }
+  },
+  {
+    "id": "ai-topic-waves-18",
+    "examLabel": "Physics Pulse · AI · Topic 20",
+    "topicIds": [
+      "waves",
+      "light-energy"
+    ],
+    "stem": "What is the primary characteristic of polarized light?",
+    "options": {
+      "A": "It vibrates in multiple planes.",
+      "B": "It vibrates in a single plane.",
+      "C": "It travels faster than unpolarized light.",
+      "D": "It cannot be reflected."
+    }
+  },
+  {
+    "id": "ai-topic-waves-19",
+    "examLabel": "Physics Pulse · AI · Topic 20",
+    "topicIds": [
+      "waves",
+      "simple-ac-circuits"
+    ],
+    "stem": "A wave traveling in a string has a frequency of $2\\,\\mathrm{Hz}$ and a wavelength of $0.5\\,\\mathrm{m}$. What is the speed of the wave?",
+    "options": {
+      "A": "1 m/s",
+      "B": "2 m/s",
+      "C": "4 m/s",
+      "D": "0.5 m/s"
+    }
+  },
+  {
+    "id": "ai-topic-waves-20",
+    "examLabel": "Physics Pulse · AI · Topic 20",
+    "topicIds": [
+      "waves",
+      "change-of-state"
+    ],
+    "stem": "Which of the following statements about waves is true?",
+    "options": {
+      "A": "All waves require a medium to travel.",
+      "B": "Electromagnetic waves do not require a medium.",
+      "C": "Longitudinal waves cannot be polarized.",
+      "D": "Transverse waves can travel through fluids."
+    }
+  },
+  {
+    "id": "ai-topic-propagation-of-sound-11",
+    "examLabel": "Physics Pulse · AI · Topic 21",
+    "topicIds": [
+      "propagation-of-sound"
+    ],
+    "stem": "Why is a medium necessary for the propagation of sound waves?",
+    "options": {
+      "A": "Sound requires a medium to travel through.",
+      "B": "Sound can travel through a vacuum without any medium.",
+      "C": "Sound travels faster in a vacuum than in air.",
+      "D": "Sound is an electromagnetic wave and does not require a medium."
+    }
+  },
+  {
+    "id": "ai-topic-propagation-of-sound-12",
+    "examLabel": "Physics Pulse · AI · Topic 21",
+    "topicIds": [
+      "propagation-of-sound"
+    ],
+    "stem": "In which medium does sound travel fastest?",
+    "options": {
+      "A": "Air",
+      "B": "Water",
+      "C": "Steel",
+      "D": "Wood"
+    }
+  },
+  {
+    "id": "ai-topic-propagation-of-sound-13",
+    "examLabel": "Physics Pulse · AI · Topic 21",
+    "topicIds": [
+      "propagation-of-sound"
+    ],
+    "stem": "How does temperature affect the speed of sound in air?",
+    "options": {
+      "A": "Speed decreases with increasing temperature.",
+      "B": "Speed increases with increasing temperature.",
+      "C": "Speed remains constant regardless of temperature.",
+      "D": "Speed is only affected by pressure, not temperature."
+    }
+  },
+  {
+    "id": "ai-topic-propagation-of-sound-14",
+    "examLabel": "Physics Pulse · AI · Topic 21",
+    "topicIds": [
+      "propagation-of-sound"
+    ],
+    "stem": "If a sound wave takes 2 seconds to echo back from a wall 340 meters away, what is the speed of sound in air?",
+    "options": {
+      "A": "170 m/s",
+      "B": "340 m/s",
+      "C": "680 m/s",
+      "D": "850 m/s"
+    }
+  },
+  {
+    "id": "ai-topic-propagation-of-sound-15",
+    "examLabel": "Physics Pulse · AI · Topic 21",
+    "topicIds": [
+      "propagation-of-sound"
+    ],
+    "stem": "Which of the following statements about echoes is true?",
+    "options": {
+      "A": "Echoes are sound waves that travel in a straight line only.",
+      "B": "Echoes can only occur in open spaces without obstacles.",
+      "C": "Echoes are reflections of sound waves from surfaces.",
+      "D": "Echoes are not affected by the distance of the reflecting surface."
+    }
+  },
+  {
+    "id": "ai-topic-propagation-of-sound-16",
+    "examLabel": "Physics Pulse · AI · Topic 21",
+    "topicIds": [
+      "propagation-of-sound"
+    ],
+    "stem": "What is reverberation?",
+    "options": {
+      "A": "The absorption of sound in a medium.",
+      "B": "The initial sound produced by a source.",
+      "C": "The prolonged sound after the original sound has stopped.",
+      "D": "The complete reflection of sound waves."
+    }
+  },
+  {
+    "id": "ai-topic-propagation-of-sound-17",
+    "examLabel": "Physics Pulse · AI · Topic 21",
+    "topicIds": [
+      "propagation-of-sound"
+    ],
+    "stem": "If the speed of sound in air is approximately $340\\ \\mathrm{m/s}$, how does increased atmospheric pressure affect this speed?",
+    "options": {
+      "A": "It decreases the speed of sound.",
+      "B": "It increases the speed of sound.",
+      "C": "It has no effect on the speed of sound.",
+      "D": "It depends on the temperature only."
+    }
+  },
+  {
+    "id": "ai-topic-propagation-of-sound-18",
+    "examLabel": "Physics Pulse · AI · Topic 21",
+    "topicIds": [
+      "propagation-of-sound"
+    ],
+    "stem": "Which of the following best describes the relationship between sound speed and the medium's density?",
+    "options": {
+      "A": "Higher density always results in higher sound speed.",
+      "B": "Lower density results in higher sound speed.",
+      "C": "Sound speed is independent of density.",
+      "D": "Higher density can lead to higher sound speed if elasticity is also high."
+    }
+  },
+  {
+    "id": "ai-topic-propagation-of-sound-19",
+    "examLabel": "Physics Pulse · AI · Topic 21",
+    "topicIds": [
+      "propagation-of-sound"
+    ],
+    "stem": "What phenomenon occurs when sound waves reflect off a surface and create a series of repeated sounds?",
+    "options": {
+      "A": "Resonance",
+      "B": "Reverberation",
+      "C": "Echo",
+      "D": "Interference"
+    }
+  },
+  {
+    "id": "ai-topic-propagation-of-sound-20",
+    "examLabel": "Physics Pulse · AI · Topic 21",
+    "topicIds": [
+      "propagation-of-sound"
+    ],
+    "stem": "Which of the following statements is true regarding the speed of sound in different states of matter?",
+    "options": {
+      "A": "Sound travels fastest in gases, then liquids, then solids.",
+      "B": "Sound travels fastest in solids, then liquids, then gases.",
+      "C": "Sound travels at the same speed in all states of matter.",
+      "D": "Sound travels fastest in liquids, then solids, then gases."
+    }
+  },
+  {
+    "id": "ai-topic-characteristics-of-sound-11",
+    "examLabel": "Physics Pulse · AI · Topic 22",
+    "topicIds": [
+      "characteristics-of-sound"
+    ],
+    "stem": "Which of the following best distinguishes between noise and musical notes?",
+    "options": {
+      "A": "Noise has a regular frequency, while musical notes do not.",
+      "B": "Musical notes have a specific pitch, whereas noise lacks a defined pitch.",
+      "C": "Noise can be produced by musical instruments, but musical notes cannot.",
+      "D": "Musical notes are always louder than noise."
+    }
+  },
+  {
+    "id": "ai-topic-characteristics-of-sound-12",
+    "examLabel": "Physics Pulse · AI · Topic 22",
+    "topicIds": [
+      "characteristics-of-sound"
+    ],
+    "stem": "What is the relationship between the intensity of a sound wave and its loudness?",
+    "options": {
+      "A": "Intensity and loudness are directly proportional.",
+      "B": "Loudness is independent of intensity.",
+      "C": "Loudness increases logarithmically with intensity.",
+      "D": "Intensity decreases with increased loudness."
+    }
+  },
+  {
+    "id": "ai-topic-characteristics-of-sound-13",
+    "examLabel": "Physics Pulse · AI · Topic 22",
+    "topicIds": [
+      "characteristics-of-sound"
+    ],
+    "stem": "Which of the following statements about overtones in musical instruments is correct?",
+    "options": {
+      "A": "Overtones are always higher in frequency than the fundamental frequency.",
+      "B": "Overtones are not present in string instruments.",
+      "C": "The first overtone is the lowest frequency produced by an instrument.",
+      "D": "Overtones contribute to the quality or timbre of a sound."
+    }
+  },
+  {
+    "id": "ai-topic-characteristics-of-sound-14",
+    "examLabel": "Physics Pulse · AI · Topic 22",
+    "topicIds": [
+      "characteristics-of-sound"
+    ],
+    "stem": "What is resonance in the context of sound waves?",
+    "options": {
+      "A": "The phenomenon where sound waves cancel each other out.",
+      "B": "The amplification of sound when the frequency of a source matches the natural frequency of a system.",
+      "C": "The reduction of sound intensity over distance.",
+      "D": "The ability of sound to travel through a vacuum."
+    }
+  },
+  {
+    "id": "ai-topic-characteristics-of-sound-15",
+    "examLabel": "Physics Pulse · AI · Topic 22",
+    "topicIds": [
+      "characteristics-of-sound"
+    ],
+    "stem": "In a closed pipe, the fundamental frequency is determined by which of the following factors?",
+    "options": {
+      "A": "The length of the pipe and the speed of sound in air.",
+      "B": "The diameter of the pipe only.",
+      "C": "The temperature of the air inside the pipe only.",
+      "D": "The material of the pipe."
+    }
+  },
+  {
+    "id": "ai-topic-characteristics-of-sound-16",
+    "examLabel": "Physics Pulse · AI · Topic 22",
+    "topicIds": [
+      "characteristics-of-sound"
+    ],
+    "stem": "Which of the following best describes the quality of sound?",
+    "options": {
+      "A": "It is determined solely by the pitch of the sound.",
+      "B": "It refers to the loudness of the sound only.",
+      "C": "It is influenced by the fundamental frequency and the overtones present.",
+      "D": "It is the same as the intensity of the sound."
+    }
+  },
+  {
+    "id": "ai-topic-characteristics-of-sound-17",
+    "examLabel": "Physics Pulse · AI · Topic 22",
+    "topicIds": [
+      "characteristics-of-sound"
+    ],
+    "stem": "What happens to the pitch of a sound when the frequency of the sound wave increases?",
+    "options": {
+      "A": "The pitch decreases.",
+      "B": "The pitch remains the same.",
+      "C": "The pitch increases.",
+      "D": "The pitch becomes inaudible."
+    }
+  },
+  {
+    "id": "ai-topic-characteristics-of-sound-18",
+    "examLabel": "Physics Pulse · AI · Topic 22",
+    "topicIds": [
+      "characteristics-of-sound"
+    ],
+    "stem": "Which of the following statements is true regarding sound waves traveling through different media?",
+    "options": {
+      "A": "Sound travels faster in gases than in solids.",
+      "B": "Sound travels slowest in liquids compared to solids and gases.",
+      "C": "The speed of sound is the same in all media.",
+      "D": "Sound cannot travel through liquids."
+    }
+  },
+  {
+    "id": "ai-topic-characteristics-of-sound-19",
+    "examLabel": "Physics Pulse · AI · Topic 22",
+    "topicIds": [
+      "characteristics-of-sound"
+    ],
+    "stem": "In an open pipe, what is the relationship between the length of the pipe and the fundamental frequency?",
+    "options": {
+      "A": "The frequency is directly proportional to the length of the pipe.",
+      "B": "The frequency is inversely proportional to the length of the pipe.",
+      "C": "The frequency is independent of the length of the pipe.",
+      "D": "The frequency is equal to the length of the pipe."
+    }
+  },
+  {
+    "id": "ai-topic-characteristics-of-sound-20",
+    "examLabel": "Physics Pulse · AI · Topic 22",
+    "topicIds": [
+      "characteristics-of-sound"
+    ],
+    "stem": "What is the effect of increasing the amplitude of a sound wave?",
+    "options": {
+      "A": "The pitch of the sound increases.",
+      "B": "The quality of the sound changes.",
+      "C": "The loudness of the sound increases.",
+      "D": "The frequency of the sound decreases."
+    }
+  },
+  {
+    "id": "ai-topic-reflection-of-light-11",
+    "examLabel": "Physics Pulse · AI · Topic 24",
+    "topicIds": [
+      "reflection-of-light"
+    ],
+    "stem": "A concave mirror produces an image that is twice the size of the object placed in front of it. If the object is 5 cm tall, what is the height of the image?",
+    "options": {
+      "A": "2.5 cm",
+      "B": "5 cm",
+      "C": "10 cm",
+      "D": "20 cm"
+    }
+  },
+  {
+    "id": "ai-topic-reflection-of-light-12",
+    "examLabel": "Physics Pulse · AI · Topic 24",
+    "topicIds": [
+      "reflection-of-light"
+    ],
+    "stem": "Which of the following statements correctly describes the laws of reflection?",
+    "options": {
+      "A": "The angle of incidence is equal to the angle of refraction.",
+      "B": "The angle of incidence is equal to the angle of reflection.",
+      "C": "The angle of reflection is always greater than the angle of incidence.",
+      "D": "The incident ray, reflected ray, and normal all lie in different planes."
+    }
+  },
+  {
+    "id": "ai-topic-reflection-of-light-13",
+    "examLabel": "Physics Pulse · AI · Topic 24",
+    "topicIds": [
+      "reflection-of-light"
+    ],
+    "stem": "A plane mirror is used to view an object that is 3 m away. What is the distance of the image from the mirror?",
+    "options": {
+      "A": "1.5 m",
+      "B": "3 m",
+      "C": "6 m",
+      "D": "0 m"
+    }
+  },
+  {
+    "id": "ai-topic-reflection-of-light-14",
+    "examLabel": "Physics Pulse · AI · Topic 24",
+    "topicIds": [
+      "reflection-of-light"
+    ],
+    "stem": "What type of mirror would you use to create a wide field of view, such as in a security mirror?",
+    "options": {
+      "A": "Concave mirror",
+      "B": "Convex mirror",
+      "C": "Plane mirror",
+      "D": "None of the above"
+    }
+  },
+  {
+    "id": "ai-topic-reflection-of-light-15",
+    "examLabel": "Physics Pulse · AI · Topic 24",
+    "topicIds": [
+      "reflection-of-light"
+    ],
+    "stem": "If a concave mirror has a focal length of 20 cm, what is the mirror formula that relates the object distance (u), image distance (v), and focal length (f)?",
+    "options": {
+      "A": "1/f = 1/v + 1/u",
+      "B": "1/f = 1/u + 1/v",
+      "C": "f = v + u",
+      "D": "f = uv"
+    }
+  },
+  {
+    "id": "ai-topic-reflection-of-light-16",
+    "examLabel": "Physics Pulse · AI · Topic 24",
+    "topicIds": [
+      "reflection-of-light"
+    ],
+    "stem": "A periscope uses two mirrors to allow a viewer to see over an obstacle. What principle of reflection does it utilize?",
+    "options": {
+      "A": "Refraction",
+      "B": "Total internal reflection",
+      "C": "Laws of reflection",
+      "D": "Diffraction"
+    }
+  },
+  {
+    "id": "ai-topic-reflection-of-light-17",
+    "examLabel": "Physics Pulse · AI · Topic 24",
+    "topicIds": [
+      "reflection-of-light"
+    ],
+    "stem": "What is the linear magnification of an image formed by a concave mirror if the object height is 4 cm and the image height is 8 cm?",
+    "options": {
+      "A": "0.5",
+      "B": "1",
+      "C": "2",
+      "D": "4"
+    }
+  },
+  {
+    "id": "ai-topic-reflection-of-light-18",
+    "examLabel": "Physics Pulse · AI · Topic 24",
+    "topicIds": [
+      "reflection-of-light"
+    ],
+    "stem": "In a convex mirror, if the image formed is virtual and upright, what can be said about the magnification?",
+    "options": {
+      "A": "Magnification is less than 1",
+      "B": "Magnification is equal to 1",
+      "C": "Magnification is greater than 1",
+      "D": "Magnification cannot be determined"
+    }
+  },
+  {
+    "id": "ai-topic-reflection-of-light-19",
+    "examLabel": "Physics Pulse · AI · Topic 24",
+    "topicIds": [
+      "reflection-of-light"
+    ],
+    "stem": "A kaleidoscope uses mirrors to create multiple images of an object. What is the primary principle behind this effect?",
+    "options": {
+      "A": "Refraction",
+      "B": "Total internal reflection",
+      "C": "Laws of reflection",
+      "D": "Diffraction"
+    }
+  },
+  {
+    "id": "ai-topic-reflection-of-light-20",
+    "examLabel": "Physics Pulse · AI · Topic 24",
+    "topicIds": [
+      "reflection-of-light"
+    ],
+    "stem": "If an object is placed 30 cm in front of a concave mirror with a focal length of 15 cm, what is the image distance?",
+    "options": {
+      "A": "-10 cm",
+      "B": "10 cm",
+      "C": "20 cm",
+      "D": "30 cm"
+    }
+  },
+  {
+    "id": "ai-topic-refraction-of-light-11",
+    "examLabel": "Physics Pulse · AI · Topic 25",
+    "topicIds": [
+      "refraction-of-light"
+    ],
+    "stem": "A ray of light travels from air into water at an angle of incidence of $30^\text{o}$. If the refractive index of water is approximately $1.33$, what is the angle of refraction?",
+    "options": {
+      "A": "$22.5^\text{o}$",
+      "B": "$30^\text{o}$",
+      "C": "$40^\text{o}$",
+      "D": "$23.0^\text{o}$"
+    }
+  },
+  {
+    "id": "ai-topic-refraction-of-light-12",
+    "examLabel": "Physics Pulse · AI · Topic 25",
+    "topicIds": [
+      "refraction-of-light"
+    ],
+    "stem": "A light ray passes from glass (refractive index $1.5$) into air (refractive index $1$) at an angle of incidence of $45^\text{o}$. What is the critical angle for total internal reflection?",
+    "options": {
+      "A": "$30^\text{o}$",
+      "B": "$45^\text{o}$",
+      "C": "$60^\text{o}$",
+      "D": "$90^\text{o}$"
+    }
+  },
+  {
+    "id": "ai-topic-refraction-of-light-13",
+    "examLabel": "Physics Pulse · AI · Topic 25",
+    "topicIds": [
+      "refraction-of-light"
+    ],
+    "stem": "An optical fiber uses total internal reflection to transmit light. If the refractive index of the core is $1.5$ and that of the cladding is $1.4$, what is the minimum angle of incidence required for TIR to occur?",
+    "options": {
+      "A": "$30^\text{o}$",
+      "B": "$45^\text{o}$",
+      "C": "$60^\text{o}$",
+      "D": "$90^\text{o}$"
+    }
+  },
+  {
+    "id": "ai-topic-refraction-of-light-14",
+    "examLabel": "Physics Pulse · AI · Topic 25",
+    "topicIds": [
+      "refraction-of-light"
+    ],
+    "stem": "A lens forms a real image of an object. If the object distance is $30\text{ cm}$ and the image distance is $60\text{ cm}$, what is the magnification of the lens?",
+    "options": {
+      "A": "$0.5$",
+      "B": "$1$",
+      "C": "$2$",
+      "D": "$3$"
+    }
+  },
+  {
+    "id": "ai-topic-refraction-of-light-15",
+    "examLabel": "Physics Pulse · AI · Topic 25",
+    "topicIds": [
+      "refraction-of-light"
+    ],
+    "stem": "A prism has an apex angle of $60^\text{o}$. If the angle of minimum deviation is $30^\text{o}$, what is the refractive index of the prism?",
+    "options": {
+      "A": "$1.5$",
+      "B": "$1.732$",
+      "C": "$1.414$",
+      "D": "$2$"
+    }
+  },
+  {
+    "id": "ai-topic-refraction-of-light-16",
+    "examLabel": "Physics Pulse · AI · Topic 25",
+    "topicIds": [
+      "refraction-of-light"
+    ],
+    "stem": "A person sees a fish underwater and perceives it to be at a depth of $2\text{ m}$. If the refractive index of water is $1.33$, what is the actual depth of the fish?",
+    "options": {
+      "A": "$1.5\text{ m}$",
+      "B": "$2.66\text{ m}$",
+      "C": "$1.33\text{ m}$",
+      "D": "$2.0\text{ m}$"
+    }
+  },
+  {
+    "id": "ai-topic-refraction-of-light-17",
+    "examLabel": "Physics Pulse · AI · Topic 25",
+    "topicIds": [
+      "refraction-of-light"
+    ],
+    "stem": "A ray of light passes from air into a medium with a refractive index of $1.5$ at an angle of incidence of $30^\text{o}$. What is the angle of refraction?",
+    "options": {
+      "A": "$18.4^\text{o}$",
+      "B": "$22.5^\text{o}$",
+      "C": "$30^\text{o}$",
+      "D": "$45^\text{o}$"
+    }
+  },
+  {
+    "id": "ai-topic-refraction-of-light-18",
+    "examLabel": "Physics Pulse · AI · Topic 25",
+    "topicIds": [
+      "refraction-of-light"
+    ],
+    "stem": "A convex lens has a focal length of $20\text{ cm}$. If an object is placed $30\text{ cm}$ from the lens, where will the image be formed?",
+    "options": {
+      "A": "$10\text{ cm}$ on the same side as the object",
+      "B": "$15\text{ cm}$ on the opposite side",
+      "C": "$60\text{ cm}$ on the opposite side",
+      "D": "$30\text{ cm}$ on the same side as the object"
+    }
+  },
+  {
+    "id": "ai-topic-refraction-of-light-19",
+    "examLabel": "Physics Pulse · AI · Topic 25",
+    "topicIds": [
+      "refraction-of-light"
+    ],
+    "stem": "A ray of light traveling in a medium with a refractive index of $1.2$ strikes the boundary with air at an angle of incidence of $50^\text{o}$. What is the angle of refraction in air?",
+    "options": {
+      "A": "$40^\text{o}$",
+      "B": "$60^\text{o}$",
+      "C": "$50^\text{o}$",
+      "D": "$30^\text{o}$"
+    }
+  },
+  {
+    "id": "ai-topic-refraction-of-light-20",
+    "examLabel": "Physics Pulse · AI · Topic 25",
+    "topicIds": [
+      "refraction-of-light"
+    ],
+    "stem": "A periscope uses two mirrors to reflect light. If the angle of each mirror is $45^\text{o}$, what is the total deviation of the light ray after passing through both mirrors?",
+    "options": {
+      "A": "$90^\text{o}$",
+      "B": "$180^\text{o}$",
+      "C": "$45^\text{o}$",
+      "D": "$135^\text{o}$"
+    }
+  },
+  {
+    "id": "ai-topic-optical-instruments-11",
+    "examLabel": "Physics Pulse · AI · Topic 26",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "A microscope has an objective lens with a focal length of $2\text{ cm}$ and an eyepiece with a focal length of $5\text{ cm}$. What is the total magnification of the microscope?",
+    "options": {
+      "A": "10",
+      "B": "15",
+      "C": "20",
+      "D": "25"
+    }
+  },
+  {
+    "id": "ai-topic-optical-instruments-12",
+    "examLabel": "Physics Pulse · AI · Topic 26",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "A camera lens has a focal length of $50\text{ mm}$. If an object is placed $200\text{ mm}$ from the lens, where will the image be formed?",
+    "options": {
+      "A": "$10\text{ mm}$",
+      "B": "$25\text{ mm}$",
+      "C": "$50\text{ mm}$",
+      "D": "$100\text{ mm}$"
+    }
+  },
+  {
+    "id": "ai-topic-optical-instruments-13",
+    "examLabel": "Physics Pulse · AI · Topic 26",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "What is the power of a lens with a focal length of $25\text{ cm}$?",
+    "options": {
+      "A": "+4 D",
+      "B": "+8 D",
+      "C": "-4 D",
+      "D": "-8 D"
+    }
+  },
+  {
+    "id": "ai-topic-optical-instruments-14",
+    "examLabel": "Physics Pulse · AI · Topic 26",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "If a person has a near point of $50\text{ cm}$, what type of vision defect do they have?",
+    "options": {
+      "A": "Myopia",
+      "B": "Hyperopia",
+      "C": "Astigmatism",
+      "D": "Normal vision"
+    }
+  },
+  {
+    "id": "ai-topic-optical-instruments-15",
+    "examLabel": "Physics Pulse · AI · Topic 26",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "A telescope has an objective lens with a focal length of $100\text{ cm}$ and an eyepiece with a focal length of $5\text{ cm}$. What is the angular magnification of the telescope?",
+    "options": {
+      "A": "20",
+      "B": "50",
+      "C": "10",
+      "D": "25"
+    }
+  },
+  {
+    "id": "ai-topic-optical-instruments-16",
+    "examLabel": "Physics Pulse · AI · Topic 26",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "Which of the following defects of vision is corrected using a concave lens?",
+    "options": {
+      "A": "Hyperopia",
+      "B": "Myopia",
+      "C": "Presbyopia",
+      "D": "Astigmatism"
+    }
+  },
+  {
+    "id": "ai-topic-optical-instruments-17",
+    "examLabel": "Physics Pulse · AI · Topic 26",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "An object is placed $30\text{ cm}$ from a converging lens with a focal length of $10\text{ cm}$. What is the nature of the image formed?",
+    "options": {
+      "A": "Real and inverted",
+      "B": "Virtual and upright",
+      "C": "Real and upright",
+      "D": "Virtual and inverted"
+    }
+  },
+  {
+    "id": "ai-topic-optical-instruments-18",
+    "examLabel": "Physics Pulse · AI · Topic 26",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "What is the far point of a person with myopia?",
+    "options": {
+      "A": "Infinity",
+      "B": "Less than $6\text{ m}$",
+      "C": "$25\text{ cm}$",
+      "D": "$6\text{ m}$"
+    }
+  },
+  {
+    "id": "ai-topic-optical-instruments-19",
+    "examLabel": "Physics Pulse · AI · Topic 26",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "Which optical instrument uses a convex lens to project an image onto a screen?",
+    "options": {
+      "A": "Telescope",
+      "B": "Microscope",
+      "C": "Projector",
+      "D": "Camera"
+    }
+  },
+  {
+    "id": "ai-topic-optical-instruments-20",
+    "examLabel": "Physics Pulse · AI · Topic 26",
+    "topicIds": [
+      "optical-instruments"
+    ],
+    "stem": "If the near point of a human eye is $25\text{ cm}$, what does this indicate about the vision of the person?",
+    "options": {
+      "A": "Myopic vision",
+      "B": "Hyperopic vision",
+      "C": "Normal vision",
+      "D": "Astigmatic vision"
+    }
+  },
+  {
+    "id": "ai-topic-dispersion-and-electromagnetic-spectrum-11",
+    "examLabel": "Physics Pulse · AI · Topic 27",
+    "topicIds": [
+      "dispersion-and-electromagnetic-spectrum"
+    ],
+    "stem": "What color is produced when red and green light are mixed together?",
+    "options": {
+      "A": "Yellow",
+      "B": "Cyan",
+      "C": "Magenta",
+      "D": "White"
+    }
+  },
+  {
+    "id": "ai-topic-dispersion-and-electromagnetic-spectrum-12",
+    "examLabel": "Physics Pulse · AI · Topic 27",
+    "topicIds": [
+      "dispersion-and-electromagnetic-spectrum"
+    ],
+    "stem": "Which of the following correctly describes the formation of a rainbow?",
+    "options": {
+      "A": "It is formed by reflection of light in raindrops.",
+      "B": "It is formed by refraction and dispersion of light in raindrops.",
+      "C": "It is formed by scattering of light in the atmosphere.",
+      "D": "It is formed by absorption of light by raindrops."
+    }
+  },
+  {
+    "id": "ai-topic-dispersion-and-electromagnetic-spectrum-13",
+    "examLabel": "Physics Pulse · AI · Topic 27",
+    "topicIds": [
+      "dispersion-and-electromagnetic-spectrum"
+    ],
+    "stem": "Which part of the electromagnetic spectrum has the longest wavelength?",
+    "options": {
+      "A": "Gamma rays",
+      "B": "Ultraviolet rays",
+      "C": "Infrared rays",
+      "D": "Radio waves"
+    }
+  },
+  {
+    "id": "ai-topic-dispersion-and-electromagnetic-spectrum-14",
+    "examLabel": "Physics Pulse · AI · Topic 27",
+    "topicIds": [
+      "dispersion-and-electromagnetic-spectrum"
+    ],
+    "stem": "When white light passes through a prism, what is the result?",
+    "options": {
+      "A": "It remains white.",
+      "B": "It is absorbed by the prism.",
+      "C": "It is dispersed into a spectrum of colors.",
+      "D": "It is reflected back."
+    }
+  },
+  {
+    "id": "ai-topic-dispersion-and-electromagnetic-spectrum-15",
+    "examLabel": "Physics Pulse · AI · Topic 27",
+    "topicIds": [
+      "dispersion-and-electromagnetic-spectrum"
+    ],
+    "stem": "Which color filter would you use to see only blue light?",
+    "options": {
+      "A": "Red filter",
+      "B": "Green filter",
+      "C": "Blue filter",
+      "D": "Yellow filter"
+    }
+  },
+  {
+    "id": "ai-topic-dispersion-and-electromagnetic-spectrum-16",
+    "examLabel": "Physics Pulse · AI · Topic 27",
+    "topicIds": [
+      "dispersion-and-electromagnetic-spectrum"
+    ],
+    "stem": "What is the primary color of light that, when mixed with blue, produces cyan?",
+    "options": {
+      "A": "Red",
+      "B": "Green",
+      "C": "Yellow",
+      "D": "Magenta"
+    }
+  },
+  {
+    "id": "ai-topic-dispersion-and-electromagnetic-spectrum-17",
+    "examLabel": "Physics Pulse · AI · Topic 27",
+    "topicIds": [
+      "dispersion-and-electromagnetic-spectrum"
+    ],
+    "stem": "Which of the following electromagnetic waves is primarily used for medical imaging?",
+    "options": {
+      "A": "Radio waves",
+      "B": "Microwaves",
+      "C": "X-rays",
+      "D": "Infrared waves"
+    }
+  },
+  {
+    "id": "ai-topic-dispersion-and-electromagnetic-spectrum-18",
+    "examLabel": "Physics Pulse · AI · Topic 27",
+    "topicIds": [
+      "dispersion-and-electromagnetic-spectrum"
+    ],
+    "stem": "What happens to the colors of an object when viewed through a red filter?",
+    "options": {
+      "A": "All colors are visible.",
+      "B": "Only red colors are visible.",
+      "C": "Only green colors are visible.",
+      "D": "All colors are absorbed."
+    }
+  },
+  {
+    "id": "ai-topic-dispersion-and-electromagnetic-spectrum-19",
+    "examLabel": "Physics Pulse · AI · Topic 27",
+    "topicIds": [
+      "dispersion-and-electromagnetic-spectrum"
+    ],
+    "stem": "Which of the following statements about the electromagnetic spectrum is true?",
+    "options": {
+      "A": "All electromagnetic waves travel at different speeds in a vacuum.",
+      "B": "Visible light is the only part of the spectrum that can be seen by the human eye.",
+      "C": "Ultraviolet rays have longer wavelengths than visible light.",
+      "D": "Infrared rays are used for communication."
+    }
+  },
+  {
+    "id": "ai-topic-dispersion-and-electromagnetic-spectrum-20",
+    "examLabel": "Physics Pulse · AI · Topic 27",
+    "topicIds": [
+      "dispersion-and-electromagnetic-spectrum"
+    ],
+    "stem": "Which color is NOT a primary color of light?",
+    "options": {
+      "A": "Red",
+      "B": "Green",
+      "C": "Blue",
+      "D": "Yellow"
+    }
+  },
+  {
+    "id": "ai-topic-electrostatics-11",
+    "examLabel": "Physics Pulse · AI · Topic 28",
+    "topicIds": [
+      "electrostatics"
+    ],
+    "stem": "What is the charge of an electron?",
+    "options": {
+      "A": "+1.6 × 10^-19 C",
+      "B": "-1.6 × 10^-19 C",
+      "C": "0 C",
+      "D": "+3.2 × 10^-19 C"
+    }
+  },
+  {
+    "id": "ai-topic-electrostatics-12",
+    "examLabel": "Physics Pulse · AI · Topic 28",
+    "topicIds": [
+      "electrostatics"
+    ],
+    "stem": "An electroscope is used to detect the presence of charge. If a negatively charged rod is brought close to the electroscope, what happens to the leaves of the electroscope?",
+    "options": {
+      "A": "They diverge",
+      "B": "They collapse",
+      "C": "They remain unchanged",
+      "D": "They vibrate"
+    }
+  },
+  {
+    "id": "ai-topic-electrostatics-13",
+    "examLabel": "Physics Pulse · AI · Topic 28",
+    "topicIds": [
+      "electrostatics"
+    ],
+    "stem": "According to Coulomb's law, the force between two point charges is directly proportional to what?",
+    "options": {
+      "A": "The distance between the charges",
+      "B": "The product of the charges",
+      "C": "The sum of the charges",
+      "D": "The square of the distance between the charges"
+    }
+  },
+  {
+    "id": "ai-topic-electrostatics-14",
+    "examLabel": "Physics Pulse · AI · Topic 28",
+    "topicIds": [
+      "electrostatics"
+    ],
+    "stem": "A lightning conductor is designed to protect buildings from lightning strikes. How does it work?",
+    "options": {
+      "A": "By attracting lightning to itself",
+      "B": "By grounding the charge",
+      "C": "By repelling lightning away",
+      "D": "By storing electrical charge"
+    }
+  },
+  {
+    "id": "ai-topic-electrostatics-15",
+    "examLabel": "Physics Pulse · AI · Topic 28",
+    "topicIds": [
+      "electrostatics"
+    ],
+    "stem": "If two charges of +3 µC and -3 µC are placed 0.5 m apart, what is the magnitude of the force between them? (Use Coulomb's law)",
+    "options": {
+      "A": "$1.44 \\times 10^{-3} \\text{N}$",
+      "B": "$1.44 \\times 10^{-6} \\text{N}$",
+      "C": "$9.0 \\times 10^{-3} \\text{N}$",
+      "D": "$0.0 \\text{N}$"
+    }
+  },
+  {
+    "id": "ai-topic-electrostatics-16",
+    "examLabel": "Physics Pulse · AI · Topic 28",
+    "topicIds": [
+      "electrostatics"
+    ],
+    "stem": "Which of the following methods can be used to charge an object by induction?",
+    "options": {
+      "A": "Rubbing it with another object",
+      "B": "Connecting it to a battery",
+      "C": "Bringing a charged object close without contact",
+      "D": "Heating the object"
+    }
+  },
+  {
+    "id": "ai-topic-electrostatics-17",
+    "examLabel": "Physics Pulse · AI · Topic 28",
+    "topicIds": [
+      "electrostatics"
+    ],
+    "stem": "What is the electric field strength at a distance of 2 m from a point charge of +4 µC? (Use $k = 9 \\times 10^9 \\text{N m}^2/\\text{C}^2$)",
+    "options": {
+      "A": "$4.5 \\times 10^3 \\text{N/C}$",
+      "B": "$9.0 \\times 10^3 \\text{N/C}$",
+      "C": "$1.8 \\times 10^4 \\text{N/C}$",
+      "D": "$2.25 \\times 10^4 \\text{N/C}$"
+    }
+  },
+  {
+    "id": "ai-topic-electrostatics-18",
+    "examLabel": "Physics Pulse · AI · Topic 28",
+    "topicIds": [
+      "electrostatics"
+    ],
+    "stem": "When a charged object is brought into contact with a neutral conductor, what happens to the charges?",
+    "options": {
+      "A": "Charges are lost to the environment",
+      "B": "The conductor becomes charged with the same type of charge",
+      "C": "The conductor remains neutral",
+      "D": "Charges are transferred from the conductor to the object"
+    }
+  },
+  {
+    "id": "ai-topic-electrostatics-19",
+    "examLabel": "Physics Pulse · AI · Topic 28",
+    "topicIds": [
+      "electrostatics"
+    ],
+    "stem": "What is the potential difference between two points in an electric field if a charge of +2 µC moves from a point at 5 V to another at 10 V?",
+    "options": {
+      "A": "5 V",
+      "B": "10 V",
+      "C": "-5 V",
+      "D": "0 V"
+    }
+  },
+  {
+    "id": "ai-topic-electrostatics-20",
+    "examLabel": "Physics Pulse · AI · Topic 28",
+    "topicIds": [
+      "electrostatics"
+    ],
+    "stem": "Which of the following statements about electric field lines is true?",
+    "options": {
+      "A": "They can cross each other",
+      "B": "They indicate the direction of force on a positive test charge",
+      "C": "They are always straight lines",
+      "D": "They are denser near the center of the field"
+    }
+  },
+  {
+    "id": "ai-topic-current-electricity-11",
+    "examLabel": "Physics Pulse · AI · Topic 31",
+    "topicIds": [
+      "current-electricity"
+    ],
+    "stem": "A circuit has an electromotive force (emf) of $12\text{V}$ and an internal resistance of $2\text{Ω}$. What is the potential difference (p.d.) across the terminals when a current of $3\text{A}$ flows?",
+    "options": {
+      "A": "$6\text{V}$",
+      "B": "$8\text{V}$",
+      "C": "$10\text{V}$",
+      "D": "$12\text{V}$"
+    }
+  },
+  {
+    "id": "ai-topic-current-electricity-12",
+    "examLabel": "Physics Pulse · AI · Topic 31",
+    "topicIds": [
+      "current-electricity"
+    ],
+    "stem": "In a series circuit with a total resistance of $10\text{Ω}$ and a current of $2\text{A}$, what is the total emf supplied by the battery?",
+    "options": {
+      "A": "$10\text{V}$",
+      "B": "$20\text{V}$",
+      "C": "$5\text{V}$",
+      "D": "$15\text{V}$"
+    }
+  },
+  {
+    "id": "ai-topic-current-electricity-13",
+    "examLabel": "Physics Pulse · AI · Topic 31",
+    "topicIds": [
+      "current-electricity"
+    ],
+    "stem": "If two resistors of $4\text{Ω}$ and $6\text{Ω}$ are connected in parallel, what is the effective resistance of the combination?",
+    "options": {
+      "A": "$2.4\text{Ω}$",
+      "B": "$4\text{Ω}$",
+      "C": "$10\text{Ω}$",
+      "D": "$24\text{Ω}$"
+    }
+  },
+  {
+    "id": "ai-topic-current-electricity-14",
+    "examLabel": "Physics Pulse · AI · Topic 31",
+    "topicIds": [
+      "current-electricity"
+    ],
+    "stem": "What is the advantage of using a potentiometer over a simple voltmeter in measuring the emf of a battery?",
+    "options": {
+      "A": "It is cheaper.",
+      "B": "It provides more accurate measurements.",
+      "C": "It requires no power supply.",
+      "D": "It is smaller in size."
+    }
+  },
+  {
+    "id": "ai-topic-current-electricity-15",
+    "examLabel": "Physics Pulse · AI · Topic 31",
+    "topicIds": [
+      "current-electricity"
+    ],
+    "stem": "In a circuit with a total voltage of $30\text{V}$ and a total resistance of $15\text{Ω}$, what is the current flowing through the circuit?",
+    "options": {
+      "A": "$2\text{A}$",
+      "B": "$1.5\text{A}$",
+      "C": "$3\text{A}$",
+      "D": "$4\text{A}$"
+    }
+  },
+  {
+    "id": "ai-topic-current-electricity-16",
+    "examLabel": "Physics Pulse · AI · Topic 31",
+    "topicIds": [
+      "current-electricity"
+    ],
+    "stem": "Kirchhoff's second law states that the sum of the potential differences in any closed loop is equal to what?",
+    "options": {
+      "A": "Zero",
+      "B": "The total current",
+      "C": "The total resistance",
+      "D": "The emf of the circuit"
+    }
+  },
+  {
+    "id": "ai-topic-current-electricity-17",
+    "examLabel": "Physics Pulse · AI · Topic 31",
+    "topicIds": [
+      "current-electricity"
+    ],
+    "stem": "When a current of $5\text{A}$ flows through a resistor of $10\text{Ω}$, what is the power dissipated in the resistor?",
+    "options": {
+      "A": "$25\text{W}$",
+      "B": "$50\text{W}$",
+      "C": "$75\text{W}$",
+      "D": "$100\text{W}$"
+    }
+  },
+  {
+    "id": "ai-topic-current-electricity-18",
+    "examLabel": "Physics Pulse · AI · Topic 31",
+    "topicIds": [
+      "current-electricity"
+    ],
+    "stem": "If the internal resistance of a battery is $1\text{Ω}$ and it delivers a current of $4\text{A}$, what is the lost volts due to internal resistance?",
+    "options": {
+      "A": "$2\text{V}$",
+      "B": "$4\text{V}$",
+      "C": "$1\text{V}$",
+      "D": "$5\text{V}$"
+    }
+  },
+  {
+    "id": "ai-topic-current-electricity-19",
+    "examLabel": "Physics Pulse · AI · Topic 31",
+    "topicIds": [
+      "current-electricity"
+    ],
+    "stem": "What is the resistivity of a material if a wire of length $2\text{m}$ and cross-sectional area $1\text{mm}^2$ has a resistance of $4\text{Ω}$?",
+    "options": {
+      "A": "$2 \times 10^{-6} \text{Ω m}$",
+      "B": "$4 \times 10^{-6} \text{Ω m}$",
+      "C": "$8 \times 10^{-6} \text{Ω m}$",
+      "D": "$1 \times 10^{-6} \text{Ω m}$"
+    }
+  },
+  {
+    "id": "ai-topic-current-electricity-20",
+    "examLabel": "Physics Pulse · AI · Topic 31",
+    "topicIds": [
+      "current-electricity"
+    ],
+    "stem": "In a circuit containing two resistors in series, one of $3\text{Ω}$ and another of $5\text{Ω}$, what is the total resistance in the circuit?",
+    "options": {
+      "A": "$8\text{Ω}$",
+      "B": "$15\text{Ω}$",
+      "C": "$5\text{Ω}$",
+      "D": "$2\text{Ω}$"
+    }
+  },
+  {
+    "id": "ai-topic-magnets-and-magnetic-fields-11",
+    "examLabel": "Physics Pulse · AI · Topic 33",
+    "topicIds": [
+      "magnets-and-magnetic-fields"
+    ],
+    "stem": "Which of the following is a natural magnet?",
+    "options": {
+      "A": "Steel",
+      "B": "Soft iron",
+      "C": "Lodestone",
+      "D": "Neodymium"
+    }
+  },
+  {
+    "id": "ai-topic-magnets-and-magnetic-fields-12",
+    "examLabel": "Physics Pulse · AI · Topic 33",
+    "topicIds": [
+      "magnets-and-magnetic-fields"
+    ],
+    "stem": "What is the primary difference between soft iron and steel in terms of magnetic properties?",
+    "options": {
+      "A": "Soft iron retains magnetism longer than steel.",
+      "B": "Steel is more easily magnetized than soft iron.",
+      "C": "Soft iron can be magnetized and demagnetized quickly.",
+      "D": "Steel has a higher magnetic permeability than soft iron."
+    }
+  },
+  {
+    "id": "ai-topic-magnets-and-magnetic-fields-13",
+    "examLabel": "Physics Pulse · AI · Topic 33",
+    "topicIds": [
+      "magnets-and-magnetic-fields"
+    ],
+    "stem": "How can a permanent magnet be demagnetized?",
+    "options": {
+      "A": "By heating it above its Curie temperature",
+      "B": "By placing it in a strong magnetic field",
+      "C": "By exposing it to a vacuum",
+      "D": "By wrapping it in copper wire"
+    }
+  },
+  {
+    "id": "ai-topic-magnets-and-magnetic-fields-14",
+    "examLabel": "Physics Pulse · AI · Topic 33",
+    "topicIds": [
+      "magnets-and-magnetic-fields"
+    ],
+    "stem": "What is the shape of the magnetic field around a straight current-carrying wire?",
+    "options": {
+      "A": "Concentric circles",
+      "B": "Straight lines",
+      "C": "Elliptical loops",
+      "D": "Irregular shapes"
+    }
+  },
+  {
+    "id": "ai-topic-magnets-and-magnetic-fields-15",
+    "examLabel": "Physics Pulse · AI · Topic 33",
+    "topicIds": [
+      "magnets-and-magnetic-fields"
+    ],
+    "stem": "Which of the following correctly describes the Earth's magnetic field?",
+    "options": {
+      "A": "It is uniform everywhere on the surface.",
+      "B": "It has a magnetic north pole located at the geographic North Pole.",
+      "C": "It varies in strength and direction at different locations.",
+      "D": "It is completely independent of solar activity."
+    }
+  },
+  {
+    "id": "ai-topic-magnets-and-magnetic-fields-16",
+    "examLabel": "Physics Pulse · AI · Topic 33",
+    "topicIds": [
+      "magnets-and-magnetic-fields"
+    ],
+    "stem": "In a solenoid, what happens to the magnetic field strength as the number of turns increases?",
+    "options": {
+      "A": "It decreases.",
+      "B": "It remains constant.",
+      "C": "It increases.",
+      "D": "It becomes zero."
+    }
+  },
+  {
+    "id": "ai-topic-magnets-and-magnetic-fields-17",
+    "examLabel": "Physics Pulse · AI · Topic 33",
+    "topicIds": [
+      "magnets-and-magnetic-fields"
+    ],
+    "stem": "What is the primary application of Earth's magnetic field in navigation?",
+    "options": {
+      "A": "To provide a reference for timekeeping",
+      "B": "To help determine altitude",
+      "C": "To guide compasses",
+      "D": "To measure temperature"
+    }
+  },
+  {
+    "id": "ai-topic-magnets-and-magnetic-fields-18",
+    "examLabel": "Physics Pulse · AI · Topic 33",
+    "topicIds": [
+      "magnets-and-magnetic-fields"
+    ],
+    "stem": "What is the effect of a magnetic field on a current-carrying conductor placed within it?",
+    "options": {
+      "A": "It experiences no force.",
+      "B": "It experiences a force perpendicular to both the field and current direction.",
+      "C": "It heats up instantly.",
+      "D": "It becomes a magnet."
+    }
+  },
+  {
+    "id": "ai-topic-magnets-and-magnetic-fields-19",
+    "examLabel": "Physics Pulse · AI · Topic 33",
+    "topicIds": [
+      "magnets-and-magnetic-fields"
+    ],
+    "stem": "Which of the following statements about soft iron is true?",
+    "options": {
+      "A": "It is used for permanent magnets.",
+      "B": "It has high retentivity.",
+      "C": "It is easily magnetized and demagnetized.",
+      "D": "It is a natural magnet."
+    }
+  },
+  {
+    "id": "ai-topic-magnets-and-magnetic-fields-20",
+    "examLabel": "Physics Pulse · AI · Topic 33",
+    "topicIds": [
+      "magnets-and-magnetic-fields"
+    ],
+    "stem": "What is the primary reason for using electromagnets in industrial applications?",
+    "options": {
+      "A": "They are lighter than permanent magnets.",
+      "B": "They can be turned on and off easily.",
+      "C": "They are cheaper to produce than permanent magnets.",
+      "D": "They have a stronger magnetic field than natural magnets."
+    }
+  },
+  {
+    "id": "ai-topic-force-on-conductor-in-field-11",
+    "examLabel": "Physics Pulse · AI · Topic 34",
+    "topicIds": [
+      "force-on-conductor-in-field",
+      "magnets-and-magnetic-fields"
+    ],
+    "stem": "A straight conductor carrying a current of $5\\,\\mathrm{A}$ is placed in a uniform magnetic field of strength $0.2\\,\\mathrm{T}$. If the conductor makes an angle of $30^{\\circ}$ with the magnetic field, what is the force acting on the conductor?",
+    "options": {
+      "A": "$0.5\\,\\mathrm{N}$",
+      "B": "$1.0\\,\\mathrm{N}$",
+      "C": "$0.86\\,\\mathrm{N}$",
+      "D": "$1.5\\,\\mathrm{N}$"
+    }
+  },
+  {
+    "id": "ai-topic-force-on-conductor-in-field-12",
+    "examLabel": "Physics Pulse · AI · Topic 34",
+    "topicIds": [
+      "force-on-conductor-in-field",
+      "electromagnetic-induction"
+    ],
+    "stem": "Two parallel conductors carrying currents in the same direction experience a force of attraction. If the currents are reversed, what happens to the force between them?",
+    "options": {
+      "A": "It becomes stronger.",
+      "B": "It becomes weaker.",
+      "C": "It becomes repulsive.",
+      "D": "It remains unchanged."
+    }
+  },
+  {
+    "id": "ai-topic-force-on-conductor-in-field-13",
+    "examLabel": "Physics Pulse · AI · Topic 34",
+    "topicIds": [
+      "force-on-conductor-in-field",
+      "introductory-electronics"
+    ],
+    "stem": "A DC motor operates by the interaction of a magnetic field and a current-carrying coil. What is the primary purpose of the commutator in a DC motor?",
+    "options": {
+      "A": "To increase the magnetic field strength.",
+      "B": "To reverse the direction of current in the coil.",
+      "C": "To convert electrical energy to mechanical energy.",
+      "D": "To reduce friction in the motor."
+    }
+  },
+  {
+    "id": "ai-topic-force-on-conductor-in-field-14",
+    "examLabel": "Physics Pulse · AI · Topic 34",
+    "topicIds": [
+      "force-on-conductor-in-field",
+      "magnets-and-magnetic-fields"
+    ],
+    "stem": "Which of the following factors does NOT affect the sensitivity of a galvanometer?",
+    "options": {
+      "A": "The strength of the magnetic field.",
+      "B": "The number of turns in the coil.",
+      "C": "The current flowing through the coil.",
+      "D": "The length of the conductor."
+    }
+  },
+  {
+    "id": "ai-topic-force-on-conductor-in-field-15",
+    "examLabel": "Physics Pulse · AI · Topic 34",
+    "topicIds": [
+      "force-on-conductor-in-field",
+      "electromagnetic-induction"
+    ],
+    "stem": "A moving charge experiences a force when it moves through a magnetic field. If a charge of $2\\,\\mathrm{C}$ moves at a velocity of $3\\,\\mathrm{m/s}$ perpendicular to a magnetic field of strength $0.5\\,\\mathrm{T}$, what is the magnitude of the force acting on the charge?",
+    "options": {
+      "A": "$3.0\\,\\mathrm{N}$",
+      "B": "$1.0\\,\\mathrm{N}$",
+      "C": "$0.5\\,\\mathrm{N}$",
+      "D": "$0.0\\,\\mathrm{N}$"
+    }
+  },
+  {
+    "id": "ai-topic-force-on-conductor-in-field-16",
+    "examLabel": "Physics Pulse · AI · Topic 34",
+    "topicIds": [
+      "force-on-conductor-in-field",
+      "electromagnetic-induction"
+    ],
+    "stem": "In a moving coil galvanometer, what happens to the sensitivity if the number of turns in the coil is increased?",
+    "options": {
+      "A": "Sensitivity decreases.",
+      "B": "Sensitivity remains unchanged.",
+      "C": "Sensitivity increases.",
+      "D": "Sensitivity becomes zero."
+    }
+  },
+  {
+    "id": "ai-topic-force-on-conductor-in-field-17",
+    "examLabel": "Physics Pulse · AI · Topic 34",
+    "topicIds": [
+      "force-on-conductor-in-field",
+      "simple-ac-circuits"
+    ],
+    "stem": "What is the primary principle behind the operation of an electromagnet?",
+    "options": {
+      "A": "Magnetic fields are generated by electric currents.",
+      "B": "Electric fields are generated by magnetic materials.",
+      "C": "Electric currents are induced by magnetic fields.",
+      "D": "Magnetic materials enhance electric fields."
+    }
+  },
+  {
+    "id": "ai-topic-force-on-conductor-in-field-18",
+    "examLabel": "Physics Pulse · AI · Topic 34",
+    "topicIds": [
+      "force-on-conductor-in-field",
+      "introductory-electronics"
+    ],
+    "stem": "Which of the following statements best describes the function of a microphone?",
+    "options": {
+      "A": "It converts sound energy into electrical energy.",
+      "B": "It converts electrical energy into sound energy.",
+      "C": "It amplifies electrical signals.",
+      "D": "It stores electrical energy."
+    }
+  },
+  {
+    "id": "ai-topic-force-on-conductor-in-field-19",
+    "examLabel": "Physics Pulse · AI · Topic 34",
+    "topicIds": [
+      "force-on-conductor-in-field",
+      "electromagnetic-induction"
+    ],
+    "stem": "When converting a galvanometer into an ammeter, which of the following components is added in parallel with the galvanometer?",
+    "options": {
+      "A": "A high resistance.",
+      "B": "A low resistance.",
+      "C": "A capacitor.",
+      "D": "An inductor."
+    }
+  },
+  {
+    "id": "ai-topic-force-on-conductor-in-field-20",
+    "examLabel": "Physics Pulse · AI · Topic 34",
+    "topicIds": [
+      "force-on-conductor-in-field",
+      "simple-ac-circuits"
+    ],
+    "stem": "What is the effect of increasing the current in a parallel conductor on the force experienced between the conductors?",
+    "options": {
+      "A": "The force decreases.",
+      "B": "The force increases.",
+      "C": "The force remains constant.",
+      "D": "The force becomes zero."
+    }
+  },
+  {
+    "id": "ai-topic-electromagnetic-induction-11",
+    "examLabel": "Physics Pulse · AI · Topic 35",
+    "topicIds": [
+      "electromagnetic-induction"
+    ],
+    "stem": "A coil of wire is moved into a magnetic field at a constant speed. According to Faraday's law, what happens to the induced emf as the speed of the coil increases?",
+    "options": {
+      "A": "It decreases",
+      "B": "It remains constant",
+      "C": "It increases",
+      "D": "It becomes zero"
+    }
+  },
+  {
+    "id": "ai-topic-electromagnetic-induction-12",
+    "examLabel": "Physics Pulse · AI · Topic 35",
+    "topicIds": [
+      "electromagnetic-induction"
+    ],
+    "stem": "Which of the following factors does NOT affect the magnitude of the induced emf in a coil?",
+    "options": {
+      "A": "The strength of the magnetic field",
+      "B": "The area of the coil",
+      "C": "The resistance of the coil",
+      "D": "The speed of the coil's motion"
+    }
+  },
+  {
+    "id": "ai-topic-electromagnetic-induction-13",
+    "examLabel": "Physics Pulse · AI · Topic 35",
+    "topicIds": [
+      "electromagnetic-induction"
+    ],
+    "stem": "According to Lenz's law, the direction of induced current in a circuit is such that it opposes:",
+    "options": {
+      "A": "The change in magnetic flux that produced it",
+      "B": "The resistance of the circuit",
+      "C": "The flow of current through the circuit",
+      "D": "The magnetic field strength"
+    }
+  },
+  {
+    "id": "ai-topic-electromagnetic-induction-14",
+    "examLabel": "Physics Pulse · AI · Topic 35",
+    "topicIds": [
+      "electromagnetic-induction"
+    ],
+    "stem": "In an AC generator, the induced emf is maximized when:",
+    "options": {
+      "A": "The coil is parallel to the magnetic field lines",
+      "B": "The coil is perpendicular to the magnetic field lines",
+      "C": "The coil rotates slowly",
+      "D": "The magnetic field is weak"
+    }
+  },
+  {
+    "id": "ai-topic-electromagnetic-induction-15",
+    "examLabel": "Physics Pulse · AI · Topic 35",
+    "topicIds": [
+      "electromagnetic-induction"
+    ],
+    "stem": "What is the primary function of a transformer?",
+    "options": {
+      "A": "To convert AC to DC",
+      "B": "To increase or decrease voltage levels",
+      "C": "To store electrical energy",
+      "D": "To generate electrical energy"
+    }
+  },
+  {
+    "id": "ai-topic-electromagnetic-induction-16",
+    "examLabel": "Physics Pulse · AI · Topic 35",
+    "topicIds": [
+      "electromagnetic-induction"
+    ],
+    "stem": "Which type of transformer is used to step down voltage?",
+    "options": {
+      "A": "Step-up transformer",
+      "B": "Step-down transformer",
+      "C": "Isolation transformer",
+      "D": "Auto transformer"
+    }
+  },
+  {
+    "id": "ai-topic-electromagnetic-induction-17",
+    "examLabel": "Physics Pulse · AI · Topic 35",
+    "topicIds": [
+      "electromagnetic-induction"
+    ],
+    "stem": "What is the unit of inductance?",
+    "options": {
+      "A": "Volt",
+      "B": "Ohm",
+      "C": "Henry",
+      "D": "Farad"
+    }
+  },
+  {
+    "id": "ai-topic-electromagnetic-induction-18",
+    "examLabel": "Physics Pulse · AI · Topic 35",
+    "topicIds": [
+      "electromagnetic-induction"
+    ],
+    "stem": "Eddy currents are undesirable in many applications because they:",
+    "options": {
+      "A": "Increase energy efficiency",
+      "B": "Generate heat and waste energy",
+      "C": "Enhance magnetic fields",
+      "D": "Improve electrical conductivity"
+    }
+  },
+  {
+    "id": "ai-topic-electromagnetic-induction-19",
+    "examLabel": "Physics Pulse · AI · Topic 35",
+    "topicIds": [
+      "electromagnetic-induction"
+    ],
+    "stem": "In a series circuit with inductors, the total inductance is:",
+    "options": {
+      "A": "The sum of individual inductances",
+      "B": "The product of individual inductances",
+      "C": "The difference of individual inductances",
+      "D": "Independent of individual inductances"
+    }
+  },
+  {
+    "id": "ai-topic-electromagnetic-induction-20",
+    "examLabel": "Physics Pulse · AI · Topic 35",
+    "topicIds": [
+      "electromagnetic-induction"
+    ],
+    "stem": "Which of the following statements about an induction coil is true?",
+    "options": {
+      "A": "It converts AC to DC",
+      "B": "It is used to generate high voltage from low voltage",
+      "C": "It operates on the principle of capacitive coupling",
+      "D": "It can only be used in transformers"
+    }
+  },
+  {
+    "id": "ai-topic-conduction-through-liquids-and-gases-11",
+    "examLabel": "Physics Pulse · AI · Topic 37",
+    "topicIds": [
+      "conduction-through-liquids-and-gases"
+    ],
+    "stem": "Which of the following substances is a non-electrolyte?",
+    "options": {
+      "A": "Sodium chloride",
+      "B": "Sulfuric acid",
+      "C": "Glucose",
+      "D": "Potassium nitrate"
+    }
+  },
+  {
+    "id": "ai-topic-conduction-through-liquids-and-gases-12",
+    "examLabel": "Physics Pulse · AI · Topic 37",
+    "topicIds": [
+      "conduction-through-liquids-and-gases"
+    ],
+    "stem": "What is the primary purpose of electrolysis in industrial applications?",
+    "options": {
+      "A": "To cool down metals",
+      "B": "To separate chemical compounds",
+      "C": "To heat liquids",
+      "D": "To increase pressure"
+    }
+  },
+  {
+    "id": "ai-topic-conduction-through-liquids-and-gases-13",
+    "examLabel": "Physics Pulse · AI · Topic 37",
+    "topicIds": [
+      "conduction-through-liquids-and-gases"
+    ],
+    "stem": "According to Faraday’s first law of electrolysis, the mass of a substance deposited at an electrode is directly proportional to what?",
+    "options": {
+      "A": "The temperature of the electrolyte",
+      "B": "The time of electrolysis",
+      "C": "The voltage applied",
+      "D": "The concentration of the electrolyte"
+    }
+  },
+  {
+    "id": "ai-topic-conduction-through-liquids-and-gases-14",
+    "examLabel": "Physics Pulse · AI · Topic 37",
+    "topicIds": [
+      "conduction-through-liquids-and-gases"
+    ],
+    "stem": "During electrolysis, what is the role of the anode?",
+    "options": {
+      "A": "To supply electrons to the electrolyte",
+      "B": "To attract cations",
+      "C": "To reduce chemical compounds",
+      "D": "To provide heat to the system"
+    }
+  },
+  {
+    "id": "ai-topic-conduction-through-liquids-and-gases-15",
+    "examLabel": "Physics Pulse · AI · Topic 37",
+    "topicIds": [
+      "conduction-through-liquids-and-gases"
+    ],
+    "stem": "What happens to the conductivity of a liquid electrolyte when it is diluted with water?",
+    "options": {
+      "A": "It increases",
+      "B": "It decreases",
+      "C": "It remains the same",
+      "D": "It becomes non-conductive"
+    }
+  },
+  {
+    "id": "ai-topic-conduction-through-liquids-and-gases-16",
+    "examLabel": "Physics Pulse · AI · Topic 37",
+    "topicIds": [
+      "conduction-through-liquids-and-gases"
+    ],
+    "stem": "In a gas discharge tube, what is observed when a high voltage is applied?",
+    "options": {
+      "A": "The gas remains unchanged",
+      "B": "The gas ionizes and conducts electricity",
+      "C": "The gas cools down",
+      "D": "The gas becomes a solid"
+    }
+  },
+  {
+    "id": "ai-topic-conduction-through-liquids-and-gases-17",
+    "examLabel": "Physics Pulse · AI · Topic 37",
+    "topicIds": [
+      "conduction-through-liquids-and-gases"
+    ],
+    "stem": "What type of reaction occurs at the cathode during electrolysis?",
+    "options": {
+      "A": "Oxidation",
+      "B": "Reduction",
+      "C": "Neutralization",
+      "D": "Combustion"
+    }
+  },
+  {
+    "id": "ai-topic-conduction-through-liquids-and-gases-18",
+    "examLabel": "Physics Pulse · AI · Topic 37",
+    "topicIds": [
+      "conduction-through-liquids-and-gases"
+    ],
+    "stem": "Which of the following is a common application of electrolysis in the industry?",
+    "options": {
+      "A": "Water purification",
+      "B": "Sewage treatment",
+      "C": "Metal plating",
+      "D": "Air filtration"
+    }
+  },
+  {
+    "id": "ai-topic-conduction-through-liquids-and-gases-19",
+    "examLabel": "Physics Pulse · AI · Topic 37",
+    "topicIds": [
+      "conduction-through-liquids-and-gases"
+    ],
+    "stem": "What is the effect of increasing temperature on the conductivity of an electrolyte solution?",
+    "options": {
+      "A": "Conductivity decreases",
+      "B": "Conductivity remains unchanged",
+      "C": "Conductivity increases",
+      "D": "Conductivity varies randomly"
+    }
+  },
+  {
+    "id": "ai-topic-conduction-through-liquids-and-gases-20",
+    "examLabel": "Physics Pulse · AI · Topic 37",
+    "topicIds": [
+      "conduction-through-liquids-and-gases"
+    ],
+    "stem": "What is the primary product of electrolysis of water?",
+    "options": {
+      "A": "Hydrogen gas",
+      "B": "Oxygen gas",
+      "C": "Hydrogen peroxide",
+      "D": "Sodium hydroxide"
+    }
+  },
+  {
+    "id": "ai-topic-elementary-modern-physics-11",
+    "examLabel": "Physics Pulse · AI · Topic 38",
+    "topicIds": [
+      "elementary-modern-physics"
+    ],
+    "stem": "Which atomic model proposed that electrons move in fixed orbits around the nucleus?",
+    "options": {
+      "A": "Thomson model",
+      "B": "Bohr model",
+      "C": "Rutherford model",
+      "D": "Quantum mechanical model"
+    }
+  },
+  {
+    "id": "ai-topic-elementary-modern-physics-12",
+    "examLabel": "Physics Pulse · AI · Topic 38",
+    "topicIds": [
+      "elementary-modern-physics"
+    ],
+    "stem": "What is the stopping potential for a photoelectric effect experiment if the maximum kinetic energy of emitted electrons is $5.0\text{ eV}$?",
+    "options": {
+      "A": "2.5 V",
+      "B": "5.0 V",
+      "C": "10.0 V",
+      "D": "0 V"
+    }
+  },
+  {
+    "id": "ai-topic-elementary-modern-physics-13",
+    "examLabel": "Physics Pulse · AI · Topic 38",
+    "topicIds": [
+      "elementary-modern-physics"
+    ],
+    "stem": "Which type of radiation is characterized by the emission of a helium nucleus?",
+    "options": {
+      "A": "Alpha radiation",
+      "B": "Beta radiation",
+      "C": "Gamma radiation",
+      "D": "X-ray radiation"
+    }
+  },
+  {
+    "id": "ai-topic-elementary-modern-physics-14",
+    "examLabel": "Physics Pulse · AI · Topic 38",
+    "topicIds": [
+      "elementary-modern-physics"
+    ],
+    "stem": "If a radioactive substance has a half-life of 10 years, how much of a 100 g sample remains after 30 years?",
+    "options": {
+      "A": "12.5 g",
+      "B": "25 g",
+      "C": "50 g",
+      "D": "75 g"
+    }
+  },
+  {
+    "id": "ai-topic-elementary-modern-physics-15",
+    "examLabel": "Physics Pulse · AI · Topic 38",
+    "topicIds": [
+      "elementary-modern-physics"
+    ],
+    "stem": "What is the binding energy of a nucleus if its mass defect is $0.008\text{ kg}$?",
+    "options": {
+      "A": "7.2 MeV",
+      "B": "8.0 MeV",
+      "C": "9.0 MeV",
+      "D": "10.0 MeV"
+    }
+  },
+  {
+    "id": "ai-topic-elementary-modern-physics-16",
+    "examLabel": "Physics Pulse · AI · Topic 38",
+    "topicIds": [
+      "elementary-modern-physics"
+    ],
+    "stem": "Which phenomenon demonstrates the wave-particle duality of light?",
+    "options": {
+      "A": "Photoelectric effect",
+      "B": "Thermionic emission",
+      "C": "Nuclear fission",
+      "D": "Radioactive decay"
+    }
+  },
+  {
+    "id": "ai-topic-elementary-modern-physics-17",
+    "examLabel": "Physics Pulse · AI · Topic 38",
+    "topicIds": [
+      "elementary-modern-physics"
+    ],
+    "stem": "What is the main limitation of the Rutherford model of the atom?",
+    "options": {
+      "A": "It does not explain the stability of atoms.",
+      "B": "It does not account for isotopes.",
+      "C": "It does not describe electron orbits.",
+      "D": "It does not include neutrons."
+    }
+  },
+  {
+    "id": "ai-topic-elementary-modern-physics-18",
+    "examLabel": "Physics Pulse · AI · Topic 38",
+    "topicIds": [
+      "elementary-modern-physics"
+    ],
+    "stem": "Which of the following correctly describes the process of nuclear fission?",
+    "options": {
+      "A": "Splitting of heavy nuclei into lighter nuclei",
+      "B": "Combining light nuclei to form a heavier nucleus",
+      "C": "Emission of alpha particles",
+      "D": "Decay of unstable isotopes"
+    }
+  },
+  {
+    "id": "ai-topic-elementary-modern-physics-19",
+    "examLabel": "Physics Pulse · AI · Topic 38",
+    "topicIds": [
+      "elementary-modern-physics"
+    ],
+    "stem": "What does the uncertainty principle state about the position and momentum of a particle?",
+    "options": {
+      "A": "They can be measured simultaneously with high precision.",
+      "B": "One can be known precisely at the expense of the other.",
+      "C": "They are always equal.",
+      "D": "They are independent of each other."
+    }
+  },
+  {
+    "id": "ai-topic-elementary-modern-physics-20",
+    "examLabel": "Physics Pulse · AI · Topic 38",
+    "topicIds": [
+      "elementary-modern-physics"
+    ],
+    "stem": "What type of spectrum is produced when light from a hot gas is passed through a prism?",
+    "options": {
+      "A": "Continuous spectrum",
+      "B": "Emission spectrum",
+      "C": "Absorption spectrum",
+      "D": "Line spectrum"
+    }
+  },
+  {
+    "id": "ai-topic-introductory-electronics-11",
+    "examLabel": "Physics Pulse · AI · Topic 39",
+    "topicIds": [
+      "introductory-electronics"
+    ],
+    "stem": "Which of the following materials is classified as a semiconductor?",
+    "options": {
+      "A": "Copper",
+      "B": "Silicon",
+      "C": "Rubber",
+      "D": "Glass"
+    }
+  },
+  {
+    "id": "ai-topic-introductory-electronics-12",
+    "examLabel": "Physics Pulse · AI · Topic 39",
+    "topicIds": [
+      "introductory-electronics"
+    ],
+    "stem": "What distinguishes an intrinsic semiconductor from an extrinsic semiconductor?",
+    "options": {
+      "A": "Intrinsic semiconductors have impurities added.",
+      "B": "Extrinsic semiconductors have a higher conductivity.",
+      "C": "Intrinsic semiconductors are pure materials.",
+      "D": "Extrinsic semiconductors cannot be doped."
+    }
+  },
+  {
+    "id": "ai-topic-introductory-electronics-13",
+    "examLabel": "Physics Pulse · AI · Topic 39",
+    "topicIds": [
+      "introductory-electronics"
+    ],
+    "stem": "In an n-type semiconductor, which type of carrier predominates?",
+    "options": {
+      "A": "Holes",
+      "B": "Electrons",
+      "C": "Protons",
+      "D": "Neutrons"
+    }
+  },
+  {
+    "id": "ai-topic-introductory-electronics-14",
+    "examLabel": "Physics Pulse · AI · Topic 39",
+    "topicIds": [
+      "introductory-electronics"
+    ],
+    "stem": "What is the primary function of a diode in an electronic circuit?",
+    "options": {
+      "A": "To amplify signals",
+      "B": "To rectify current",
+      "C": "To store energy",
+      "D": "To increase resistance"
+    }
+  },
+  {
+    "id": "ai-topic-introductory-electronics-15",
+    "examLabel": "Physics Pulse · AI · Topic 39",
+    "topicIds": [
+      "introductory-electronics"
+    ],
+    "stem": "Which of the following describes a p-type semiconductor?",
+    "options": {
+      "A": "It has more electrons than holes.",
+      "B": "It is formed by doping with donor impurities.",
+      "C": "It has more holes than electrons.",
+      "D": "It conducts electricity better than n-type semiconductors."
+    }
+  },
+  {
+    "id": "ai-topic-introductory-electronics-16",
+    "examLabel": "Physics Pulse · AI · Topic 39",
+    "topicIds": [
+      "introductory-electronics"
+    ],
+    "stem": "What is the main purpose of a transistor in an electronic circuit?",
+    "options": {
+      "A": "To rectify current",
+      "B": "To amplify signals",
+      "C": "To store charge",
+      "D": "To insulate current"
+    }
+  },
+  {
+    "id": "ai-topic-introductory-electronics-17",
+    "examLabel": "Physics Pulse · AI · Topic 39",
+    "topicIds": [
+      "introductory-electronics"
+    ],
+    "stem": "Which of the following statements about the band gap in semiconductors is true?",
+    "options": {
+      "A": "Semiconductors have no band gap.",
+      "B": "A larger band gap means better conductivity.",
+      "C": "The band gap determines the electrical properties of the material.",
+      "D": "Conductors have a larger band gap than semiconductors."
+    }
+  },
+  {
+    "id": "ai-topic-introductory-electronics-18",
+    "examLabel": "Physics Pulse · AI · Topic 39",
+    "topicIds": [
+      "introductory-electronics"
+    ],
+    "stem": "What type of semiconductor is created by adding elements like phosphorus to silicon?",
+    "options": {
+      "A": "Intrinsic",
+      "B": "P-type",
+      "C": "N-type",
+      "D": "Insulator"
+    }
+  },
+  {
+    "id": "ai-topic-introductory-electronics-19",
+    "examLabel": "Physics Pulse · AI · Topic 39",
+    "topicIds": [
+      "introductory-electronics"
+    ],
+    "stem": "Which component is essential for converting AC to DC in a circuit?",
+    "options": {
+      "A": "Transistor",
+      "B": "Resistor",
+      "C": "Capacitor",
+      "D": "Diode"
+    }
+  },
+  {
+    "id": "ai-topic-introductory-electronics-20",
+    "examLabel": "Physics Pulse · AI · Topic 39",
+    "topicIds": [
+      "introductory-electronics"
+    ],
+    "stem": "What is the role of holes in a p-type semiconductor?",
+    "options": {
+      "A": "They are the majority charge carriers.",
+      "B": "They are created by excess electrons.",
+      "C": "They increase the band gap.",
+      "D": "They decrease conductivity."
+    }
   }
 ]

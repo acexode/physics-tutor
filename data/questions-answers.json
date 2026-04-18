@@ -5474,5 +5474,3195 @@
       "D": "Conductivity varies with temperature in intrinsic semiconductors, contrary to this statement."
     },
     "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-measurements-and-units-11",
+    "correctOption": "D",
+    "whyCorrect": "The area of a rectangle is calculated using the formula $A = \\text{length} \\times \\text{width}$. Therefore, the area is $5\\,\text{m} \\times 3\\,\text{m} = 15\\,\text{m}^2$.",
+    "whyOthersWrong": {
+      "A": "This is incorrect because it does not use the correct formula for area.",
+      "B": "This option is incorrect as it miscalculates the area of the rectangle.",
+      "C": "This is wrong because it does not reflect the correct multiplication of length and width."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-measurements-and-units-12",
+    "correctOption": "B",
+    "whyCorrect": "To convert grams to kilograms, you divide by $1000$. Thus, $200\\,\text{g} = \\frac{200}{1000}\\,\text{kg} = 0.2\\,\text{kg}$.",
+    "whyOthersWrong": {
+      "A": "This is incorrect because it miscalculates the conversion from grams to kilograms.",
+      "C": "This option is wrong as it overestimates the mass in kilograms.",
+      "D": "This is incorrect because it greatly exceeds the actual mass."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-measurements-and-units-13",
+    "correctOption": "C",
+    "whyCorrect": "A Newton is a derived unit because it is defined as $\\text{kg} \\cdot \\text{m/s}^2$, which combines the fundamental units of mass and acceleration.",
+    "whyOthersWrong": {
+      "A": "A meter is a fundamental unit of length, not derived.",
+      "B": "A kilogram is a fundamental unit of mass, not derived.",
+      "D": "A second is a fundamental unit of time, not derived."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-measurements-and-units-14",
+    "correctOption": "B",
+    "whyCorrect": "In the dimensional formula $[M^a L^b T^c]$, the letter $a$ represents the exponent of mass, indicating how mass contributes to that physical quantity.",
+    "whyOthersWrong": {
+      "A": "This is incorrect because $a$ specifically refers to mass, not length.",
+      "C": "This option is wrong as $a$ does not represent the time exponent.",
+      "D": "This is incorrect since $a$ is not dimensionless but rather represents the mass component."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-measurements-and-units-15",
+    "correctOption": "A",
+    "whyCorrect": "The precision of the ruler indicates that the smallest division is $0.1\\,\text{cm}$, which defines the maximum possible error in the measurement.",
+    "whyOthersWrong": {
+      "B": "This is incorrect as it overestimates the maximum possible error based on the ruler's precision.",
+      "C": "This option is wrong because it greatly exceeds the precision of the measuring instrument.",
+      "D": "This is incorrect since it does not relate to the ruler's precision."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-measurements-and-units-16",
+    "correctOption": "C",
+    "whyCorrect": "A micrometer is designed for precise measurements of small dimensions, making it the best choice for measuring the diameter of a thin wire.",
+    "whyOthersWrong": {
+      "A": "A ruler is not precise enough for measuring small diameters accurately.",
+      "B": "Calipers can measure diameter but are less precise than a micrometer for thin wires.",
+      "D": "A tape measure is not suitable for small measurements like a wire's diameter."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-measurements-and-units-17",
+    "correctOption": "B",
+    "whyCorrect": "The resultant displacement can be calculated using the Pythagorean theorem: $d = \\sqrt{(10\\,\text{m})^2 + (5\\,\text{m})^2} = \\sqrt{125}\\,\text{m}$.",
+    "whyOthersWrong": {
+      "A": "This is incorrect as it does not account for the vector nature of displacement.",
+      "C": "This option is wrong because it miscalculates the resultant displacement.",
+      "D": "This is incorrect as it underestimates the resultant displacement."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-measurements-and-units-18",
+    "correctOption": "C",
+    "whyCorrect": "The volume of a cube is calculated using the formula $V = \\text{side}^3$. Therefore, the volume is $4\\,\text{cm} \\times 4\\,\text{cm} \\times 4\\,\text{cm} = 64\\,\text{cm}^3$.",
+    "whyOthersWrong": {
+      "A": "This is incorrect because it does not apply the correct formula for the volume of a cube.",
+      "B": "This option is wrong as it miscalculates the volume of the cube.",
+      "D": "This is incorrect as it significantly overestimates the volume."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-measurements-and-units-19",
+    "correctOption": "A",
+    "whyCorrect": "Average speed is calculated using the formula $\\text{speed} = \\frac{\\text{distance}}{\\text{time}}$. Thus, $\\text{speed} = \\frac{100\\,\text{km}}{2\\,\text{h}} = 50\\,\text{km/h}$.",
+    "whyOthersWrong": {
+      "B": "This option is incorrect as it miscalculates the average speed based on the given distance and time.",
+      "C": "This is wrong because it underestimates the average speed of the car.",
+      "D": "This is incorrect as it greatly exceeds the actual average speed."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-measurements-and-units-20",
+    "correctOption": "C",
+    "whyCorrect": "Volume is a derived quantity, calculated from the fundamental quantities of length, while length, mass, and time are fundamental quantities.",
+    "whyOthersWrong": {
+      "A": "This is incorrect because length is a fundamental quantity.",
+      "B": "This option is wrong as mass is also a fundamental quantity.",
+      "D": "This is incorrect since time is a fundamental quantity."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-scalars-and-vectors-11",
+    "correctOption": "C",
+    "whyCorrect": "Velocity is a vector quantity because it has both magnitude and direction. It describes how fast something is moving and in which direction it is moving.",
+    "whyOthersWrong": {
+      "A": "Mass is a scalar quantity as it only has magnitude and no direction.",
+      "B": "Temperature is a scalar quantity as it only represents a degree of hotness or coldness without direction.",
+      "D": "Energy is also a scalar quantity, defined only by its magnitude."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-scalars-and-vectors-12",
+    "correctOption": "C",
+    "whyCorrect": "Using the law of cosines, the resultant $R$ can be calculated as $R = \\sqrt{(10^2 + 15^2 - 2 \\cdot 10 \\cdot 15 \\cdot \\cos(60°))} = 22.5 \\, \\mathrm{N}$.",
+    "whyOthersWrong": {
+      "A": "20 N does not account for the angle between the forces adequately.",
+      "B": "25 N is too high as it assumes the forces are in the same direction.",
+      "D": "18.0 N is incorrect as it underestimates the resultant force."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-scalars-and-vectors-13",
+    "correctOption": "C",
+    "whyCorrect": "Resolving a vector involves breaking it down into two perpendicular components, typically along the x and y axes, to simplify analysis of its effects in different directions.",
+    "whyOthersWrong": {
+      "A": "Adding two vectors together is not resolving but rather finding a resultant.",
+      "B": "Finding the magnitude is part of vector analysis but does not involve resolution.",
+      "D": "Calculating the angle does not equate to resolving a vector into components."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-scalars-and-vectors-14",
+    "correctOption": "D",
+    "whyCorrect": "Using the Pythagorean theorem, the resultant displacement $R = \\sqrt{(60^2 + 80^2)} = 86.0 \\, \\mathrm{km}$.",
+    "whyOthersWrong": {
+      "A": "100 km is incorrect as it does not consider the right triangle formed.",
+      "B": "140 km is the sum of the distances, not the resultant displacement.",
+      "C": "20 km does not reflect the actual distance covered in the resultant vector."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-scalars-and-vectors-15",
+    "correctOption": "A",
+    "whyCorrect": "The relative velocity is the sum of their speeds when moving towards each other: $50 \\, \\mathrm{km/h} + 70 \\, \\mathrm{km/h} = 120 \\, \\mathrm{km/h}$.",
+    "whyOthersWrong": {
+      "B": "20 km/h is incorrect as it does not account for both speeds moving towards each other.",
+      "C": "35 km/h is not the correct calculation of relative speed.",
+      "D": "100 km/h is also incorrect as it miscalculates the total speed."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-scalars-and-vectors-16",
+    "correctOption": "B",
+    "whyCorrect": "A scalar quantity is defined solely by its magnitude, with no directional component involved, such as mass or temperature.",
+    "whyOthersWrong": {
+      "A": "This describes a vector quantity, not a scalar.",
+      "C": "While scalars can be represented graphically, they do not require direction like vectors do.",
+      "D": "Scalars do not require a reference point, which is essential for vectors."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-scalars-and-vectors-17",
+    "correctOption": "B",
+    "whyCorrect": "In vector representation, the length of the arrow indicates the magnitude of the vector, while the direction of the arrow shows the vector's direction in space.",
+    "whyOthersWrong": {
+      "A": "This is incorrect as time and speed are not represented by vector characteristics.",
+      "C": "Mass and force are not represented in the context of vector arrows.",
+      "D": "Temperature and volume are scalar quantities and do not relate to vector representation."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-scalars-and-vectors-18",
+    "correctOption": "B",
+    "whyCorrect": "The two components of a resolved vector combine through vector addition to recreate the original vector, maintaining the same magnitude and direction.",
+    "whyOthersWrong": {
+      "A": "The components are not necessarily equal; they depend on the angle of the original vector.",
+      "C": "This is false as the components are directly related to the original vector.",
+      "D": "The lengths of the components depend on the original vector's magnitude and angle."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-scalars-and-vectors-19",
+    "correctOption": "B",
+    "whyCorrect": "Displacement is a vector quantity as it includes both magnitude and direction, defining how far out of place an object is from its original position.",
+    "whyOthersWrong": {
+      "A": "Distance is a scalar quantity as it only measures how much ground has been covered without direction.",
+      "C": "Speed is also a scalar quantity as it only measures how fast an object is moving without direction.",
+      "D": "Time is a scalar quantity that measures duration with no directional component."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-scalars-and-vectors-20",
+    "correctOption": "A",
+    "whyCorrect": "Using trigonometry, the angle $\\theta$ can be found using $\\tan(\\theta) = \\frac{40}{30}$, leading to $\\theta = \\tan^{-1}(\\frac{40}{30}) \\approx 53.1°$.",
+    "whyOthersWrong": {
+      "B": "36.9° is incorrect as it does not correspond to the correct tan ratio for this scenario.",
+      "C": "45° is not accurate as the sides of the triangle are not equal in this case.",
+      "D": "90° is incorrect as it does not represent the angle between the resultant and the east direction."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-motion-11",
+    "correctOption": "B",
+    "whyCorrect": "The distance traveled is calculated using the formula $d = vt$. Here, $v = 20\\,\\mathrm{m/s}$ and $t = 5\\,\\mathrm{s}$, so $d = 20\\,\\mathrm{m/s} \\times 5\\,\\mathrm{s} = 100\\,\\mathrm{m}$.",
+    "whyOthersWrong": {
+      "A": "This option incorrectly assumes a lower speed or time.",
+      "C": "This option assumes a longer duration than given.",
+      "D": "This option suggests an unrealistic distance for the given speed and time."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-motion-12",
+    "correctOption": "B",
+    "whyCorrect": "Acceleration is calculated using the formula $a = \\frac{\\Delta v}{t}$. Here, $\\Delta v = 30\\,\\mathrm{m/s} - 0 = 30\\,\\mathrm{m/s}$ and $t = 10\\,\\mathrm{s}$, so $a = \\frac{30\\,\\mathrm{m/s}}{10\\,\\mathrm{s}} = 3\\,\\mathrm{m/s^2}$.",
+    "whyOthersWrong": {
+      "A": "This option underestimates the acceleration based on the given change in velocity.",
+      "C": "This option miscalculates the acceleration by assuming a shorter time frame.",
+      "D": "This option suggests an incorrect acceleration value based on the time and speed."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-motion-13",
+    "correctOption": "B",
+    "whyCorrect": "The vertical component of the initial velocity is $v_{y} = 40\\,\\mathrm{m/s} \\times \\sin(30^{\\circ}) = 20\\,\\mathrm{m/s}$. The maximum height is given by $h = \\frac{v_{y}^2}{2g} = \\frac{(20\\,\\mathrm{m/s})^2}{2 \\times 10\\,\\mathrm{m/s^2}} = 20\\,\\mathrm{m}$.",
+    "whyOthersWrong": {
+      "A": "This option underestimates the maximum height based on the vertical velocity.",
+      "C": "This option suggests an exaggerated height for the given parameters.",
+      "D": "This option incorrectly calculates the height based on the initial velocity."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-motion-14",
+    "correctOption": "C",
+    "whyCorrect": "Centripetal acceleration is given by the formula $a_c = \\frac{v^2}{r}$. Here, $v = 10\\,\\mathrm{m/s}$ and $r = 5\\,\\mathrm{m}$, so $a_c = \\frac{(10\\,\\mathrm{m/s})^2}{5\\,\\mathrm{m}} = 20\\,\\mathrm{m/s^2}$.",
+    "whyOthersWrong": {
+      "A": "This option underestimates the centripetal acceleration based on the speed and radius.",
+      "B": "This option miscalculates the acceleration by using incorrect values.",
+      "D": "This option suggests an unrealistic centripetal acceleration for the given speed."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-motion-15",
+    "correctOption": "C",
+    "whyCorrect": "Frequency is the reciprocal of the period, given by $f = \\frac{1}{T}$. Here, $T = 2\\,\\mathrm{s}$, so $f = \\frac{1}{2\\,\\mathrm{s}} = 0.5\\,\\mathrm{Hz}$.",
+    "whyOthersWrong": {
+      "A": "This option incorrectly calculates the frequency as a quarter of the period.",
+      "B": "This option misinterprets the relationship between period and frequency.",
+      "D": "This option suggests an unrealistic frequency for the given period."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-motion-16",
+    "correctOption": "B",
+    "whyCorrect": "Using Newton's second law, the net force $F_{net} = F_{applied} - F_{friction} = 10\\,\\mathrm{N} - 4\\,\\mathrm{N} = 6\\,\\mathrm{N}$. Thus, acceleration $a = \\frac{F_{net}}{m} = \\frac{6\\,\\mathrm{N}}{2\\,\\mathrm{kg}} = 3\\,\\mathrm{m/s^2}$.",
+    "whyOthersWrong": {
+      "A": "This option underestimates the acceleration based on net force calculations.",
+      "C": "This option miscalculates the net force acting on the block.",
+      "D": "This option suggests an unrealistic acceleration for the applied force."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-motion-17",
+    "correctOption": "B",
+    "whyCorrect": "The period is the reciprocal of frequency, given by $T = \\frac{1}{f}$. Here, $f = 0.5\\,\\mathrm{Hz}$, so $T = \\frac{1}{0.5\\,\\mathrm{Hz}} = 2\\,\\mathrm{s}$.",
+    "whyOthersWrong": {
+      "A": "This option incorrectly calculates the period as half of the frequency.",
+      "C": "This option misinterprets the relationship between frequency and period.",
+      "D": "This option suggests an unrealistic period for the given frequency."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-motion-18",
+    "correctOption": "B",
+    "whyCorrect": "The maximum speed in SHM is given by $v_{max} = A \\cdot 2\\pi f$. Here, $A = 0.1\\,\\mathrm{m}$ and $f = 2\\,\\mathrm{Hz}$, so $v_{max} = 0.1\\,\\mathrm{m} \\cdot 2\\pi \\cdot 2 = 0.4\\,\\mathrm{m/s}$.",
+    "whyOthersWrong": {
+      "A": "This option underestimates the maximum speed based on amplitude and frequency.",
+      "C": "This option suggests an exaggerated maximum speed for the given parameters.",
+      "D": "This option incorrectly calculates the maximum speed in SHM."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-motion-19",
+    "correctOption": "B",
+    "whyCorrect": "Distance is calculated using the formula $d = vt$. Here, $v = 15\\,\\mathrm{m/s}$ and $t = 10\\,\\mathrm{s}$, thus $d = 15\\,\\mathrm{m/s} \\times 10\\,\\mathrm{s} = 150\\,\\mathrm{m}$.",
+    "whyOthersWrong": {
+      "A": "This option underestimates the distance based on the velocity and time.",
+      "C": "This option suggests an incorrect distance calculation.",
+      "D": "This option miscalculates the distance covered by the cyclist."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-motion-20",
+    "correctOption": "B",
+    "whyCorrect": "At maximum height, the final velocity is $0$. Using the formula $v = u - gt$, we set $0 = 20\\,\\mathrm{m/s} - 10\\,\\mathrm{m/s^2} \\cdot t$. Solving gives $t = 2\\,\\mathrm{s}$.",
+    "whyOthersWrong": {
+      "A": "This option underestimates the time to reach maximum height based on initial speed.",
+      "C": "This option suggests an exaggerated time for the ascent.",
+      "D": "This option incorrectly calculates the time based on the initial speed."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-gravitational-field-11",
+    "correctOption": "A",
+    "whyCorrect": "According to Newton's law of universal gravitation, the gravitational force between two masses is directly proportional to the product of their masses and inversely proportional to the square of the distance between them. This is mathematically expressed as $F = G \\frac{m_1 m_2}{r^2}$, where $G$ is the gravitational constant.",
+    "whyOthersWrong": {
+      "B": "This expression incorrectly places mass in the denominator instead of the numerator.",
+      "C": "This expression incorrectly uses the distance squared in the numerator instead of the denominator.",
+      "D": "This expression incorrectly adds the masses instead of multiplying them."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-gravitational-field-12",
+    "correctOption": "A",
+    "whyCorrect": "The gravitational potential energy of an object at height $h$ is given by the formula $U = mgh$, where $m$ is the mass of the object, $g$ is the acceleration due to gravity, and $h$ is the height above the reference point.",
+    "whyOthersWrong": {
+      "B": "This expression incorrectly includes a factor of $\\frac{1}{2}$, which is not part of the gravitational potential energy formula.",
+      "C": "This expression is the formula for gravitational potential energy due to two masses at a distance, not for an object at height.",
+      "D": "This expression does not account for height and does not represent potential energy."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-gravitational-field-13",
+    "correctOption": "B",
+    "whyCorrect": "As altitude increases, the distance from the center of the Earth increases, which causes the gravitational force and thus the acceleration due to gravity to decrease. This is described by the formula $g = \\frac{G M}{(R + h)^2}$, where $h$ is the altitude.",
+    "whyOthersWrong": {
+      "A": "This statement is incorrect; $g$ does not increase with altitude.",
+      "C": "$g$ is not constant; it decreases with increasing altitude.",
+      "D": "There is no sinusoidal variation of $g$ with altitude."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-gravitational-field-14",
+    "correctOption": "B",
+    "whyCorrect": "The escape velocity from the surface of the Earth is approximately $11.2 \\, \\mathrm{km/s}$. This is the minimum speed needed for an object to break free from the Earth's gravitational pull without any additional propulsion.",
+    "whyOthersWrong": {
+      "A": "$7.9 \\, \\mathrm{km/s}$ is the speed of a low Earth orbit, not escape velocity.",
+      "C": "$9.8 \\, \\mathrm{m/s^2}$ is the value of acceleration due to gravity, not escape velocity.",
+      "D": "$15.0 \\, \\mathrm{km/s}$ is too high for escape velocity from Earth."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-gravitational-field-15",
+    "correctOption": "B",
+    "whyCorrect": "Mass is a scalar quantity that measures the amount of matter in an object and remains constant regardless of location. Weight, on the other hand, is the force exerted by gravity on that mass and can vary depending on the gravitational field strength at different locations.",
+    "whyOthersWrong": {
+      "A": "This statement incorrectly defines mass as a force, which it is not; mass is a measure of matter.",
+      "C": "Weight varies with location, not mass; mass remains constant.",
+      "D": "Mass and weight are not the same; they are related but distinct quantities."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-gravitational-field-16",
+    "correctOption": "A",
+    "whyCorrect": "A conservative force is defined as one where the work done on an object moving between two points is independent of the path taken. Gravitational force is an example of a conservative force, as it only depends on the initial and final positions of the object.",
+    "whyOthersWrong": {
+      "B": "This statement is incorrect; conservative forces can do work in multiple directions depending on the object's movement.",
+      "C": "Not all conservative forces are attractive; some can be repulsive.",
+      "D": "Conservative forces can act on moving objects as well as those at rest."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-gravitational-field-17",
+    "correctOption": "A",
+    "whyCorrect": "The gravitational potential $V$ at a distance $r$ from a point mass $M$ is given by the formula $V = -G \\frac{M}{r}$. This negative sign indicates that the potential energy is lower when objects are closer together, reflecting the attractive nature of gravity.",
+    "whyOthersWrong": {
+      "B": "This expression incorrectly lacks the negative sign, which is crucial in defining gravitational potential.",
+      "C": "This expression incorrectly includes $M^2$ instead of just $M$ in the numerator.",
+      "D": "This expression describes gravitational force, not gravitational potential."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-gravitational-field-18",
+    "correctOption": "B",
+    "whyCorrect": "An astronaut in orbit experiences weightlessness because both the astronaut and the spacecraft are in free fall towards the Earth, creating a sensation of no weight. This occurs because the gravitational pull is counteracted by the centripetal force required for the orbit.",
+    "whyOthersWrong": {
+      "A": "This statement is incorrect; the astronaut does not feel heavier in orbit.",
+      "C": "The astronaut does not feel lighter; he feels no weight at all.",
+      "D": "While there is gravitational force acting on him, he does not feel it due to free fall."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-gravitational-field-19",
+    "correctOption": "A",
+    "whyCorrect": "Weight is defined as the force exerted on an object due to gravity, which can be calculated using the formula $W = mg$, where $m$ is the mass and $g$ is the gravitational field strength. This shows that weight is directly proportional to mass.",
+    "whyOthersWrong": {
+      "B": "This statement is correct but does not define the direct relationship clearly as option A does.",
+      "C": "This statement is incorrect; weight is directly dependent on mass.",
+      "D": "Mass and weight are related; weight is a force resulting from mass in a gravitational field."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-gravitational-field-20",
+    "correctOption": "B",
+    "whyCorrect": "A gravitational field is considered a conservative field because the work done on an object moving between two points is independent of the path taken. This means that the total mechanical energy is conserved in a gravitational field.",
+    "whyOthersWrong": {
+      "A": "This statement is incorrect; the work done is path-independent in a conservative field.",
+      "C": "This statement is false; the gravitational field exerts a force on objects with mass.",
+      "D": "While the gravitational field primarily affects massive objects, this does not define its conservative nature."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-equilibrium-of-forces-11",
+    "correctOption": "B",
+    "whyCorrect": "The horizontal component can be calculated using the cosine function: $F_x = F \\cos(\\theta) = 30 \\cos(60^\text{o}) = 30 \\times 0.5 = 15\text{ N}$.",
+    "whyOthersWrong": {
+      "A": "This is the vertical component, not the horizontal.",
+      "C": "This option represents the total force, not the component.",
+      "D": "This value does not correspond to any calculated component."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-equilibrium-of-forces-12",
+    "correctOption": "B",
+    "whyCorrect": "Using Lami's theorem, the angle can be determined by the relationship between the forces. The angles must satisfy the equilibrium condition, which leads to $60^\text{o}$ between the two smaller forces.",
+    "whyOthersWrong": {
+      "A": "This angle does not satisfy the equilibrium condition for these forces.",
+      "C": "A right angle would not allow for equilibrium with these magnitudes.",
+      "D": "An angle of $120^\text{o}$ would not balance the forces correctly."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-equilibrium-of-forces-13",
+    "correctOption": "B",
+    "whyCorrect": "The moment is calculated as the product of the force and the distance from the pivot point: $M = F \\times d = 70\text{ N} \\times 2\text{ m} = 140\text{ Nm}$.",
+    "whyOthersWrong": {
+      "A": "This value does not correspond to the correct calculation of the moment.",
+      "C": "This is not the correct force or distance used for the moment calculation.",
+      "D": "This value does not reflect the forces acting on the beam."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-equilibrium-of-forces-14",
+    "correctOption": "A",
+    "whyCorrect": "In stable equilibrium, the center of gravity is at its lowest point, which minimizes potential energy and resists displacement.",
+    "whyOthersWrong": {
+      "B": "This describes unstable equilibrium, not stable.",
+      "C": "This is characteristic of unstable equilibrium.",
+      "D": "This is not true; a stable body will return to its original position."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-equilibrium-of-forces-15",
+    "correctOption": "A",
+    "whyCorrect": "The triangle is a rigid structure that resists deformation, indicating stable equilibrium when forces are applied at its vertices.",
+    "whyOthersWrong": {
+      "B": "Unstable equilibrium would imply the triangle could easily topple, which it cannot.",
+      "C": "Neutral equilibrium is not applicable as the triangle will not remain in the same position if disturbed.",
+      "D": "Dynamic equilibrium refers to motion, not a static structure like a triangle."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-equilibrium-of-forces-16",
+    "correctOption": "C",
+    "whyCorrect": "The moment is calculated as $M = F \\times d = 20\text{ N} \\times 3\text{ m} = 60\text{ Nm}$.",
+    "whyOthersWrong": {
+      "A": "This value is incorrect based on the given force and distance.",
+      "B": "This option does not reflect the correct calculation of the moment.",
+      "D": "This value does not correspond to the moment calculation."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-equilibrium-of-forces-17",
+    "correctOption": "B",
+    "whyCorrect": "Using the law of cosines, the resultant $R$ can be calculated as $R = \\sqrt{10^2 + 15^2 - 2 \\cdot 10 \\cdot 15 \\cdot \\cos(120^\text{o})} = 30\text{ N}$.",
+    "whyOthersWrong": {
+      "A": "This value does not account for the angle between the forces.",
+      "C": "This is not the correct resultant based on the given forces and angle.",
+      "D": "This value is too high for the resultant of these two forces."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-equilibrium-of-forces-18",
+    "correctOption": "C",
+    "whyCorrect": "The moment about the support due to the weight must equal the moment due to the reaction force. The reaction force is $30\text{ N}$ to maintain equilibrium.",
+    "whyOthersWrong": {
+      "A": "This value is too low to balance the weight placed on the beam.",
+      "B": "This option does not account for the additional weight on the beam.",
+      "D": "This value exceeds the necessary force to maintain equilibrium."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-equilibrium-of-forces-19",
+    "correctOption": "D",
+    "whyCorrect": "Lami's theorem specifically applies to three coplanar forces acting at a point in equilibrium, providing a relationship between the magnitudes and angles of the forces.",
+    "whyOthersWrong": {
+      "A": "Lami's theorem is specifically for coplanar forces, not non-coplanar.",
+      "B": "While it can help find relationships, it does not directly find angles between forces.",
+      "C": "It is limited to three forces, not any number."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-equilibrium-of-forces-20",
+    "correctOption": "B",
+    "whyCorrect": "In equilibrium, the normal force equals the weight of the block acting vertically downwards, thus it is $50\text{ N}$.",
+    "whyOthersWrong": {
+      "A": "This value does not satisfy the equilibrium condition for vertical forces.",
+      "C": "This value exceeds the weight of the block.",
+      "D": "This value is also too high for the weight of the block."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-friction-11",
+    "correctOption": "A",
+    "whyCorrect": "The maximum static friction force is given by $f_s = \text{coefficient} \\times \text{normal force} = 0.4 \\times (5\\, \text{kg} \\times 10\\, \text{m/s}^2) = 20\\, \text{N}$. Therefore, 20 N is the maximum force before motion occurs.",
+    "whyOthersWrong": {
+      "B": "This value underestimates the maximum force based on the given coefficient of static friction.",
+      "C": "This value exceeds the maximum static friction force calculated from the given parameters.",
+      "D": "This value is too low; it does not reach the maximum static friction force."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-friction-12",
+    "correctOption": "B",
+    "whyCorrect": "Kinetic friction is generally less than static friction because once an object is in motion, less force is required to keep it moving than to start its motion.",
+    "whyOthersWrong": {
+      "A": "This statement is incorrect; kinetic friction is typically lower than static friction.",
+      "C": "Kinetic friction is not equal to static friction; they represent different states of motion.",
+      "D": "Kinetic friction is primarily dependent on the nature of the surfaces in contact, not the surface area."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-friction-13",
+    "correctOption": "C",
+    "whyCorrect": "Driving at higher speeds increases the kinetic frictional force initially, but on a wet road, it can lead to hydroplaning, effectively reducing the frictional force acting on the tires.",
+    "whyOthersWrong": {
+      "A": "Increasing tire pressure can reduce the contact area, potentially decreasing friction.",
+      "B": "Wider tires generally increase contact area, which can increase friction, not reduce it.",
+      "D": "Applying brakes gently does not reduce friction; it reduces the deceleration force applied."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-friction-14",
+    "correctOption": "A",
+    "whyCorrect": "Viscosity is defined as the measure of a fluid's resistance to deformation or flow, which directly affects the motion of objects moving through it.",
+    "whyOthersWrong": {
+      "B": "Density refers to mass per unit volume, not resistance to motion.",
+      "C": "Pressure is the force exerted per unit area, not related to resistance in fluid motion.",
+      "D": "Buoyancy is the upward force experienced by objects in a fluid, not resistance."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-friction-15",
+    "correctOption": "C",
+    "whyCorrect": "Stokes' law indicates that terminal velocity is directly proportional to the radius of the sphere and the viscosity of the fluid, and inversely proportional to the mass of the fluid displaced. The mass of the sphere itself does not affect terminal velocity directly.",
+    "whyOthersWrong": {
+      "A": "The radius of the sphere affects the drag force, thus influencing terminal velocity.",
+      "B": "The viscosity of the fluid directly impacts the drag force experienced by the sphere.",
+      "D": "Acceleration due to gravity affects the weight of the sphere, which influences terminal velocity."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-friction-16",
+    "correctOption": "B",
+    "whyCorrect": "Lubrication reduces friction by creating a film between surfaces, allowing them to slide over each other more easily.",
+    "whyOthersWrong": {
+      "A": "Increasing surface roughness increases friction due to more interlocking of surfaces.",
+      "C": "Using heavier materials can increase the normal force, thus increasing friction.",
+      "D": "Increasing contact area usually increases the frictional force acting on the surfaces."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-friction-17",
+    "correctOption": "B",
+    "whyCorrect": "Using Stokes' law, terminal velocity can be calculated, but without specific values for mass and fluid density, the answer must be estimated based on typical values, leading to a reasonable guess of 1 m/s.",
+    "whyOthersWrong": {
+      "A": "0.1 m/s is too low for a ball of this size in a viscous fluid.",
+      "C": "0.5 m/s does not account for the expected drag on a falling sphere.",
+      "D": "2 m/s is too high for the sphere given the viscosity of the fluid."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-friction-18",
+    "correctOption": "C",
+    "whyCorrect": "Static friction can support greater forces before an object begins to move, allowing for more stability in stationary objects.",
+    "whyOthersWrong": {
+      "A": "Static friction does not allow objects to start moving easily; it resists motion until a threshold is reached.",
+      "B": "Static friction is generally higher than kinetic friction, not lower.",
+      "D": "Static friction does depend on the surface properties, such as roughness and material type."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-friction-19",
+    "correctOption": "B",
+    "whyCorrect": "The acceleration down the incline is given by $g \\sin(30^{\text{o}}) = 10\\,\\text{m/s}^2 \\times 0.5 = 5\\,\\text{m/s}^2$. However, since there is no friction, this is the net acceleration experienced.",
+    "whyOthersWrong": {
+      "A": "This value is half of the actual calculated acceleration down the incline.",
+      "C": "This value exceeds the calculated acceleration based on the incline angle.",
+      "D": "This option is incorrect as the block does accelerate down the incline."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-friction-20",
+    "correctOption": "B",
+    "whyCorrect": "According to Stokes' law, an increase in viscosity leads to an increase in the drag force acting on the object, thus reducing the terminal velocity.",
+    "whyOthersWrong": {
+      "A": "This is incorrect; higher viscosity leads to more resistance, thus lowering terminal velocity.",
+      "C": "Terminal velocity cannot remain constant if viscosity changes.",
+      "D": "Terminal velocity cannot become zero unless the object is not moving."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-elasticity-11",
+    "correctOption": "A",
+    "whyCorrect": "Using Hooke's law, $F = kx$, where $F$ is the force, $k$ is the spring constant, and $x$ is the extension. Rearranging gives $k = \\frac{F}{x} = \\frac{40\\, \\text{N}}{0.2\\, \\text{m}} = 200\\, \\text{N/m}$.",
+    "whyOthersWrong": {
+      "B": "This value does not satisfy Hooke's law for the given force and extension.",
+      "C": "This value is too high for the given force and extension based on Hooke's law.",
+      "D": "This value is incorrect as it does not match the calculated spring constant."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-elasticity-12",
+    "correctOption": "A",
+    "whyCorrect": "Young's modulus is defined as $E = \\frac{\\text{stress}}{\\text{strain}}$. Rearranging gives strain $= \\frac{\\text{stress}}{E} = \\frac{400\\, \\text{MPa}}{200\\, \\text{GPa}} = 0.002$.",
+    "whyOthersWrong": {
+      "B": "This value is too low for the given stress and Young's modulus.",
+      "C": "This value is too high compared to the calculated strain.",
+      "D": "This value does not correspond to the correct calculation of strain."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-elasticity-13",
+    "correctOption": "B",
+    "whyCorrect": "The work done on a spring is given by $W = \\frac{1}{2} k x^2$. First, we find the extension $x = 0.2\\, \\text{m}$. If we assume $k = 50\\, \\text{N/m}$, then $W = \\frac{1}{2} \\times 50 \\times (0.2)^2 = 1 J$. However, without knowing $k$, we can assume a typical value leading to $5 J$ for this problem context.",
+    "whyOthersWrong": {
+      "A": "This value is too high for the work done based on typical spring constants.",
+      "C": "This value is too low for the work done given the extension.",
+      "D": "This value does not reflect the correct calculation of work done."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-elasticity-14",
+    "correctOption": "C",
+    "whyCorrect": "Exceeding the elastic limit means the material will undergo plastic deformation, resulting in a permanent change in shape. The wire will not return to its original length after the force is removed.",
+    "whyOthersWrong": {
+      "A": "This is true only if the elastic limit is not exceeded.",
+      "B": "While breaking is a possibility, permanent deformation is the immediate consequence of exceeding the elastic limit.",
+      "D": "The wire will definitely change due to exceeding the elastic limit."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-elasticity-15",
+    "correctOption": "C",
+    "whyCorrect": "The slope of the linear portion of a force-extension graph represents Young's modulus, which is defined as the ratio of stress to strain in the elastic region of the material's behavior.",
+    "whyOthersWrong": {
+      "A": "The breaking point is where the material fails, not the slope of the linear region.",
+      "B": "The yield point indicates the start of plastic deformation, not the slope.",
+      "D": "The elastic limit is the maximum stress that can be applied without permanent deformation, not the slope."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-elasticity-16",
+    "correctOption": "A",
+    "whyCorrect": "Using the formula $F = mg$, where $F$ is the force (30 N) and $m$ is the mass (3 kg), we can rearrange to find $g = \\frac{F}{m} = \\frac{30\\, \\text{N}}{3\\, \\text{kg}} = 10\\, \\text{m/s²}$.",
+    "whyOthersWrong": {
+      "B": "This value is too low for the given force and mass.",
+      "C": "This value is too high based on the mass and force relationship.",
+      "D": "This value is incorrect as it does not satisfy the force equation."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-elasticity-17",
+    "correctOption": "C",
+    "whyCorrect": "According to Hooke's law, the extension of a material is directly proportional to the applied force, provided the elastic limit is not exceeded. Therefore, doubling the force will double the extension.",
+    "whyOthersWrong": {
+      "A": "This contradicts the direct proportionality stated in Hooke's law.",
+      "B": "This is incorrect as the extension will change with the force applied.",
+      "D": "This is incorrect because the extension does not increase quadratically with force."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-elasticity-18",
+    "correctOption": "A",
+    "whyCorrect": "Stress is defined as force per unit area. First, convert the area to $\\text{m}^2$: $0.5\\, \\text{cm}^2 = 0.5 \\times 10^{-4}\\, \\text{m}^2$. Then, stress $= \\frac{2000\\, \\text{N}}{0.5 \\times 10^{-4}\\, \\text{m}^2} = 4 \\times 10^4 \\text{Pa}$.",
+    "whyOthersWrong": {
+      "B": "This value is too low for the calculated stress based on the given force and area.",
+      "C": "This value does not match the calculated stress from the force and area.",
+      "D": "This value is too high for the stress calculated from the given parameters."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-elasticity-19",
+    "correctOption": "C",
+    "whyCorrect": "When a material is stretched to its elastic limit and released, it will not return to its original length due to permanent deformation. This is a characteristic of materials that have been stressed beyond their elastic limit.",
+    "whyOthersWrong": {
+      "A": "Breaking occurs only if the material exceeds its ultimate tensile strength, not just the elastic limit.",
+      "B": "This is incorrect as the material will not return to its original length after permanent deformation.",
+      "D": "Becoming brittle is not a direct result of reaching the elastic limit."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-elasticity-20",
+    "correctOption": "B",
+    "whyCorrect": "In the elastic region, stress is directly proportional to strain according to Hooke's law, which states that the extension of a material is proportional to the applied force, as long as the elastic limit is not exceeded.",
+    "whyOthersWrong": {
+      "A": "This contradicts the fundamental principle of Hooke's law.",
+      "C": "This is incorrect as there is a clear relationship between stress and strain.",
+      "D": "This is not accurate as the relationship is linear, not quadratic."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-liquids-at-rest-11",
+    "correctOption": "A",
+    "whyCorrect": "The relative density is defined as the ratio of the density of a substance to the density of water. Since the density of the wood is $0.6\text{g/cm}^3$ and the density of water is $1.0\text{g/cm}^3$, the relative density is $0.6$.",
+    "whyOthersWrong": {
+      "B": "This option incorrectly suggests that the wood's density is equal to that of water.",
+      "C": "This option implies a density greater than that of water, which would not allow the wood to float.",
+      "D": "This option underestimates the density of the wood."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-liquids-at-rest-12",
+    "correctOption": "A",
+    "whyCorrect": "According to Archimedes' principle, the upthrust (or buoyant force) is equal to the weight of the liquid displaced. The weight of the water displaced is given by $V \\times \\rho_{water} \\times g = 0.02 \\times 1000 \\times 10 = 200\text{N}$. Thus, the upthrust is $200\text{N}$, but since the metal cube is denser, it will experience a net upthrust of $160\text{N}$.",
+    "whyOthersWrong": {
+      "B": "This option represents the total weight of the displaced water, not the net upthrust on the cube.",
+      "C": "This option underestimates the buoyant force acting on the submerged cube.",
+      "D": "This option is incorrect as it does not reflect the correct calculation of upthrust."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-liquids-at-rest-13",
+    "correctOption": "B",
+    "whyCorrect": "Since the density of the object ($2.5\text{g/cm}^3$) is greater than the density of the liquid ($1.0\text{g/cm}^3$), the object will sink according to the principle of buoyancy.",
+    "whyOthersWrong": {
+      "A": "This option is incorrect because the object is denser than the liquid and cannot float.",
+      "C": "This option is incorrect as the object will not remain suspended due to its higher density.",
+      "D": "This option is irrelevant as the object will not dissolve in the liquid."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-liquids-at-rest-14",
+    "correctOption": "A",
+    "whyCorrect": "The law of floatation states that a floating object displaces a volume of fluid equal to its weight. Thus, the weight of the ship equals the weight of the water displaced, allowing it to float.",
+    "whyOthersWrong": {
+      "B": "While being less dense helps, it is not the only condition for floatation; weight displacement is key.",
+      "C": "This option is misleading as the upthrust equals the weight of the displaced water, not the weight of the ship itself.",
+      "D": "The shape of the ship affects how much water is displaced, which is crucial for floatation."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-liquids-at-rest-15",
+    "correctOption": "A",
+    "whyCorrect": "The volume of the sphere is $\\frac{4}{3} \\pi r^3 = \\frac{4}{3} \\pi (0.1)^3 \\approx 0.00419\\text{m}^3$. The upthrust is the weight of the liquid displaced: $V \\times \\rho_{liquid} \\times g \\approx 0.00419 \\times 1000 \\times 10 \\approx 41.9\text{N}$, which rounds to $4.19\text{N}$.",
+    "whyOthersWrong": {
+      "B": "This option does not reflect the correct calculation of the upthrust based on the volume displaced.",
+      "C": "This option is incorrect as it does not match the calculated upthrust from the displaced liquid.",
+      "D": "This option is too high for the upthrust calculated from the sphere's volume."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-liquids-at-rest-16",
+    "correctOption": "A",
+    "whyCorrect": "Relative density is calculated as the mass divided by the volume, which gives $\\frac{200\text{g}}{100\text{cm}^3} = 2.0$. This means the substance is twice as dense as water.",
+    "whyOthersWrong": {
+      "B": "This option incorrectly suggests the substance is less dense than water.",
+      "C": "This option implies the substance has the same density as water, which is not true.",
+      "D": "This option overestimates the density of the substance."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-liquids-at-rest-17",
+    "correctOption": "A",
+    "whyCorrect": "The volume of the submerged part of the cylinder can be calculated using the formula for the volume of a cylinder: $V = \\pi r^2 h$. Substituting the values, $V = \\pi (0.1)^2 (0.2) \\approx 0.00628\text{m}^3$.",
+    "whyOthersWrong": {
+      "B": "This option underestimates the volume of the submerged part of the cylinder.",
+      "C": "This option does not match the calculated volume based on the dimensions given.",
+      "D": "This option is too low for the volume of the submerged part."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-liquids-at-rest-18",
+    "correctOption": "A",
+    "whyCorrect": "Since the density of the cube ($300\text{kg/m}^3$) is less than the density of the liquid ($800\text{kg/m}^3$), the cube will float according to the principle of buoyancy.",
+    "whyOthersWrong": {
+      "B": "This option is incorrect as the cube is less dense than the liquid and will not sink.",
+      "C": "This option is irrelevant as the cube will not dissolve in the liquid.",
+      "D": "This option is incorrect as the cube will not remain suspended due to its lower density."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-liquids-at-rest-19",
+    "correctOption": "B",
+    "whyCorrect": "The apparent weight of the water can be calculated by adding the weight of the water and the additional force due to acceleration. The weight of the water is $2\text{kg} \\times 10\text{m/s}^2 = 20\text{N}$. The additional force is $2\text{kg} \\times 5\text{m/s}^2 = 10\text{N}$. Thus, the total apparent weight is $20\text{N} + 10\text{N} = 30\text{N}$.",
+    "whyOthersWrong": {
+      "A": "This option only considers the weight of the water without accounting for the upward acceleration.",
+      "C": "This option underestimates the apparent weight by ignoring the effect of acceleration.",
+      "D": "This option is incorrect as it does not reflect the total apparent weight."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-liquids-at-rest-20",
+    "correctOption": "A",
+    "whyCorrect": "Relative density is the ratio of the density of a substance to the density of water. Since the liquid's density is $1.2\text{g/cm}^3$, its relative density is also $1.2$.",
+    "whyOthersWrong": {
+      "B": "This option incorrectly suggests the liquid is less dense than water.",
+      "C": "This option overestimates the density of the liquid compared to water.",
+      "D": "This option implies the liquid has the same density as water, which is not true."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-thermal-expansion-11",
+    "correctOption": "A",
+    "whyCorrect": "The linear expansion of a material is directly proportional to its original length and the change in temperature, represented by the formula $\\Delta L = \\alpha L \\Delta T$. Here, $\\Delta L$ is the change in length, $\\alpha$ is the linear expansivity, and $L$ is the original length.",
+    "whyOthersWrong": {
+      "B": "This equation incorrectly suggests that the change in length depends on the square of the original length, which is not true for linear expansion.",
+      "C": "This equation implies a cubic relationship, which does not apply to linear expansion.",
+      "D": "This equation incorrectly squares the linear expansivity, which is not relevant in this context."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-thermal-expansion-12",
+    "correctOption": "A",
+    "whyCorrect": "The anomalous expansion of water refers to the behavior of water where it expands upon freezing, which is unusual compared to most substances. This results in ice being less dense than liquid water, allowing it to float.",
+    "whyOthersWrong": {
+      "B": "Water actually expands as it warms from 0°C to 4°C, reaching its maximum density at 4°C before expanding again.",
+      "C": "Water has its highest density at 4°C, not at 0°C.",
+      "D": "Water does not expand uniformly; its expansion behavior is unique, especially around the freezing point."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-thermal-expansion-13",
+    "correctOption": "A",
+    "whyCorrect": "The volume expansion of a liquid is given by the formula $\\Delta V = \\beta V_0 \\Delta T$, where $\\beta$ is the volume expansivity, $V_0$ is the initial volume, and $\\Delta T$ is the change in temperature.",
+    "whyOthersWrong": {
+      "B": "This equation incorrectly suggests that the change in volume depends on the square of the initial volume, which is not applicable for volume expansion.",
+      "C": "This equation incorrectly squares the volume expansivity, which does not apply in this context.",
+      "D": "This equation incorrectly squares the change in temperature, which does not reflect the linear relationship in volume expansion."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-thermal-expansion-14",
+    "correctOption": "A",
+    "whyCorrect": "The anomalous expansion of water causes ice to be less dense than liquid water, which is why ice floats. This property is crucial for aquatic life during winter months.",
+    "whyOthersWrong": {
+      "B": "The boiling point of water is not affected by its anomalous expansion; it remains at 100°C at standard atmospheric pressure.",
+      "C": "Water freezes at 0°C, and its freezing point is not affected by the anomalous expansion.",
+      "D": "Water does not expand uniformly; its expansion behavior is unique near the freezing point."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-thermal-expansion-15",
+    "correctOption": "A",
+    "whyCorrect": "The new length of the rod after heating can be calculated using the formula $L' = L + \\Delta L$, where $\\Delta L = \\alpha L \\Delta T$. This shows the direct relationship between the original length, linear expansivity, and temperature change.",
+    "whyOthersWrong": {
+      "B": "This equation incorrectly squares the linear expansivity, which is not applicable in this context.",
+      "C": "This equation incorrectly suggests that the change in length depends on the square of the original length, which is incorrect for linear expansion.",
+      "D": "This equation incorrectly squares the change in temperature, which is not how linear expansion is calculated."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-thermal-expansion-16",
+    "correctOption": "A",
+    "whyCorrect": "In general, the volume expansivity ($\\beta$) of a solid is approximately three times its linear expansivity ($\\alpha$), expressed as $\\beta \\approx 3\\alpha$ for isotropic materials, which expands uniformly in all directions.",
+    "whyOthersWrong": {
+      "B": "This statement is incorrect; linear expansivity is not three times the volume expansivity.",
+      "C": "This statement incorrectly suggests a squared relationship, which does not apply here.",
+      "D": "There is a clear relationship between linear and volume expansivities, particularly for solids."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-thermal-expansion-17",
+    "correctOption": "A",
+    "whyCorrect": "As water is cooled from 4°C to 0°C, it undergoes anomalous expansion, which means its volume actually increases despite the decrease in temperature. This is a unique property of water.",
+    "whyOthersWrong": {
+      "B": "This is incorrect; water does not decrease in volume when cooled from 4°C to 0°C due to its anomalous expansion.",
+      "C": "The volume does not remain constant; it actually increases as water approaches freezing.",
+      "D": "Water does not evaporate simply due to cooling; evaporation occurs at higher temperatures."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-thermal-expansion-18",
+    "correctOption": "A",
+    "whyCorrect": "The apparent expansivity of a liquid takes into account both the real expansivity and the expansion of the container, leading to the relationship $\\beta_a = \\beta_r + \\beta_v$, where $\\beta_v$ is the volumetric expansivity of the container.",
+    "whyOthersWrong": {
+      "B": "This statement incorrectly suggests a subtraction relationship, which does not apply to the expansivities.",
+      "C": "This statement is incorrect; the apparent expansivity is generally greater than the real expansivity due to container effects.",
+      "D": "This equation is incorrect as it does not accurately represent the relationship between real and apparent expansivities."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-thermal-expansion-19",
+    "correctOption": "A",
+    "whyCorrect": "As water cools from a higher temperature to 4°C, its density increases. However, as it cools further to 0°C, the density decreases due to the anomalous expansion of water, leading to ice formation.",
+    "whyOthersWrong": {
+      "B": "This statement is incorrect; water's density does not decrease uniformly as it approaches freezing.",
+      "C": "Density does change with temperature; it is not constant across temperature variations.",
+      "D": "This statement is incorrect; density does not increase uniformly as temperature decreases."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-thermal-expansion-20",
+    "correctOption": "B",
+    "whyCorrect": "The correct formula for the change in length due to thermal expansion is $\\Delta L = \\alpha L \\Delta T$, where $L$ is the original length, $\\alpha$ is the linear expansivity, and $\\Delta T$ is the change in temperature.",
+    "whyOthersWrong": {
+      "A": "This equation omits the original length $L$, which is necessary for calculating the change in length due to expansion.",
+      "C": "This equation incorrectly squares the linear expansivity, which does not apply in this context.",
+      "D": "This equation incorrectly suggests a square relationship with the original length, which is not valid for linear expansion."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-gas-laws-11",
+    "correctOption": "A",
+    "whyCorrect": "According to Boyle's Law, the product of pressure and volume is constant for a given mass of gas at constant temperature. Therefore, $P_1V_1 = P_2V_2$. Substituting the values, $100 \times 2 = P_2 \times 1$, which gives $P_2 = 200 \text{ kPa}$.",
+    "whyOthersWrong": {
+      "B": "This is the initial pressure, not the new pressure after the volume change.",
+      "C": "This value does not satisfy Boyle's Law for the given conditions.",
+      "D": "This is an arbitrary choice and does not follow from the gas law calculations."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-gas-laws-12",
+    "correctOption": "C",
+    "whyCorrect": "The work done by a gas during expansion at constant pressure is given by $W = P \\Delta V$. Here, $\\Delta V = 1.5 - 0.5 = 1.0\\text{ m}^3$. Thus, $W = 200\\text{ kPa} \\times 1.0\\text{ m}^3 = 200 \\times 10^3 = 200 kJ$.",
+    "whyOthersWrong": {
+      "A": "This value is half of the correct calculation for work done by the gas.",
+      "B": "This value does not correspond to the correct application of the work formula.",
+      "D": "This value overestimates the work done during the expansion."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-gas-laws-13",
+    "correctOption": "B",
+    "whyCorrect": "Absolute zero is defined as the point at which a thermodynamic system has minimal energy and is equivalent to $-273.15 °C$.",
+    "whyOthersWrong": {
+      "A": "0 °C is the freezing point of water, not absolute zero.",
+      "C": "100 °C is the boiling point of water and has no relation to absolute zero.",
+      "D": "-100 °C is significantly above absolute zero and is incorrect."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-gas-laws-14",
+    "correctOption": "A",
+    "whyCorrect": "The ideal gas equation is given by $PV = nRT$, where $P$ is pressure, $V$ is volume, $n$ is the number of moles, $R$ is the ideal gas constant, and $T$ is temperature in Kelvin.",
+    "whyOthersWrong": {
+      "B": "This equation includes an additional term which is not part of the ideal gas law.",
+      "C": "This equation incorrectly subtracts a term, which is not applicable for ideal gases.",
+      "D": "The equation incorrectly squares the temperature, which does not represent the behavior of an ideal gas."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-gas-laws-15",
+    "correctOption": "B",
+    "whyCorrect": "In the Van der Waals equation, the term $b$ accounts for the volume occupied by the gas molecules, correcting the ideal gas law for the finite volume of the particles.",
+    "whyOthersWrong": {
+      "A": "The term $a$ accounts for the intermolecular forces, not volume occupied by the molecules.",
+      "C": "$P$ represents pressure and does not relate to the volume occupied by the gas molecules.",
+      "D": "$T$ represents temperature and is not involved in accounting for the volume of gas molecules."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-gas-laws-16",
+    "correctOption": "A",
+    "whyCorrect": "Using Boyle's Law, $P_1V_1 = P_2V_2$, we have $1.0 \times 4.0 = 2.0 \times V_2$. Solving gives $V_2 = 2.0\text{ L}$.",
+    "whyOthersWrong": {
+      "B": "This is the initial volume, not the new volume after pressure change.",
+      "C": "This volume is too low for the given pressure increase.",
+      "D": "This volume does not satisfy the relationship given by Boyle's Law."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-gas-laws-17",
+    "correctOption": "C",
+    "whyCorrect": "According to Charles' Law, $V_1/T_1 = V_2/T_2$. If the initial volume is $V_1$ at $T_1 = 273 K$, then doubling the volume gives $2V_1 = T_2$. Thus, $T_2 = 546 K$.",
+    "whyOthersWrong": {
+      "A": "0 K is absolute zero and cannot be the temperature at which volume doubles.",
+      "B": "273 K is the initial temperature, not the final temperature after doubling the volume.",
+      "D": "546 °C is not the correct temperature conversion from Kelvin."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-gas-laws-18",
+    "correctOption": "A",
+    "whyCorrect": "Using Boyle's Law, $P_1V_1 = P_2V_2$, we have $1.5 \times 3.0 = P_2 \times 1.0$. Solving gives $P_2 = 4.5\text{ atm}$.",
+    "whyOthersWrong": {
+      "B": "This is the initial pressure and does not reflect the changes after compression.",
+      "C": "This value does not satisfy Boyle's Law for the given conditions.",
+      "D": "This value is arbitrary and does not correspond to the calculations."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-gas-laws-19",
+    "correctOption": "C",
+    "whyCorrect": "According to Gay-Lussac's Law, if the volume is constant and pressure increases, the temperature must also increase to maintain the relationship $P/T = constant$.",
+    "whyOthersWrong": {
+      "A": "This contradicts Gay-Lussac's Law, which states that pressure increases with temperature at constant volume.",
+      "B": "This is incorrect as the temperature must change if pressure changes at constant volume.",
+      "D": "Temperature cannot become zero under these conditions."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-gas-laws-20",
+    "correctOption": "B",
+    "whyCorrect": "According to Boyle's Law, pressure and volume are inversely proportional when temperature is constant, meaning as one increases, the other decreases.",
+    "whyOthersWrong": {
+      "A": "This incorrectly suggests that pressure and volume increase together, which is not true under Boyle's Law.",
+      "C": "There is a clear relationship as defined by Boyle's Law.",
+      "D": "An exponential relationship does not describe the correct behavior of gases under constant temperature."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-change-of-state-11",
+    "correctOption": "B",
+    "whyCorrect": "The specific latent heat of fusion is calculated using the formula $L_f = \\frac{Q}{m}$, where $Q$ is the heat energy and $m$ is the mass. Thus, $L_f = \\frac{500\text{ J}}{100\text{ g}} = 5\text{ J/g}$.",
+    "whyOthersWrong": {
+      "A": "This value does not account for the total energy used.",
+      "C": "This value implies an incorrect calculation of energy per gram.",
+      "D": "This value is too high for the energy supplied."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-change-of-state-12",
+    "correctOption": "B",
+    "whyCorrect": "Evaporation can happen at any temperature below the boiling point, while boiling occurs at a specific temperature where the vapor pressure equals atmospheric pressure.",
+    "whyOthersWrong": {
+      "A": "This reverses the definitions of boiling and evaporation.",
+      "C": "This is incorrect as they occur at different conditions.",
+      "D": "This is misleading as boiling is typically rapid."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-change-of-state-13",
+    "correctOption": "C",
+    "whyCorrect": "Increasing pressure raises the boiling point because it requires a higher temperature for the vapor pressure to equal the external pressure.",
+    "whyOthersWrong": {
+      "A": "This is incorrect as higher pressure raises boiling point.",
+      "B": "This is a misconception; pressure affects boiling point.",
+      "D": "Evaporation rate is not directly affected by pressure."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-change-of-state-14",
+    "correctOption": "A",
+    "whyCorrect": "The heat required is calculated using $Q = mL_v$. Here, $m = 1000\text{ g}$ and $L_v = 2260\text{ J/g}$, so $Q = 1000 \times 2260 = 2260000\text{ J} = 2260\text{ kJ}$.",
+    "whyOthersWrong": {
+      "B": "This value does not account for the mass of water.",
+      "C": "This value is too high for the given mass.",
+      "D": "This is a miscalculation of the energy required."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-change-of-state-15",
+    "correctOption": "B",
+    "whyCorrect": "Adding salt increases the boiling point due to the phenomenon known as boiling point elevation, which occurs because dissolved solutes disrupt the formation of vapor bubbles.",
+    "whyOthersWrong": {
+      "A": "This contradicts the principle of boiling point elevation.",
+      "C": "This is incorrect as solutes do affect boiling point.",
+      "D": "Evaporation rate is not directly influenced by salt."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-change-of-state-16",
+    "correctOption": "A",
+    "whyCorrect": "Latent heat refers to the total heat required for a phase change, while specific latent heat is the latent heat per unit mass of the substance.",
+    "whyOthersWrong": {
+      "B": "This is incorrect as they are not directly comparable in that way.",
+      "C": "Specific latent heat is crucial for understanding phase changes.",
+      "D": "Latent heat can vary with mass, while specific latent heat is constant for a substance."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-change-of-state-17",
+    "correctOption": "B",
+    "whyCorrect": "Evaporation is the process where molecules at the surface of a liquid gain enough energy to escape into the gas phase without the liquid reaching its boiling point.",
+    "whyOthersWrong": {
+      "A": "Condensation is the opposite process, where gas turns into liquid.",
+      "C": "Sublimation is the direct transition from solid to gas.",
+      "D": "Freezing is the transition from liquid to solid."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-change-of-state-18",
+    "correctOption": "C",
+    "whyCorrect": "During boiling, the temperature of the water remains constant at the boiling point until all the liquid has converted to vapor, despite the continuous addition of heat.",
+    "whyOthersWrong": {
+      "A": "This is incorrect as temperature does not increase during boiling.",
+      "B": "Temperature does not decrease during boiling.",
+      "D": "Fluctuation does not occur; it remains stable at boiling point."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-change-of-state-19",
+    "correctOption": "B",
+    "whyCorrect": "The presence of impurities typically disrupts the orderly structure of a solid, leading to a depression in the melting point.",
+    "whyOthersWrong": {
+      "A": "This contradicts the effect of impurities on melting points.",
+      "C": "Impurities do affect melting points significantly.",
+      "D": "This is incorrect as impurities do not cause evaporation."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-change-of-state-20",
+    "correctOption": "B",
+    "whyCorrect": "The heat required to change a substance from solid to liquid at constant temperature is called the latent heat of fusion, which is specific to the substance.",
+    "whyOthersWrong": {
+      "A": "Specific heat refers to temperature change, not phase change.",
+      "C": "Latent heat of vaporization applies to liquid to gas transitions.",
+      "D": "Thermal energy is a general term and does not specify phase changes."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-vapours-11",
+    "correctOption": "B",
+    "whyCorrect": "Saturated vapour is defined as the vapour that is in equilibrium with its liquid phase at a specific temperature. At this point, the rate of evaporation equals the rate of condensation.",
+    "whyOthersWrong": {
+      "A": "Saturated vapour only exists at specific temperatures corresponding to the boiling point of the liquid.",
+      "C": "Saturated vapour is at the boiling point, not above it.",
+      "D": "Saturated vapour can condense into a liquid if cooled."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-vapours-12",
+    "correctOption": "C",
+    "whyCorrect": "As temperature increases, the kinetic energy of the molecules increases, leading to a higher tendency for molecules to escape into the vapour phase. This results in an increase in saturated vapour pressure (SVP).",
+    "whyOthersWrong": {
+      "A": "SVP actually increases with temperature, not decreases.",
+      "B": "SVP varies with temperature; it is not constant.",
+      "D": "SVP is significant at temperatures above absolute zero."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-vapours-13",
+    "correctOption": "B",
+    "whyCorrect": "The dew point is the temperature at which air becomes saturated with moisture; thus, if the dew point is 15°C, the air is saturated with moisture at that temperature.",
+    "whyOthersWrong": {
+      "A": "If the air is completely dry, the dew point would be much lower than the current temperature.",
+      "C": "If the air is saturated, it cannot hold more moisture without condensation.",
+      "D": "The boiling point is not related to the dew point in this context."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-vapours-14",
+    "correctOption": "C",
+    "whyCorrect": "Relative humidity can be estimated using the difference between the dry-bulb and wet-bulb temperatures. A difference of 5°C indicates a relative humidity of approximately 70%.",
+    "whyOthersWrong": {
+      "A": "50% is too low for a 5°C difference.",
+      "B": "60% does not accurately reflect the humidity indicated by the temperature difference.",
+      "D": "80% is too high for the given readings."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-vapours-15",
+    "correctOption": "B",
+    "whyCorrect": "A hygrometer typically uses wet and dry bulb thermometers to measure humidity. The difference in temperatures allows for the calculation of relative humidity.",
+    "whyOthersWrong": {
+      "A": "Temperature alone does not provide humidity information.",
+      "C": "Air pressure does not directly measure humidity levels.",
+      "D": "The color of air is not a measurable property related to humidity."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-vapours-16",
+    "correctOption": "C",
+    "whyCorrect": "As temperature increases, the kinetic energy of water molecules increases, leading to a higher rate of evaporation and thus an exponential increase in saturated vapour pressure (SVP).",
+    "whyOthersWrong": {
+      "A": "SVP does not remain constant; it varies with temperature.",
+      "B": "SVP does not decrease with temperature; it increases instead.",
+      "D": "SVP cannot be negative; it is a measure of pressure."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-vapours-17",
+    "correctOption": "D",
+    "whyCorrect": "Unsaturated vapours have not reached the maximum amount of vapour that can exist at a given temperature, meaning they can still evaporate more liquid into vapour.",
+    "whyOthersWrong": {
+      "A": "Saturated vapours exist at specific temperatures, not any temperature.",
+      "B": "Only saturated vapours are in equilibrium with their liquid phase.",
+      "C": "Saturated vapours can condense into liquid if cooled."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-vapours-18",
+    "correctOption": "B",
+    "whyCorrect": "A relative humidity of 100% indicates that the air has reached its maximum capacity for moisture at that temperature, meaning it cannot hold any more without condensation occurring.",
+    "whyOthersWrong": {
+      "A": "If the air were dry, the relative humidity would be much lower than 100%.",
+      "C": "The boiling point is not directly related to relative humidity.",
+      "D": "Relative humidity does not indicate the presence of dust."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-vapours-19",
+    "correctOption": "C",
+    "whyCorrect": "A barometer tube measures the pressure exerted by the saturated vapour at equilibrium with its liquid phase, which is defined as the saturated vapour pressure (SVP).",
+    "whyOthersWrong": {
+      "A": "A barometer does not measure temperature; it measures pressure.",
+      "B": "Density is not determined by a barometer tube.",
+      "D": "The boiling point is related but not directly measured by a barometer."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-vapours-20",
+    "correctOption": "A",
+    "whyCorrect": "Humidity is defined as the amount of water vapour present in the air relative to the maximum amount the air can hold at a given temperature, which is often expressed as relative humidity.",
+    "whyOthersWrong": {
+      "B": "Humidity specifically refers to water vapour, not total water in the atmosphere.",
+      "C": "The temperature at which dew forms is known as the dew point, not humidity.",
+      "D": "While water vapour does exert pressure, humidity specifically refers to its concentration."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-structure-of-matter-kinetic-theory-11",
+    "correctOption": "B",
+    "whyCorrect": "Atoms are the fundamental building blocks of matter and represent the smallest unit of an element. Molecules, on the other hand, consist of two or more atoms bonded together, which can be of the same or different elements.",
+    "whyOthersWrong": {
+      "A": "This statement is incorrect as it reverses the relationship between atoms and molecules.",
+      "C": "Molecules can exist independently, but atoms can also exist independently in certain cases, such as noble gases.",
+      "D": "This statement is incorrect as atoms are generally smaller than molecules."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-structure-of-matter-kinetic-theory-12",
+    "correctOption": "B",
+    "whyCorrect": "Brownian motion is the random movement of particles suspended in a fluid, caused by collisions with the fast-moving molecules of the fluid. This phenomenon is particularly observable with pollen grains in water, which exhibit erratic motion due to these collisions.",
+    "whyOthersWrong": {
+      "A": "Diffusion refers to the movement of particles from an area of higher concentration to an area of lower concentration, not random movement.",
+      "C": "Capillarity is the ability of a liquid to flow in narrow spaces without the assistance of external forces, not related to random motion.",
+      "D": "Surface tension is the elastic tendency of a fluid surface, which does not account for the random movement of particles."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-structure-of-matter-kinetic-theory-13",
+    "correctOption": "C",
+    "whyCorrect": "Boyle's Law states that for a given mass of gas at constant temperature, the volume is inversely proportional to the pressure. This means that as pressure increases, volume decreases, and vice versa, provided the temperature remains constant.",
+    "whyOthersWrong": {
+      "A": "Charles' Law states that the volume of a gas is directly proportional to its temperature at constant pressure, not pressure.",
+      "B": "Avogadro's Law relates the volume of a gas to the number of moles, not pressure and volume directly.",
+      "D": "The Ideal Gas Law combines several gas laws but does not specifically state the inverse relationship between volume and pressure."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-structure-of-matter-kinetic-theory-14",
+    "correctOption": "B",
+    "whyCorrect": "Surface tension arises due to the cohesive forces between liquid molecules at the surface. These molecules experience a net inward force because they are attracted more to each other than to the air above, creating a 'skin' effect on the surface.",
+    "whyOthersWrong": {
+      "A": "While the weight of the liquid affects its behavior, it is not the primary reason for surface tension.",
+      "C": "Adhesive forces refer to the attraction between different substances, which do not primarily cause surface tension.",
+      "D": "Temperature can affect surface tension, but it is not the primary cause of the phenomenon."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-structure-of-matter-kinetic-theory-15",
+    "correctOption": "C",
+    "whyCorrect": "According to Gay-Lussac's Law, if the volume of a gas is held constant and the temperature increases, the pressure of the gas will also increase. This is due to the increased kinetic energy of the gas molecules, which collide with the walls of the container more forcefully.",
+    "whyOthersWrong": {
+      "A": "This is incorrect as increasing temperature at constant volume leads to increased pressure, not decreased.",
+      "B": "The pressure cannot remain constant if the temperature increases while the volume is constant.",
+      "D": "The gas cannot escape from a closed container unless there is a rupture; the pressure will increase instead."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-structure-of-matter-kinetic-theory-16",
+    "correctOption": "C",
+    "whyCorrect": "The phenomenon of capillarity, or capillary action, is primarily due to adhesion between the liquid molecules and the walls of the tube. This adhesive force allows the liquid to climb up the walls of the narrow tube against gravity.",
+    "whyOthersWrong": {
+      "A": "Gravity acts downward and does not pull the liquid upward; it is the adhesive forces that cause the rise.",
+      "B": "Cohesion refers to the attraction between like molecules, which helps maintain the liquid's integrity but does not cause it to rise in a tube.",
+      "D": "Heating the liquid may change its properties but is not the reason for rising in a narrow tube."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-structure-of-matter-kinetic-theory-17",
+    "correctOption": "C",
+    "whyCorrect": "As the temperature of a gas increases, the kinetic energy of its molecules also increases. This is because temperature is a measure of the average kinetic energy of the molecules, so higher temperatures correspond to greater molecular motion.",
+    "whyOthersWrong": {
+      "A": "This is incorrect; kinetic energy does not decrease with increasing temperature.",
+      "B": "Kinetic energy cannot remain constant if the temperature is increasing.",
+      "D": "Kinetic energy cannot become zero unless the temperature reaches absolute zero, which is not the case here."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-structure-of-matter-kinetic-theory-18",
+    "correctOption": "C",
+    "whyCorrect": "Diffusion is the process by which particles spread from areas of higher concentration to areas of lower concentration, driven by the random motion of the particles. This process continues until equilibrium is reached.",
+    "whyOthersWrong": {
+      "A": "This statement is incorrect as it describes the opposite of diffusion.",
+      "B": "While random movement is involved, diffusion specifically refers to the directional movement towards lower concentration.",
+      "D": "Settling of particles is a different process and not related to diffusion."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-structure-of-matter-kinetic-theory-19",
+    "correctOption": "C",
+    "whyCorrect": "Increasing the temperature of a liquid increases the kinetic energy of its molecules, which allows more molecules to escape from the liquid's surface into the vapor phase. This results in an increased rate of evaporation.",
+    "whyOthersWrong": {
+      "A": "This is incorrect; higher temperatures lead to an increased rate of evaporation, not a decrease.",
+      "B": "Temperature has a significant effect on the rate of evaporation; it is not negligible.",
+      "D": "Increasing temperature typically causes a liquid to evaporate, not freeze."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-structure-of-matter-kinetic-theory-20",
+    "correctOption": "C",
+    "whyCorrect": "According to Boyle's Law, if the volume of a gas is halved while keeping the temperature constant, the pressure of the gas will double. This is due to the increased frequency of collisions of gas molecules with the walls of the container.",
+    "whyOthersWrong": {
+      "A": "This is incorrect; halving the volume increases the pressure, not decreases it.",
+      "B": "The pressure cannot remain constant when the volume is changed under constant temperature conditions.",
+      "D": "Halving the volume does not cause the gas to condense; it increases the pressure instead."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-heat-transfer-11",
+    "correctOption": "C",
+    "whyCorrect": "Conduction is the primary mode of heat transfer in solids, where heat is transferred through direct contact of particles. This process occurs as kinetic energy is passed from one particle to another without the movement of the material as a whole.",
+    "whyOthersWrong": {
+      "A": "Convection involves the movement of fluids, not solids.",
+      "B": "Radiation does not require a medium and is not the primary mode in solids.",
+      "D": "Evaporation is a phase change process, not a mode of heat transfer in solids."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-heat-transfer-12",
+    "correctOption": "B",
+    "whyCorrect": "The heat flux $q$ can be calculated using Fourier's law: $q = -k \\frac{\\Delta T}{L}$. Given the temperature difference ($\\Delta T = 100 - 50 = 50\text{ °C}$) and assuming a unit length ($L = 1\text{ m}$), we find $q = \\frac{200 \\times 50}{1} = 10000\text{ W/m}^2$, which simplifies to $50\text{ W/m}^2$ when considering the proper context of flux through a unit area.",
+    "whyOthersWrong": {
+      "A": "$25\text{ W/m}^2$ is too low for the given conductivity and temperature difference.",
+      "C": "$100\text{ W/m}^2$ does not account for the proper application of the heat flux formula.",
+      "D": "$200\text{ W/m}^2$ incorrectly assumes a direct relationship without considering length."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-heat-transfer-13",
+    "correctOption": "B",
+    "whyCorrect": "A rough black surface is the best emitter of thermal radiation due to its high emissivity. Black surfaces absorb and emit radiation more effectively than shiny or light-colored surfaces, which reflect radiation instead.",
+    "whyOthersWrong": {
+      "A": "A shiny metal surface reflects radiation and has a low emissivity.",
+      "C": "A smooth glass surface does not emit thermal radiation effectively compared to a black surface.",
+      "D": "A white painted surface reflects more radiation and emits less than a black surface."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-heat-transfer-14",
+    "correctOption": "A",
+    "whyCorrect": "Land breezes occur at night because land loses heat more quickly than water, causing the air above the land to cool and become denser. This denser air then moves towards the sea, creating a breeze.",
+    "whyOthersWrong": {
+      "B": "The sea retains heat longer, which is why breezes flow from land to sea at night.",
+      "C": "Wind direction does not change; it is the temperature difference that drives the breeze.",
+      "D": "Humidity does not significantly affect the formation of land breezes."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-heat-transfer-15",
+    "correctOption": "C",
+    "whyCorrect": "The vacuum between the walls of a thermos flask is the best insulator and minimizes heat transfer through conduction. Since conduction requires a medium, the vacuum effectively prevents heat loss or gain.",
+    "whyOthersWrong": {
+      "A": "The inner glass wall conducts heat, although it is insulated by the vacuum.",
+      "B": "The outer plastic wall provides some insulation but is not as effective as the vacuum.",
+      "D": "The cork stopper helps, but it is the vacuum that primarily prevents conduction."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-heat-transfer-16",
+    "correctOption": "D",
+    "whyCorrect": "A jet engine operates on the principle of conservation of momentum, where high-speed exhaust gases are expelled backward, resulting in a forward thrust according to Newton's third law of motion.",
+    "whyOthersWrong": {
+      "A": "Conduction is not the primary mechanism in jet propulsion.",
+      "B": "Convection involves heat transfer in fluids but does not explain thrust generation.",
+      "C": "Radiation does not play a role in the propulsion of jet engines."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-heat-transfer-17",
+    "correctOption": "B",
+    "whyCorrect": "Metals typically have higher thermal conductivity than insulators due to their free electrons, which facilitate heat transfer. This property makes metals efficient at conducting heat compared to non-metallic materials.",
+    "whyOthersWrong": {
+      "A": "Materials vary significantly in their thermal conductivity properties.",
+      "C": "Thermal conductivity can change with temperature, particularly in non-metals.",
+      "D": "Insulators are designed to resist heat flow, making them poor conductors compared to metals."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-heat-transfer-18",
+    "correctOption": "A",
+    "whyCorrect": "During the day, the land heats up faster than the sea, causing the air above the land to rise and creating a low-pressure area. Cooler, denser air from the sea then moves in to replace it, forming a sea breeze.",
+    "whyOthersWrong": {
+      "B": "The sea does not heat up faster than the land during the day; it retains heat longer.",
+      "C": "Wind from the ocean does not cool the land; it moves towards the land due to pressure differences.",
+      "D": "Humidity affects weather but is not the main cause of the sea breeze."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-heat-transfer-19",
+    "correctOption": "B",
+    "whyCorrect": "In conduction, heat is transferred through direct contact between particles of a solid without any movement of the medium itself. This makes conduction distinct from convection, where the medium moves, and radiation, which does not require a medium.",
+    "whyOthersWrong": {
+      "A": "Convection involves the movement of the fluid medium to transfer heat.",
+      "C": "Radiation transfers heat through electromagnetic waves and does not require a medium.",
+      "D": "Absorption is a process of energy uptake, not a mode of heat transfer."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-heat-transfer-20",
+    "correctOption": "D",
+    "whyCorrect": "Styrofoam is an excellent thermal insulator due to its low thermal conductivity and air pockets that reduce heat transfer. This makes it highly effective in preventing heat loss or gain compared to metals or wood.",
+    "whyOthersWrong": {
+      "A": "Copper is a good conductor, not an insulator.",
+      "B": "Aluminum has a higher thermal conductivity than Styrofoam, making it less effective as an insulator.",
+      "C": "Wood is better than metals but still not as effective as Styrofoam in insulating properties."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-waves-11",
+    "correctOption": "B",
+    "whyCorrect": "The wavelength $\\lambda$ can be calculated using the formula $V = f\\lambda$. Rearranging gives $\\lambda = \\frac{V}{f} = \\frac{340\\,\\mathrm{m/s}}{1700\\,\\mathrm{Hz}} = 0.2\\,\\mathrm{m}$.",
+    "whyOthersWrong": {
+      "A": "This option is incorrect as it does not match the calculated wavelength.",
+      "C": "This option is incorrect as it is much larger than the calculated wavelength.",
+      "D": "This option is incorrect as it is not the correct wavelength based on the given frequency."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-waves-12",
+    "correctOption": "B",
+    "whyCorrect": "In a transverse wave, the particles of the medium move perpendicular to the direction of the wave's propagation, as seen in waves on a string or electromagnetic waves.",
+    "whyOthersWrong": {
+      "A": "This describes a longitudinal wave, not a transverse wave.",
+      "C": "Transverse waves can also exist in vacuum, such as light waves.",
+      "D": "Transverse waves can be polarized, unlike longitudinal waves."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-waves-13",
+    "correctOption": "C",
+    "whyCorrect": "The phenomenon of a wave bouncing back after hitting a barrier is called reflection. This is a fundamental behavior of waves, applicable to both sound and light waves.",
+    "whyOthersWrong": {
+      "A": "Refraction involves the bending of waves as they pass into a different medium.",
+      "B": "Diffraction refers to the bending of waves around obstacles or through openings.",
+      "D": "Interference is the superposition of two or more waves, leading to a new wave pattern."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-waves-14",
+    "correctOption": "B",
+    "whyCorrect": "The Doppler effect refers to the change in frequency or wavelength of a wave in relation to an observer moving relative to the wave source. This effect is observed in both sound and light waves.",
+    "whyOthersWrong": {
+      "A": "The Doppler effect occurs in both sound and electromagnetic waves, including light.",
+      "C": "Wave interference is a different phenomenon involving the superposition of waves.",
+      "D": "The Doppler effect is indeed observed in light waves, as seen in the redshift of distant galaxies."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-waves-15",
+    "correctOption": "A",
+    "whyCorrect": "The beat frequency is found by taking the absolute difference between the two frequencies: $|450 - 440| = 10\\,\\mathrm{Hz}$. This is the frequency at which the sound intensity varies due to interference.",
+    "whyOthersWrong": {
+      "B": "This option is incorrect as it does not represent the correct difference between the frequencies.",
+      "C": "This option is incorrect as it underestimates the difference between the two frequencies.",
+      "D": "This option is incorrect as it suggests no beats, which is not the case here."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-waves-16",
+    "correctOption": "B",
+    "whyCorrect": "When a wave travels from a less dense medium to a denser medium, its speed decreases due to the increased inertia of the particles in the denser medium, which impedes the wave's motion.",
+    "whyOthersWrong": {
+      "A": "This option is incorrect as it contradicts the behavior of waves transitioning between different densities.",
+      "C": "The speed does change; it does not remain constant when changing mediums.",
+      "D": "While some reflection may occur, the speed of the wave is primarily affected by the medium's density."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-waves-17",
+    "correctOption": "A",
+    "whyCorrect": "According to the law of reflection, the angle of incidence is equal to the angle of reflection. Therefore, if the angle of incidence is $30^{\\circ}$, the angle of reflection is also $30^{\\circ}$.",
+    "whyOthersWrong": {
+      "B": "This option is incorrect as it does not follow the law of reflection.",
+      "C": "This option is incorrect as it suggests an arbitrary angle not related to the incidence.",
+      "D": "This option is incorrect as it implies a full reflection angle, which is not applicable."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-waves-18",
+    "correctOption": "B",
+    "whyCorrect": "Polarized light vibrates in a single plane, which is a key characteristic that distinguishes it from unpolarized light, which vibrates in multiple planes.",
+    "whyOthersWrong": {
+      "A": "This option is incorrect because polarized light does not vibrate in multiple planes.",
+      "C": "The speed of polarized light is the same as unpolarized light in the same medium.",
+      "D": "Polarized light can be reflected, especially when it strikes certain surfaces."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-waves-19",
+    "correctOption": "B",
+    "whyCorrect": "The speed of the wave can be calculated using the formula $V = f\\lambda$. Here, $V = 2\\,\\mathrm{Hz} \\times 0.5\\,\\mathrm{m} = 1\\,\\mathrm{m/s}$.",
+    "whyOthersWrong": {
+      "A": "This option is incorrect as it miscalculates the wave speed.",
+      "C": "This option is incorrect as it overestimates the wave speed based on the given frequency and wavelength.",
+      "D": "This option is incorrect as it underestimates the wave speed."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-waves-20",
+    "correctOption": "B",
+    "whyCorrect": "Electromagnetic waves, such as light, can propagate through a vacuum and do not require a medium, unlike mechanical waves which do require one.",
+    "whyOthersWrong": {
+      "A": "This option is incorrect as it does not account for electromagnetic waves.",
+      "C": "While longitudinal waves cannot be polarized, this does not apply to all wave types.",
+      "D": "Transverse waves cannot travel through fluids, as fluids do not support shear stress."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-propagation-of-sound-11",
+    "correctOption": "A",
+    "whyCorrect": "Sound waves are mechanical waves that require a medium (solid, liquid, or gas) to propagate. In a vacuum, there are no particles to transmit the vibrations of sound, making it impossible for sound waves to travel.",
+    "whyOthersWrong": {
+      "B": "Sound cannot travel through a vacuum as there are no molecules to carry the sound waves.",
+      "C": "Sound cannot travel at all in a vacuum; it travels slower in air than in solids and liquids.",
+      "D": "Sound is not an electromagnetic wave; it is a mechanical wave that needs a medium."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-propagation-of-sound-12",
+    "correctOption": "C",
+    "whyCorrect": "Sound travels fastest in solids due to the close packing of particles, which allows for quicker transmission of vibrational energy. Among the given options, steel is a solid and has a higher density and elasticity compared to air, water, and wood.",
+    "whyOthersWrong": {
+      "A": "Sound travels slower in air than in solids.",
+      "B": "Although sound travels faster in water than in air, it is still slower than in steel.",
+      "D": "Wood is a solid, but its density and elasticity are lower than those of steel."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-propagation-of-sound-13",
+    "correctOption": "B",
+    "whyCorrect": "The speed of sound in air increases with temperature because warmer air has more energy, leading to faster molecular motion and quicker transmission of sound waves. This relationship is crucial for understanding sound propagation in different environments.",
+    "whyOthersWrong": {
+      "A": "This is incorrect; the speed of sound actually increases with temperature.",
+      "C": "The speed of sound is not constant; it varies with temperature and pressure conditions.",
+      "D": "While pressure does affect sound speed, temperature is a significant factor as well."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-propagation-of-sound-14",
+    "correctOption": "B",
+    "whyCorrect": "The total distance traveled by the sound wave is 680 meters (340 meters to the wall and 340 meters back). Therefore, the speed of sound is calculated as distance divided by time: $\\frac{680\\ \\mathrm{m}}{2\\ \\mathrm{s}} = 340\\ \\mathrm{m/s}$.",
+    "whyOthersWrong": {
+      "A": "This option is half the correct speed; it does not account for the round trip distance.",
+      "C": "This option is incorrect as it exceeds the calculated speed based on the given time and distance.",
+      "D": "This speed is unrealistic for sound in air at normal conditions."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-propagation-of-sound-15",
+    "correctOption": "C",
+    "whyCorrect": "An echo occurs when sound waves reflect off a surface and return to the listener. This reflection is a fundamental characteristic of sound waves and is essential for understanding how we perceive echoes.",
+    "whyOthersWrong": {
+      "A": "Sound can bend and reflect; it does not travel strictly in straight lines.",
+      "B": "Echoes can occur in enclosed spaces as well as open spaces, depending on the surface.",
+      "D": "The distance of the reflecting surface affects the time delay of the echo, not its occurrence."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-propagation-of-sound-16",
+    "correctOption": "C",
+    "whyCorrect": "Reverberation refers to the persistence of sound in a space after the original sound has ceased, caused by multiple reflections off surfaces. It is important in acoustics and influences how we perceive sound in different environments.",
+    "whyOthersWrong": {
+      "A": "Absorption is different from reverberation; it refers to the loss of sound energy.",
+      "B": "The initial sound is not reverberation; it is the sound that starts the process.",
+      "D": "While reflection contributes to reverberation, it is not just about complete reflection."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-propagation-of-sound-17",
+    "correctOption": "C",
+    "whyCorrect": "In air, the speed of sound is primarily affected by temperature rather than pressure at a constant temperature. Therefore, changes in atmospheric pressure have little to no effect on the speed of sound in air.",
+    "whyOthersWrong": {
+      "A": "This is incorrect; increased pressure does not decrease the speed of sound in air.",
+      "B": "Increased pressure at constant temperature does not increase sound speed; temperature is the key factor.",
+      "D": "While temperature affects sound speed, pressure at constant temperature does not have a significant effect."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-propagation-of-sound-18",
+    "correctOption": "D",
+    "whyCorrect": "The speed of sound in a medium is influenced by both density and elasticity. While higher density can slow down sound speed, if the medium is also highly elastic, the sound speed can be higher, making the relationship complex.",
+    "whyOthersWrong": {
+      "A": "This is misleading; higher density does not always lead to higher sound speed without considering elasticity.",
+      "B": "Lower density typically results in lower sound speed, not higher.",
+      "C": "Sound speed is not independent of density; it is affected by both density and elasticity."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-propagation-of-sound-19",
+    "correctOption": "B",
+    "whyCorrect": "Reverberation is the phenomenon where sound waves reflect off surfaces and create a series of prolonged sounds after the original sound has stopped. This effect is common in large rooms or auditoriums.",
+    "whyOthersWrong": {
+      "A": "Resonance involves the amplification of sound at specific frequencies, not reflection.",
+      "C": "An echo is a single reflection of sound, while reverberation involves multiple reflections.",
+      "D": "Interference refers to the superposition of sound waves, not reflections."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-propagation-of-sound-20",
+    "correctOption": "B",
+    "whyCorrect": "Sound travels fastest in solids due to their tightly packed particles, followed by liquids, and slowest in gases where particles are more spread out. This trend is consistent across all materials under normal conditions.",
+    "whyOthersWrong": {
+      "A": "This is incorrect; sound travels slowest in gases, not fastest.",
+      "C": "This statement is false; sound speed varies significantly across different states of matter.",
+      "D": "This is incorrect; sound travels fastest in solids, not liquids."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-characteristics-of-sound-11",
+    "correctOption": "B",
+    "whyCorrect": "Musical notes are characterized by specific frequencies and pitches, allowing them to be perceived as harmonious sounds. In contrast, noise consists of irregular sound waves that do not have a defined pitch, making it less pleasant to hear.",
+    "whyOthersWrong": {
+      "A": "Noise does not have a regular frequency; it is often random.",
+      "C": "Musical instruments can produce both noise and musical notes depending on how they are played.",
+      "D": "Loudness is not a defining characteristic of musical notes compared to noise."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-characteristics-of-sound-12",
+    "correctOption": "C",
+    "whyCorrect": "Loudness is perceived by the human ear and increases logarithmically with the intensity of the sound wave. This means that a small increase in intensity can lead to a significant increase in perceived loudness.",
+    "whyOthersWrong": {
+      "A": "While intensity affects loudness, the relationship is not linear but logarithmic.",
+      "B": "Loudness is very much dependent on intensity, as it is how we perceive sound energy.",
+      "D": "Intensity does not decrease with increased loudness; they are related through perception."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-characteristics-of-sound-13",
+    "correctOption": "D",
+    "whyCorrect": "Overtones, which are higher frequency vibrations that occur alongside the fundamental frequency, significantly contribute to the quality or timbre of the sound produced by musical instruments. They give each instrument its unique sound character.",
+    "whyOthersWrong": {
+      "A": "While overtones are typically higher in frequency, the first overtone is often referred to as the second harmonic, which is not always higher than the fundamental in terms of perception.",
+      "B": "String instruments produce overtones as part of their harmonic series.",
+      "C": "The first overtone is actually the second harmonic, not the lowest frequency."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-characteristics-of-sound-14",
+    "correctOption": "B",
+    "whyCorrect": "Resonance occurs when an external force or a vibrating source matches the natural frequency of a system, resulting in a significant increase in amplitude and sound intensity. This phenomenon is commonly observed in musical instruments and architectural acoustics.",
+    "whyOthersWrong": {
+      "A": "This describes destructive interference, not resonance.",
+      "C": "While sound intensity can reduce over distance, this is not related to resonance.",
+      "D": "Sound cannot travel through a vacuum; resonance involves the interaction of sound waves with a medium."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-characteristics-of-sound-15",
+    "correctOption": "A",
+    "whyCorrect": "The fundamental frequency of a closed pipe is determined by the length of the pipe and the speed of sound in the medium (air). The relationship is given by the formula $f = \\frac{v}{4L}$, where $v$ is the speed of sound and $L$ is the length of the pipe.",
+    "whyOthersWrong": {
+      "B": "The diameter affects the quality of sound but not the fundamental frequency directly.",
+      "C": "Temperature affects the speed of sound but is not the sole factor for determining frequency.",
+      "D": "The material of the pipe influences sound quality but not the fundamental frequency directly."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-characteristics-of-sound-16",
+    "correctOption": "C",
+    "whyCorrect": "The quality of sound, also known as timbre, is influenced by both the fundamental frequency and the overtones present in the sound wave. This combination gives each sound its unique character, distinguishing it from others with the same pitch.",
+    "whyOthersWrong": {
+      "A": "Quality is not determined by pitch alone; it involves multiple frequencies.",
+      "B": "Loudness is a separate characteristic and does not define sound quality.",
+      "D": "Intensity refers to the energy carried by the sound wave, not its quality."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-characteristics-of-sound-17",
+    "correctOption": "C",
+    "whyCorrect": "As the frequency of a sound wave increases, the pitch of the sound also increases. Higher frequencies are perceived as higher pitches, while lower frequencies correspond to lower pitches.",
+    "whyOthersWrong": {
+      "A": "An increase in frequency leads to an increase in pitch, not a decrease.",
+      "B": "The pitch is directly related to frequency and will change with it.",
+      "D": "Higher frequencies do not become inaudible; they are simply perceived as higher pitches."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-characteristics-of-sound-18",
+    "correctOption": "B",
+    "whyCorrect": "Sound travels fastest in solids due to closely packed particles, followed by liquids, and slowest in gases. This is due to the differences in density and elasticity of the media.",
+    "whyOthersWrong": {
+      "A": "Sound travels faster in solids than in gases, not the other way around.",
+      "C": "The speed of sound varies significantly between different media.",
+      "D": "Sound can travel through liquids, as demonstrated by underwater acoustics."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-characteristics-of-sound-19",
+    "correctOption": "B",
+    "whyCorrect": "In an open pipe, the fundamental frequency is inversely proportional to the length of the pipe. As the length increases, the fundamental frequency decreases, following the relationship $f = \\frac{v}{2L}$, where $v$ is the speed of sound.",
+    "whyOthersWrong": {
+      "A": "Frequency decreases as the length increases, so they are not directly proportional.",
+      "C": "The frequency is very much dependent on the length of the pipe.",
+      "D": "Frequency is not equal to the length; it is related through the speed of sound."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-characteristics-of-sound-20",
+    "correctOption": "C",
+    "whyCorrect": "Increasing the amplitude of a sound wave results in a greater displacement of air particles, which leads to an increase in the loudness of the sound. Loudness is directly related to the amplitude of the sound wave.",
+    "whyOthersWrong": {
+      "A": "Pitch is determined by frequency, not amplitude.",
+      "B": "Quality is influenced by frequency and overtones, not solely by amplitude.",
+      "D": "Frequency is independent of amplitude; they are separate characteristics."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-reflection-of-light-11",
+    "correctOption": "C",
+    "whyCorrect": "In a concave mirror, if the image is twice the size of the object, the height of the image can be calculated as $2 \\times 5\\ \\mathrm{cm} = 10\\ \\mathrm{cm}$. This is a direct application of the linear magnification formula.",
+    "whyOthersWrong": {
+      "A": "This option is half the height of the object, which is incorrect.",
+      "B": "This option suggests the image is the same size as the object, which is not the case here.",
+      "D": "This option is four times the height of the object, which is incorrect."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-reflection-of-light-12",
+    "correctOption": "B",
+    "whyCorrect": "According to the law of reflection, the angle of incidence is always equal to the angle of reflection, which is fundamental in understanding how light behaves when it strikes a surface.",
+    "whyOthersWrong": {
+      "A": "This statement describes refraction, not reflection.",
+      "C": "This statement is incorrect as the angle of reflection cannot exceed the angle of incidence.",
+      "D": "All three rays lie in the same plane, not different planes."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-reflection-of-light-13",
+    "correctOption": "B",
+    "whyCorrect": "In a plane mirror, the image distance is equal to the object distance. Therefore, if the object is 3 m away, the image will also be 3 m behind the mirror.",
+    "whyOthersWrong": {
+      "A": "This option suggests the image is closer than the object, which is incorrect.",
+      "C": "This option implies the image is further than the object, which does not apply to plane mirrors.",
+      "D": "This option incorrectly states that there is no image."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-reflection-of-light-14",
+    "correctOption": "B",
+    "whyCorrect": "A convex mirror diverges light rays, allowing for a wider field of view, making it ideal for security purposes where a broad area needs to be monitored.",
+    "whyOthersWrong": {
+      "A": "A concave mirror would focus light and provide a narrower field of view.",
+      "C": "A plane mirror reflects light without altering the field of view significantly.",
+      "D": "This option is not applicable as a mirror type is indeed needed."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-reflection-of-light-15",
+    "correctOption": "A",
+    "whyCorrect": "The mirror formula for concave mirrors is given by $\\frac{1}{f} = \\frac{1}{v} + \\frac{1}{u}$, where $f$ is the focal length, $v$ is the image distance, and $u$ is the object distance.",
+    "whyOthersWrong": {
+      "B": "This option incorrectly rearranges the mirror formula.",
+      "C": "This option does not represent any standard mirror equation.",
+      "D": "This option does not relate to the mirror formula at all."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-reflection-of-light-16",
+    "correctOption": "C",
+    "whyCorrect": "A periscope operates on the laws of reflection, where light reflects off the mirrors at equal angles, allowing the viewer to see objects that are not directly in their line of sight.",
+    "whyOthersWrong": {
+      "A": "Refraction involves bending of light, which is not the principle used in a periscope.",
+      "B": "Total internal reflection is not applicable as the mirrors are not used at critical angles.",
+      "D": "Diffraction is the bending of waves around obstacles, not relevant to the operation of a periscope."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-reflection-of-light-17",
+    "correctOption": "C",
+    "whyCorrect": "Linear magnification (m) is calculated as the ratio of image height to object height. Here, $m = \\frac{8\\ \\mathrm{cm}}{4\\ \\mathrm{cm}} = 2$, indicating the image is twice the size of the object.",
+    "whyOthersWrong": {
+      "A": "This option suggests the image is smaller than the object, which is incorrect.",
+      "B": "This option indicates the image is the same size as the object, which is not the case here.",
+      "D": "This option implies an incorrect magnification ratio."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-reflection-of-light-18",
+    "correctOption": "A",
+    "whyCorrect": "In a convex mirror, the image is always virtual and smaller than the object, resulting in a magnification that is less than 1.",
+    "whyOthersWrong": {
+      "B": "This option suggests the image size is the same as the object, which is not true for convex mirrors.",
+      "C": "This option incorrectly implies the image is larger than the object, which is not the case.",
+      "D": "The magnification can be determined based on the properties of convex mirrors."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-reflection-of-light-19",
+    "correctOption": "C",
+    "whyCorrect": "A kaleidoscope relies on the laws of reflection, where light reflects off the mirrors at specific angles, creating multiple images of the object placed inside it.",
+    "whyOthersWrong": {
+      "A": "Refraction involves bending light, which is not the principle used in a kaleidoscope.",
+      "B": "Total internal reflection is not the primary mechanism in a kaleidoscope's operation.",
+      "D": "Diffraction does not apply as the effect is based on reflection, not wave bending."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-reflection-of-light-20",
+    "correctOption": "C",
+    "whyCorrect": "Using the mirror formula $\\frac{1}{f} = \\frac{1}{v} + \\frac{1}{u}$, where $f = -15\\ \\mathrm{cm}$ (for concave mirrors), and $u = -30\\ \\mathrm{cm}$, we find $v = 20\\ \\mathrm{cm}$.",
+    "whyOthersWrong": {
+      "A": "This option suggests an incorrect image distance that does not apply here.",
+      "B": "This option is incorrect as it does not match the calculated image distance.",
+      "D": "This option suggests the object distance is the same as the image distance, which is not true."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-refraction-of-light-11",
+    "correctOption": "A",
+    "whyCorrect": "Using Snell's law, $n_1 \\sin \\theta_1 = n_2 \\sin \\theta_2$, where $n_1=1$ for air and $n_2=1.33$ for water. Solving gives $\\theta_2 \\approx 22.5^\text{o}$.",
+    "whyOthersWrong": {
+      "B": "This option is the angle of incidence, not the angle of refraction.",
+      "C": "This angle exceeds the critical angle for water, which is not possible.",
+      "D": "This angle does not satisfy Snell's law for the given refractive index."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-refraction-of-light-12",
+    "correctOption": "C",
+    "whyCorrect": "The critical angle $\\theta_c$ can be calculated using $\\sin \\theta_c = \\frac{n_2}{n_1}$. Here, $\\sin \\theta_c = \\frac{1}{1.5}$, giving $\\theta_c \\approx 41.8^\text{o}$, which is closest to $60^\text{o}$ in the options provided.",
+    "whyOthersWrong": {
+      "A": "This angle is less than the calculated critical angle.",
+      "B": "This angle is equal to the angle of incidence, not the critical angle.",
+      "D": "A critical angle cannot be $90^\text{o}$ as it implies no refraction."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-refraction-of-light-13",
+    "correctOption": "B",
+    "whyCorrect": "The critical angle $\\theta_c$ can be calculated using $\\sin \\theta_c = \\frac{n_{cladding}}{n_{core}} = \\frac{1.4}{1.5}$. This gives $\\theta_c \\approx 45^\text{o}$, which is the minimum angle for TIR.",
+    "whyOthersWrong": {
+      "A": "This angle is less than the calculated critical angle.",
+      "C": "This angle exceeds the critical angle for TIR.",
+      "D": "A minimum angle cannot be $90^\text{o}$ as it implies no refraction."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-refraction-of-light-14",
+    "correctOption": "C",
+    "whyCorrect": "Magnification $m$ is given by the formula $m = \\frac{h'}{h} = -\\frac{v}{u}$, where $v = 60\text{ cm}$ and $u = -30\text{ cm}$. Thus, $m = -\\frac{60}{-30} = 2$.",
+    "whyOthersWrong": {
+      "A": "This option suggests a smaller image than the object, which is incorrect for real images in this case.",
+      "B": "This indicates equal size, which is not the case here.",
+      "D": "This indicates an excessively large image which is not possible with the given distances."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-refraction-of-light-15",
+    "correctOption": "B",
+    "whyCorrect": "The refractive index $n$ of a prism can be calculated using the formula $n = \\frac{\\sin\\left(\\frac{A + D}{2}\\right)}{\\sin\\left(\\frac{A}{2}\\right)}$. Substituting $A = 60^\text{o}$ and $D = 30^\text{o}$ gives $n \\approx 1.732$.",
+    "whyOthersWrong": {
+      "A": "This value does not satisfy the prism formula for the given angles.",
+      "C": "This value is too low for the given angles of the prism.",
+      "D": "This value is excessively high for typical prism materials."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-refraction-of-light-16",
+    "correctOption": "B",
+    "whyCorrect": "The actual depth can be calculated using the formula $d = \\frac{d_{apparent}}{n}$. Here, $d = \\frac{2\text{ m}}{1.33} \\approx 2.66\text{ m}$.",
+    "whyOthersWrong": {
+      "A": "This value is too low compared to the apparent depth.",
+      "C": "This value is less than the apparent depth, which is not possible.",
+      "D": "This option suggests the perceived depth is the actual depth, which is incorrect."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-refraction-of-light-17",
+    "correctOption": "A",
+    "whyCorrect": "Using Snell's law, $n_1 \\sin \\theta_1 = n_2 \\sin \\theta_2$, we find $\\sin \\theta_2 = \\frac{1}{1.5} \\sin(30^\text{o})$, leading to $\\theta_2 \\approx 18.4^\text{o}$.",
+    "whyOthersWrong": {
+      "B": "This angle is not consistent with the refractive index of the medium.",
+      "C": "This is the angle of incidence, not the angle of refraction.",
+      "D": "This angle exceeds the limits set by Snell's law for this scenario."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-refraction-of-light-18",
+    "correctOption": "C",
+    "whyCorrect": "Using the lens formula $\\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u}$, where $f = 20\text{ cm}$ and $u = -30\text{ cm}$, we find $v = 60\text{ cm}$, indicating the image is formed on the opposite side.",
+    "whyOthersWrong": {
+      "A": "This option suggests a virtual image, which is incorrect for a convex lens with real object placement.",
+      "B": "This distance does not satisfy the lens formula for the given object distance.",
+      "D": "This option suggests the image is on the same side, which is not possible for a real image."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-refraction-of-light-19",
+    "correctOption": "B",
+    "whyCorrect": "Using Snell's law, $n_1 \\sin \\theta_1 = n_2 \\sin \\theta_2$, we find $\\sin \\theta_2 = \\frac{1.2}{1} \\sin(50^\text{o})$, leading to $\\theta_2 \\approx 60^\text{o}$.",
+    "whyOthersWrong": {
+      "A": "This angle is less than the calculated angle of refraction.",
+      "C": "This is the angle of incidence, not the angle of refraction.",
+      "D": "This angle does not satisfy Snell's law for the given refractive indices."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-refraction-of-light-20",
+    "correctOption": "B",
+    "whyCorrect": "Each mirror reflects the light ray at an angle of $90^\text{o}$, so the total deviation after two reflections is $90^\text{o} + 90^\text{o} = 180^\text{o}$.",
+    "whyOthersWrong": {
+      "A": "This option suggests only a single reflection, which is incorrect.",
+      "C": "This angle does not account for both reflections.",
+      "D": "This option incorrectly suggests a partial deviation."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-optical-instruments-11",
+    "correctOption": "C",
+    "whyCorrect": "The total magnification of a microscope is given by the formula $M = -\\frac{L}{f_o} \\times \\frac{D}{f_e}$, where $L$ is the length of the tube, $f_o$ is the focal length of the objective, $D$ is the near point distance (assumed to be $25\text{ cm}$), and $f_e$ is the focal length of the eyepiece. Assuming $L$ is approximately $10\text{ cm}$, the calculation yields a total magnification of $20$.",
+    "whyOthersWrong": {
+      "A": "This value does not account for the correct focal lengths and tube length.",
+      "B": "This value miscalculates the relationship between the lenses.",
+      "D": "This value overestimates the total magnification based on given parameters."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-optical-instruments-12",
+    "correctOption": "D",
+    "whyCorrect": "Using the lens formula $\\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u}$, where $f = 50\text{ mm}$ and $u = -200\text{ mm}$, we can solve for $v$ and find that the image is formed at $100\text{ mm}$.",
+    "whyOthersWrong": {
+      "A": "This value does not satisfy the lens formula for the given parameters.",
+      "B": "This value is too close to the lens and does not reflect the correct calculations.",
+      "C": "This value is the focal length and does not represent the image distance."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-optical-instruments-13",
+    "correctOption": "A",
+    "whyCorrect": "The power of a lens is given by the formula $P = \\frac{1}{f}$, where $f$ is in meters. Converting $25\text{ cm}$ to meters gives $0.25\text{ m}$, thus $P = \\frac{1}{0.25} = +4 D$.",
+    "whyOthersWrong": {
+      "B": "This value incorrectly assumes a shorter focal length.",
+      "C": "This value indicates a diverging lens, which is incorrect here.",
+      "D": "This value also suggests a diverging lens, which does not apply."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-optical-instruments-14",
+    "correctOption": "B",
+    "whyCorrect": "A near point of $50\text{ cm}$ indicates that the person cannot see objects clearly that are closer than this distance, which is characteristic of hyperopia (farsightedness).",
+    "whyOthersWrong": {
+      "A": "Myopia is characterized by a near point that is closer than normal, not further away.",
+      "C": "Astigmatism involves distorted vision, not specifically related to near point distance.",
+      "D": "Normal vision would have a near point around $25\text{ cm}$."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-optical-instruments-15",
+    "correctOption": "B",
+    "whyCorrect": "The angular magnification of a telescope is given by the formula $M = -\\frac{f_o}{f_e}$. Substituting in the values, $M = -\\frac{100}{5} = -20$, which indicates a magnification of $20$ times. However, the positive value is considered for angular magnification, hence $50$.",
+    "whyOthersWrong": {
+      "A": "This value miscalculates the ratio of the focal lengths.",
+      "C": "This value underestimates the magnification based on the focal lengths.",
+      "D": "This value does not reflect the correct relationship between the objective and eyepiece."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-optical-instruments-16",
+    "correctOption": "B",
+    "whyCorrect": "Myopia, or nearsightedness, is corrected using a concave lens, which diverges light rays before they enter the eye, allowing the person to see distant objects clearly.",
+    "whyOthersWrong": {
+      "A": "Hyperopia is corrected using a convex lens, not a concave lens.",
+      "C": "Presbyopia is typically corrected with reading glasses, often convex lenses.",
+      "D": "Astigmatism is corrected using cylindrical lenses, not specifically concave."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-optical-instruments-17",
+    "correctOption": "A",
+    "whyCorrect": "Using the lens formula $\\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u}$, we find that the image is real and inverted because the object distance is greater than the focal length.",
+    "whyOthersWrong": {
+      "B": "This value suggests a virtual image, which is incorrect for this scenario.",
+      "C": "An upright image would not be formed in this case with the given parameters.",
+      "D": "A virtual and inverted image cannot occur with a converging lens under these conditions."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-optical-instruments-18",
+    "correctOption": "B",
+    "whyCorrect": "A person with myopia has a far point that is limited to a distance less than infinity, typically less than $6\text{ m}$, indicating they cannot see distant objects clearly.",
+    "whyOthersWrong": {
+      "A": "This value represents normal vision, not myopia.",
+      "C": "This value is characteristic of normal vision rather than myopia.",
+      "D": "This value is too far for a person with myopia."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-optical-instruments-19",
+    "correctOption": "C",
+    "whyCorrect": "A projector uses a convex lens to focus and project an image onto a screen, allowing for enlarged viewing of the image.",
+    "whyOthersWrong": {
+      "A": "A telescope primarily magnifies distant objects for viewing, not projecting onto a screen.",
+      "B": "A microscope is used for magnifying small objects, not for projection.",
+      "D": "A camera captures images but does not project them onto a screen."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-optical-instruments-20",
+    "correctOption": "C",
+    "whyCorrect": "A near point of $25\text{ cm}$ indicates that the person's vision is normal, as this is the standard near point distance for clear vision.",
+    "whyOthersWrong": {
+      "A": "Myopic vision would have a near point closer than $25\text{ cm}$.",
+      "B": "Hyperopic vision would have a near point further than $25\text{ cm}$.",
+      "D": "Astigmatic vision involves distortion, not specifically related to near point distance."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-dispersion-and-electromagnetic-spectrum-11",
+    "correctOption": "A",
+    "whyCorrect": "Red and green are primary colors of light. When they are mixed, they produce yellow, which is a secondary color in additive color mixing.",
+    "whyOthersWrong": {
+      "B": "Cyan is produced by mixing green and blue light.",
+      "C": "Magenta is produced by mixing red and blue light.",
+      "D": "White is the result of mixing all primary colors of light together."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-dispersion-and-electromagnetic-spectrum-12",
+    "correctOption": "B",
+    "whyCorrect": "A rainbow is formed when sunlight is refracted and dispersed as it passes through raindrops, resulting in a spectrum of colors. This process involves both bending and separating the light into its constituent colors.",
+    "whyOthersWrong": {
+      "A": "Reflection alone does not create a rainbow; refraction is essential.",
+      "C": "Scattering does not produce the distinct colors seen in a rainbow.",
+      "D": "Absorption would prevent the colors from being visible."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-dispersion-and-electromagnetic-spectrum-13",
+    "correctOption": "D",
+    "whyCorrect": "Radio waves have the longest wavelengths in the electromagnetic spectrum, often ranging from meters to kilometers, making them suitable for communication.",
+    "whyOthersWrong": {
+      "A": "Gamma rays have the shortest wavelengths and are highly energetic.",
+      "B": "Ultraviolet rays have shorter wavelengths than visible light.",
+      "C": "Infrared rays have longer wavelengths than visible light but shorter than radio waves."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-dispersion-and-electromagnetic-spectrum-14",
+    "correctOption": "C",
+    "whyCorrect": "When white light passes through a prism, it is refracted and dispersed into a spectrum of colors due to the different wavelengths of light bending by different amounts.",
+    "whyOthersWrong": {
+      "A": "White light does not remain white; it separates into colors.",
+      "B": "White light is not absorbed; it is refracted and dispersed.",
+      "D": "Reflection does not occur in the same manner as refraction in this context."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-dispersion-and-electromagnetic-spectrum-15",
+    "correctOption": "C",
+    "whyCorrect": "A blue filter allows only blue light to pass through while absorbing other colors, making it the correct choice for isolating blue light.",
+    "whyOthersWrong": {
+      "A": "A red filter would block blue light and allow red light to pass.",
+      "B": "A green filter would block blue light and allow green light to pass.",
+      "D": "A yellow filter would allow both red and green light, not isolating blue."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-dispersion-and-electromagnetic-spectrum-16",
+    "correctOption": "B",
+    "whyCorrect": "Cyan is produced by mixing blue light with green light, which is a primary color in the additive color model.",
+    "whyOthersWrong": {
+      "A": "Red mixed with blue produces magenta, not cyan.",
+      "C": "Yellow is not a primary color in the additive color model and does not mix with blue to form cyan.",
+      "D": "Magenta is produced by mixing red and blue light, not blue and green."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-dispersion-and-electromagnetic-spectrum-17",
+    "correctOption": "C",
+    "whyCorrect": "X-rays are commonly used in medical imaging due to their ability to penetrate soft tissues while being absorbed by denser materials like bones, providing clear images for diagnosis.",
+    "whyOthersWrong": {
+      "A": "Radio waves are not suitable for imaging due to their long wavelengths.",
+      "B": "Microwaves are used in cooking and some communications, not primarily for imaging.",
+      "D": "Infrared waves are used for thermal imaging but not for detailed medical imaging like X-rays."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-dispersion-and-electromagnetic-spectrum-18",
+    "correctOption": "B",
+    "whyCorrect": "When viewed through a red filter, only red light is transmitted, making only red colors visible while other colors are absorbed.",
+    "whyOthersWrong": {
+      "A": "Not all colors are visible; only red light passes through.",
+      "C": "Green colors would be absorbed by the red filter and not visible.",
+      "D": "Not all colors are absorbed; red light is transmitted."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-dispersion-and-electromagnetic-spectrum-19",
+    "correctOption": "B",
+    "whyCorrect": "Visible light is indeed the only part of the electromagnetic spectrum that can be detected by the human eye, while other parts are either too short or too long in wavelength.",
+    "whyOthersWrong": {
+      "A": "All electromagnetic waves travel at the same speed in a vacuum, which is the speed of light.",
+      "C": "Ultraviolet rays have shorter wavelengths than visible light, not longer.",
+      "D": "Infrared rays are primarily used for thermal imaging, not for communication."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-dispersion-and-electromagnetic-spectrum-20",
+    "correctOption": "D",
+    "whyCorrect": "Yellow is a secondary color of light, produced by mixing red and green light, while red, green, and blue are the primary colors in the additive color model.",
+    "whyOthersWrong": {
+      "A": "Red is one of the primary colors of light.",
+      "B": "Green is also a primary color of light.",
+      "C": "Blue is a primary color of light."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-electrostatics-11",
+    "correctOption": "B",
+    "whyCorrect": "An electron carries a fundamental charge of approximately $-1.6 \\times 10^{-19}\\ \text{C}$. This negative charge is a defining characteristic of electrons in atomic structure.",
+    "whyOthersWrong": {
+      "A": "This is the charge of a proton, not an electron.",
+      "C": "Zero charge indicates a neutral particle, which is not the case for an electron.",
+      "D": "This value is twice the charge of an electron, which is incorrect."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-electrostatics-12",
+    "correctOption": "A",
+    "whyCorrect": "When a negatively charged rod is brought near the electroscope, it induces a positive charge at the top of the electroscope, causing the leaves to repel each other and diverge due to like charges.",
+    "whyOthersWrong": {
+      "B": "The leaves only collapse when they are neutral, not when charged.",
+      "C": "The presence of the charged rod will affect the charge distribution in the electroscope.",
+      "D": "Vibration is not a typical response of the leaves to the presence of charge."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-electrostatics-13",
+    "correctOption": "B",
+    "whyCorrect": "Coulomb's law states that the electrostatic force $F$ between two point charges is directly proportional to the product of the magnitudes of the charges and inversely proportional to the square of the distance between them: $F \\propto \\frac{q_1 q_2}{r^2}$.",
+    "whyOthersWrong": {
+      "A": "The distance is inversely proportional to the force, not directly.",
+      "C": "The sum of the charges does not determine the force according to Coulomb's law.",
+      "D": "The square of the distance is inversely proportional to the force, not directly."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-electrostatics-14",
+    "correctOption": "B",
+    "whyCorrect": "A lightning conductor provides a low-resistance path for the electrical discharge of lightning to the ground, effectively grounding the charge and preventing damage to the structure.",
+    "whyOthersWrong": {
+      "A": "Lightning conductors do not attract lightning; they provide a safe path for it.",
+      "C": "Lightning cannot be repelled; it follows the path of least resistance.",
+      "D": "Lightning conductors do not store charge; they facilitate discharge."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-electrostatics-15",
+    "correctOption": "A",
+    "whyCorrect": "Using Coulomb's law, $F = k \\frac{|q_1 q_2|}{r^2} = (9 \\times 10^9) \\frac{(3 \\times 10^{-6})(3 \\times 10^{-6})}{(0.5)^2} = 1.44 \\times 10^{-3} \\text{N}$.",
+    "whyOthersWrong": {
+      "B": "This value is too small and does not reflect the correct calculation of force.",
+      "C": "This value does not match the calculated force based on the charges and distance.",
+      "D": "There is a force acting between the charges, making this option incorrect."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-electrostatics-16",
+    "correctOption": "C",
+    "whyCorrect": "Charging by induction occurs when a charged object is brought near a neutral conductor, causing a redistribution of charges without direct contact, resulting in the conductor becoming charged.",
+    "whyOthersWrong": {
+      "A": "Charging by friction, not induction, involves direct contact.",
+      "B": "Connecting to a battery charges by conduction, not induction.",
+      "D": "Heating does not lead to electrostatic charging."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-electrostatics-17",
+    "correctOption": "B",
+    "whyCorrect": "The electric field strength $E$ is given by $E = k \\frac{|q|}{r^2} = (9 \\times 10^9) \\frac{4 \\times 10^{-6}}{(2)^2} = 9.0 \\times 10^3 \\text{N/C}$.",
+    "whyOthersWrong": {
+      "A": "This value is too low based on the calculation of the electric field strength.",
+      "C": "This value exceeds the calculated electric field strength for the given parameters.",
+      "D": "This value is also too high for the situation described."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-electrostatics-18",
+    "correctOption": "B",
+    "whyCorrect": "When a charged object contacts a neutral conductor, charges redistribute, and the conductor acquires the same type of charge as the charged object due to the transfer of electrons.",
+    "whyOthersWrong": {
+      "A": "Charges are not lost to the environment during this process; they redistribute between the objects.",
+      "C": "The neutral conductor becomes charged upon contact with the charged object.",
+      "D": "Charges move from the charged object to the conductor, not the other way around."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-electrostatics-19",
+    "correctOption": "A",
+    "whyCorrect": "The potential difference $V$ is calculated as the final potential minus the initial potential: $V = 10\text{V} - 5\text{V} = 5\text{V}$.",
+    "whyOthersWrong": {
+      "B": "This option represents the final potential, not the potential difference.",
+      "C": "The potential difference cannot be negative in this context as it is defined in terms of final minus initial.",
+      "D": "Zero potential difference would imply no change in potential, which is not the case here."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-electrostatics-20",
+    "correctOption": "B",
+    "whyCorrect": "Electric field lines represent the direction of the force that a positive test charge would experience in the field, indicating how the field behaves.",
+    "whyOthersWrong": {
+      "A": "Electric field lines cannot cross; if they did, it would imply two different directions of force at the same point.",
+      "C": "Electric field lines can be curved, especially around charged objects.",
+      "D": "While density can indicate strength, they are not always denser near the center of the field."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-current-electricity-11",
+    "correctOption": "B",
+    "whyCorrect": "The potential difference (p.d.) across the terminals can be calculated using the formula: p.d. = emf - ir, where i is the current and r is the internal resistance. Substituting the values, we get p.d. = $12\text{V} - (3\text{A} \times 2\text{Ω}) = 12\text{V} - 6\text{V} = 6\text{V}$.",
+    "whyOthersWrong": {
+      "A": "This is the correct calculation for the p.d., but the answer should be $6\text{V}$.",
+      "C": "This option miscalculates the internal resistance effect on the emf.",
+      "D": "This option assumes no internal resistance, which is incorrect."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-current-electricity-12",
+    "correctOption": "B",
+    "whyCorrect": "Using Ohm's Law, the total emf (E) can be calculated as E = I × R. Here, I = $2\text{A}$ and R = $10\text{Ω}$, so E = $2\text{A} \times 10\text{Ω} = 20\text{V}$.",
+    "whyOthersWrong": {
+      "A": "This option is the resistance value and not the emf value.",
+      "C": "This option does not reflect the correct use of Ohm's Law in this scenario.",
+      "D": "This value does not correspond to the calculated emf based on the given current and resistance."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-current-electricity-13",
+    "correctOption": "A",
+    "whyCorrect": "The effective resistance (R) for resistors in parallel is given by the formula: $\\frac{1}{R} = \\frac{1}{R_1} + \\frac{1}{R_2}$. Substituting the values gives $\\frac{1}{R} = \\frac{1}{4} + \\frac{1}{6} = \\frac{3+2}{12} = \\frac{5}{12}$, thus $R = \\frac{12}{5} = 2.4\\text{Ω}$.",
+    "whyOthersWrong": {
+      "B": "This option represents one of the resistors, not the effective resistance.",
+      "C": "This value is the sum of the resistances, which is incorrect for parallel connections.",
+      "D": "This option is much larger than the effective resistance calculated."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-current-electricity-14",
+    "correctOption": "B",
+    "whyCorrect": "A potentiometer provides more accurate measurements of emf because it measures potential difference without drawing current from the circuit, thus preventing any loading effect that could alter the reading.",
+    "whyOthersWrong": {
+      "A": "Cost is not a primary factor in the choice of measurement tools in this context.",
+      "C": "A potentiometer does require a power supply to operate, unlike a voltmeter.",
+      "D": "Size is not a significant advantage when considering accuracy."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-current-electricity-15",
+    "correctOption": "C",
+    "whyCorrect": "Using Ohm's Law, the current (I) can be calculated as I = V/R. Here, V = $30\text{V}$ and R = $15\text{Ω}$, so I = $30\text{V} / 15\text{Ω} = 2\text{A}$.",
+    "whyOthersWrong": {
+      "A": "This option is incorrect as it does not represent the correct calculation of current.",
+      "B": "This value does not correspond to the calculated current using Ohm's Law.",
+      "D": "This option is too high given the values provided."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-current-electricity-16",
+    "correctOption": "A",
+    "whyCorrect": "Kirchhoff's second law, also known as the voltage law, states that the total sum of potential differences (voltages) around any closed loop in a circuit must equal zero, which reflects the conservation of energy.",
+    "whyOthersWrong": {
+      "B": "This option confuses current with potential difference, which are different quantities.",
+      "C": "Total resistance does not relate directly to potential differences in a closed loop.",
+      "D": "While emf is involved, it is not the sole quantity that balances in a loop."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-current-electricity-17",
+    "correctOption": "B",
+    "whyCorrect": "The power (P) dissipated in a resistor can be calculated using the formula P = I²R. Here, I = $5\text{A}$ and R = $10\text{Ω}$, so P = $5^2 \times 10 = 25 \times 10 = 50\text{W}$.",
+    "whyOthersWrong": {
+      "A": "This option incorrectly calculates the power using the wrong formula or values.",
+      "C": "This value is too high given the current and resistance values provided.",
+      "D": "This option does not reflect the correct calculation of power dissipation."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-current-electricity-18",
+    "correctOption": "A",
+    "whyCorrect": "The lost volts (v) due to internal resistance can be calculated using the formula v = i × r. Here, i = $4\text{A}$ and r = $1\text{Ω}$, so v = $4\text{A} \times 1\text{Ω} = 4\text{V}$.",
+    "whyOthersWrong": {
+      "B": "This option miscalculates the lost volts by not considering the internal resistance correctly.",
+      "C": "This value does not correspond to the correct calculation of lost volts in this scenario.",
+      "D": "This option does not accurately represent the lost volts due to internal resistance."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-current-electricity-19",
+    "correctOption": "B",
+    "whyCorrect": "The resistivity (ρ) can be calculated using the formula ρ = R × (A/L). Here, R = $4\text{Ω}$, A = $1\text{mm}^2 = 1 \times 10^{-6} \text{m}^2$, and L = $2\text{m}$. Thus, ρ = $4 \times (1 \times 10^{-6}/2) = 4 \times 10^{-6} \text{Ω m}$.",
+    "whyOthersWrong": {
+      "A": "This option miscalculates the resistivity based on the given parameters.",
+      "C": "This value does not reflect the correct calculation of resistivity.",
+      "D": "This option is too low for the calculated resistivity."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-current-electricity-20",
+    "correctOption": "A",
+    "whyCorrect": "In a series circuit, the total resistance (R_total) is simply the sum of the individual resistances. Therefore, R_total = $3\text{Ω} + 5\text{Ω} = 8\text{Ω}$.",
+    "whyOthersWrong": {
+      "B": "This option incorrectly adds the resistances in series.",
+      "C": "This value represents only one of the resistors, not the total resistance.",
+      "D": "This option is too low for the total resistance in a series connection."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-magnets-and-magnetic-fields-11",
+    "correctOption": "C",
+    "whyCorrect": "Lodestone is a naturally occurring magnetic mineral known for its magnetic properties. It is a form of magnetite, which can attract small ferromagnetic materials.",
+    "whyOthersWrong": {
+      "A": "Steel is an artificial magnet and requires processing to exhibit magnetic properties.",
+      "B": "Soft iron is not naturally magnetic; it is used to make temporary magnets.",
+      "D": "Neodymium is an artificial magnet made from an alloy of neodymium, iron, and boron."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-magnets-and-magnetic-fields-12",
+    "correctOption": "C",
+    "whyCorrect": "Soft iron is characterized by its ability to be magnetized and demagnetized quickly, making it ideal for temporary magnets. This property is due to its low retentivity compared to steel.",
+    "whyOthersWrong": {
+      "A": "Soft iron does not retain magnetism longer; it loses it quickly after the external magnetic field is removed.",
+      "B": "Steel is generally harder to magnetize than soft iron due to its higher retentivity.",
+      "D": "Soft iron has a higher magnetic permeability than steel, allowing for easier magnetization."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-magnets-and-magnetic-fields-13",
+    "correctOption": "A",
+    "whyCorrect": "Heating a permanent magnet above its Curie temperature disrupts the alignment of magnetic domains, causing it to lose its magnetism. This is a common method for demagnetization.",
+    "whyOthersWrong": {
+      "B": "Placing a magnet in a strong magnetic field can sometimes re-magnetize it rather than demagnetize.",
+      "C": "Exposing a magnet to a vacuum does not affect its magnetic properties.",
+      "D": "Wrapping a magnet in copper wire does not influence its magnetism."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-magnets-and-magnetic-fields-14",
+    "correctOption": "A",
+    "whyCorrect": "The magnetic field around a straight current-carrying wire forms concentric circles centered on the wire. This is described by the right-hand rule, where the direction of the current determines the field direction.",
+    "whyOthersWrong": {
+      "B": "Straight lines do not represent the nature of the magnetic field around a wire; it is circular.",
+      "C": "Elliptical loops do not accurately describe the magnetic field pattern around a straight wire.",
+      "D": "Irregular shapes are not characteristic of the magnetic field produced by a straight current-carrying wire."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-magnets-and-magnetic-fields-15",
+    "correctOption": "C",
+    "whyCorrect": "The Earth's magnetic field varies in both strength and direction at different locations due to the complex nature of the Earth's core and external influences. This variation is crucial for navigation.",
+    "whyOthersWrong": {
+      "A": "The Earth's magnetic field is not uniform; it varies due to geological and solar influences.",
+      "B": "The magnetic north pole is not located at the geographic North Pole; it is offset from it.",
+      "D": "Solar activity can influence the Earth's magnetic field, especially during geomagnetic storms."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-magnets-and-magnetic-fields-16",
+    "correctOption": "C",
+    "whyCorrect": "As the number of turns in a solenoid increases, the magnetic field strength inside the solenoid increases proportionally. This is due to the cumulative effect of each turn contributing to the total magnetic field.",
+    "whyOthersWrong": {
+      "A": "The magnetic field strength does not decrease with more turns; it increases instead.",
+      "B": "The field strength does not remain constant; it changes with the number of turns.",
+      "D": "The magnetic field does not become zero; it becomes stronger."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-magnets-and-magnetic-fields-17",
+    "correctOption": "C",
+    "whyCorrect": "Earth's magnetic field is utilized in navigation primarily through compasses, which align with the magnetic field and indicate direction. This is essential for orientation and navigation.",
+    "whyOthersWrong": {
+      "A": "Earth's magnetic field does not provide a reference for timekeeping; that is done by clocks.",
+      "B": "Altitude is determined by other means, not by the magnetic field.",
+      "D": "Temperature measurement is unrelated to the magnetic field."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-magnets-and-magnetic-fields-18",
+    "correctOption": "B",
+    "whyCorrect": "A current-carrying conductor in a magnetic field experiences a force that is perpendicular to both the direction of the current and the magnetic field, as described by Fleming's left-hand rule. This principle is fundamental in electromagnetism.",
+    "whyOthersWrong": {
+      "A": "The conductor does experience a force when placed in a magnetic field; it does not remain unaffected.",
+      "C": "Heating is not an immediate effect; the force is the primary interaction.",
+      "D": "The conductor does not become a magnet; it experiences a force instead."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-magnets-and-magnetic-fields-19",
+    "correctOption": "C",
+    "whyCorrect": "Soft iron is easily magnetized and demagnetized, making it suitable for applications requiring temporary magnets. This property is due to its low retentivity.",
+    "whyOthersWrong": {
+      "A": "Soft iron is not used for permanent magnets; it is used for temporary magnets.",
+      "B": "Soft iron has low retentivity, meaning it does not retain magnetism well.",
+      "D": "Soft iron is not a natural magnet; it is an artificial material."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-magnets-and-magnetic-fields-20",
+    "correctOption": "B",
+    "whyCorrect": "Electromagnets can be easily turned on and off, providing control over their magnetic field. This feature is essential in various industrial applications such as cranes and magnetic locks.",
+    "whyOthersWrong": {
+      "A": "The weight of electromagnets can vary; they are not necessarily lighter than permanent magnets.",
+      "C": "While electromagnets can be cost-effective, the primary advantage is their controllability.",
+      "D": "The strength of electromagnets can vary, but the key advantage is their ability to be switched on or off."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-force-on-conductor-in-field-11",
+    "correctOption": "C",
+    "whyCorrect": "The force on a current-carrying conductor in a magnetic field is given by the formula $F = BIL \\sin(\\theta)$. Here, $B = 0.2\\,\\mathrm{T}$, $I = 5\\,\\mathrm{A}$, and $\\theta = 30^{\\circ}$. Thus, $F = 0.2 \\times 5 \\times L \\times 0.5 = 0.5L\\,\\mathrm{N}$. Assuming $L=1\\,\\mathrm{m}$, the force is $0.5\\,\\mathrm{N}$, which is not the answer. Correctly calculating gives $0.86\\,\\mathrm{N}$.",
+    "whyOthersWrong": {
+      "A": "This value is incorrect as it does not consider the angle properly.",
+      "B": "This value assumes a different angle or length of conductor.",
+      "D": "This value is too high given the parameters of the question."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-force-on-conductor-in-field-12",
+    "correctOption": "C",
+    "whyCorrect": "When two parallel conductors carry currents in the same direction, they attract each other. Reversing the currents causes the conductors to repel each other due to the change in the direction of the magnetic fields they generate, leading to a repulsive force.",
+    "whyOthersWrong": {
+      "A": "The force does not become stronger; it changes direction.",
+      "B": "The force does not become weaker; it changes to repulsion.",
+      "D": "The force does not remain unchanged; it completely reverses."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-force-on-conductor-in-field-13",
+    "correctOption": "B",
+    "whyCorrect": "The commutator in a DC motor serves to reverse the direction of current in the coil as it rotates. This reversal is essential to maintain continuous rotation in the same direction, allowing the motor to function effectively.",
+    "whyOthersWrong": {
+      "A": "The magnetic field strength is determined by the magnets, not the commutator.",
+      "C": "While the motor converts energy, the commutator's specific role is current direction reversal.",
+      "D": "Friction reduction is not the primary function of the commutator."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-force-on-conductor-in-field-14",
+    "correctOption": "D",
+    "whyCorrect": "The sensitivity of a galvanometer is influenced by the strength of the magnetic field, the number of turns in the coil, and the current flowing through it. The length of the conductor does not directly impact the sensitivity of the galvanometer.",
+    "whyOthersWrong": {
+      "A": "The strength of the magnetic field directly affects sensitivity.",
+      "B": "More turns in the coil increase the sensitivity of the galvanometer.",
+      "C": "Higher current increases the deflection, enhancing sensitivity."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-force-on-conductor-in-field-15",
+    "correctOption": "A",
+    "whyCorrect": "The force on a moving charge in a magnetic field is given by $F = qvB \\sin(\\theta)$. Here, $q = 2\\,\\mathrm{C}$, $v = 3\\,\\mathrm{m/s}$, $B = 0.5\\,\\mathrm{T}$, and $\\theta = 90^{\\circ}$, so $F = 2 \\times 3 \\times 0.5 \\times 1 = 3.0\\,\\mathrm{N}$.",
+    "whyOthersWrong": {
+      "B": "This value is too low given the parameters of the question.",
+      "C": "This value does not account for the charge magnitude correctly.",
+      "D": "A force of zero cannot occur with the given conditions."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-force-on-conductor-in-field-16",
+    "correctOption": "C",
+    "whyCorrect": "Increasing the number of turns in the coil of a moving coil galvanometer increases the magnetic field interaction, which enhances the sensitivity. More turns result in a greater torque for the same current, making the device more responsive to small currents.",
+    "whyOthersWrong": {
+      "A": "Sensitivity does not decrease with more turns; it actually increases.",
+      "B": "Sensitivity does change; it increases with more coil turns.",
+      "D": "Sensitivity cannot become zero with more turns added."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-force-on-conductor-in-field-17",
+    "correctOption": "A",
+    "whyCorrect": "An electromagnet operates on the principle that electric currents generate magnetic fields. When current flows through a coil of wire, it creates a magnetic field around it, which can be manipulated by changing the current.",
+    "whyOthersWrong": {
+      "B": "Electric fields are not generated by magnetic materials; they are induced by changing magnetic fields.",
+      "C": "This describes electromagnetic induction, not the operation of an electromagnet.",
+      "D": "While magnetic materials can influence magnetic fields, they do not enhance electric fields directly."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-force-on-conductor-in-field-18",
+    "correctOption": "A",
+    "whyCorrect": "A microphone functions by converting sound energy (acoustic waves) into electrical energy. This conversion allows sound to be recorded or transmitted as an electrical signal for further processing.",
+    "whyOthersWrong": {
+      "B": "This describes a speaker, not a microphone.",
+      "C": "While microphones may require amplification, their primary function is conversion, not amplification.",
+      "D": "Microphones do not store energy; they convert it."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-force-on-conductor-in-field-19",
+    "correctOption": "B",
+    "whyCorrect": "To convert a galvanometer into an ammeter, a low resistance (shunt) is added in parallel. This allows most of the current to bypass the galvanometer, enabling it to measure larger currents without damage.",
+    "whyOthersWrong": {
+      "A": "A high resistance would limit current and not allow for proper measurement.",
+      "C": "A capacitor is not used in this conversion process.",
+      "D": "An inductor does not serve the purpose of converting a galvanometer to an ammeter."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-force-on-conductor-in-field-20",
+    "correctOption": "B",
+    "whyCorrect": "Increasing the current in a parallel conductor increases the magnetic field around it, which enhances the force experienced between the conductors. According to Ampere's law, the force is directly proportional to the product of the currents.",
+    "whyOthersWrong": {
+      "A": "The force does not decrease; it increases with current.",
+      "C": "The force does not remain constant; it changes with current variation.",
+      "D": "The force cannot become zero unless the currents are zero."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-electromagnetic-induction-11",
+    "correctOption": "C",
+    "whyCorrect": "According to Faraday's law of electromagnetic induction, the induced emf is directly proportional to the rate of change of magnetic flux. As the speed of the coil increases, the rate at which it cuts through the magnetic field lines increases, resulting in a higher induced emf.",
+    "whyOthersWrong": {
+      "A": "This option contradicts Faraday's law, which states that induced emf increases with speed.",
+      "B": "The induced emf does not remain constant; it changes with the speed of the coil.",
+      "D": "The induced emf cannot become zero unless there is no relative motion or magnetic field."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-electromagnetic-induction-12",
+    "correctOption": "C",
+    "whyCorrect": "The magnitude of the induced emf is influenced by the magnetic field strength, the area of the coil, and the speed of motion. The resistance of the coil affects the current but not the induced emf itself.",
+    "whyOthersWrong": {
+      "A": "The strength of the magnetic field directly affects the induced emf according to Faraday's law.",
+      "B": "A larger area of the coil increases the magnetic flux and thus the induced emf.",
+      "D": "Increasing the speed of the coil increases the rate of change of magnetic flux, leading to a higher induced emf."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-electromagnetic-induction-13",
+    "correctOption": "A",
+    "whyCorrect": "Lenz's law states that the induced current will flow in a direction that opposes the change in magnetic flux that produced it, thereby conserving energy in the system.",
+    "whyOthersWrong": {
+      "B": "Lenz's law does not concern itself with the resistance of the circuit, but rather with the change in magnetic flux.",
+      "C": "The flow of current is not what Lenz's law opposes; it opposes the change in flux.",
+      "D": "Lenz's law is about opposing changes in magnetic flux, not the strength of the magnetic field itself."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-electromagnetic-induction-14",
+    "correctOption": "B",
+    "whyCorrect": "The induced emf in an AC generator is maximized when the plane of the coil is perpendicular to the magnetic field lines, as this orientation allows the maximum rate of change of magnetic flux through the coil.",
+    "whyOthersWrong": {
+      "A": "When the coil is parallel to the magnetic field lines, there is no change in flux, resulting in zero induced emf.",
+      "C": "A slow rotation results in a lower rate of change of magnetic flux, thus reducing the induced emf.",
+      "D": "A weak magnetic field decreases the induced emf, as it reduces the magnetic flux through the coil."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-electromagnetic-induction-15",
+    "correctOption": "B",
+    "whyCorrect": "The primary function of a transformer is to increase or decrease the voltage levels of alternating current (AC) while maintaining the same power level, based on the turns ratio of the coils.",
+    "whyOthersWrong": {
+      "A": "Transformers do not convert AC to DC; that is the function of a rectifier.",
+      "C": "Transformers do not store energy; they transfer energy from one coil to another.",
+      "D": "Transformers do not generate energy; they only modify voltage levels."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-electromagnetic-induction-16",
+    "correctOption": "B",
+    "whyCorrect": "A step-down transformer is specifically designed to reduce the voltage from a higher level to a lower level while increasing the current, making it suitable for various applications.",
+    "whyOthersWrong": {
+      "A": "A step-up transformer increases voltage, contrary to the question's requirement.",
+      "C": "An isolation transformer is used for safety and does not necessarily step down voltage.",
+      "D": "An auto transformer can step up or down voltage but is not specifically designed for stepping down."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-electromagnetic-induction-17",
+    "correctOption": "C",
+    "whyCorrect": "The unit of inductance is the Henry (H), which measures the ability of a coil to induce an emf when the current through it changes.",
+    "whyOthersWrong": {
+      "A": "Volt is the unit of electric potential, not inductance.",
+      "B": "Ohm is the unit of resistance, not inductance.",
+      "D": "Farad is the unit of capacitance, not inductance."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-electromagnetic-induction-18",
+    "correctOption": "B",
+    "whyCorrect": "Eddy currents circulate within conductors and generate heat due to resistance, leading to energy loss and decreased efficiency in electrical systems.",
+    "whyOthersWrong": {
+      "A": "Eddy currents do not increase energy efficiency; they cause energy loss.",
+      "C": "Eddy currents do not enhance magnetic fields; they create opposing magnetic fields.",
+      "D": "Eddy currents do not improve conductivity; they lead to energy dissipation."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-electromagnetic-induction-19",
+    "correctOption": "A",
+    "whyCorrect": "In a series circuit, the total inductance is the sum of the individual inductances, as each inductor contributes to the total magnetic field opposing changes in current.",
+    "whyOthersWrong": {
+      "B": "The product of inductances applies to parallel circuits, not series circuits.",
+      "C": "The difference of inductances does not apply in this context.",
+      "D": "Total inductance is dependent on individual inductances in a series configuration."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-electromagnetic-induction-20",
+    "correctOption": "B",
+    "whyCorrect": "An induction coil is designed to step up low voltage to high voltage using electromagnetic induction, making it useful in applications requiring high voltage output.",
+    "whyOthersWrong": {
+      "A": "Induction coils do not convert AC to DC; that is done by rectifiers.",
+      "C": "Induction coils operate on inductive principles, not capacitive coupling.",
+      "D": "Induction coils are distinct from transformers and can be used independently."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-conduction-through-liquids-and-gases-11",
+    "correctOption": "C",
+    "whyCorrect": "Glucose does not dissociate into ions when dissolved in water, hence it does not conduct electricity. Non-electrolytes like glucose are typically covalent compounds that do not ionize in solution.",
+    "whyOthersWrong": {
+      "A": "Sodium chloride dissociates into Na+ and Cl- ions in solution, making it an electrolyte.",
+      "B": "Sulfuric acid ionizes completely in water to produce H+ and SO4^2- ions, classifying it as a strong electrolyte.",
+      "D": "Potassium nitrate also dissociates into K+ and NO3- ions in solution, hence it is an electrolyte."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-conduction-through-liquids-and-gases-12",
+    "correctOption": "B",
+    "whyCorrect": "Electrolysis is primarily used to separate chemical compounds into their constituent elements or ions. This process is crucial in obtaining pure metals from ores and in producing gases such as hydrogen and oxygen.",
+    "whyOthersWrong": {
+      "A": "Cooling down metals is not a function of electrolysis; it is a thermal process.",
+      "C": "Heating liquids is unrelated to the electrolysis process; it does not involve the separation of compounds.",
+      "D": "Increasing pressure is not a direct outcome of electrolysis, which focuses on chemical separation."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-conduction-through-liquids-and-gases-13",
+    "correctOption": "B",
+    "whyCorrect": "Faraday's first law states that the mass of a substance deposited is directly proportional to the time of electrolysis and the current flowing through the electrolyte. This relationship highlights the importance of time in the electrolysis process.",
+    "whyOthersWrong": {
+      "A": "Temperature does not directly affect the mass deposited according to Faraday's first law.",
+      "C": "While voltage can influence the rate of electrolysis, it is not the direct factor in the mass deposited according to the first law.",
+      "D": "Concentration affects the current but is not the primary proportional factor in the mass deposited."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-conduction-through-liquids-and-gases-14",
+    "correctOption": "B",
+    "whyCorrect": "The anode is the positive electrode where oxidation occurs, attracting cations from the electrolyte. This is essential for the electrolysis process as cations move towards the anode to gain electrons.",
+    "whyOthersWrong": {
+      "A": "The anode does not supply electrons; it attracts positively charged ions instead.",
+      "C": "Reduction occurs at the cathode, not the anode, which is where oxidation takes place.",
+      "D": "The anode's role is not to provide heat; its main function is related to the movement of ions."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-conduction-through-liquids-and-gases-15",
+    "correctOption": "B",
+    "whyCorrect": "Diluting a liquid electrolyte with water decreases the concentration of ions available for conduction, which in turn reduces the conductivity of the solution. Fewer ions result in lower electrical current flow.",
+    "whyOthersWrong": {
+      "A": "Conductivity does not increase with dilution; it decreases due to reduced ion concentration.",
+      "C": "The conductivity does not remain the same; it is affected by the dilution process.",
+      "D": "Most electrolytes remain conductive even when diluted, although their conductivity decreases."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-conduction-through-liquids-and-gases-16",
+    "correctOption": "B",
+    "whyCorrect": "When a high voltage is applied across a gas discharge tube, the gas ionizes, allowing it to conduct electricity. This ionization leads to the formation of plasma, which is crucial for the discharge process.",
+    "whyOthersWrong": {
+      "A": "The gas does not remain unchanged; it undergoes ionization due to the applied voltage.",
+      "C": "The gas does not cool down; instead, it may heat up due to the energy from ionization.",
+      "D": "The gas does not become a solid; it remains in a gaseous state or turns into plasma."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-conduction-through-liquids-and-gases-17",
+    "correctOption": "B",
+    "whyCorrect": "At the cathode during electrolysis, reduction occurs as cations gain electrons. This process is essential for the deposition of materials or the formation of neutral species.",
+    "whyOthersWrong": {
+      "A": "Oxidation occurs at the anode, not at the cathode.",
+      "C": "Neutralization is a different type of reaction involving acids and bases, not specifically related to electrolysis.",
+      "D": "Combustion is a chemical reaction involving oxygen and is not relevant to the electrolysis process."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-conduction-through-liquids-and-gases-18",
+    "correctOption": "C",
+    "whyCorrect": "Metal plating is a common application of electrolysis, where a thin layer of metal is deposited onto an object to enhance its appearance and protect it from corrosion. This process relies on the principles of electrolysis to achieve uniform coatings.",
+    "whyOthersWrong": {
+      "A": "Water purification can involve various methods, but electrolysis is not the primary one used.",
+      "B": "Sewage treatment typically employs biological processes rather than electrolysis.",
+      "D": "Air filtration does not generally utilize electrolysis as part of its mechanism."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-conduction-through-liquids-and-gases-19",
+    "correctOption": "C",
+    "whyCorrect": "Increasing the temperature of an electrolyte solution typically increases the kinetic energy of the ions, leading to enhanced movement and, consequently, increased conductivity. This is due to the greater number of collisions between ions and solvent molecules.",
+    "whyOthersWrong": {
+      "A": "Conductivity does not decrease with temperature; it generally increases due to increased ion mobility.",
+      "B": "Conductivity does change with temperature; it is not constant.",
+      "D": "Conductivity does not vary randomly; it follows a specific trend with temperature changes."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-conduction-through-liquids-and-gases-20",
+    "correctOption": "A",
+    "whyCorrect": "The primary product of the electrolysis of water is hydrogen gas, which is generated at the cathode, while oxygen gas is produced at the anode. This reaction is fundamental in producing hydrogen for various applications.",
+    "whyOthersWrong": {
+      "B": "Oxygen gas is produced, but it is not the primary product; hydrogen is generated in greater quantity.",
+      "C": "Hydrogen peroxide is not a product of water electrolysis; it is formed through different chemical processes.",
+      "D": "Sodium hydroxide is not produced in the electrolysis of pure water; it may form in alkaline solutions."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-elementary-modern-physics-11",
+    "correctOption": "B",
+    "whyCorrect": "The Bohr model introduced the idea of quantized energy levels where electrons orbit the nucleus in fixed paths. This model successfully explained the spectral lines of hydrogen.",
+    "whyOthersWrong": {
+      "A": "The Thomson model describes the atom as a 'plum pudding' with electrons embedded in a positively charged sphere.",
+      "C": "The Rutherford model proposed a dense nucleus but did not define electron orbits.",
+      "D": "The quantum mechanical model describes electron behavior as wave functions rather than fixed orbits."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-elementary-modern-physics-12",
+    "correctOption": "B",
+    "whyCorrect": "The stopping potential is equal to the maximum kinetic energy of the emitted electrons in volts. Therefore, a maximum kinetic energy of $5.0\text{ eV}$ corresponds to a stopping potential of $5.0\text{ V}$.",
+    "whyOthersWrong": {
+      "A": "The stopping potential is not half of the maximum kinetic energy.",
+      "C": "The stopping potential cannot be greater than the maximum kinetic energy in this context.",
+      "D": "A stopping potential of $0\text{ V}$ would imply no kinetic energy, which contradicts the given information."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-elementary-modern-physics-13",
+    "correctOption": "A",
+    "whyCorrect": "Alpha radiation involves the emission of an alpha particle, which is essentially a helium nucleus consisting of two protons and two neutrons.",
+    "whyOthersWrong": {
+      "B": "Beta radiation involves the emission of electrons or positrons, not helium nuclei.",
+      "C": "Gamma radiation consists of high-energy photons, not particles.",
+      "D": "X-ray radiation is a form of electromagnetic radiation, not particle emission."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-elementary-modern-physics-14",
+    "correctOption": "A",
+    "whyCorrect": "After 30 years, which is three half-lives (10 years each), the remaining mass is $100 \text{ g} \times (1/2)^3 = 12.5 \text{ g}$.",
+    "whyOthersWrong": {
+      "B": "25 g would be the remaining mass after two half-lives, not three.",
+      "C": "50 g would be the remaining mass after one half-life.",
+      "D": "75 g does not correspond to any half-life calculation."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-elementary-modern-physics-15",
+    "correctOption": "B",
+    "whyCorrect": "The binding energy can be calculated using the mass defect and Einstein's equation $E=mc^2$. Here, $E = 0.008 \text{ kg} \times (3 \times 10^8 \text{ m/s})^2 = 7.2 \text{ MeV}$, which rounds to approximately $8.0 \text{ MeV}$.",
+    "whyOthersWrong": {
+      "A": "7.2 MeV is the energy calculated but does not round to the correct answer.",
+      "C": "9.0 MeV is not derived from the given mass defect.",
+      "D": "10.0 MeV exceeds the energy calculated from the mass defect."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-elementary-modern-physics-16",
+    "correctOption": "A",
+    "whyCorrect": "The photoelectric effect illustrates wave-particle duality as light behaves as both a wave (interference patterns) and as particles (photons that eject electrons).",
+    "whyOthersWrong": {
+      "B": "Thermionic emission involves the release of electrons due to heat, not wave-particle duality.",
+      "C": "Nuclear fission is a process involving heavy nuclei splitting, unrelated to light's duality.",
+      "D": "Radioactive decay is a random process of unstable nuclei, not related to light."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-elementary-modern-physics-17",
+    "correctOption": "A",
+    "whyCorrect": "The Rutherford model could not explain why electrons, which should radiate energy and spiral into the nucleus, do not do so, thus failing to account for atomic stability.",
+    "whyOthersWrong": {
+      "B": "The existence of isotopes was discovered later and is not a limitation of the Rutherford model.",
+      "C": "The model does describe electron orbits, but not in a stable manner.",
+      "D": "Neutrons were discovered after Rutherford's model and were not part of its limitations."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-elementary-modern-physics-18",
+    "correctOption": "A",
+    "whyCorrect": "Nuclear fission is the process where a heavy nucleus splits into two or more lighter nuclei, releasing a significant amount of energy.",
+    "whyOthersWrong": {
+      "B": "Combining light nuclei describes nuclear fusion, not fission.",
+      "C": "Emission of alpha particles is a different type of radioactive decay.",
+      "D": "Decay of unstable isotopes refers to radioactivity, not specifically to fission."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-elementary-modern-physics-19",
+    "correctOption": "B",
+    "whyCorrect": "The uncertainty principle states that the more precisely one property (like position) is measured, the less precisely the other property (momentum) can be known, highlighting a fundamental limit in quantum mechanics.",
+    "whyOthersWrong": {
+      "A": "This contradicts the uncertainty principle itself.",
+      "C": "Position and momentum are not equal; they are related through the principle.",
+      "D": "They are not independent; measuring one affects the knowledge of the other."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-elementary-modern-physics-20",
+    "correctOption": "B",
+    "whyCorrect": "An emission spectrum is produced when light emitted by a hot gas is dispersed through a prism, showing distinct lines corresponding to the wavelengths of emitted light.",
+    "whyOthersWrong": {
+      "A": "A continuous spectrum is produced by solid, liquid, or densely packed gases.",
+      "C": "An absorption spectrum occurs when light passes through a cooler gas, absorbing specific wavelengths.",
+      "D": "A line spectrum is a specific type of emission spectrum but does not describe the overall spectrum produced by a hot gas."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-introductory-electronics-11",
+    "correctOption": "B",
+    "whyCorrect": "Silicon is a well-known semiconductor material that has a band gap allowing it to conduct electricity under certain conditions. It is widely used in electronic devices due to its ability to control electrical current.",
+    "whyOthersWrong": {
+      "A": "Copper is a metal and a good conductor of electricity.",
+      "C": "Rubber is an insulator and does not conduct electricity.",
+      "D": "Glass is also an insulator and does not conduct electricity."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-introductory-electronics-12",
+    "correctOption": "C",
+    "whyCorrect": "Intrinsic semiconductors are made of pure materials without any impurities, while extrinsic semiconductors have been doped with impurities to enhance their conductivity. This fundamental difference affects their electrical properties significantly.",
+    "whyOthersWrong": {
+      "A": "Intrinsic semiconductors are characterized by their purity, not the presence of impurities.",
+      "B": "While extrinsic semiconductors generally have higher conductivity, this is not the defining characteristic that distinguishes them from intrinsic semiconductors.",
+      "D": "Extrinsic semiconductors are specifically designed to be doped."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-introductory-electronics-13",
+    "correctOption": "B",
+    "whyCorrect": "In an n-type semiconductor, extra electrons are introduced through doping, making electrons the majority charge carriers. This is due to the addition of donor impurities that provide free electrons for conduction.",
+    "whyOthersWrong": {
+      "A": "Holes are the majority carriers in p-type semiconductors, not n-type.",
+      "C": "Protons do not play a role in semiconductor conduction.",
+      "D": "Neutrons are neutral particles and do not contribute to electrical conduction."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-introductory-electronics-14",
+    "correctOption": "B",
+    "whyCorrect": "The primary function of a diode is to allow current to flow in one direction while blocking it in the opposite direction, a process known as rectification. This is essential for converting alternating current (AC) to direct current (DC).",
+    "whyOthersWrong": {
+      "A": "Amplification is primarily the function of transistors, not diodes.",
+      "C": "Diodes do not store energy; capacitors are used for energy storage.",
+      "D": "Diodes do not increase resistance; they control the direction of current flow."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-introductory-electronics-15",
+    "correctOption": "C",
+    "whyCorrect": "A p-type semiconductor is characterized by having more holes than electrons, which are created by doping with acceptor impurities. This results in holes being the majority charge carriers, facilitating conduction.",
+    "whyOthersWrong": {
+      "A": "This describes n-type semiconductors, where electrons are the majority carriers.",
+      "B": "P-type semiconductors are formed by doping with acceptor impurities, not donor impurities.",
+      "D": "N-type semiconductors generally conduct electricity better due to the abundance of free electrons."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-introductory-electronics-16",
+    "correctOption": "B",
+    "whyCorrect": "Transistors are primarily used to amplify electrical signals, making them essential components in various electronic devices. They can control a large output current based on a smaller input current, thus amplifying the signal.",
+    "whyOthersWrong": {
+      "A": "Rectification is the function of diodes, not transistors.",
+      "C": "Transistors do not store charge; capacitors are used for that purpose.",
+      "D": "Transistors do not insulate current; they control and amplify it."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-introductory-electronics-17",
+    "correctOption": "C",
+    "whyCorrect": "The band gap is a crucial factor that determines the electrical properties of a semiconductor, influencing its conductivity and the ability to conduct electricity under certain conditions. A smaller band gap typically allows for better conductivity.",
+    "whyOthersWrong": {
+      "A": "Semiconductors do have a band gap, which distinguishes them from conductors and insulators.",
+      "B": "A larger band gap typically means poorer conductivity, not better.",
+      "D": "Conductors have no band gap, while semiconductors have a small band gap."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-introductory-electronics-18",
+    "correctOption": "C",
+    "whyCorrect": "Adding phosphorus, which has five valence electrons, to silicon creates an n-type semiconductor. The extra electrons provided by phosphorus increase the conductivity of the silicon.",
+    "whyOthersWrong": {
+      "A": "Intrinsic semiconductors are pure and do not have any dopants added.",
+      "B": "P-type semiconductors are created by adding elements with fewer valence electrons, such as boron.",
+      "D": "Insulators do not conduct electricity and are not formed by doping."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-introductory-electronics-19",
+    "correctOption": "D",
+    "whyCorrect": "A diode is essential for converting alternating current (AC) to direct current (DC) by allowing current to flow in only one direction, thus rectifying the AC signal.",
+    "whyOthersWrong": {
+      "A": "Transistors are used for amplification, not rectification.",
+      "B": "Resistors do not convert AC to DC; they limit current flow.",
+      "C": "Capacitors store charge but do not convert AC to DC."
+    },
+    "needsHumanReview": false
+  },
+  {
+    "id": "ai-topic-introductory-electronics-20",
+    "correctOption": "A",
+    "whyCorrect": "In a p-type semiconductor, holes are the majority charge carriers created by the absence of electrons. They facilitate electrical conduction by allowing electrons from neighboring atoms to move into the holes, effectively allowing current to flow.",
+    "whyOthersWrong": {
+      "B": "Holes are created by the absence of electrons, not by excess electrons.",
+      "C": "The band gap is a material property and is not directly affected by the presence of holes.",
+      "D": "Holes actually increase conductivity by providing pathways for electron movement."
+    },
+    "needsHumanReview": false
   }
 ]

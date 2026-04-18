@@ -3,6 +3,10 @@ export type RoundSummaryStats = {
   wrong: number;
   total: number;
   topicLabel?: string;
+  /** Whole-deck timer hit zero; unanswered counted as wrong. */
+  endedByTimeOut?: boolean;
+  unansweredCount?: number;
+  paceLabel?: string;
 };
 
 export function roundSummaryHeadline(stats: RoundSummaryStats): {
@@ -10,7 +14,7 @@ export function roundSummaryHeadline(stats: RoundSummaryStats): {
   subtitle: string;
   badge: string;
 } {
-  const { correct, wrong, total } = stats;
+  const { correct, wrong, total, endedByTimeOut, unansweredCount } = stats;
   if (total === 0) {
     return {
       title: "Round complete",
@@ -18,6 +22,15 @@ export function roundSummaryHeadline(stats: RoundSummaryStats): {
       badge: "∅",
     };
   }
+  if (endedByTimeOut) {
+    const u = unansweredCount ?? 0;
+    return {
+      title: "Time's up",
+      subtitle: `The clock won this round. ${u} unanswered ${u === 1 ? "item" : "items"} count as misses — try a calmer pace or shuffle and sprint again.`,
+      badge: "⏱️",
+    };
+  }
+
   const pct = (correct / total) * 100;
   if (pct === 100) {
     return {

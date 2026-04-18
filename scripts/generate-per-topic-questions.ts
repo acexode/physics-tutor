@@ -291,6 +291,7 @@ async function main() {
   const countArg = process.argv.find((a) => a.startsWith("--count="));
   const maxTopicsArg = process.argv.find((a) => a.startsWith("--max-topics="));
   const count = Math.min(25, Math.max(1, Number(countArg?.slice("--count=".length) ?? "10") || 10));
+  console.log("count", count);
   const maxTopics = maxTopicsArg
     ? Math.max(1, Number(maxTopicsArg.slice("--max-topics=".length)) || 999)
     : undefined;
